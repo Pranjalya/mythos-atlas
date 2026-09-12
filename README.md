@@ -307,6 +307,15 @@ npm run build
 
 ---
 
+## 👤 Author & Architecture
+
+- **Lead Architect & Creator**: **Pranjalya Tiwari**
+- **GitHub Profile**: [@Pranjalya](https://github.com/Pranjalya)
+- **LinkedIn**: [in/pranjalya-tiwari](https://linkedin.com/in/pranjalya-tiwari)
+- **Project Repository**: [github.com/Pranjalya/mythos-atlas](https://github.com/Pranjalya/mythos-atlas)
+
+---
+
 ## 📄 License
 
 This project is open source and available under the terms of the [MIT License](LICENSE).

@@ -208,6 +208,19 @@ body {
   transform: translateY(-1px);
 }
 
+.github-nav-btn {
+  text-decoration: none;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  color: var(--text-primary);
+}
+
+.github-nav-btn:hover {
+  background: rgba(230, 184, 106, 0.16);
+  border-color: var(--gold-primary);
+  color: var(--gold-light);
+}
+
 .stats-badge {
   display: flex;
   align-items: center;
@@ -314,7 +327,7 @@ body:has(#timeline-container:hover) #hover-tooltip {
   position: absolute;
   top: 96px;
   left: 24px;
-  width: 320px;
+  width: 330px;
   max-width: calc(100vw - 48px);
   z-index: 25;
   background: var(--bg-glass);
@@ -545,6 +558,31 @@ body:has(#timeline-container:hover) #hover-tooltip {
   color: var(--gold-light);
   opacity: 1;
   transform: translate(2px, -2px);
+}
+
+.dev-repo-link {
+  background: rgba(230, 184, 106, 0.08);
+  border-color: rgba(230, 184, 106, 0.32);
+}
+
+.dev-link-right {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-shrink: 0;
+}
+
+.dev-repo-badge {
+  font-size: 0.6rem;
+  font-family: var(--font-mono);
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--gold-light);
+  background: rgba(230, 184, 106, 0.18);
+  border: 1px solid rgba(230, 184, 106, 0.35);
+  padding: 1px 5px;
+  border-radius: var(--radius-sm);
+  letter-spacing: 0.5px;
 }
 
 .dev-tech-stack {
