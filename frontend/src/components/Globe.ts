@@ -404,19 +404,34 @@ export class MythosGlobe {
     this.scene.add(this.atmosphereMesh);
   }
 
+  private beaconMesh: THREE.Mesh | null = null;
+
   private initInstancedNodes(): void {
-    const markerGeo = new THREE.SphereGeometry(1.6, 16, 16);
+    const markerGeo = new THREE.SphereGeometry(2.4, 20, 20);
     const markerMat = new THREE.MeshStandardMaterial({
-      roughness: 0.3,
-      metalness: 0.8,
-      emissive: new THREE.Color(0x332211),
-      emissiveIntensity: 0.6,
+      roughness: 0.25,
+      metalness: 0.85,
+      emissive: new THREE.Color(0x553311),
+      emissiveIntensity: 0.8,
     });
 
     this.instancedNodes = new THREE.InstancedMesh(markerGeo, markerMat, MAX_INSTANCES);
     this.instancedNodes.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
     this.instancedNodes.count = 0;
     this.scene.add(this.instancedNodes);
+
+    // Glowing selection beacon ring
+    const ringGeo = new THREE.RingGeometry(3.4, 4.8, 32);
+    const ringMat = new THREE.MeshBasicMaterial({
+      color: 0xfde047,
+      side: THREE.DoubleSide,
+      transparent: true,
+      opacity: 0.85,
+      blending: THREE.AdditiveBlending,
+    });
+    this.beaconMesh = new THREE.Mesh(ringGeo, ringMat);
+    this.beaconMesh.visible = false;
+    this.scene.add(this.beaconMesh);
   }
 
   public updateActiveMyths(myths: ActiveMyth[]): void {
@@ -603,46 +618,129 @@ export class MythosGlobe {
     this.tooltipArchetype = document.getElementById('tooltip-archetype');
   }
 
+  public findMythUnderPointer(
+    clientX: number,
+    clientY: number,
+    maxPixelRadius: number = 32
+  ): { myth: ActiveMyth; index: number } | null {
+    if (this.currentActiveList.length === 0) return null;
+
+    const rect = this.renderer.domElement.getBoundingClientRect();
+    let closestDist = maxPixelRadius;
+    let found: { myth: ActiveMyth; index: number } | null = null;
+
+    // 1. Screen-space proximity calculation (generous hit testing)
+    for (let i = 0; i < this.currentActiveList.length; i++) {
+      const m = this.currentActiveList[i];
+      const pos = this.geoToVector3(m.lat, m.lng, NODE_ELEVATION);
+
+      // Check if node is facing camera (not occluded by sphere horizon)
+      const toCam = new THREE.Vector3().subVectors(this.camera.position, pos);
+      if (pos.dot(toCam) <= 0) {
+        continue;
+      }
+
+      const proj = pos.clone().project(this.camera);
+      if (proj.z >= 1.0) continue;
+
+      const screenX = ((proj.x + 1) / 2) * rect.width + rect.left;
+      const screenY = ((-proj.y + 1) / 2) * rect.height + rect.top;
+
+      const dist = Math.hypot(clientX - screenX, clientY - screenY);
+      if (dist < closestDist) {
+        closestDist = dist;
+        found = { myth: m, index: i };
+      }
+    }
+
+    if (found) return found;
+
+    // 2. 3D Raycasting fallback
+    this.mouse.x = ((clientX - rect.left) / rect.width) * 2 - 1;
+    this.mouse.y = -(((clientY - rect.top) / rect.height) * 2 - 1);
+    this.raycaster.setFromCamera(this.mouse, this.camera);
+    if (this.instancedNodes) {
+      const intersects = this.raycaster.intersectObject(this.instancedNodes);
+      if (intersects.length > 0 && intersects[0].instanceId !== undefined) {
+        const idx = intersects[0].instanceId;
+        if (idx < this.currentActiveList.length) {
+          return { myth: this.currentActiveList[idx], index: idx };
+        }
+      }
+    }
+
+    return null;
+  }
+
+  public attachBeacon(lat: number, lng: number): void {
+    if (!this.beaconMesh) return;
+    const pos = this.geoToVector3(lat, lng, NODE_ELEVATION + 0.4);
+    this.beaconMesh.position.copy(pos);
+    const normal = pos.clone().normalize();
+    this.beaconMesh.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), normal);
+    this.beaconMesh.visible = true;
+  }
+
   private initEventListeners(): void {
     window.addEventListener('resize', this.onWindowResize.bind(this));
 
-    this.container.addEventListener('mousemove', (event) => {
-      const rect = this.container.getBoundingClientRect();
-      this.mouse.x = ((event.clientX - rect.left) / rect.width) * 2 - 1;
-      this.mouse.y = -(((event.clientY - rect.top) / rect.height) * 2 - 1);
+    // Pointer move for real-time hover
+    this.renderer.domElement.addEventListener('pointermove', (event: PointerEvent) => {
       this.checkRaycastHover(event.clientX, event.clientY);
     });
 
-    this.container.addEventListener('click', () => {
-      if (this.hoveredIndex >= 0 && this.hoveredIndex < this.currentActiveList.length) {
-        const clicked = this.currentActiveList[this.hoveredIndex];
-        store.selectMyth(clicked.id);
-        this.flyToCoordinate(clicked.lat, clicked.lng);
+    // Deliberate click detection (differentiates orbital dragging from hotspot clicks)
+    let pointerDownPos = { x: 0, y: 0 };
+    this.renderer.domElement.addEventListener('pointerdown', (e: PointerEvent) => {
+      pointerDownPos = { x: e.clientX, y: e.clientY };
+    });
+
+    this.renderer.domElement.addEventListener('pointerup', (e: PointerEvent) => {
+      const moveDist = Math.hypot(e.clientX - pointerDownPos.x, e.clientY - pointerDownPos.y);
+      if (moveDist < 8) {
+        // Intentional click!
+        const hit = this.findMythUnderPointer(e.clientX, e.clientY, 36);
+        if (hit) {
+          store.selectMyth(hit.myth.id);
+          this.flyToCoordinate(hit.myth.lat, hit.myth.lng);
+          this.attachBeacon(hit.myth.lat, hit.myth.lng);
+        }
+      }
+    });
+
+    // Sync beacon with store selection
+    store.subscribe((state) => {
+      if (state.selectedMythId) {
+        const selected = this.currentActiveList.find((m) => m.id === state.selectedMythId);
+        if (selected) {
+          this.attachBeacon(selected.lat, selected.lng);
+        }
+      } else if (this.beaconMesh) {
+        this.beaconMesh.visible = false;
       }
     });
   }
 
   private checkRaycastHover(clientX: number, clientY: number): void {
-    this.raycaster.setFromCamera(this.mouse, this.camera);
-
-    // 1. Check if hovering on myth node
-    if (this.instancedNodes && this.currentActiveList.length > 0) {
-      const nodeIntersects = this.raycaster.intersectObject(this.instancedNodes);
-      if (nodeIntersects.length > 0 && nodeIntersects[0].instanceId !== undefined) {
-        const idx = nodeIntersects[0].instanceId;
-        if (idx < this.currentActiveList.length) {
-          this.hoveredIndex = idx;
-          const myth = this.currentActiveList[idx];
-          this.showMythTooltip(myth, clientX, clientY);
-          document.body.style.cursor = 'pointer';
-          return;
-        }
-      }
+    // 1. Check if hovering near a myth hotspot
+    const mythHit = this.findMythUnderPointer(clientX, clientY, 26);
+    if (mythHit) {
+      this.hoveredIndex = mythHit.index;
+      this.showMythTooltip(mythHit.myth, clientX, clientY);
+      document.body.style.cursor = 'pointer';
+      this.controls.autoRotate = false; // Pause rotation while hovering on a hotspot
+      return;
     }
 
     this.hoveredIndex = -1;
+    this.controls.autoRotate = true; // Resume rotation when leaving hotspot
 
     // 2. Check if hovering on Earth surface / modern country
+    const rect = this.container.getBoundingClientRect();
+    this.mouse.x = ((clientX - rect.left) / rect.width) * 2 - 1;
+    this.mouse.y = -(((clientY - rect.top) / rect.height) * 2 - 1);
+    this.raycaster.setFromCamera(this.mouse, this.camera);
+
     if (this.globeMesh) {
       const globeIntersects = this.raycaster.intersectObject(this.globeMesh);
       if (globeIntersects.length > 0) {
@@ -732,6 +830,12 @@ export class MythosGlobe {
         child.material.opacity = 0.5 + 0.3 * Math.sin(this.arcTime);
       }
     });
+
+    // Pulse selection beacon ring
+    if (this.beaconMesh && this.beaconMesh.visible) {
+      const pulse = 1.0 + 0.18 * Math.sin(this.arcTime * 4);
+      this.beaconMesh.scale.set(pulse, pulse, pulse);
+    }
 
     this.renderer.render(this.scene, this.camera);
   };
