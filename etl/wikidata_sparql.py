@@ -1143,8 +1143,19 @@ def query_wikidata_sparql(query: str, timeout_seconds: int = 15) -> Optional[Dic
 def fetch_and_assemble_catalog() -> List[Dict[str, Any]]:
     """
     Assembles the complete list of foundational myths across all worldwide traditions.
+    Loads from data/raw/wikidata_raw.json if present with expanded entries.
     """
     DATA_RAW_DIR.mkdir(parents=True, exist_ok=True)
+    if OUTPUT_FILE.exists():
+        try:
+            with open(OUTPUT_FILE, "r", encoding="utf-8") as f:
+                saved = json.load(f)
+            if len(saved) >= len(FOUNDATIONAL_MYTHS):
+                logger.info(f"Loaded {len(saved)} foundational myths from existing catalog at {OUTPUT_FILE}.")
+                return saved
+        except Exception as e:
+            logger.warning(f"Error reading existing catalog {OUTPUT_FILE}: {e}")
+
     catalog = list(FOUNDATIONAL_MYTHS)
     logger.info(f"Loaded {len(catalog)} curated foundational myths spanning all worldwide regions.")
 

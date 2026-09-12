@@ -112,8 +112,21 @@ def enrich_myths_with_wikipedia(items: Optional[List[Dict[str, Any]]] = None) ->
         if not thumbnail:
             thumbnail = f"https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80"
 
+        # Clean up extract if malformed or too short
+        clean_extract = extract.strip() if extract else ""
+        if len(clean_extract) < 30 or clean_extract.startswith("{{"):
+            if wiki_title.lower() == "zahhak":
+                clean_extract = (
+                    "Zahhak or Zahhāk is an evil figure in Persian mythology and folklore, "
+                    "evident in ancient Persian folklore as Aži Dahāka, the venomous serpent king "
+                    "who sprouted two voracious serpents from his shoulders and was overthrown by "
+                    "the blacksmith Kaveh and hero Fereydun."
+                )
+            else:
+                clean_extract = f"{item['name']} is a foundational mythological epic and sacred cultural narrative from the {item['culture']} tradition."
+
         enriched_item = dict(item)
-        enriched_item["extract"] = extract or f"{item['name']} is a foundational mythic narrative from the {item['culture']} tradition."
+        enriched_item["extract"] = clean_extract
         enriched_item["description"] = description
         enriched_item["thumbnail"] = thumbnail
         enriched_item["wikipedia_url"] = page_url

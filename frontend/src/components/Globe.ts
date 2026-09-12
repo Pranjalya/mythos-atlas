@@ -13,7 +13,7 @@ import { store, ActiveMyth } from '../state/store.ts';
 const GLOBE_RADIUS = 100;
 const BORDER_ELEVATION = 100.18;
 const NODE_ELEVATION = 101.4;
-const MAX_INSTANCES = 500;
+const MAX_INSTANCES = 1000;
 
 export const CULTURE_COLORS: Record<string, string> = {
   // Near Eastern & Mediterranean
