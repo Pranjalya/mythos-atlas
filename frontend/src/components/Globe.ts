@@ -641,6 +641,25 @@ export class MythosGlobe {
     this.tooltipEpoch = document.getElementById('tooltip-epoch');
     this.tooltipCountry = document.getElementById('tooltip-country');
     this.tooltipArchetype = document.getElementById('tooltip-archetype');
+
+    // Dismiss country/area/myth tooltip immediately when pointer hovers over information dialog or modal overlays
+    const inspectorPanel = document.getElementById('inspector-panel');
+    if (inspectorPanel) {
+      const hide = () => this.hideTooltip();
+      inspectorPanel.addEventListener('pointerenter', hide);
+      inspectorPanel.addEventListener('pointerover', hide);
+      inspectorPanel.addEventListener('pointermove', hide);
+      inspectorPanel.addEventListener('mouseenter', hide);
+      inspectorPanel.addEventListener('mousemove', hide);
+    }
+
+    const compareModal = document.getElementById('compare-modal');
+    if (compareModal) {
+      const hide = () => this.hideTooltip();
+      compareModal.addEventListener('pointerenter', hide);
+      compareModal.addEventListener('pointermove', hide);
+      compareModal.addEventListener('mouseenter', hide);
+    }
   }
 
   public findMythUnderPointer(
@@ -714,6 +733,18 @@ export class MythosGlobe {
       this.checkRaycastHover(event.clientX, event.clientY);
     });
 
+    // Dismiss tooltip when pointer leaves 3D canvas
+    this.renderer.domElement.addEventListener('pointerleave', () => {
+      this.hideTooltip();
+      this.hoveredIndex = -1;
+      this.controls.autoRotate = true;
+      document.body.style.cursor = 'default';
+    });
+
+    this.renderer.domElement.addEventListener('pointerout', () => {
+      this.hideTooltip();
+    });
+
     // Deliberate click detection (differentiates orbital dragging from hotspot clicks)
     let pointerDownPos = { x: 0, y: 0 };
     this.renderer.domElement.addEventListener('pointerdown', (e: PointerEvent) => {
@@ -726,6 +757,7 @@ export class MythosGlobe {
         // Intentional click!
         const hit = this.findMythUnderPointer(e.clientX, e.clientY, 36);
         if (hit) {
+          this.hideTooltip();
           store.selectMyth(hit.myth.id);
           this.flyToCoordinate(hit.myth.lat, hit.myth.lng);
           this.attachBeacon(hit.myth.lat, hit.myth.lng);
@@ -736,6 +768,7 @@ export class MythosGlobe {
     // Sync beacon with store selection
     store.subscribe((state) => {
       if (state.selectedMythId) {
+        this.hideTooltip();
         const selected = this.currentActiveList.find((m) => m.id === state.selectedMythId);
         if (selected) {
           this.attachBeacon(selected.lat, selected.lng);
@@ -747,6 +780,32 @@ export class MythosGlobe {
   }
 
   private checkRaycastHover(clientX: number, clientY: number): void {
+    // Guard 1: If mouse is inside or approaching the open information dialog, hide tooltip immediately
+    const inspectorPanel = document.getElementById('inspector-panel');
+    if (inspectorPanel && !inspectorPanel.classList.contains('inspector-collapsed')) {
+      const r = inspectorPanel.getBoundingClientRect();
+      if (
+        clientX >= r.left - 12 &&
+        clientX <= r.right + 12 &&
+        clientY >= r.top - 12 &&
+        clientY <= r.bottom + 12
+      ) {
+        this.hideTooltip();
+        this.hoveredIndex = -1;
+        document.body.style.cursor = 'default';
+        return;
+      }
+    }
+
+    // Guard 2: If compare modal is active, hide tooltip
+    const compareModal = document.getElementById('compare-modal');
+    if (compareModal && !compareModal.classList.contains('modal-hidden')) {
+      this.hideTooltip();
+      this.hoveredIndex = -1;
+      document.body.style.cursor = 'default';
+      return;
+    }
+
     // 1. Check if hovering near a myth hotspot
     const mythHit = this.findMythUnderPointer(clientX, clientY, 26);
     if (mythHit) {

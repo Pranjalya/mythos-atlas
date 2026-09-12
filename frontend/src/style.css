@@ -248,6 +248,16 @@ html, body {
   transform: translate(-50%, -110%) scale(0.95) !important;
 }
 
+/* Hide hover tooltip whenever cursor is over information dialog, modals, or controls */
+body:has(#inspector-panel:hover) #hover-tooltip,
+body:has(#compare-modal:hover) #hover-tooltip,
+body:has(#top-bar:hover) #hover-tooltip,
+body:has(#timeline-container:hover) #hover-tooltip {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
 .tooltip-header {
   display: flex;
   justify-content: space-between;

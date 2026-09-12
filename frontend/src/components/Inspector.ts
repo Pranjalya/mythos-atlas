@@ -53,6 +53,16 @@ export class Inspector {
       this.close();
     });
 
+    // Ensure any floating country/area/myth tooltip vanishes when mouse hovers over information dialog
+    const hideHoverTooltip = () => {
+      document.getElementById('hover-tooltip')?.classList.add('tooltip-hidden');
+    };
+    this.panelEl.addEventListener('mouseenter', hideHoverTooltip);
+    this.panelEl.addEventListener('pointerenter', hideHoverTooltip);
+    this.panelEl.addEventListener('mousemove', hideHoverTooltip);
+    this.panelEl.addEventListener('pointermove', hideHoverTooltip);
+    this.panelEl.addEventListener('mouseover', hideHoverTooltip);
+
     this.fetchParallelsBtn.addEventListener('click', () => {
       if (this.currentMythId) {
         this.fetchParallels(this.currentMythId);
@@ -78,6 +88,7 @@ export class Inspector {
   public async hydrateMyth(mythId: string): Promise<void> {
     this.currentMythId = mythId;
     this.panelEl.classList.remove('inspector-collapsed');
+    document.getElementById('hover-tooltip')?.classList.add('tooltip-hidden');
 
     // Check if we have pre-loaded static record for instant preview
     const staticRecord = store.getState().allMyths.find((m) => m.id === mythId);
