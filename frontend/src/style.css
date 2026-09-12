@@ -116,6 +116,93 @@ html, body {
   letter-spacing: 0.5px;
 }
 
+/* ── DEVELOPER CARD ─────────────────────────────────────── */
+.developer-card {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+  padding: 3px 10px 3px 6px;
+  background: rgba(15, 23, 42, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(230, 184, 106, 0.3);
+  border-radius: var(--radius-full);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  transition: all 0.25s ease;
+  width: fit-content;
+}
+
+.developer-card:hover {
+  background: rgba(22, 32, 58, 0.9);
+  border-color: var(--gold-primary);
+  box-shadow: 0 0 16px rgba(230, 184, 106, 0.35);
+  transform: translateY(-1px);
+}
+
+.dev-profile {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.dev-badge {
+  font-size: 0.62rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  color: #06080f;
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold-light));
+  padding: 2px 7px;
+  border-radius: var(--radius-full);
+  line-height: 1.2;
+}
+
+.dev-name {
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  letter-spacing: 0.3px;
+  white-space: nowrap;
+}
+
+.dev-links {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin-left: 2px;
+  padding-left: 8px;
+  border-left: 1px solid rgba(255, 255, 255, 0.12);
+}
+
+.dev-social-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.7rem;
+  font-family: var(--font-ui);
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-decoration: none;
+  padding: 2px 7px;
+  border-radius: var(--radius-full);
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid transparent;
+  transition: all 0.2s ease;
+}
+
+.dev-social-link:hover {
+  color: var(--gold-light);
+  background: rgba(230, 184, 106, 0.18);
+  border-color: rgba(230, 184, 106, 0.4);
+  transform: scale(1.04);
+}
+
+.dev-social-link svg {
+  flex-shrink: 0;
+  color: var(--gold-light);
+}
+
 .filter-controls {
   display: flex;
   align-items: center;
