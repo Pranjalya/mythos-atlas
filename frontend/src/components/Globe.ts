@@ -660,6 +660,16 @@ export class MythosGlobe {
       compareModal.addEventListener('pointermove', hide);
       compareModal.addEventListener('mouseenter', hide);
     }
+
+    const devPanel = document.getElementById('developer-panel');
+    if (devPanel) {
+      const hide = () => this.hideTooltip();
+      devPanel.addEventListener('pointerenter', hide);
+      devPanel.addEventListener('pointerover', hide);
+      devPanel.addEventListener('pointermove', hide);
+      devPanel.addEventListener('mouseenter', hide);
+      devPanel.addEventListener('mousemove', hide);
+    }
   }
 
   public findMythUnderPointer(
@@ -678,6 +688,19 @@ export class MythosGlobe {
         clientX <= tr.right &&
         clientY >= tr.top &&
         clientY <= tr.bottom
+      ) {
+        return null;
+      }
+    }
+
+    const devPanel = document.getElementById('developer-panel');
+    if (devPanel) {
+      const dr = devPanel.getBoundingClientRect();
+      if (
+        clientX >= dr.left &&
+        clientX <= dr.right &&
+        clientY >= dr.top &&
+        clientY <= dr.bottom
       ) {
         return null;
       }
@@ -774,6 +797,7 @@ export class MythosGlobe {
         (elAtPoint.closest('#timeline-container') ||
          elAtPoint.closest('#top-bar') ||
          elAtPoint.closest('#inspector-panel') ||
+         elAtPoint.closest('#developer-panel') ||
          elAtPoint.closest('#compare-modal'))
       ) {
         return;
@@ -827,7 +851,24 @@ export class MythosGlobe {
       }
     }
 
-    // Guard 2: If compare modal is active, hide tooltip
+    // Guard 2: If mouse is inside or approaching the developer card, hide tooltip immediately
+    const devPanel = document.getElementById('developer-panel');
+    if (devPanel) {
+      const dr = devPanel.getBoundingClientRect();
+      if (
+        clientX >= dr.left - 8 &&
+        clientX <= dr.right + 8 &&
+        clientY >= dr.top - 8 &&
+        clientY <= dr.bottom + 8
+      ) {
+        this.hideTooltip();
+        this.hoveredIndex = -1;
+        document.body.style.cursor = 'default';
+        return;
+      }
+    }
+
+    // Guard 3: If compare modal is active, hide tooltip
     const compareModal = document.getElementById('compare-modal');
     if (compareModal && !compareModal.classList.contains('modal-hidden')) {
       this.hideTooltip();

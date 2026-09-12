@@ -106,6 +106,19 @@ async function bootstrap() {
       });
     }
 
+    // Wire developer card minimize/expand toggle
+    const devToggleBtn = document.getElementById('dev-panel-toggle') as HTMLButtonElement;
+    const devCollapsedBtn = document.getElementById('dev-panel-collapsed-btn') as HTMLButtonElement;
+    const devPanel = document.getElementById('developer-panel') as HTMLElement;
+    if (devToggleBtn && devPanel && devCollapsedBtn) {
+      const toggleDevPanel = (e: Event) => {
+        e.stopPropagation();
+        devPanel.classList.toggle('collapsed');
+      };
+      devToggleBtn.addEventListener('click', toggleDevPanel);
+      devCollapsedBtn.addEventListener('click', toggleDevPanel);
+    }
+
     // Trigger initial year update (-1200 BCE)
     timeline.updateYear(-1200);
 
