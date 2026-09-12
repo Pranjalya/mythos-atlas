@@ -74,6 +74,15 @@ async function bootstrap() {
       });
     }
 
+    const bordersToggle = document.getElementById('btn-toggle-borders') as HTMLButtonElement;
+    if (bordersToggle) {
+      bordersToggle.addEventListener('click', () => {
+        store.toggleCountryBorders();
+        bordersToggle.classList.toggle('active', store.getState().showCountryBorders);
+        globe.toggleCountryBorders(store.getState().showCountryBorders);
+      });
+    }
+
     const syncretismToggle = document.getElementById('btn-toggle-syncretism') as HTMLButtonElement;
     if (syncretismToggle) {
       syncretismToggle.addEventListener('click', () => {

@@ -264,6 +264,16 @@ html, body {
   margin-bottom: 4px;
 }
 
+.tooltip-country-badge {
+  font-size: 0.72rem;
+  color: var(--teal-accent);
+  font-family: var(--font-mono);
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
 #tooltip-archetype {
   font-size: 0.76rem;
   color: var(--text-secondary);

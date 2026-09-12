@@ -1,7 +1,8 @@
 /**
- * Three.js 3D Spatio-Temporal Globe Presentation Layer.
- * Renders an interactive celestial sphere with atmospheric shaders,
- * InstancedMesh myth nodes, animated syncretic Bezier arcs, and smooth camera controls.
+ * Three.js 3D Modern Spatio-Temporal Globe Presentation Layer.
+ * Renders an interactive celestial sphere with modern country vector boundaries,
+ * realistic GeoJSON landmass textures, atmospheric Fresnel glow,
+ * InstancedMesh myth nodes, animated syncretic Bezier arcs, and country hover intelligence.
  */
 
 import * as THREE from 'three';
@@ -10,10 +11,10 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 import { store, ActiveMyth } from '../state/store.ts';
 
 const GLOBE_RADIUS = 100;
-const NODE_ELEVATION = 101.2;
-const MAX_INSTANCES = 200;
+const BORDER_ELEVATION = 100.18;
+const NODE_ELEVATION = 101.4;
+const MAX_INSTANCES = 250;
 
-// Civilizational color palette
 export const CULTURE_COLORS: Record<string, string> = {
   Mesopotamian: '#E6B86A', // Ancient Gold
   Levantine: '#F4A261',    // Bronze Amber
@@ -30,6 +31,14 @@ export const CULTURE_COLORS: Record<string, string> = {
   Default: '#E6B86A',
 };
 
+export interface CountryMeta {
+  name: string;
+  continent: string;
+  lat: number;
+  lng: number;
+  bbox: [number, number, number, number]; // [minLng, minLat, maxLng, maxLat]
+}
+
 export class MythosGlobe {
   private container: HTMLElement;
   private scene: THREE.Scene;
@@ -39,19 +48,21 @@ export class MythosGlobe {
 
   private globeMesh: THREE.Mesh | null = null;
   private atmosphereMesh: THREE.Mesh | null = null;
+  private countryBordersMesh: THREE.LineSegments | null = null;
   private instancedNodes: THREE.InstancedMesh | null = null;
   private arcsGroup: THREE.Group = new THREE.Group();
-  private beaconGroup: THREE.Group = new THREE.Group();
 
   private raycaster = new THREE.Raycaster();
   private mouse = new THREE.Vector2();
   private hoveredIndex: number = -1;
   private currentActiveList: ActiveMyth[] = [];
+  private countriesList: CountryMeta[] = [];
 
   private tooltipEl: HTMLElement | null = null;
   private tooltipName: HTMLElement | null = null;
   private tooltipCulture: HTMLElement | null = null;
   private tooltipEpoch: HTMLElement | null = null;
+  private tooltipCountry: HTMLElement | null = null;
   private tooltipArchetype: HTMLElement | null = null;
 
   private dummy = new THREE.Object3D();
@@ -74,16 +85,20 @@ export class MythosGlobe {
     this.camera.position.set(0, 50, 260);
 
     // WebGL Renderer
-    this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true, powerPreference: 'high-performance' });
+    this.renderer = new THREE.WebGLRenderer({
+      antialias: true,
+      alpha: true,
+      powerPreference: 'high-performance',
+    });
     this.renderer.setSize(window.innerWidth, window.innerHeight);
     this.renderer.setPixelRatio(Math.min(window.devicePixelRatio, 2));
     this.container.appendChild(this.renderer.domElement);
 
-    // OrbitControls
+    // OrbitControls with subtle smooth rotation
     this.controls = new OrbitControls(this.camera, this.renderer.domElement);
     this.controls.enableDamping = true;
     this.controls.dampingFactor = 0.05;
-    this.controls.minDistance = 125;
+    this.controls.minDistance = 120;
     this.controls.maxDistance = 450;
     this.controls.rotateSpeed = 0.6;
     this.controls.zoomSpeed = 0.8;
@@ -92,14 +107,16 @@ export class MythosGlobe {
 
     this.initLighting();
     this.initStarfield();
-    this.initGlobe();
     this.initAtmosphere();
     this.initInstancedNodes();
     this.scene.add(this.arcsGroup);
-    this.scene.add(this.beaconGroup);
 
     this.initTooltips();
     this.initEventListeners();
+
+    // Asynchronously load GeoJSON world data and build modern globe
+    this.loadWorldDataAndBuildGlobe();
+
     this.animate();
   }
 
@@ -117,7 +134,7 @@ export class MythosGlobe {
   }
 
   private initStarfield(): void {
-    const starCount = 2000;
+    const starCount = 2400;
     const geometry = new THREE.BufferGeometry();
     const positions = new Float32Array(starCount * 3);
     const colors = new Float32Array(starCount * 3);
@@ -131,9 +148,8 @@ export class MythosGlobe {
       positions[i * 3 + 1] = radius * Math.sin(phi) * Math.sin(theta);
       positions[i * 3 + 2] = radius * Math.cos(phi);
 
-      // Celestial gold and starlight white tinting
-      const isGold = Math.random() > 0.8;
-      colors[i * 3] = isGold ? 0.95 : 0.8;
+      const isGold = Math.random() > 0.85;
+      colors[i * 3] = isGold ? 0.95 : 0.82;
       colors[i * 3 + 1] = isGold ? 0.85 : 0.85;
       colors[i * 3 + 2] = isGold ? 0.65 : 1.0;
     }
@@ -152,25 +168,110 @@ export class MythosGlobe {
     this.scene.add(starPoints);
   }
 
-  private createEarthCanvas(): HTMLCanvasElement {
+  private async loadWorldDataAndBuildGlobe(): Promise<void> {
+    try {
+      const res = await fetch('/data/world_countries.geojson');
+      if (!res.ok) throw new Error(`Failed to fetch world_countries.geojson: ${res.statusText}`);
+      const geojson = await res.json();
+
+      // 1. Build modern 3D vector country boundary lines
+      this.buildCountryBorders(geojson);
+
+      // 2. Extract country metadata for hover intelligence
+      this.extractCountryMetadata(geojson);
+
+      // 3. Render modern high-definition earth texture with exact country geometries
+      this.buildModernEarthTexture(geojson);
+    } catch (e) {
+      console.warn('Could not load world_countries.geojson, using procedural fallback:', e);
+      this.buildFallbackGlobe();
+    }
+  }
+
+  private buildCountryBorders(geojson: any): void {
+    const linePositions: number[] = [];
+
+    for (const f of geojson.features || []) {
+      const geom = f.geometry;
+      if (!geom) continue;
+
+      const polyList =
+        geom.type === 'Polygon'
+          ? [geom.coordinates]
+          : geom.type === 'MultiPolygon'
+          ? geom.coordinates
+          : [];
+
+      for (const poly of polyList) {
+        for (const ring of poly) {
+          for (let i = 0; i < ring.length - 1; i++) {
+            const [lng1, lat1] = ring[i];
+            const [lng2, lat2] = ring[i + 1];
+
+            // Avoid antimeridian wrap crossing
+            if (Math.abs(lng2 - lng1) > 180) continue;
+
+            const p1 = this.geoToCartesianArray(lat1, lng1, BORDER_ELEVATION);
+            const p2 = this.geoToCartesianArray(lat2, lng2, BORDER_ELEVATION);
+            linePositions.push(...p1, ...p2);
+          }
+        }
+      }
+    }
+
+    const geometry = new THREE.BufferGeometry();
+    geometry.setAttribute(
+      'position',
+      new THREE.Float32BufferAttribute(linePositions, 3)
+    );
+
+    // Glowing cyan/sky-blue border material
+    const material = new THREE.LineBasicMaterial({
+      color: new THREE.Color(0x38bdf8),
+      transparent: true,
+      opacity: 0.48,
+      blending: THREE.AdditiveBlending,
+    });
+
+    this.countryBordersMesh = new THREE.LineSegments(geometry, material);
+    this.countryBordersMesh.visible = store.getState().showCountryBorders;
+    this.scene.add(this.countryBordersMesh);
+  }
+
+  private extractCountryMetadata(geojson: any): void {
+    const list: CountryMeta[] = [];
+    for (const f of geojson.features || []) {
+      const p = f.properties;
+      if (!p) continue;
+      const name = p.NAME || p.ADMIN || 'Unknown Country';
+      const continent = p.CONTINENT || p.REGION_UN || 'Global';
+      const lng = typeof p.LABEL_X === 'number' ? p.LABEL_X : 0;
+      const lat = typeof p.LABEL_Y === 'number' ? p.LABEL_Y : 0;
+      const bbox = f.bbox || [-180, -90, 180, 90];
+
+      list.push({ name, continent, lat, lng, bbox });
+    }
+    this.countriesList = list;
+  }
+
+  private buildModernEarthTexture(geojson: any): void {
     const canvas = document.createElement('canvas');
     canvas.width = 2048;
     canvas.height = 1024;
     const ctx = canvas.getContext('2d')!;
 
-    // Deep cosmic ocean base
+    // 1. Deep midnight oceanic gradient
     const oceanGrad = ctx.createLinearGradient(0, 0, 0, canvas.height);
-    oceanGrad.addColorStop(0, '#060a17');
-    oceanGrad.addColorStop(0.5, '#0b1329');
-    oceanGrad.addColorStop(1, '#060a17');
+    oceanGrad.addColorStop(0, '#040714');
+    oceanGrad.addColorStop(0.3, '#070f26');
+    oceanGrad.addColorStop(0.7, '#070f26');
+    oceanGrad.addColorStop(1, '#040714');
     ctx.fillStyle = oceanGrad;
     ctx.fillRect(0, 0, canvas.width, canvas.height);
 
-    // Latitude & Longitude graticules
-    ctx.strokeStyle = 'rgba(72, 202, 228, 0.08)';
+    // 2. Graticules (Latitude & Longitude gridlines)
+    ctx.strokeStyle = 'rgba(56, 189, 248, 0.05)';
     ctx.lineWidth = 1;
-
-    // Latitudes
     for (let lat = -80; lat <= 80; lat += 20) {
       const y = ((90 - lat) / 180) * canvas.height;
       ctx.beginPath();
@@ -178,8 +279,6 @@ export class MythosGlobe {
       ctx.lineTo(canvas.width, y);
       ctx.stroke();
     }
-
-    // Longitudes
     for (let lng = -180; lng <= 180; lng += 30) {
       const x = ((lng + 180) / 360) * canvas.width;
       ctx.beginPath();
@@ -188,78 +287,93 @@ export class MythosGlobe {
       ctx.stroke();
     }
 
-    // Equator & Prime Meridian highlight
-    ctx.strokeStyle = 'rgba(230, 184, 106, 0.2)';
-    ctx.lineWidth = 1.5;
-    const eqY = 0.5 * canvas.height;
-    ctx.beginPath();
-    ctx.moveTo(0, eqY);
-    ctx.lineTo(canvas.width, eqY);
-    ctx.stroke();
+    // 3. Render all 177 modern countries onto canvas
+    ctx.fillStyle = '#0c1527'; // Modern dark slate landmass
+    ctx.strokeStyle = '#1e304d'; // Coastline boundary
+    ctx.lineWidth = 1.2;
 
-    const primeX = 0.5 * canvas.width;
-    ctx.beginPath();
-    ctx.moveTo(primeX, 0);
-    ctx.lineTo(primeX, canvas.height);
-    ctx.stroke();
+    for (const f of geojson.features || []) {
+      const geom = f.geometry;
+      if (!geom) continue;
 
-    // Procedural glowing continental silhouettes
-    ctx.fillStyle = 'rgba(230, 184, 106, 0.12)';
-    ctx.strokeStyle = 'rgba(230, 184, 106, 0.28)';
-    ctx.lineWidth = 2;
+      const polyList =
+        geom.type === 'Polygon'
+          ? [geom.coordinates]
+          : geom.type === 'MultiPolygon'
+          ? geom.coordinates
+          : [];
 
-    const drawContinent = (coords: [number, number][]) => {
+      for (const poly of polyList) {
+        for (const ring of poly) {
+          ctx.beginPath();
+          for (let i = 0; i < ring.length; i++) {
+            const [lng, lat] = ring[i];
+            const x = ((lng + 180) / 360) * canvas.width;
+            const y = ((90 - lat) / 180) * canvas.height;
+            if (i === 0) ctx.moveTo(x, y);
+            else ctx.lineTo(x, y);
+          }
+          ctx.closePath();
+          ctx.fill();
+          ctx.stroke();
+        }
+      }
+    }
+
+    // 4. Subtle ancient & modern metropolitan night lights (starlight clusters)
+    const keyCoords = [
+      [31.32, 45.63], [32.53, 44.42], [30.13, 31.31], [25.72, 32.61],
+      [28.61, 77.20], [25.43, 81.84], [37.98, 23.72], [41.90, 12.49],
+      [19.43, -99.13], [20.68, -88.56], [34.34, 108.93], [35.67, 139.65],
+      [59.32, 18.06], [51.50, -0.12], [11.55, -8.15], [6.68, -1.62],
+      [-13.53, -71.96], [-33.86, 151.20], [40.71, -74.00], [-22.90, -43.17]
+    ];
+
+    for (const [lat, lng] of keyCoords) {
+      const x = ((lng + 180) / 360) * canvas.width;
+      const y = ((90 - lat) / 180) * canvas.height;
+
+      const rad = ctx.createRadialGradient(x, y, 0, x, y, 12);
+      rad.addColorStop(0, 'rgba(230, 184, 106, 0.7)');
+      rad.addColorStop(0.4, 'rgba(230, 184, 106, 0.25)');
+      rad.addColorStop(1, 'rgba(230, 184, 106, 0)');
+      ctx.fillStyle = rad;
       ctx.beginPath();
-      coords.forEach(([lng, lat], idx) => {
-        const x = ((lng + 180) / 360) * canvas.width;
-        const y = ((90 - lat) / 180) * canvas.height;
-        if (idx === 0) ctx.moveTo(x, y);
-        else ctx.lineTo(x, y);
-      });
-      ctx.closePath();
+      ctx.arc(x, y, 12, 0, Math.PI * 2);
       ctx.fill();
-      ctx.stroke();
-    };
+    }
 
-    // Eurasia & Africa simplified land polygon
-    drawContinent([
-      [-10, 36], [0, 50], [20, 65], [60, 70], [100, 75], [140, 70], [170, 60],
-      [140, 35], [120, 20], [105, 10], [80, 8], [60, 25], [45, 15], [50, -5],
-      [40, -30], [20, -35], [10, -10], [-15, 12], [-10, 36]
-    ]);
-
-    // Americas simplified polygon
-    drawContinent([
-      [-160, 65], [-120, 68], [-80, 70], [-60, 50], [-75, 30], [-95, 20],
-      [-80, 8], [-75, -15], [-70, -50], [-55, -20], [-35, -5], [-50, 10],
-      [-75, 25], [-120, 35], [-130, 50], [-160, 65]
-    ]);
-
-    // Australia simplified polygon
-    drawContinent([
-      [115, -20], [135, -12], [150, -22], [145, -38], [115, -35], [115, -20]
-    ]);
-
-    return canvas;
-  }
-
-  private initGlobe(): void {
-    const sphereGeo = new THREE.SphereGeometry(GLOBE_RADIUS, 64, 64);
-    const canvas = this.createEarthCanvas();
     const texture = new THREE.CanvasTexture(canvas);
+    texture.anisotropy = 4;
 
+    const sphereGeo = new THREE.SphereGeometry(GLOBE_RADIUS, 64, 64);
     const material = new THREE.MeshStandardMaterial({
       map: texture,
-      roughness: 0.7,
-      metalness: 0.2,
+      roughness: 0.65,
+      metalness: 0.25,
     });
+
+    if (this.globeMesh) {
+      this.scene.remove(this.globeMesh);
+      this.globeMesh.geometry.dispose();
+    }
 
     this.globeMesh = new THREE.Mesh(sphereGeo, material);
     this.scene.add(this.globeMesh);
   }
 
+  private buildFallbackGlobe(): void {
+    const sphereGeo = new THREE.SphereGeometry(GLOBE_RADIUS, 64, 64);
+    const material = new THREE.MeshStandardMaterial({
+      color: 0x09142b,
+      roughness: 0.7,
+      metalness: 0.2,
+    });
+    this.globeMesh = new THREE.Mesh(sphereGeo, material);
+    this.scene.add(this.globeMesh);
+  }
+
   private initAtmosphere(): void {
-    // Atmospheric twilight Fresnel glow shader
     const vertexShader = `
       varying vec3 vNormal;
       void main() {
@@ -272,7 +386,7 @@ export class MythosGlobe {
       varying vec3 vNormal;
       void main() {
         float intensity = pow(0.65 - dot(vNormal, vec3(0.0, 0.0, 1.0)), 2.5);
-        vec3 atmosphereColor = mix(vec3(0.9, 0.72, 0.41), vec3(0.28, 0.79, 0.89), vNormal.y * 0.5 + 0.5);
+        vec3 atmosphereColor = mix(vec3(0.9, 0.72, 0.41), vec3(0.22, 0.74, 0.97), vNormal.y * 0.5 + 0.5);
         gl_FragColor = vec4(atmosphereColor, 1.0) * intensity;
       }
     `;
@@ -316,17 +430,14 @@ export class MythosGlobe {
 
     for (let i = 0; i < count; i++) {
       const m = myths[i];
-      // Convert lat/lng to 3D Cartesian coordinates
       const pos = this.geoToVector3(m.lat, m.lng, NODE_ELEVATION);
+      const scale = 1.0 + m.intensity * 1.4;
 
-      // Visual scale based on temporal intensity
-      const scale = 1.0 + (m.intensity * 1.4);
       this.dummy.position.copy(pos);
       this.dummy.scale.set(scale, scale, scale);
       this.dummy.updateMatrix();
       this.instancedNodes.setMatrixAt(i, this.dummy.matrix);
 
-      // Color based on tradition
       const hex = CULTURE_COLORS[m.culture] || CULTURE_COLORS.Default;
       color.set(hex);
       this.instancedNodes.setColorAt(i, color);
@@ -341,7 +452,6 @@ export class MythosGlobe {
   }
 
   private updateSyncreticArcs(myths: ActiveMyth[]): void {
-    // Clear existing arcs
     while (this.arcsGroup.children.length > 0) {
       const obj = this.arcsGroup.children.pop();
       if (obj && 'geometry' in obj) {
@@ -375,7 +485,6 @@ export class MythosGlobe {
   }
 
   private createBezierArc(start: THREE.Vector3, end: THREE.Vector3, culture: string): void {
-    // Midpoint elevated above surface
     const mid = new THREE.Vector3().addVectors(start, end).multiplyScalar(0.5);
     const distance = start.distanceTo(end);
     const altitude = GLOBE_RADIUS + Math.min(distance * 0.45, 45);
@@ -399,16 +508,21 @@ export class MythosGlobe {
     this.arcsGroup.add(line);
   }
 
+  public toggleCountryBorders(visible: boolean): void {
+    if (this.countryBordersMesh) {
+      this.countryBordersMesh.visible = visible;
+    }
+  }
+
   public flyToCoordinate(lat: number, lng: number): void {
     const target = this.geoToVector3(lat, lng, 220);
     const startPos = this.camera.position.clone();
-    const duration = 1200; // ms
+    const duration = 1200;
     const startTime = performance.now();
 
     const animateCamera = (currentTime: number) => {
       const elapsed = currentTime - startTime;
       const progress = Math.min(elapsed / duration, 1);
-      // Smooth cubic ease out
       const ease = 1 - Math.pow(1 - progress, 3);
 
       this.camera.position.lerpVectors(startPos, target, ease);
@@ -439,11 +553,53 @@ export class MythosGlobe {
     return new THREE.Vector3(x, y, z);
   }
 
+  public geoToCartesianArray(lat: number, lng: number, radius: number = GLOBE_RADIUS): [number, number, number] {
+    const phi = (90 - lat) * (Math.PI / 180);
+    const theta = (lng + 180) * (Math.PI / 180);
+
+    const x = -(radius * Math.sin(phi) * Math.cos(theta));
+    const y = radius * Math.cos(phi);
+    const z = radius * Math.sin(phi) * Math.sin(theta);
+
+    return [x, y, z];
+  }
+
+  public vector3ToGeo(v: THREE.Vector3): { lat: number; lng: number } {
+    const phi = Math.acos(Math.max(-1, Math.min(1, v.y / GLOBE_RADIUS)));
+    const lat = 90 - (phi * 180) / Math.PI;
+    let theta = Math.atan2(v.z, -v.x);
+    let lng = (theta * 180) / Math.PI - 180;
+    if (lng < -180) lng += 360;
+    if (lng > 180) lng -= 360;
+    return { lat, lng };
+  }
+
+  public findCountryByCoordinate(lat: number, lng: number): CountryMeta | null {
+    let closestCountry: CountryMeta | null = null;
+    let minDistance = Infinity;
+
+    for (const c of this.countriesList) {
+      const [minLng, minLat, maxLng, maxLat] = c.bbox;
+      if (lng >= minLng && lng <= maxLng && lat >= minLat && lat <= maxLat) {
+        return c;
+      }
+      // Calculate spherical distance to centroid
+      const d = Math.hypot(lat - c.lat, lng - c.lng);
+      if (d < minDistance) {
+        minDistance = d;
+        closestCountry = c;
+      }
+    }
+
+    return minDistance < 15 ? closestCountry : null;
+  }
+
   private initTooltips(): void {
     this.tooltipEl = document.getElementById('hover-tooltip');
     this.tooltipName = document.getElementById('tooltip-name');
     this.tooltipCulture = document.getElementById('tooltip-culture');
     this.tooltipEpoch = document.getElementById('tooltip-epoch');
+    this.tooltipCountry = document.getElementById('tooltip-country');
     this.tooltipArchetype = document.getElementById('tooltip-archetype');
   }
 
@@ -467,37 +623,86 @@ export class MythosGlobe {
   }
 
   private checkRaycastHover(clientX: number, clientY: number): void {
-    if (!this.instancedNodes || this.currentActiveList.length === 0) return;
-
     this.raycaster.setFromCamera(this.mouse, this.camera);
-    const intersects = this.raycaster.intersectObject(this.instancedNodes);
 
-    if (intersects.length > 0 && intersects[0].instanceId !== undefined) {
-      const idx = intersects[0].instanceId;
-      if (idx < this.currentActiveList.length) {
-        this.hoveredIndex = idx;
-        const myth = this.currentActiveList[idx];
-        this.showTooltip(myth, clientX, clientY);
-        document.body.style.cursor = 'pointer';
-        return;
+    // 1. Check if hovering on myth node
+    if (this.instancedNodes && this.currentActiveList.length > 0) {
+      const nodeIntersects = this.raycaster.intersectObject(this.instancedNodes);
+      if (nodeIntersects.length > 0 && nodeIntersects[0].instanceId !== undefined) {
+        const idx = nodeIntersects[0].instanceId;
+        if (idx < this.currentActiveList.length) {
+          this.hoveredIndex = idx;
+          const myth = this.currentActiveList[idx];
+          this.showMythTooltip(myth, clientX, clientY);
+          document.body.style.cursor = 'pointer';
+          return;
+        }
       }
     }
 
     this.hoveredIndex = -1;
+
+    // 2. Check if hovering on Earth surface / modern country
+    if (this.globeMesh) {
+      const globeIntersects = this.raycaster.intersectObject(this.globeMesh);
+      if (globeIntersects.length > 0) {
+        const hitPoint = globeIntersects[0].point;
+        const { lat, lng } = this.vector3ToGeo(hitPoint);
+        const country = this.findCountryByCoordinate(lat, lng);
+        if (country) {
+          this.showCountryTooltip(country, lat, lng, clientX, clientY);
+          document.body.style.cursor = 'crosshair';
+          return;
+        }
+      }
+    }
+
     this.hideTooltip();
     document.body.style.cursor = 'default';
   }
 
-  private showTooltip(myth: ActiveMyth, x: number, y: number): void {
+  private showMythTooltip(myth: ActiveMyth, x: number, y: number): void {
     if (!this.tooltipEl) return;
     if (this.tooltipName) this.tooltipName.textContent = myth.name;
-    if (this.tooltipCulture) this.tooltipCulture.textContent = myth.culture;
+    if (this.tooltipCulture) this.tooltipCulture.textContent = `${myth.culture} Tradition`;
     if (this.tooltipEpoch) {
       const startStr = myth.epoch_start < 0 ? `${Math.abs(myth.epoch_start)} BCE` : `${myth.epoch_start} CE`;
       const endStr = myth.epoch_end < 0 ? `${Math.abs(myth.epoch_end)} BCE` : `${myth.epoch_end} CE`;
       this.tooltipEpoch.textContent = `${startStr} – ${endStr}`;
     }
+
+    // Modern Country identification
+    if (this.tooltipCountry) {
+      const country = this.findCountryByCoordinate(myth.lat, myth.lng);
+      if (country) {
+        this.tooltipCountry.textContent = `📍 Modern: ${country.name} (${country.continent})`;
+        this.tooltipCountry.style.display = 'flex';
+      } else {
+        this.tooltipCountry.style.display = 'none';
+      }
+    }
+
     if (this.tooltipArchetype) this.tooltipArchetype.textContent = myth.archetype;
+
+    this.tooltipEl.style.left = `${x}px`;
+    this.tooltipEl.style.top = `${y}px`;
+    this.tooltipEl.classList.remove('tooltip-hidden');
+  }
+
+  private showCountryTooltip(country: CountryMeta, lat: number, lng: number, x: number, y: number): void {
+    if (!this.tooltipEl) return;
+    if (this.tooltipName) this.tooltipName.textContent = country.name;
+    if (this.tooltipCulture) this.tooltipCulture.textContent = 'Modern Nation State';
+    if (this.tooltipEpoch) {
+      this.tooltipEpoch.textContent = `${Math.abs(lat).toFixed(1)}° ${lat >= 0 ? 'N' : 'S'}, ${Math.abs(lng).toFixed(1)}° ${lng >= 0 ? 'E' : 'W'}`;
+    }
+    if (this.tooltipCountry) {
+      this.tooltipCountry.textContent = `Continent: ${country.continent}`;
+      this.tooltipCountry.style.display = 'flex';
+    }
+    if (this.tooltipArchetype) {
+      this.tooltipArchetype.textContent = 'Click to explore historical epics rooted in this geography';
+    }
 
     this.tooltipEl.style.left = `${x}px`;
     this.tooltipEl.style.top = `${y}px`;
@@ -524,7 +729,6 @@ export class MythosGlobe {
     this.arcTime += 0.02;
     this.arcsGroup.children.forEach((child) => {
       if (child instanceof THREE.Line && child.material instanceof THREE.LineDashedMaterial) {
-        // Subtle opacity pulsation
         child.material.opacity = 0.5 + 0.3 * Math.sin(this.arcTime);
       }
     });

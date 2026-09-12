@@ -29,6 +29,7 @@ export interface AppState {
   selectedMythDetail: any | null;
   filterCulture: string;
   showSyncretismArcs: boolean;
+  showCountryBorders: boolean;
   compareModalOpen: boolean;
   compareTargetA: string | null;
   compareTargetB: string | null;
@@ -47,6 +48,7 @@ class Store {
     selectedMythDetail: null,
     filterCulture: 'all',
     showSyncretismArcs: true,
+    showCountryBorders: true,
     compareModalOpen: false,
     compareTargetA: 'Q248352', // Epic of Gilgamesh
     compareTargetB: 'Q190828', // Popol Vuh
@@ -114,6 +116,11 @@ class Store {
 
   public toggleSyncretismArcs(): void {
     this.state.showSyncretismArcs = !this.state.showSyncretismArcs;
+    this.notify();
+  }
+
+  public toggleCountryBorders(): void {
+    this.state.showCountryBorders = !this.state.showCountryBorders;
     this.notify();
   }
 
