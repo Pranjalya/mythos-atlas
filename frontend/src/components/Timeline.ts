@@ -77,6 +77,16 @@ export class Timeline {
   }
 
   private initEvents(): void {
+    // Isolate timeline clicks and gestures from canvas/globe orbit handlers
+    const timelineContainer = document.getElementById('timeline-container');
+    if (timelineContainer) {
+      ['pointerdown', 'pointerup', 'mousedown', 'mouseup', 'click'].forEach((evt) => {
+        timelineContainer.addEventListener(evt, (e) => {
+          e.stopPropagation();
+        });
+      });
+    }
+
     // Slider scrub (input event fires smoothly at 60fps while dragging)
     this.slider.addEventListener('input', () => {
       const year = parseInt(this.slider.value, 10);

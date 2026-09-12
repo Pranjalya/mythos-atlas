@@ -77,10 +77,15 @@ export class Inspector {
     });
 
     store.subscribe((state) => {
-      if (state.selectedMythId && state.selectedMythId !== this.currentMythId) {
-        this.hydrateMyth(state.selectedMythId);
-      } else if (!state.selectedMythId) {
-        this.close();
+      if (state.selectedMythId) {
+        if (state.selectedMythId !== this.currentMythId) {
+          this.hydrateMyth(state.selectedMythId);
+        }
+      } else {
+        if (!this.panelEl.classList.contains('inspector-collapsed')) {
+          this.panelEl.classList.add('inspector-collapsed');
+          this.currentMythId = null;
+        }
       }
     });
   }
@@ -213,5 +218,8 @@ export class Inspector {
   public close(): void {
     this.panelEl.classList.add('inspector-collapsed');
     this.currentMythId = null;
+    if (store.getState().selectedMythId !== null) {
+      store.selectMyth(null);
+    }
   }
 }

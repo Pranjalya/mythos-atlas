@@ -669,6 +669,20 @@ export class MythosGlobe {
   ): { myth: ActiveMyth; index: number } | null {
     if (this.currentActiveList.length === 0) return null;
 
+    // Guard: Never hit-test myths if cursor is over floating UI overlays
+    const timelineEl = document.getElementById('timeline-container');
+    if (timelineEl) {
+      const tr = timelineEl.getBoundingClientRect();
+      if (
+        clientX >= tr.left &&
+        clientX <= tr.right &&
+        clientY >= tr.top &&
+        clientY <= tr.bottom
+      ) {
+        return null;
+      }
+    }
+
     const rect = this.renderer.domElement.getBoundingClientRect();
     let closestDist = maxPixelRadius;
     let found: { myth: ActiveMyth; index: number } | null = null;
@@ -752,6 +766,19 @@ export class MythosGlobe {
     });
 
     this.renderer.domElement.addEventListener('pointerup', (e: PointerEvent) => {
+      // Guard: Ignore clicks that occurred over floating UI elements (timeline, top-bar, etc.)
+      const elAtPoint = document.elementFromPoint(e.clientX, e.clientY);
+      if (
+        elAtPoint &&
+        elAtPoint !== this.renderer.domElement &&
+        (elAtPoint.closest('#timeline-container') ||
+         elAtPoint.closest('#top-bar') ||
+         elAtPoint.closest('#inspector-panel') ||
+         elAtPoint.closest('#compare-modal'))
+      ) {
+        return;
+      }
+
       const moveDist = Math.hypot(e.clientX - pointerDownPos.x, e.clientY - pointerDownPos.y);
       if (moveDist < 8) {
         // Intentional click!
@@ -761,6 +788,9 @@ export class MythosGlobe {
           store.selectMyth(hit.myth.id);
           this.flyToCoordinate(hit.myth.lat, hit.myth.lng);
           this.attachBeacon(hit.myth.lat, hit.myth.lng);
+        } else {
+          // Deselect on empty canvas clicks
+          store.selectMyth(null);
         }
       }
     });
