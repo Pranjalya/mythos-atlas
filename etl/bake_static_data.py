@@ -7,6 +7,7 @@ guaranteeing zero network roundtrips for spatio-temporal timeline queries.
 import json
 import logging
 import os
+import shutil
 import sys
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -19,6 +20,7 @@ RAW_FILE = DATA_DIR / "raw" / "wikipedia_enriched.json"
 PROCESSED_DIR = DATA_DIR / "processed"
 STATIC_OUTPUT_FILE = PROCESSED_DIR / "static_myths.json"
 ENRICHED_OUTPUT_FILE = PROCESSED_DIR / "enriched_myths.json"
+FRONTEND_STATIC_FILE = Path(__file__).resolve().parent.parent / "frontend" / "public" / "data" / "static_myths.json"
 
 MAX_ALLOWED_SIZE_BYTES = 5 * 1024 * 1024  # 5 MB ceiling
 
@@ -78,6 +80,11 @@ def bake_static_dataset(items: Optional[List[Dict[str, Any]]] = None) -> Dict[st
     # Write static_myths.json
     with open(STATIC_OUTPUT_FILE, "w", encoding="utf-8") as f:
         json.dump(static_bundle, f, indent=2, ensure_ascii=False)
+
+    # Sync to frontend public directory
+    FRONTEND_STATIC_FILE.parent.mkdir(parents=True, exist_ok=True)
+    shutil.copy(STATIC_OUTPUT_FILE, FRONTEND_STATIC_FILE)
+    logger.info(f"Synchronized static dataset to {FRONTEND_STATIC_FILE}")
 
     # Write enriched_myths.json
     with open(ENRICHED_OUTPUT_FILE, "w", encoding="utf-8") as f:

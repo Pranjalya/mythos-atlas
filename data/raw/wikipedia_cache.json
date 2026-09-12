@@ -2447,5 +2447,1797 @@
     },
     "extract": "\nViracocha is the creator and supreme deity in the pre-Inca and Inca mythology in the Andes region of South America. According to the myth Viracocha had human appearance and was generally considered as bearded. According to the myth he ordered the construction of Tiwanaku. It is also said that he was accompanied by men also referred to as Viracochas.",
     "extract_html": "<p>\n<b>Viracocha</b> is the creator and supreme deity in the pre-Inca and Inca mythology in the Andes region of South America. According to the myth Viracocha had human appearance and was generally considered as bearded. According to the myth he ordered the construction of Tiwanaku. It is also said that he was accompanied by men also referred to as Viracochas.</p>"
+  },
+  "tandava": {
+    "type": "standard",
+    "title": "Tandava",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tandava</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2093280",
+    "titles": {
+      "canonical": "Tandava",
+      "normalized": "Tandava",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tandava</span></span>"
+    },
+    "pageid": 3530370,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg/330px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 424
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/bf/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 2876,
+      "height": 3694
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1371442676",
+    "tid": "41967e48-a151-11f1-ac81-a87a15d1b465",
+    "timestamp": "2026-08-26T13:22:59Z",
+    "description": "Divine dance performed by the Hindu god Shiva",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Tandava",
+        "revisions": "https://en.wikipedia.org/wiki/Tandava?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Tandava?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tandava"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Tandava",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Tandava",
+        "edit": "https://en.wikipedia.org/wiki/Tandava?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tandava"
+      }
+    },
+    "extract": "Tandavam, also known as Tāṇḍava Natyam, is a divine dance performed by Hindu god Shiva. Shiva is depicted as dancing the Tandava in his form of Nataraja.",
+    "extract_html": "<p><b>Tandavam</b>, also known as <b><span><i lang=\"sa-Latn\">Tāṇḍava Natyam</i></span></b>, is a divine dance performed by Hindu god Shiva. Shiva is depicted as dancing the Tandava in his form of Nataraja.</p>"
+  },
+  "ahura_mazda": {
+    "type": "standard",
+    "title": "Ahura Mazda",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ahura Mazda</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q179575",
+    "titles": {
+      "canonical": "Ahura_Mazda",
+      "normalized": "Ahura Mazda",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ahura Mazda</span></span>"
+    },
+    "pageid": 50324,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Naqshe_Rostam_Darafsh_Ordibehesht_93_%2835%29.JPG/330px-Naqshe_Rostam_Darafsh_Ordibehesht_93_%2835%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 498
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/96/Naqshe_Rostam_Darafsh_Ordibehesht_93_%2835%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 3264,
+      "height": 4928
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1374482883",
+    "tid": "7401e291-ae90-11f1-97c8-56d61aceb78d",
+    "timestamp": "2026-09-12T09:58:07Z",
+    "description": "Highest deity of Zoroastrianism",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Ahura_Mazda",
+        "revisions": "https://en.wikipedia.org/wiki/Ahura_Mazda?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Ahura_Mazda?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ahura_Mazda"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Ahura_Mazda",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Ahura_Mazda",
+        "edit": "https://en.wikipedia.org/wiki/Ahura_Mazda?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ahura_Mazda"
+      }
+    },
+    "extract": "Ahura Mazda, also known as Ormazd and Horomazes, is the principal God and sky deity in Zoroastrianism. He is the first and most frequently invoked spirit in the Yasna. The literal meanings of the words Ahura and Mazda are \"lord\" and \"wisdom\", respectively.",
+    "extract_html": "<p><b>Ahura Mazda</b>, also known as <b>Ormazd</b> and <b>Horomazes</b>, is the principal God and sky deity in Zoroastrianism. He is the first and most frequently invoked spirit in the <i>Yasna</i>. The literal meanings of the words <i><span class=\"extiw\">Ahura</span></i> and <i><span class=\"extiw\">Mazda</span></i> are \"lord\" and \"wisdom\", respectively.</p>"
+  },
+  "shahnameh": {
+    "type": "standard",
+    "title": "Shahnameh",
+    "displaytitle": "<i>Shahnameh</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q8279",
+    "titles": {
+      "canonical": "Shahnameh",
+      "normalized": "Shahnameh",
+      "display": "<i>Shahnameh</i>"
+    },
+    "pageid": 193608,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_Court_of_Gayumars_%28Cropped%29.jpg/330px-The_Court_of_Gayumars_%28Cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 478
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/00/The_Court_of_Gayumars_%28Cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1816,
+      "height": 2632
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1368361056",
+    "tid": "f9501e89-9345-11f1-be29-2312ef6c7fc5",
+    "timestamp": "2026-08-08T16:26:57Z",
+    "description": "Epic poem by Ferdowsi",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Shahnameh",
+        "revisions": "https://en.wikipedia.org/wiki/Shahnameh?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Shahnameh?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shahnameh"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Shahnameh",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Shahnameh",
+        "edit": "https://en.wikipedia.org/wiki/Shahnameh?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shahnameh"
+      }
+    },
+    "extract": "The Shahnameh, also romanized Shahnama, is a long epic poem written by the Persian poet Ferdowsi between c. 977 and 1010 CE and is the national epic of Greater Iran. Consisting of some 50,000 distichs or couplets, the Shahnameh is one of the world's longest epic poems, and the longest epic poem created by a single author. It tells of the mainly mythical but to some extent historical past of Iran from the creation of the world until the Muslim conquest in the seventh century. Iran, Afghanistan, Azerbaijan, Tajikistan and the greater region influenced by Persian culture such as Armenia, Dagestan, Georgia, Turkey, Turkmenistan and Uzbekistan celebrate this national epic. It took Ferdowsi 33 years to complete the Shahnameh in its entirety.",
+    "extract_html": "<p>The <i><b>Shahnameh</b></i>, also romanized <i><b>Shahnama</b></i>, is a long epic poem written by the Persian poet Ferdowsi between <abbr>c.</abbr><span> 977</span> and 1010 CE and is the national epic of Greater Iran. Consisting of some 50,000 distichs or couplets, the <i>Shahnameh</i> is one of the world's longest epic poems, and the longest epic poem created by a single author. It tells of the mainly mythical but to some extent historical past of Iran from the creation of the world until the Muslim conquest in the seventh century. Iran, Afghanistan, Azerbaijan, Tajikistan and the greater region influenced by Persian culture such as Armenia, Dagestan, Georgia, Turkey, Turkmenistan and Uzbekistan celebrate this national epic. It took Ferdowsi 33 years to complete the Shahnameh in its entirety.</p>"
+  },
+  "simurgh": {
+    "type": "standard",
+    "title": "Simurgh",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Simurgh</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q548119",
+    "titles": {
+      "canonical": "Simurgh",
+      "normalized": "Simurgh",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Simurgh</span></span>"
+    },
+    "pageid": 348145,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Senmurv.svg/330px-Senmurv.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 331
+    },
+    "originalimage": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Senmurv.svg/960px-Senmurv.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 644,
+      "height": 645
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1373628713",
+    "tid": "64c803ce-aa54-11f1-8fd6-6d86ffb7e3a9",
+    "timestamp": "2026-09-07T00:38:07Z",
+    "description": "Iranian mythological bird",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Simurgh",
+        "revisions": "https://en.wikipedia.org/wiki/Simurgh?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Simurgh?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Simurgh"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Simurgh",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Simurgh",
+        "edit": "https://en.wikipedia.org/wiki/Simurgh?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Simurgh"
+      }
+    },
+    "extract": "The simurgh is a benevolent bird in Iranian mythology and literature. It bears some similarities with mythological birds from different origins, such as the phoenix and the humā. The figure can be found in all periods of Iranian art and literature and is also evident in the iconography of Georgia, medieval Armenia, the Eastern Roman Empire, and other regions that were within the realm of Persian cultural influence.",
+    "extract_html": "<p>The <b>simurgh</b> is a benevolent bird in <span class=\"mw-disambig\">Iranian mythology</span> and literature. It bears some similarities with mythological birds from different origins, such as the phoenix and the humā. The figure can be found in all periods of Iranian art and literature and is also evident in the iconography of Georgia, medieval Armenia, the Eastern Roman Empire, and other regions that were within the realm of Persian cultural influence.</p>"
+  },
+  "jamshid": {
+    "type": "standard",
+    "title": "Jamshid",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Jamshid</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q155755",
+    "titles": {
+      "canonical": "Jamshid",
+      "normalized": "Jamshid",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Jamshid</span></span>"
+    },
+    "pageid": 1334657,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/A_monumental_portrait_of_King_Jamshid%2C_signed_by_Mihr_%E2%80%98Ali%2C_Persia%2C_Qajar%2C_dated_1218_AH_1803_AD_Sotheby%27s.jpg/330px-A_monumental_portrait_of_King_Jamshid%2C_signed_by_Mihr_%E2%80%98Ali%2C_Persia%2C_Qajar%2C_dated_1218_AH_1803_AD_Sotheby%27s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 695
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/81/A_monumental_portrait_of_King_Jamshid%2C_signed_by_Mihr_%E2%80%98Ali%2C_Persia%2C_Qajar%2C_dated_1218_AH_1803_AD_Sotheby%27s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 909,
+      "height": 1915
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1363316432",
+    "tid": "bd823b0b-7b94-11f1-818e-ac99c9ec54be",
+    "timestamp": "2026-07-09T12:50:19Z",
+    "description": "Iranian king",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Jamshid",
+        "revisions": "https://en.wikipedia.org/wiki/Jamshid?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Jamshid?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Jamshid"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Jamshid",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Jamshid",
+        "edit": "https://en.wikipedia.org/wiki/Jamshid?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Jamshid"
+      }
+    },
+    "extract": "Jamshid ; Classical Persian: جمشید Jamshēd ; Middle and New Persian: جم Jam ), also known as Yima, is the fourth Shah of the mythological Pishdadian dynasty of Iran according to Shahnameh.",
+    "extract_html": "<p><b>Jamshid</b> ; Classical Persian: جمشید <i>Jamshēd</i> ; Middle and New Persian: جم <i>Jam</i> ), also known as <i><b>Yima</b></i>, is the fourth Shah of the mythological Pishdadian dynasty of Iran according to <i>Shahnameh</i>.</p>"
+  },
+  "perun": {
+    "type": "standard",
+    "title": "Perun",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Perun</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q206561",
+    "titles": {
+      "canonical": "Perun",
+      "normalized": "Perun",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Perun</span></span>"
+    },
+    "pageid": 33576199,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Saint_George_slays_the_dragon%2C_Croatia%2C_8th_century.jpg/330px-Saint_George_slays_the_dragon%2C_Croatia%2C_8th_century.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 168
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Saint_George_slays_the_dragon%2C_Croatia%2C_8th_century.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 640,
+      "height": 326
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1364985550",
+    "tid": "a49935b9-8397-11f1-a52b-0da2abc5c955",
+    "timestamp": "2026-07-19T17:31:15Z",
+    "description": "Slavic supreme god of the sky and war",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Perun",
+        "revisions": "https://en.wikipedia.org/wiki/Perun?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Perun?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Perun"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Perun",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Perun",
+        "edit": "https://en.wikipedia.org/wiki/Perun?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Perun"
+      }
+    },
+    "extract": "In Slavic mythology, Perun is the highest god of the pantheon and the god of sky, thunder, lightning, storms, rain, law, war, fertility and oak trees. His other attributes were fire, mountains, wind, iris, eagle, firmament, horses and carts, and weapons. The supreme god in the Kievan Rus' during the 9th-10th centuries, Perun was first associated with weapons made of stone and later with those of metal.",
+    "extract_html": "<p>In Slavic mythology, <b>Perun</b> is the highest god of the pantheon and the god of sky, thunder, lightning, storms, rain, law, war, fertility and oak trees. His other attributes were fire, mountains, wind, iris, eagle, firmament, horses and carts, and weapons. The supreme god in the Kievan Rus' during the 9th-10th centuries, Perun was first associated with weapons made of stone and later with those of metal.</p>"
+  },
+  "baba_yaga": {
+    "type": "standard",
+    "title": "Baba Yaga",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Baba Yaga</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q187002",
+    "titles": {
+      "canonical": "Baba_Yaga",
+      "normalized": "Baba Yaga",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Baba Yaga</span></span>"
+    },
+    "pageid": 296596,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%91%D0%B0%D0%B1%D0%B0-%D1%8F%D0%B3%D0%B0_3.jpg/330px-%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%91%D0%B0%D0%B1%D0%B0-%D1%8F%D0%B3%D0%B0_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 459
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/6c/%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%91%D0%B0%D0%B1%D0%B0-%D1%8F%D0%B3%D0%B0_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 719,
+      "height": 1001
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1373360950",
+    "tid": "88018cb2-a940-11f1-b0bb-c9b69421d085",
+    "timestamp": "2026-09-05T15:43:25Z",
+    "description": "Slavic mythological figure",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Baba_Yaga",
+        "revisions": "https://en.wikipedia.org/wiki/Baba_Yaga?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Baba_Yaga?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Baba_Yaga"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Baba_Yaga",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Baba_Yaga",
+        "edit": "https://en.wikipedia.org/wiki/Baba_Yaga?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Baba_Yaga"
+      }
+    },
+    "extract": "Baba Yaga is a female character from Slavic folklore who has two contrasting roles. In some narratives, she is described as a repulsive or ferocious-looking old woman who fries and eats children, while in others she is depicted as a nice old woman who helps the hero. Both versions often depict her as a witch. She is often associated with forest wildlife. Her distinctive traits are flying around in a wooden mortar, wielding a pestle, and dwelling deep in the forest in a hut with chicken legs.",
+    "extract_html": "<p><b>Baba Yaga</b> is a female character from Slavic folklore who has two contrasting roles. In some narratives, she is described as a repulsive or ferocious-looking old woman who fries and eats children, while in others she is depicted as a nice old woman who helps the hero. Both versions often depict her as a witch. She is often associated with forest wildlife. Her distinctive traits are flying around in a wooden mortar, wielding a pestle, and dwelling deep in the forest in a hut with chicken legs.</p>"
+  },
+  "kalevala": {
+    "type": "standard",
+    "title": "Kalevala",
+    "displaytitle": "<i>Kalevala</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q130924",
+    "titles": {
+      "canonical": "Kalevala",
+      "normalized": "Kalevala",
+      "display": "<i>Kalevala</i>"
+    },
+    "pageid": 16777,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Kalevala1.jpg/330px-Kalevala1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 579
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/64/Kalevala1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1090,
+      "height": 1912
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1372268287",
+    "tid": "072b38e9-a4e3-11f1-b83f-b56f12cf1d25",
+    "timestamp": "2026-08-31T02:24:01Z",
+    "description": "1835 Finnish epic poem compiled by Elias Lönnrot",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Kalevala",
+        "revisions": "https://en.wikipedia.org/wiki/Kalevala?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Kalevala?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Kalevala"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Kalevala",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Kalevala",
+        "edit": "https://en.wikipedia.org/wiki/Kalevala?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Kalevala"
+      }
+    },
+    "extract": "The Kalevala is a 19th-century compilation of epic poetry, compiled by Elias Lönnrot from Finnish, Karelian and Ingrian folklore and mythology, telling a story about the Creation of the Earth, describing the controversies and retaliatory voyages between the peoples of the land of Kalevala called Väinölä and the land of Pohjola and their various protagonists and antagonists, as well as the construction and robbery of the mythical wealth-making machine Sampo.",
+    "extract_html": "<p>The <i><b>Kalevala</b></i> is a 19th-century compilation of epic poetry, compiled by Elias Lönnrot from Finnish, Karelian and Ingrian folklore and mythology, telling a story about the Creation of the Earth, describing the controversies and retaliatory voyages between the peoples of the land of Kalevala called Väinölä and the land of Pohjola and their various protagonists and antagonists, as well as the construction and robbery of the mythical wealth-making machine Sampo.</p>"
+  },
+  "kalevipoeg": {
+    "type": "standard",
+    "title": "Kalevipoeg",
+    "displaytitle": "<i>Kalevipoeg</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q217100",
+    "titles": {
+      "canonical": "Kalevipoeg",
+      "normalized": "Kalevipoeg",
+      "display": "<i>Kalevipoeg</i>"
+    },
+    "pageid": 236876,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Kalevipoeg.jpg/330px-Kalevipoeg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 433
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Kalevipoeg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 781,
+      "height": 1024
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1373714347",
+    "tid": "f29205ed-aac9-11f1-ad28-d84436f7ab6e",
+    "timestamp": "2026-09-07T14:39:36Z",
+    "description": "Estonian national epic",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Kalevipoeg",
+        "revisions": "https://en.wikipedia.org/wiki/Kalevipoeg?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Kalevipoeg?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Kalevipoeg"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Kalevipoeg",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Kalevipoeg",
+        "edit": "https://en.wikipedia.org/wiki/Kalevipoeg?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Kalevipoeg"
+      }
+    },
+    "extract": "Kalevipoeg is a 19th-century epic poem by Friedrich Reinhold Kreutzwald which has since been considered the Estonian national epic.",
+    "extract_html": "<p><i><b>Kalevipoeg</b></i> is a 19th-century epic poem by Friedrich Reinhold Kreutzwald which has since been considered the Estonian national epic.</p>"
+  },
+  "yamata_no_orochi": {
+    "type": "standard",
+    "title": "Yamata no Orochi",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Yamata no Orochi</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1054437",
+    "titles": {
+      "canonical": "Yamata_no_Orochi",
+      "normalized": "Yamata no Orochi",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Yamata no Orochi</span></span>"
+    },
+    "pageid": 236826,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Susano-o_no_Mikoto_Killing_the_Eight-headed_Dragon.jpg/330px-Susano-o_no_Mikoto_Killing_the_Eight-headed_Dragon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 690
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c8/Susano-o_no_Mikoto_Killing_the_Eight-headed_Dragon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1435,
+      "height": 3000
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1352312070",
+    "tid": "0e883226-46f3-11f1-b0c4-d030a9f5be7c",
+    "timestamp": "2026-05-03T13:21:56Z",
+    "description": "Japanese dragon",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Yamata_no_Orochi",
+        "revisions": "https://en.wikipedia.org/wiki/Yamata_no_Orochi?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Yamata_no_Orochi?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Yamata_no_Orochi"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Yamata_no_Orochi",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Yamata_no_Orochi",
+        "edit": "https://en.wikipedia.org/wiki/Yamata_no_Orochi?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Yamata_no_Orochi"
+      }
+    },
+    "extract": "Yamata no Orochi  is a legendary eight-headed and eight-tailed serpent that appears in Japanese mythology. Both the Kojiki and Nihon Shoki record that the kami Susanoo no Mikoto, in order to rescue Kushinadahime, defeated the serpent and that the Kusanagi no Tsurugi, part of the Imperial Regalia of Japan, was found within the serpent's tail.",
+    "extract_html": "<p><b>Yamata no Orochi</b><span style=\"font-weight:normal\"> </span> is a legendary eight-headed and eight-tailed serpent that appears in Japanese mythology. Both the <i>Kojiki</i> and <i>Nihon Shoki</i> record that the kami Susanoo no Mikoto, in order to rescue Kushinadahime, defeated the serpent and that the Kusanagi no Tsurugi, part of the Imperial Regalia of Japan, was found within the serpent's tail.</p>"
+  },
+  "dangun": {
+    "type": "standard",
+    "title": "Tan'gun",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tan&#039;gun</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q549567",
+    "titles": {
+      "canonical": "Tan'gun",
+      "normalized": "Tan'gun",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tan&#039;gun</span></span>"
+    },
+    "pageid": 290133,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portrait_of_Dangun.jpg/330px-Portrait_of_Dangun.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 595
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b8/Portrait_of_Dangun.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 2061,
+      "height": 3716
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1373346208",
+    "tid": "a1e5a4c5-a92d-11f1-98ba-e88a4eef862e",
+    "timestamp": "2026-09-05T13:28:08Z",
+    "description": "Korean king and deity",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Tan'gun",
+        "revisions": "https://en.wikipedia.org/wiki/Tan'gun?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Tan'gun?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tan'gun"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Tan'gun",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Tan'gun",
+        "edit": "https://en.wikipedia.org/wiki/Tan'gun?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tan'gun"
+      }
+    },
+    "extract": "Tan'gun, also known as Tan'gun Wanggŏm, was the legendary founder and first king of Gojoseon, the first Korean kingdom. He founded the first kingdom around the northern part of the Korean Peninsula. He is said to be the \"grandson of heaven\", \"son of a bear\", and to have founded the first kingdom in 2333 BC, whose descendants was surname Park or Pai.",
+    "extract_html": "<p><b>Tan'gun</b>, also known as <b>Tan'gun Wanggŏm</b>, was the legendary founder and first king of Gojoseon, the first Korean kingdom. He founded the first kingdom around the northern part of the Korean Peninsula. He is said to be the \"grandson of heaven\", \"son of a bear\", and to have founded the first kingdom in 2333 BC, whose descendants was surname Park or Pai.</p>"
+  },
+  "tengrism": {
+    "type": "standard",
+    "title": "Tengrism",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tengrism</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q837605",
+    "titles": {
+      "canonical": "Tengrism",
+      "normalized": "Tengrism",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Tengrism</span></span>"
+    },
+    "pageid": 4504155,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Peak_of_Khan_Tengri_at_sunset.jpg/330px-Peak_of_Khan_Tengri_at_sunset.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 497
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/11/Peak_of_Khan_Tengri_at_sunset.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 360,
+      "height": 542
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1370615450",
+    "tid": "7911cd3e-9dd5-11f1-a530-79e276215946",
+    "timestamp": "2026-08-22T02:59:21Z",
+    "description": "Religion of the Eurasian steppe nations",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Tengrism",
+        "revisions": "https://en.wikipedia.org/wiki/Tengrism?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Tengrism?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tengrism"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Tengrism",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Tengrism",
+        "edit": "https://en.wikipedia.org/wiki/Tengrism?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Tengrism"
+      }
+    },
+    "extract": "Tengrism is a belief system originating in the Eurasian steppes, based on shamanism and animism, and commonly centered on the titular sky god Tengri. According to some scholars, adherents of Tengrism view the purpose of life as living in harmony with the universe.",
+    "extract_html": "<p><b>Tengrism</b> is a belief system originating in the Eurasian steppes, based on shamanism and animism, and commonly centered on the titular sky god Tengri. According to some scholars, adherents of Tengrism view the purpose of life as living in harmony with the universe.</p>"
+  },
+  "epic_of_king_gesar": {
+    "type": "standard",
+    "title": "Epic of King Gesar",
+    "displaytitle": "<i>Epic of King Gesar</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q842370",
+    "titles": {
+      "canonical": "Epic_of_King_Gesar",
+      "normalized": "Epic of King Gesar",
+      "display": "<i>Epic of King Gesar</i>"
+    },
+    "pageid": 750970,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Gesar_Gruschke.jpg/330px-Gesar_Gruschke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 253
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/6/62/Gesar_Gruschke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1000,
+      "height": 766
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1367702789",
+    "tid": "39ec2a50-902a-11f1-928a-5fadeaff1610",
+    "timestamp": "2026-08-04T17:30:46Z",
+    "description": "East and Central Asian epic cycle",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Epic_of_King_Gesar",
+        "revisions": "https://en.wikipedia.org/wiki/Epic_of_King_Gesar?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Epic_of_King_Gesar?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Epic_of_King_Gesar"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Epic_of_King_Gesar",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Epic_of_King_Gesar",
+        "edit": "https://en.wikipedia.org/wiki/Epic_of_King_Gesar?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Epic_of_King_Gesar"
+      }
+    },
+    "extract": "The Epic of King Gesar, also spelled Kesar or Geser, is a traditional epic originating from Tibet and Central Asia. Folk balladeers continued to transmit the story orally, enriching its plot and embellished its language over time. The narrative reached its \"final\" form and peak popularity in the early 12th century.",
+    "extract_html": "<p>The <b>Epic of King Gesar</b>, also spelled <b>Kesar</b> or <b>Geser</b>, is a traditional epic originating from Tibet and Central Asia. Folk balladeers continued to transmit the story orally, enriching its plot and embellished its language over time. The narrative reached its \"final\" form and peak popularity in the early 12th century.</p>"
+  },
+  "epic_of_manas": {
+    "type": "standard",
+    "title": "Epic of Manas",
+    "displaytitle": "<i>Epic of Manas</i>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q690174",
+    "titles": {
+      "canonical": "Epic_of_Manas",
+      "normalized": "Epic of Manas",
+      "display": "<i>Epic of Manas</i>"
+    },
+    "pageid": 539743,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1373740928",
+    "tid": "0d717293-aae4-11f1-9e03-44068869a1de",
+    "timestamp": "2026-09-07T17:46:28Z",
+    "description": "Kyrgyz traditional epic poem",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Epic_of_Manas",
+        "revisions": "https://en.wikipedia.org/wiki/Epic_of_Manas?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Epic_of_Manas?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Epic_of_Manas"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Epic_of_Manas",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Epic_of_Manas",
+        "edit": "https://en.wikipedia.org/wiki/Epic_of_Manas?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Epic_of_Manas"
+      }
+    },
+    "extract": "The Epic of Manas is a lengthy and traditional epic poem of the Kyrgyz people of Central Asia. Versions of the poem which date to the 19th century contain historical events of the 8th century; however, Kyrgyz tradition holds it to be much older. The plot of Manas revolves around a series of events that coincide with the history of the region—primarily the interaction of the Kyrgyz people with other neighbouring peoples.",
+    "extract_html": "<p>The <i><b>Epic of Manas</b></i> is a lengthy and traditional epic poem of the Kyrgyz people of Central Asia. Versions of the poem which date to the 19th century contain historical events of the 8th century; however, Kyrgyz tradition holds it to be much older. The plot of <i>Manas</i> revolves around a series of events that coincide with the history of the region—primarily the interaction of the Kyrgyz people with other neighbouring peoples.</p>"
+  },
+  "dewi_sri": {
+    "type": "standard",
+    "title": "Dewi Sri",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dewi Sri</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2746595",
+    "titles": {
+      "canonical": "Dewi_Sri",
+      "normalized": "Dewi Sri",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Dewi Sri</span></span>"
+    },
+    "pageid": 30865327,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Dewi_Sri_Lakshmi_Ancient_Java_in_Sonobudoyo.jpg/330px-Dewi_Sri_Lakshmi_Ancient_Java_in_Sonobudoyo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 554
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/a/af/Dewi_Sri_Lakshmi_Ancient_Java_in_Sonobudoyo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 2340,
+      "height": 3928
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1368305204",
+    "tid": "aa32cbad-92fe-11f1-9ff0-376597681689",
+    "timestamp": "2026-08-08T07:56:30Z",
+    "description": "Hindu Goddess of rice and fertility in Indonesia",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Dewi_Sri",
+        "revisions": "https://en.wikipedia.org/wiki/Dewi_Sri?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Dewi_Sri?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dewi_Sri"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Dewi_Sri",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Dewi_Sri",
+        "edit": "https://en.wikipedia.org/wiki/Dewi_Sri?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Dewi_Sri"
+      }
+    },
+    "extract": "Dewi Sri or Shridevi is the Javanese, Sundanese, and Balinese Hindu Goddess of rice and fertility, still widely worshiped on the islands of Java, Bali and Lombok, Indonesia. She is often associated or equated with the Hindu goddess Lakshmi, the shakti (consort) of Vishnu.",
+    "extract_html": "<p><b>Dewi Sri</b> or <b>Shridevi</b> is the Javanese, Sundanese, and Balinese Hindu Goddess of rice and fertility, still widely worshiped on the islands of Java, Bali and Lombok, Indonesia. She is often associated or equated with the Hindu goddess Lakshmi, the <i>shakti</i> (consort) of Vishnu.</p>"
+  },
+  "barong_(mythology)": {
+    "type": "standard",
+    "title": "Barong (mythology)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Barong (mythology)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q204753",
+    "titles": {
+      "canonical": "Barong_(mythology)",
+      "normalized": "Barong (mythology)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Barong (mythology)</span></span>"
+    },
+    "pageid": 2995079,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Barong%2C_Pura_Taman_Ayun_1501.jpg/330px-Barong%2C_Pura_Taman_Ayun_1501.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 440
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/09/Barong%2C_Pura_Taman_Ayun_1501.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 2304,
+      "height": 3072
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1354283184",
+    "tid": "92c8a6c7-505d-11f1-ba8e-29e7e77ff5a9",
+    "timestamp": "2026-05-15T12:57:05Z",
+    "description": "Character in Balinese mythology",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Barong_(mythology)",
+        "revisions": "https://en.wikipedia.org/wiki/Barong_(mythology)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Barong_(mythology)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Barong_(mythology)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Barong_(mythology)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Barong_(mythology)",
+        "edit": "https://en.wikipedia.org/wiki/Barong_(mythology)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Barong_(mythology)"
+      }
+    },
+    "extract": "Barong is a panther-like creature and character in the Balinese culture of Bali, Indonesia. He is the king of the spirits, leader of the hosts of good, and enemy of Rangda, the demon queen and mother of all spirit guarders in the mythological traditions of Bali. The battle between Barong and Rangda is featured in the Barong dance to represent the eternal battle between good and evil.",
+    "extract_html": "<p><b>Barong</b> is a panther-like creature and character in the Balinese culture of Bali, Indonesia. He is the king of the spirits, leader of the hosts of good, and enemy of Rangda, the demon queen and mother of all spirit guarders in the mythological traditions of Bali. The battle between Barong and Rangda is featured in the Barong dance to represent the eternal battle between good and evil.</p>"
+  },
+  "bakunawa": {
+    "type": "standard",
+    "title": "Bakunawa",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bakunawa</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q4412334",
+    "titles": {
+      "canonical": "Bakunawa",
+      "normalized": "Bakunawa",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bakunawa</span></span>"
+    },
+    "pageid": 8193853,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Malakas_and_Maganda_Emerging_from_Bamboo_BambooMan.jpg/330px-Malakas_and_Maganda_Emerging_from_Bamboo_BambooMan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 354
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Malakas_and_Maganda_Emerging_from_Bamboo_BambooMan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1800,
+      "height": 1930
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1374493275",
+    "tid": "18405423-aea2-11f1-a5d4-7a718c540d46",
+    "timestamp": "2026-09-12T12:04:24Z",
+    "description": "Philippine mythological dragon",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Bakunawa",
+        "revisions": "https://en.wikipedia.org/wiki/Bakunawa?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Bakunawa?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bakunawa"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Bakunawa",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Bakunawa",
+        "edit": "https://en.wikipedia.org/wiki/Bakunawa?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bakunawa"
+      }
+    },
+    "extract": "The Bakunawa, also called the Philippine moon-eating dragon, the Philippine moon dragon, moon dragon, or the moon-eating dragon, is a dragon-like serpent in Philippine mythology that causes several natural phenomena, primarily eclipses. The movements of the Bakunawa served as a geomantic calendar system for ancient Filipinos and were part of the rituals of the babaylan priestess. It is usually depicted with a distinctive looped tail and a single horn on the nose. It was believed to inhabit either the sky or the underworld.",
+    "extract_html": "<p>The <b>Bakunawa</b>, also called the <b>Philippine moon-eating dragon</b>, the <b>Philippine moon dragon</b>, <b>moon dragon</b>, or the <b>moon-eating dragon</b>, is a dragon-like serpent in Philippine mythology that causes several natural phenomena, primarily eclipses. The movements of the Bakunawa served as a geomantic calendar system for ancient Filipinos and were part of the rituals of the <i>babaylan</i> priestess. It is usually depicted with a distinctive looped tail and a single horn on the nose. It was believed to inhabit either the sky or the underworld.</p>"
+  },
+  "sedna_(mythology)": {
+    "type": "standard",
+    "title": "Sedna (mythology)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sedna (mythology)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q875507",
+    "titles": {
+      "canonical": "Sedna_(mythology)",
+      "normalized": "Sedna (mythology)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Sedna (mythology)</span></span>"
+    },
+    "pageid": 92754,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sanna_aux_doigts_coup%C3%A9s.jpg/330px-Sanna_aux_doigts_coup%C3%A9s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 587
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/06/Sanna_aux_doigts_coup%C3%A9s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 2863,
+      "height": 5089
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1362826183",
+    "tid": "1e153a64-7939-11f1-8310-d7946e03a71d",
+    "timestamp": "2026-07-06T12:49:25Z",
+    "description": "Inuit water deity",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Sedna_(mythology)",
+        "revisions": "https://en.wikipedia.org/wiki/Sedna_(mythology)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Sedna_(mythology)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Sedna_(mythology)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Sedna_(mythology)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Sedna_(mythology)",
+        "edit": "https://en.wikipedia.org/wiki/Sedna_(mythology)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Sedna_(mythology)"
+      }
+    },
+    "extract": "Sedna is the goddess of the sea and marine animals in Inuit religion, also known as the Mother of the Sea or Mistress of the Sea. The story of Sedna, which is a creation myth, describes how she came to rule over Adlivun, the Inuit equivalent of the underworld. In sculptures, Sedna is often depicted with the head and upper body of a woman and the tail of a marine mammal, similar to a mermaid.",
+    "extract_html": "<p><b>Sedna</b> is the goddess of the sea and marine animals in Inuit religion, also known as the Mother of the Sea or Mistress of the Sea. The story of Sedna, which is a creation myth, describes how she came to rule over Adlivun, the Inuit equivalent of the underworld. In sculptures, Sedna is often depicted with the head and upper body of a woman and the tail of a marine mammal, similar to a mermaid.</p>"
+  },
+  "raven_tales": {
+    "type": "standard",
+    "title": "Ravens in Native American mythology",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ravens in Native American mythology</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q7296428",
+    "titles": {
+      "canonical": "Ravens_in_Native_American_mythology",
+      "normalized": "Ravens in Native American mythology",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Ravens in Native American mythology</span></span>"
+    },
+    "pageid": 2396489,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/The_Raven_Flood_Totem._-_NARA_-_298052.jpg/330px-The_Raven_Flood_Totem._-_NARA_-_298052.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 528
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b5/The_Raven_Flood_Totem._-_NARA_-_298052.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1874,
+      "height": 3000
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1372292769",
+    "tid": "3052c7e8-a4f1-11f1-a427-11ccf2fa2aa7",
+    "timestamp": "2026-08-31T04:05:23Z",
+    "description": "Traditional creation stories of indigenous peoples of North America",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Ravens_in_Native_American_mythology",
+        "revisions": "https://en.wikipedia.org/wiki/Ravens_in_Native_American_mythology?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Ravens_in_Native_American_mythology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ravens_in_Native_American_mythology"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Ravens_in_Native_American_mythology",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Ravens_in_Native_American_mythology",
+        "edit": "https://en.wikipedia.org/wiki/Ravens_in_Native_American_mythology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ravens_in_Native_American_mythology"
+      }
+    },
+    "extract": "Raven Tales are the traditional human and animal creation stories of the indigenous peoples of the Pacific Northwest Coast. They are also found among Athabaskan-speaking peoples and others. Raven stories exist in nearly all of the First Nations throughout the region but are most prominent in the tales of the Haida, Tsimshian, Tlingit and Tahltan people.",
+    "extract_html": "<p><b>Raven Tales</b> are the traditional human and animal creation stories of the indigenous peoples of the Pacific Northwest Coast. They are also found among Athabaskan-speaking peoples and others. Raven stories exist in nearly all of the First Nations throughout the region but are most prominent in the tales of the Haida, Tsimshian, Tlingit and Tahltan people.</p>"
+  },
+  "white_buffalo_calf_woman": {
+    "type": "standard",
+    "title": "White Buffalo Calf Woman",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">White Buffalo Calf Woman</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q268174",
+    "titles": {
+      "canonical": "White_Buffalo_Calf_Woman",
+      "normalized": "White Buffalo Calf Woman",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">White Buffalo Calf Woman</span></span>"
+    },
+    "pageid": 394942,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Detail_from_%E2%80%9CApparition_of_the_Buffalo_Calf_Maiden%E2%80%9D_%281959%29_by_Frithjof_Schuon.jpg/330px-Detail_from_%E2%80%9CApparition_of_the_Buffalo_Calf_Maiden%E2%80%9D_%281959%29_by_Frithjof_Schuon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 406
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b0/Detail_from_%E2%80%9CApparition_of_the_Buffalo_Calf_Maiden%E2%80%9D_%281959%29_by_Frithjof_Schuon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 350,
+      "height": 431
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1362015427",
+    "tid": "5d164a4a-7549-11f1-8b60-8610e91fd478",
+    "timestamp": "2026-07-01T12:35:38Z",
+    "description": "Sacred woman of supernatural origin, central to the Lakota religion",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/White_Buffalo_Calf_Woman",
+        "revisions": "https://en.wikipedia.org/wiki/White_Buffalo_Calf_Woman?action=history",
+        "edit": "https://en.wikipedia.org/wiki/White_Buffalo_Calf_Woman?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:White_Buffalo_Calf_Woman"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/White_Buffalo_Calf_Woman",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/White_Buffalo_Calf_Woman",
+        "edit": "https://en.wikipedia.org/wiki/White_Buffalo_Calf_Woman?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:White_Buffalo_Calf_Woman"
+      }
+    },
+    "extract": "White Buffalo Calf Woman or White Buffalo Maiden is a sacred woman of supernatural origin, central to the Lakota religion as the primary cultural prophet. Oral traditions relate that she brought the \"Seven Sacred Rites\" to the Lakota people.",
+    "extract_html": "<p><b>White Buffalo Calf Woman</b> or <b>White Buffalo Maiden</b> is a sacred woman of supernatural origin, central to the Lakota religion as the primary cultural prophet. Oral traditions relate that she brought the \"Seven Sacred Rites\" to the Lakota people.</p>"
+  },
+  "iroquois_mythology": {
+    "type": "standard",
+    "title": "Haudenosaunee mythology",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Haudenosaunee mythology</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2314013",
+    "titles": {
+      "canonical": "Haudenosaunee_mythology",
+      "normalized": "Haudenosaunee mythology",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Haudenosaunee mythology</span></span>"
+    },
+    "pageid": 93102,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Three_Iroquois_-_David_Cusick_-_circa_1827.jpg/330px-Three_Iroquois_-_David_Cusick_-_circa_1827.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 294
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/24/Three_Iroquois_-_David_Cusick_-_circa_1827.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1000,
+      "height": 892
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1373260360",
+    "tid": "2d6e22ee-a8b3-11f1-a1d8-d8e98110cc02",
+    "timestamp": "2026-09-04T22:51:34Z",
+    "description": "",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Haudenosaunee_mythology",
+        "revisions": "https://en.wikipedia.org/wiki/Haudenosaunee_mythology?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Haudenosaunee_mythology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Haudenosaunee_mythology"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Haudenosaunee_mythology",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Haudenosaunee_mythology",
+        "edit": "https://en.wikipedia.org/wiki/Haudenosaunee_mythology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Haudenosaunee_mythology"
+      }
+    },
+    "extract": "Haudenosaunee mythology, or Iroquois mythology, includes the creation stories and other religious oral literature of the Haudenosaunee Confederacy composed of six nations of Indigenous peoples of the Northeastern Woodlands in Canada and the United States. Five nations, the Cayuga, Onondaga, Oneida, Mohawk, and Seneca, founded the confederacy. They were joined by the sixth nation, the Tuscarora, in the 18th century.",
+    "extract_html": "<p><b>Haudenosaunee mythology</b>, or <b>Iroquois mythology</b>, includes the creation stories and other religious oral literature of the Haudenosaunee Confederacy composed of six nations of Indigenous peoples of the Northeastern Woodlands in Canada and the United States. Five nations, the Cayuga, Onondaga, Oneida, Mohawk, and Seneca, founded the confederacy. They were joined by the sixth nation, the Tuscarora, in the 18th century.</p>"
+  },
+  "inca_mythology": {
+    "type": "standard",
+    "title": "Inca mythology",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Inca mythology</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q629040",
+    "titles": {
+      "canonical": "Inca_mythology",
+      "normalized": "Inca mythology",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Inca mythology</span></span>"
+    },
+    "pageid": 26569724,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Machu_Picchu_Panorama_2025_%28cropped%29.jpg/330px-Machu_Picchu_Panorama_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 115
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/15/Machu_Picchu_Panorama_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 3100,
+      "height": 1084
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1373399329",
+    "tid": "649a0bd2-a95f-11f1-b89a-5acb21e664c7",
+    "timestamp": "2026-09-05T19:24:20Z",
+    "description": "Myths of the Inca civilization",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Inca_mythology",
+        "revisions": "https://en.wikipedia.org/wiki/Inca_mythology?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Inca_mythology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Inca_mythology"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Inca_mythology",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Inca_mythology",
+        "edit": "https://en.wikipedia.org/wiki/Inca_mythology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Inca_mythology"
+      }
+    },
+    "extract": "Inca mythology of the Inca Empire was based on pre-Inca beliefs that can be found in the Huarochirí Manuscript, and in pre-Inca cultures including Chavín, Paracas, Moche, and the Nazca culture. The mythology informed and supported Inca religion.",
+    "extract_html": "<p><b>Inca mythology</b> of the Inca Empire was based on pre-Inca beliefs that can be found in the Huarochirí Manuscript, and in pre-Inca cultures including Chavín, Paracas, Moche, and the Nazca culture. The mythology informed and supported Inca religion.</p>"
+  },
+  "shango": {
+    "type": "standard",
+    "title": "Shango",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shango</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1547934",
+    "titles": {
+      "canonical": "Shango",
+      "normalized": "Shango",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shango</span></span>"
+    },
+    "pageid": 97079,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Representa%C3%A7%C3%A3o_de_Xang%C3%B4_MN_01.jpg/330px-Representa%C3%A7%C3%A3o_de_Xang%C3%B4_MN_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 516
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/14/Representa%C3%A7%C3%A3o_de_Xang%C3%B4_MN_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1474,
+      "height": 2304
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1370322909",
+    "tid": "dacc1ce2-9c97-11f1-b124-370b1fd9a03a",
+    "timestamp": "2026-08-20T13:05:45Z",
+    "description": "Yoruba deity of thunder and 3rd Alaafin of the Oyo Empire",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Shango",
+        "revisions": "https://en.wikipedia.org/wiki/Shango?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Shango?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shango"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Shango",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Shango",
+        "edit": "https://en.wikipedia.org/wiki/Shango?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shango"
+      }
+    },
+    "extract": "Shango is the Orisha of fire, thunder, lightning, virility, dance, drumming, strength and justice in the Yoruba religion. Genealogically, Shango is a royal ancestor of the Yoruba as he was the third Alaafin of the Oyo Empire prior to his posthumous deification. Shango is known for his double-headed battle-axe (Oṣé) and is considered to be one of the most powerful rulers in Yoruba history.",
+    "extract_html": "<p><b>Shango</b> is the Orisha of fire, thunder, lightning, virility, dance, drumming, strength and justice in the Yoruba religion. Genealogically, Shango is a royal ancestor of the Yoruba as he was the third Alaafin of the Oyo Empire prior to his posthumous deification. Shango is known for his double-headed battle-axe (<i>Oṣé</i>) and is considered to be one of the most powerful rulers in Yoruba history.</p>"
+  },
+  "unkulunkulu": {
+    "type": "standard",
+    "title": "Unkulunkulu",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Unkulunkulu</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1516552",
+    "titles": {
+      "canonical": "Unkulunkulu",
+      "normalized": "Unkulunkulu",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Unkulunkulu</span></span>"
+    },
+    "pageid": 2307320,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1371430901",
+    "tid": "60d8dd1a-a140-11f1-863a-4c9093d14299",
+    "timestamp": "2026-08-26T11:22:10Z",
+    "description": "Zulu mythological figure",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Unkulunkulu",
+        "revisions": "https://en.wikipedia.org/wiki/Unkulunkulu?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Unkulunkulu?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Unkulunkulu"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Unkulunkulu",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Unkulunkulu",
+        "edit": "https://en.wikipedia.org/wiki/Unkulunkulu?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Unkulunkulu"
+      }
+    },
+    "extract": "Unkulunkulu (/uɲɠulun'ɠulu/), often formatted as uNkulunkulu or uMkhulu Omkhulu, is a mythical ancestor, mythical predecessor group, or Supreme Creator in the language of the Zulu, Ndebele, and Swati people. Originally a \"first ancestor\" figure, Unkulunkulu morphed into a creator-god figure with the spread of Christianity.",
+    "extract_html": "<p><b>Unkulunkulu</b> (/uɲɠulun'ɠulu/), often formatted as <b>uNkulunkulu</b> or <b>uMkhulu Omkhulu</b>, is a mythical ancestor, mythical predecessor group, or Supreme Creator in the language of the Zulu, Ndebele, and Swati people. Originally a \"first ancestor\" figure, Unkulunkulu morphed into a creator-god figure with the spread of Christianity.</p>"
+  },
+  "nommo": {
+    "type": "standard",
+    "title": "Nommo",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Nommo</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q3180719",
+    "titles": {
+      "canonical": "Nommo",
+      "normalized": "Nommo",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Nommo</span></span>"
+    },
+    "pageid": 364286,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Brooklyn_Museum_1989.51.39_Nommo_Figure_with_Raised_Arms.jpg/330px-Brooklyn_Museum_1989.51.39_Nommo_Figure_with_Raised_Arms.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 440
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/9/97/Brooklyn_Museum_1989.51.39_Nommo_Figure_with_Raised_Arms.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1152,
+      "height": 1536
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1333776805",
+    "tid": "32b86d77-f563-11f0-843b-73f72592126e",
+    "timestamp": "2026-01-19T18:18:05Z",
+    "description": "Primordial ancestral spirits in Dogon religion and cosmogony",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Nommo",
+        "revisions": "https://en.wikipedia.org/wiki/Nommo?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Nommo?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Nommo"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Nommo",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Nommo",
+        "edit": "https://en.wikipedia.org/wiki/Nommo?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Nommo"
+      }
+    },
+    "extract": "The Nommo or Nummo are primordial ancestral spirits in Dogon religion and cosmogony venerated by the Dogon people of Mali. The word Nommos is derived from a Dogon word meaning \"to make one drink.\" Nommos are usually described as amphibious, hermaphroditic, fish-like creatures. Folk art depictions of Nommos show creatures with humanoid upper torsos, legs/feet, and a fish-like lower torso and tail. Nommos are also referred to as \"Masters of the Water\", \"the Monitors\", and \"the Teachers\". Nommo can be a proper name of an individual or can refer to the group of spirits as a whole. For purposes of this article, \"Nommo\" refers to a specific individual and \"Nommos\" is used to reference the group of beings.",
+    "extract_html": "<p>The <b>Nommo</b> or <b>Nummo</b> are primordial ancestral spirits in Dogon religion and cosmogony venerated by the Dogon people of Mali. The word Nommos is derived from a Dogon word meaning \"to make one drink.\" Nommos are usually described as amphibious, hermaphroditic, fish-like creatures. Folk art depictions of Nommos show creatures with humanoid upper torsos, legs/feet, and a fish-like lower torso and tail. Nommos are also referred to as \"Masters of the Water\", \"the Monitors\", and \"the Teachers\". Nommo can be a proper name of an individual or can refer to the group of spirits as a whole. For purposes of this article, \"Nommo\" refers to a specific individual and \"Nommos\" is used to reference the group of beings.</p>"
+  },
+  "mwindo_epic": {
+    "type": "standard",
+    "title": "Mwindo epic",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Mwindo epic</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q6944739",
+    "titles": {
+      "canonical": "Mwindo_epic",
+      "normalized": "Mwindo epic",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Mwindo epic</span></span>"
+    },
+    "pageid": 4402957,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1369723533",
+    "tid": "909c1e98-99a5-11f1-bdf9-13ffb1491910",
+    "timestamp": "2026-08-16T19:06:20Z",
+    "description": "Oral tale from the Congo told by the Nyanga people",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Mwindo_epic",
+        "revisions": "https://en.wikipedia.org/wiki/Mwindo_epic?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Mwindo_epic?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Mwindo_epic"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Mwindo_epic",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Mwindo_epic",
+        "edit": "https://en.wikipedia.org/wiki/Mwindo_epic?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Mwindo_epic"
+      }
+    },
+    "extract": "The Mwindo epic is an oral tale from the Congo told by the Nyanga people. The origins and creation of the Mwindo epic are mostly unknown since the story is only passed down orally. A version of the story was recorded by Kahombo Mateene and Daniel Biebuyck and published in 1969.",
+    "extract_html": "<p>The <b><i>Mwindo</i> epic</b> is an oral tale from the Congo told by the Nyanga people. The origins and creation of the Mwindo epic are mostly unknown since the story is only passed down orally. A version of the story was recorded by Kahombo Mateene and Daniel Biebuyck and published in 1969.</p>"
+  },
+  "kintu": {
+    "type": "standard",
+    "title": "Kintu",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Kintu</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1636788",
+    "titles": {
+      "canonical": "Kintu",
+      "normalized": "Kintu",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Kintu</span></span>"
+    },
+    "pageid": 7197701,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1369596983",
+    "tid": "f041ee35-9903-11f1-9a75-f44b4f25c246",
+    "timestamp": "2026-08-15T23:49:22Z",
+    "description": "Ugandan mythological figure",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Kintu",
+        "revisions": "https://en.wikipedia.org/wiki/Kintu?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Kintu?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Kintu"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Kintu",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Kintu",
+        "edit": "https://en.wikipedia.org/wiki/Kintu?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Kintu"
+      }
+    },
+    "extract": "\nKintu is a mythological figure who appears in a creation myth of the people of Buganda, Uganda. According to this legend, Kintu was the first person on earth, and the first Muganda.",
+    "extract_html": "<p>\n<b>Kintu</b> is a mythological figure who appears in a creation myth of the people of Buganda, Uganda. According to this legend, Kintu was the first person on earth, and the first Muganda.</p>"
+  },
+  "pele_(deity)": {
+    "type": "standard",
+    "title": "Pele (deity)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Pele (deity)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1133063",
+    "titles": {
+      "canonical": "Pele_(deity)",
+      "normalized": "Pele (deity)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Pele (deity)</span></span>"
+    },
+    "pageid": 262221,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/1/1b/The_goddess_pele_by_arthur_johnsen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 315
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/en/1/1b/The_goddess_pele_by_arthur_johnsen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 250,
+      "height": 315
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1373339910",
+    "tid": "1fa4b27a-a924-11f1-a14c-5fc3603ade43",
+    "timestamp": "2026-09-05T12:20:04Z",
+    "description": "Hawaiian goddess of volcanoes and fire",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Pele_(deity)",
+        "revisions": "https://en.wikipedia.org/wiki/Pele_(deity)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Pele_(deity)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Pele_(deity)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Pele_(deity)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Pele_(deity)",
+        "edit": "https://en.wikipedia.org/wiki/Pele_(deity)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Pele_(deity)"
+      }
+    },
+    "extract": "In Hawaiian religion, Pele is the goddess of volcanoes and fire and the creator of the Hawaiian Islands. Often referred to as \"Madame Pele\" or \"Tūtū Pele\" as a sign of respect, she is a well-known deity within Hawaiian mythology and is notable for her contemporary presence and cultural influence as an enduring figure from ancient Hawaii. Epithets of the goddess include Pele-honua-mea and Ka wahine ʻai honua.",
+    "extract_html": "<p>In Hawaiian religion, <b>Pele</b> is the goddess of volcanoes and fire and the creator of the Hawaiian Islands. Often referred to as \"Madame Pele\" or \"Tūtū Pele\" as a sign of respect, she is a well-known deity within Hawaiian mythology and is notable for her contemporary presence and cultural influence as an enduring figure from ancient Hawaii. Epithets of the goddess include <i>Pele-honua-mea</i> and <i>Ka wahine ʻai honua</i>.</p>"
+  },
+  "rangi_and_papa": {
+    "type": "standard",
+    "title": "Rangi and Papa",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Rangi and Papa</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2130974",
+    "titles": {
+      "canonical": "Rangi_and_Papa",
+      "normalized": "Rangi and Papa",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Rangi and Papa</span></span>"
+    },
+    "pageid": 95460,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/WahineTane.jpg/330px-WahineTane.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 563
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/d/d7/WahineTane.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 934,
+      "height": 1594
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1353576986",
+    "tid": "1727cdc1-4ce2-11f1-af9a-a5b235c1db8f",
+    "timestamp": "2026-05-11T02:35:36Z",
+    "description": "World parents of Māori creation story",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Rangi_and_Papa",
+        "revisions": "https://en.wikipedia.org/wiki/Rangi_and_Papa?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Rangi_and_Papa?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Rangi_and_Papa"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Rangi_and_Papa",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Rangi_and_Papa",
+        "edit": "https://en.wikipedia.org/wiki/Rangi_and_Papa?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Rangi_and_Papa"
+      }
+    },
+    "extract": "In Māori mythology the primal couple Rangi and Papa appear in a creation myth explaining the origin of the world and the Māori people. In some South Island dialects, Rangi is called Raki or Rakinui.",
+    "extract_html": "<p>In Māori mythology the primal couple <b>Rangi and Papa</b> appear in a creation myth explaining the origin of the world and the Māori people. In some South Island dialects, Rangi is called <b>Raki</b> or <b>Rakinui</b>.</p>"
+  },
+  "lemminkäinen": {
+    "type": "standard",
+    "title": "Lemminkäinen",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lemminkäinen</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q389512",
+    "titles": {
+      "canonical": "Lemminkäinen",
+      "normalized": "Lemminkäinen",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lemminkäinen</span></span>"
+    },
+    "pageid": 559665,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Gallen_Kallela_Lemminkainens_Mother.jpg/330px-Gallen_Kallela_Lemminkainens_Mother.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 260
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Gallen_Kallela_Lemminkainens_Mother.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 2244,
+      "height": 1770
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1374413549",
+    "tid": "ff995655-ae33-11f1-897c-b8dce0be8575",
+    "timestamp": "2026-09-11T22:56:18Z",
+    "description": "Character in Finnish mythology",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Lemmink%C3%A4inen",
+        "revisions": "https://en.wikipedia.org/wiki/Lemmink%C3%A4inen?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Lemmink%C3%A4inen?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Lemmink%C3%A4inen"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Lemmink%C3%A4inen",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Lemmink%C3%A4inen",
+        "edit": "https://en.wikipedia.org/wiki/Lemmink%C3%A4inen?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Lemmink%C3%A4inen"
+      }
+    },
+    "extract": "Lemminkäinen or Lemminki is a prominent figure in Finnish mythology. He also appears in Karelian and Estonian folk poetry. He is one of the heroes of the Kalevala, where his character is a composite of several separate heroes of oral poetry. He is usually depicted as young and good-looking, with wavy red hair.",
+    "extract_html": "<p><b>Lemminkäinen</b> or <b>Lemminki</b> is a prominent figure in Finnish mythology. He also appears in Karelian and Estonian folk poetry. He is one of the heroes of the <i>Kalevala</i>, where his character is a composite of several separate heroes of oral poetry. He is usually depicted as young and good-looking, with wavy red hair.</p>"
+  },
+  "perkūnas": {
+    "type": "standard",
+    "title": "Perkūnas",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Perkūnas</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q616848",
+    "titles": {
+      "canonical": "Perkūnas",
+      "normalized": "Perkūnas",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Perkūnas</span></span>"
+    },
+    "pageid": 1039187,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Perkunas_of_Kernav%C4%97s.jpg/330px-Perkunas_of_Kernav%C4%97s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 462
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Perkunas_of_Kernav%C4%97s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 3591,
+      "height": 5024
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1345660569",
+    "tid": "efe29d7e-29c8-11f1-b4c7-4b08774577dd",
+    "timestamp": "2026-03-27T10:37:22Z",
+    "description": "Baltic god of thunder",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Perk%C5%ABnas",
+        "revisions": "https://en.wikipedia.org/wiki/Perk%C5%ABnas?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Perk%C5%ABnas?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Perk%C5%ABnas"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Perk%C5%ABnas",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Perk%C5%ABnas",
+        "edit": "https://en.wikipedia.org/wiki/Perk%C5%ABnas?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Perk%C5%ABnas"
+      }
+    },
+    "extract": "Perkūnas was the common Baltic god of thunder, and the second most important deity in the Baltic pantheon after Dievas. In both Lithuanian and Latvian mythology, he is documented as the god of sky, thunder, lightning, storms, rain, fire, war, law, order, fertility, mountains, and oak trees.",
+    "extract_html": "<p><b>Perkūnas</b> was the common Baltic god of thunder, and the second most important deity in the Baltic pantheon after Dievas. In both Lithuanian and Latvian mythology, he is documented as the god of sky, thunder, lightning, storms, rain, fire, war, law, order, fertility, mountains, and oak trees.</p>"
+  },
+  "lạc_long_quân": {
+    "type": "standard",
+    "title": "Lạc Long Quân",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lạc Long Quân</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1190131",
+    "titles": {
+      "canonical": "Lạc_Long_Quân",
+      "normalized": "Lạc Long Quân",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Lạc Long Quân</span></span>"
+    },
+    "pageid": 4885716,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ph%C3%B9_%C4%91i%C3%AAu_Qu%E1%BB%91c_t%E1%BB%95_L%E1%BA%A1c_Long_Qu%C3%A2n_t%E1%BA%A1i_%C4%90%E1%BB%81n_N%E1%BB%99i_B%C3%ACnh_%C4%90%C3%A0.jpg/330px-Ph%C3%B9_%C4%91i%C3%AAu_Qu%E1%BB%91c_t%E1%BB%95_L%E1%BA%A1c_Long_Qu%C3%A2n_t%E1%BA%A1i_%C4%90%E1%BB%81n_N%E1%BB%99i_B%C3%ACnh_%C4%90%C3%A0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 231
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Ph%C3%B9_%C4%91i%C3%AAu_Qu%E1%BB%91c_t%E1%BB%95_L%E1%BA%A1c_Long_Qu%C3%A2n_t%E1%BA%A1i_%C4%90%E1%BB%81n_N%E1%BB%99i_B%C3%ACnh_%C4%90%C3%A0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 480,
+      "height": 336
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1370030856",
+    "tid": "c8859cc1-9b34-11f1-9fb8-4b0d5f4c1a51",
+    "timestamp": "2026-08-18T18:44:03Z",
+    "description": "Ancient king of Vietnam",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n",
+        "revisions": "https://en.wikipedia.org/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n?action=history",
+        "edit": "https://en.wikipedia.org/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:L%E1%BA%A1c_Long_Qu%C3%A2n"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/L%E1%BA%A1c_Long_Qu%C3%A2n",
+        "edit": "https://en.wikipedia.org/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:L%E1%BA%A1c_Long_Qu%C3%A2n"
+      }
+    },
+    "extract": "Lạc Long Quân, also known as Sùng Lãm (崇纜), is a legendary king of the Hồng Bàng dynasty of ancient Vietnam. Quân was the son of Kinh Dương Vương, the king of Xích Quỷ. He is the main figure in the Vietnamese myth of Lạc Long Quân - Âu Cơ.",
+    "extract_html": "<p><b>Lạc Long Quân</b>, also known as <b>Sùng Lãm</b> (崇纜), is a legendary king of the Hồng Bàng dynasty of ancient Vietnam. Quân was the son of Kinh Dương Vương, the king of Xích Quỷ. He is the main figure in the Vietnamese myth of <b><span><span style=\"font-style:normal\">Lạc Long Quân - Âu Cơ</span></span></b>.</p>"
+  },
+  "diné_bahaneʼ": {
+    "type": "standard",
+    "title": "Diné Bahaneʼ",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Diné Bahaneʼ</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q5278771",
+    "titles": {
+      "canonical": "Diné_Bahaneʼ",
+      "normalized": "Diné Bahaneʼ",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Diné Bahaneʼ</span></span>"
+    },
+    "pageid": 93127,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1371941106",
+    "tid": "e1e9ddc7-a3af-11f1-8844-54238f88b466",
+    "timestamp": "2026-08-29T13:45:23Z",
+    "description": "Navajo creation myth",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Din%C3%A9_Bahane%CA%BC",
+        "revisions": "https://en.wikipedia.org/wiki/Din%C3%A9_Bahane%CA%BC?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Din%C3%A9_Bahane%CA%BC?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Din%C3%A9_Bahane%CA%BC"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Din%C3%A9_Bahane%CA%BC",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Din%C3%A9_Bahane%CA%BC",
+        "edit": "https://en.wikipedia.org/wiki/Din%C3%A9_Bahane%CA%BC?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Din%C3%A9_Bahane%CA%BC"
+      }
+    },
+    "extract": "Diné Bahaneʼ, is a Navajo creation story that describes the prehistoric emergence of the Navajo as a part of the Navajo religious beliefs. It centers on the area known as the Dinétah, the traditional homeland of the Navajo, and forms the basis of the traditional Navajo way of life and ceremony. Throughout the stories, the importance of cardinal points and the number four are emphasized in multiple aspects.",
+    "extract_html": "<p><b><span style=\"font-family:Aboriginal Sans, DejaVu Sans, Calibri, Arial Unicode MS, sans-serif\"><span><i lang=\"nv\">Diné Bahaneʼ</i></span></span></b>, is a Navajo creation story that describes the prehistoric emergence of the Navajo as a part of the Navajo religious beliefs. It centers on the area known as the Dinétah, the traditional homeland of the Navajo, and forms the basis of the traditional Navajo way of life and ceremony. Throughout the stories, the importance of cardinal points and the number four are emphasized in multiple aspects.</p>"
+  },
+  "taíno": {
+    "type": "standard",
+    "title": "Taíno",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Taíno</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q210623",
+    "titles": {
+      "canonical": "Taíno",
+      "normalized": "Taíno",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Taíno</span></span>"
+    },
+    "pageid": 31998621,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Estatua_de_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_el_Parque_Monumento_a_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_Ponce%2C_Puerto_Rico_%28DSC02672C%29.jpg/330px-Estatua_de_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_el_Parque_Monumento_a_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_Ponce%2C_Puerto_Rico_%28DSC02672C%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 657
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Estatua_de_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_el_Parque_Monumento_a_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_Ponce%2C_Puerto_Rico_%28DSC02672C%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1028,
+      "height": 2048
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1370165371",
+    "tid": "ec4bf415-9bd3-11f1-a7c9-16e2a4296db4",
+    "timestamp": "2026-08-19T13:43:13Z",
+    "description": "Indigenous people of the Caribbean",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Ta%C3%ADno",
+        "revisions": "https://en.wikipedia.org/wiki/Ta%C3%ADno?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Ta%C3%ADno?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ta%C3%ADno"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Ta%C3%ADno",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Ta%C3%ADno",
+        "edit": "https://en.wikipedia.org/wiki/Ta%C3%ADno?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Ta%C3%ADno"
+      }
+    },
+    "extract": "The Taíno were the Indigenous peoples in most of the West Indies, in the Caribbean region of the Americas. Their culture has been continued today by their descendants and by Taíno revivalist communities. They were the first New World peoples encountered by non-Norse Europeans. Part of the Arawak group of Indigenous peoples in the Americas, the Taíno are also referred to as Island Arawaks or Antillean Arawaks.",
+    "extract_html": "<p>The <b>Taíno</b> were the Indigenous peoples in most of the West Indies, in the Caribbean region of the Americas. Their culture has been continued today by their descendants and by Taíno revivalist communities. They were the first New World peoples encountered by non-Norse Europeans. Part of the Arawak group of Indigenous peoples in the Americas, the Taíno are also referred to as <b>Island Arawaks</b> or <b>Antillean Arawaks</b>.</p>"
+  },
+  "mapuche_mythology": {
+    "type": "standard",
+    "title": "Mapuche religion",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Mapuche religion</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q6754235",
+    "titles": {
+      "canonical": "Mapuche_religion",
+      "normalized": "Mapuche religion",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Mapuche religion</span></span>"
+    },
+    "pageid": 7531121,
+    "thumbnail": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mapuche_kultrun.svg/330px-Mapuche_kultrun.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 330
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mapuche_kultrun.svg/500px-Mapuche_kultrun.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 400,
+      "height": 400
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1372391593",
+    "tid": "9d46794a-a54a-11f1-a0ce-3c9188e83513",
+    "timestamp": "2026-08-31T14:45:31Z",
+    "description": "Religion of the indigenous Mapuche people of South America",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Mapuche_religion",
+        "revisions": "https://en.wikipedia.org/wiki/Mapuche_religion?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Mapuche_religion?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Mapuche_religion"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Mapuche_religion",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Mapuche_religion",
+        "edit": "https://en.wikipedia.org/wiki/Mapuche_religion?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Mapuche_religion"
+      }
+    },
+    "extract": "Mapuche religion is the traditional Native American religion of the Mapuche people. It is practiced primarily in south-central Chile and southwest Argentina. The tradition has no formal leadership or organizational structure and displays much internal variation.",
+    "extract_html": "<p><b>Mapuche religion</b> is the traditional Native American religion of the Mapuche people. It is practiced primarily in south-central Chile and southwest Argentina. The tradition has no formal leadership or organizational structure and displays much internal variation.</p>"
+  },
+  "guarani_mythology": {
+    "type": "standard",
+    "title": "Guarani mythology",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Guarani mythology</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2748289",
+    "titles": {
+      "canonical": "Guarani_mythology",
+      "normalized": "Guarani mythology",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Guarani mythology</span></span>"
+    },
+    "pageid": 92801,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1345006194",
+    "tid": "5af35348-26f3-11f1-8cd7-613696a02c34",
+    "timestamp": "2026-03-23T20:03:27Z",
+    "description": "",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Guarani_mythology",
+        "revisions": "https://en.wikipedia.org/wiki/Guarani_mythology?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Guarani_mythology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Guarani_mythology"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Guarani_mythology",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Guarani_mythology",
+        "edit": "https://en.wikipedia.org/wiki/Guarani_mythology?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Guarani_mythology"
+      }
+    },
+    "extract": "The Guarani mythology is the set of narratives about the gods and spirits of the different Tupi-Guarani peoples, ancient and current. Together with the cosmogonies, anthropogonies and rituals, they form part of the religion of these peoples.",
+    "extract_html": "<p>The <b>Guarani mythology</b> is the set of narratives about the gods and spirits of the different Tupi-Guarani peoples, ancient and current. Together with the cosmogonies, anthropogonies and rituals, they form part of the religion of these peoples.</p>"
+  },
+  "kaggen": {
+    "type": "standard",
+    "title": "ǀKaggen",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">ǀKaggen</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q2661059",
+    "titles": {
+      "canonical": "ǀKaggen",
+      "normalized": "ǀKaggen",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">ǀKaggen</span></span>"
+    },
+    "pageid": 17478438,
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1305906461",
+    "tid": "bdf45f10-7948-11f0-a23a-c9c4a679b6c3",
+    "timestamp": "2025-08-14T19:56:18Z",
+    "description": "Demiurge and folk hero of the San people of southern Africa",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/%C7%80Kaggen",
+        "revisions": "https://en.wikipedia.org/wiki/%C7%80Kaggen?action=history",
+        "edit": "https://en.wikipedia.org/wiki/%C7%80Kaggen?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:%C7%80Kaggen"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/%C7%80Kaggen",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/%C7%80Kaggen",
+        "edit": "https://en.wikipedia.org/wiki/%C7%80Kaggen?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:%C7%80Kaggen"
+      }
+    },
+    "extract": "ǀKaggen is a demiurge and folk hero of the San people of southern Africa. He is a trickster god who can shape shift, usually taking the form of a praying mantis but also a bull eland, a louse, a snake, and a caterpillar.",
+    "extract_html": "<p><b>ǀKaggen</b> is a demiurge and folk hero of the San people of southern Africa. He is a trickster god who can shape shift, usually taking the form of a praying mantis but also a bull eland, a louse, a snake, and a caterpillar.</p>"
+  },
+  "māui_(māori_mythology)": {
+    "type": "standard",
+    "title": "Māui (Māori mythology)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Māui (Māori mythology)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1806741",
+    "titles": {
+      "canonical": "Māui_(Māori_mythology)",
+      "normalized": "Māui (Māori mythology)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Māui (Māori mythology)</span></span>"
+    },
+    "pageid": 5873281,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Te_Tohunga_-_p49.png/330px-Te_Tohunga_-_p49.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 445
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/b/b7/Te_Tohunga_-_p49.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 2036,
+      "height": 2744
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1360179290",
+    "tid": "fae84d1f-6c10-11f1-b492-9bf6f120d449",
+    "timestamp": "2026-06-19T18:59:21Z",
+    "description": "Māori culture hero",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/M%C4%81ui_(M%C4%81ori_mythology)",
+        "revisions": "https://en.wikipedia.org/wiki/M%C4%81ui_(M%C4%81ori_mythology)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/M%C4%81ui_(M%C4%81ori_mythology)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:M%C4%81ui_(M%C4%81ori_mythology)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/M%C4%81ui_(M%C4%81ori_mythology)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/M%C4%81ui_(M%C4%81ori_mythology)",
+        "edit": "https://en.wikipedia.org/wiki/M%C4%81ui_(M%C4%81ori_mythology)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:M%C4%81ui_(M%C4%81ori_mythology)"
+      }
+    },
+    "extract": "In Māori mythology, as in other Polynesian traditions, Māui is a culture hero, demigod and a trickster, famous for his exploits and cleverness. He possessed superhuman strength, and was capable of shapeshifting into animals such as birds and worms.",
+    "extract_html": "<p>In Māori mythology, as in other Polynesian traditions, <b>Māui</b> is a culture hero, demigod and a trickster, famous for his exploits and cleverness. He possessed superhuman strength, and was capable of shapeshifting into animals such as birds and worms.</p>"
   }
 }

@@ -89,8 +89,7 @@
     "archetype": "Storm God vs Sea Serpent",
     "syncretic_ids": [
       "Q190864",
-      "Q131379",
-      "Q179198"
+      "Q131379"
     ],
     "extract": "Marduk was a god from ancient Mesopotamia, patron deity of Babylon.\nFirst sparsely attested in the 3rd millennium BC, Marduk slowly rose to prominence before being enshrined as leader of the Mesopotamian pantheon under Nebuchadnezzar I in the 2nd millennium BC. In Babylon, Marduk was worshipped in the Esagila temple.",
     "description": "National god of the Babylonians",
@@ -129,8 +128,7 @@
     "archetype": "Storm God vs Mot (Death) & Yam (Sea)",
     "syncretic_ids": [
       "Q190864",
-      "Q8785",
-      "Q107873"
+      "Q8785"
     ],
     "extract": "The Baal Cycle is an Ugaritic text about the Canaanite god Baʿal, a storm god associated with fertility. It consists of six tablets, itemized as KTU 1.1–1.6. Tablets one and two are about the cosmic battle between the storm-god Baal and the sea god Yam, where the former attains victory. The next two tablets describe the construction of Baal's palace that marks his cosmic kingship. The last two tablets describe Baal's struggles against Mot, the god of the underworld.",
     "description": "Levantine mythological cycle of stories",
@@ -188,8 +186,7 @@
     "archetype": "Dying-and-Rising King / Underworld Judge",
     "syncretic_ids": [
       "Q272486",
-      "Q107873",
-      "Q35060"
+      "Q179654"
     ],
     "extract": "The Osiris myth is the most elaborate and influential story in ancient Egyptian mythology. It concerns the murder of the god Osiris, a primeval king of Egypt, and its consequences. Osiris's murderer, his brother Set, usurps his throne. Meanwhile, Osiris's wife Isis restores her husband's body, allowing him to posthumously conceive their son, Horus. The remainder of the story focuses on Horus, the product of the union of Isis and Osiris, who is at first a vulnerable child protected by his mother and then becomes Set's rival for the throne. Their often violent conflict ends with Horus's triumph, which restores maat to Egypt after Set's unrighteous reign and completes the process of Osiris's resurrection.",
     "description": "Story in ancient Egyptian mythology",
@@ -208,8 +205,7 @@
     "archetype": "Magical Protector & Divine Mother",
     "syncretic_ids": [
       "Q46580",
-      "Q35060",
-      "Q179198"
+      "Q35060"
     ],
     "extract": "Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. Isis was first mentioned in the Old Kingdom as one of the main characters of the Osiris myth, in which she resurrects her slain brother and husband, the divine king Osiris, and produces and protects his heir, Horus. She was believed to help the dead enter the afterlife as she had helped Osiris, and she was considered the divine mother of the pharaoh, who was likened to Horus. Her maternal aid was invoked in healing spells to benefit ordinary people. Originally, she played a limited role in royal rituals and temple rites, although she was more prominent in funerary practices and magical texts. She was usually portrayed in art as a human woman wearing a throne-like hieroglyph on her head. During the New Kingdom, Isis took on traits that originally belonged to Hathor, the preeminent goddess of earlier time. Isis was portrayed wearing Hathor's headdress, a sun disk between the horns of a cow.",
     "description": "Ancient Egyptian goddess",
@@ -280,7 +276,7 @@
     "lng": 81.84,
     "epoch_start": -1500,
     "epoch_end": -500,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Cosmic Churning / Elixir of Immortality (Amrita)",
     "syncretic_ids": [
       "Q248352",
@@ -299,7 +295,7 @@
     "lng": 76.4,
     "epoch_start": -1500,
     "epoch_end": -1000,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Primordial Void & Cosmic Paradox",
     "syncretic_ids": [
       "Q190864"
@@ -317,12 +313,11 @@
     "lng": 76.77,
     "epoch_start": -1500,
     "epoch_end": -900,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Chaoskampf / Releasing the Waters",
     "syncretic_ids": [
       "Q8785",
-      "Q131379",
-      "Q131488"
+      "Q131379"
     ],
     "extract": "Vritra is a danava in Hinduism. He serves as the personification of drought, and is an adversary of the king of the devas, Indra. As a danava, he belongs to the race of the asuras. Vritra is also known in the Vedas as Ahi. He appears as a human-like serpent blocking the course of the Rigvedic rivers, and is slain by Indra with his newly forged vajra.",
     "description": "Asura in Hinduism",
@@ -337,7 +332,7 @@
     "lng": 82.2,
     "epoch_start": -700,
     "epoch_end": -200,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Exile of Righteous Hero & Rescue of Consort",
     "syncretic_ids": [
       "Q1164",
@@ -356,7 +351,7 @@
     "lng": 76.88,
     "epoch_start": -800,
     "epoch_end": 400,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Dynastic Apocalypse / The Cosmic Wheel (Dharma)",
     "syncretic_ids": [
       "Q8275",
@@ -375,7 +370,7 @@
     "lng": 78.93,
     "epoch_start": -600,
     "epoch_end": 300,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Celestial River Tamed by Ascetic God",
     "syncretic_ids": [
       "Q39546"
@@ -384,6 +379,100 @@
     "description": "Personification of the river Ganges as a deity in Hinduism",
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/17th_to_18th-century_goddess_Ganga_sculpture%2C_Mus%C3%A9e_Rodin%2C_Paris.jpg/330px-17th_to_18th-century_goddess_Ganga_sculpture%2C_Mus%C3%A9e_Rodin%2C_Paris.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Ganga_(goddess)"
+  },
+  {
+    "id": "Q131580",
+    "name": "Shiva Tandava (Cosmic Dance of Destruction)",
+    "wiki_title": "Tandava",
+    "lat": 11.39,
+    "lng": 79.69,
+    "epoch_start": -500,
+    "epoch_end": 600,
+    "culture": "Vedic & Hindu",
+    "archetype": "Cosmic Dissolution and Re-Creation",
+    "syncretic_ids": [
+      "Q169542",
+      "Q190864"
+    ],
+    "extract": "Tandavam, also known as Tāṇḍava Natyam, is a divine dance performed by Hindu god Shiva. Shiva is depicted as dancing the Tandava in his form of Nataraja.",
+    "description": "Divine dance performed by the Hindu god Shiva",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg/330px-Shiva_as_the_Lord_of_Dance_LACMA_edit.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tandava"
+  },
+  {
+    "id": "Q131585",
+    "name": "Ahura Mazda vs Angra Mainyu",
+    "wiki_title": "Ahura_Mazda",
+    "lat": 32.88,
+    "lng": 59.22,
+    "epoch_start": -1200,
+    "epoch_end": 651,
+    "culture": "Persian & Iranian",
+    "archetype": "Cosmic Dualism: Light (Asha) vs Deceit (Druj)",
+    "syncretic_ids": [
+      "Q190864",
+      "Q131379"
+    ],
+    "extract": "Ahura Mazda, also known as Ormazd and Horomazes, is the principal God and sky deity in Zoroastrianism. He is the first and most frequently invoked spirit in the Yasna. The literal meanings of the words Ahura and Mazda are \"lord\" and \"wisdom\", respectively.",
+    "description": "Highest deity of Zoroastrianism",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/96/Naqshe_Rostam_Darafsh_Ordibehesht_93_%2835%29.JPG/330px-Naqshe_Rostam_Darafsh_Ordibehesht_93_%2835%29.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ahura_Mazda"
+  },
+  {
+    "id": "Q8279",
+    "name": "Ferdowsi's Shahnameh (Rostam and Sohrab)",
+    "wiki_title": "Shahnameh",
+    "lat": 36.3,
+    "lng": 59.6,
+    "epoch_start": 977,
+    "epoch_end": 1010,
+    "culture": "Persian & Iranian",
+    "archetype": "Tragic Filicide / National Heroic Epic",
+    "syncretic_ids": [
+      "Q1164",
+      "Q8275"
+    ],
+    "extract": "The Shahnameh, also romanized Shahnama, is a long epic poem written by the Persian poet Ferdowsi between c. 977 and 1010 CE and is the national epic of Greater Iran. Consisting of some 50,000 distichs or couplets, the Shahnameh is one of the world's longest epic poems, and the longest epic poem created by a single author. It tells of the mainly mythical but to some extent historical past of Iran from the creation of the world until the Muslim conquest in the seventh century. Iran, Afghanistan, Azerbaijan, Tajikistan and the greater region influenced by Persian culture such as Armenia, Dagestan, Georgia, Turkey, Turkmenistan and Uzbekistan celebrate this national epic. It took Ferdowsi 33 years to complete the Shahnameh in its entirety.",
+    "description": "Epic poem by Ferdowsi",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/00/The_Court_of_Gayumars_%28Cropped%29.jpg/330px-The_Court_of_Gayumars_%28Cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shahnameh"
+  },
+  {
+    "id": "Q131595",
+    "name": "The Simurgh and Prince Zal",
+    "wiki_title": "Simurgh",
+    "lat": 35.95,
+    "lng": 52.11,
+    "epoch_start": -500,
+    "epoch_end": 1000,
+    "culture": "Persian & Iranian",
+    "archetype": "Benevolent Mythic Avian Guardian of the Hero",
+    "syncretic_ids": [
+      "Q487840"
+    ],
+    "extract": "The simurgh is a benevolent bird in Iranian mythology and literature. It bears some similarities with mythological birds from different origins, such as the phoenix and the humā. The figure can be found in all periods of Iranian art and literature and is also evident in the iconography of Georgia, medieval Armenia, the Eastern Roman Empire, and other regions that were within the realm of Persian cultural influence.",
+    "description": "Iranian mythological bird",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f2/Senmurv.svg/330px-Senmurv.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Simurgh"
+  },
+  {
+    "id": "Q131598",
+    "name": "Jamshid and the Golden Age (Yima's Vara)",
+    "wiki_title": "Jamshid",
+    "lat": 29.93,
+    "lng": 52.89,
+    "epoch_start": -1000,
+    "epoch_end": 651,
+    "culture": "Persian & Iranian",
+    "archetype": "Golden Age King / Subterranean Haven Against Cosmic Winter",
+    "syncretic_ids": [
+      "Q190535",
+      "Q248352"
+    ],
+    "extract": "Jamshid ; Classical Persian: جمشید Jamshēd ; Middle and New Persian: جم Jam ), also known as Yima, is the fourth Shah of the mythological Pishdadian dynasty of Iran according to Shahnameh.",
+    "description": "Iranian king",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/A_monumental_portrait_of_King_Jamshid%2C_signed_by_Mihr_%E2%80%98Ali%2C_Persia%2C_Qajar%2C_dated_1218_AH_1803_AD_Sotheby%27s.jpg/330px-A_monumental_portrait_of_King_Jamshid%2C_signed_by_Mihr_%E2%80%98Ali%2C_Persia%2C_Qajar%2C_dated_1218_AH_1803_AD_Sotheby%27s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jamshid"
   },
   {
     "id": "Q8275",
@@ -454,8 +543,7 @@
     "archetype": "Underworld Abduction & Agricultural Rebirth",
     "syncretic_ids": [
       "Q272486",
-      "Q46580",
-      "Q107873"
+      "Q46580"
     ],
     "extract": "In ancient Greek mythology and religion, Persephone is the daughter of Zeus and Demeter. She became the queen of the underworld after her abduction by her uncle Hades, the king of the underworld, who later took her into marriage. The myth of her abduction, her sojourn in the underworld, and her cyclical return to the surface represents her functions as the embodiment of spring and the personification of vegetation, especially grain crops, which disappear into the earth when sown, remain hidden for a period, sprout from the earth, and are harvested when fully grown.",
     "description": "Greek goddess of spring and the queen of the underworld",
@@ -471,7 +559,7 @@
     "epoch_start": -700,
     "epoch_end": -300,
     "culture": "Greco-Roman",
-    "archetype": "Solar Hero Expitiation & Monster Cleansing",
+    "archetype": "Solar Hero Expiation & Monster Cleansing",
     "syncretic_ids": [
       "Q248352"
     ],
@@ -479,25 +567,6 @@
     "description": "Series of feats carried out by Heracles",
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/LL%C3%8DRIA_%28SPAIN%29_MOSAIC_OF_THE_LABORS_OF_HERACLES.jpg/330px-LL%C3%8DRIA_%28SPAIN%29_MOSAIC_OF_THE_LABORS_OF_HERACLES.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Labours_of_Hercules"
-  },
-  {
-    "id": "Q190532",
-    "name": "Jason and the Argonauts (Golden Fleece)",
-    "wiki_title": "Argonauts",
-    "lat": 39.36,
-    "lng": 22.94,
-    "epoch_start": -750,
-    "epoch_end": -200,
-    "culture": "Greco-Roman",
-    "archetype": "Quest for the Sacred Talisman Across Edge of World",
-    "syncretic_ids": [
-      "Q35160",
-      "Q248352"
-    ],
-    "extract": "The Argonauts were a band of heroes in Greek mythology, who in the years before the Trojan War accompanied Jason to Colchis in his quest to find the Golden Fleece. Their name comes from their ship, Argo, named after its builder, Argus. They were sometimes called Minyans, after a prehistoric tribe in the area.",
-    "description": "Band of heroes in Greek mythology",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Krater_Niobid_Painter_A_Louvre_G341.jpg/330px-Krater_Niobid_Painter_A_Louvre_G341.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Argonauts"
   },
   {
     "id": "Q35060",
@@ -511,7 +580,6 @@
     "archetype": "Sea-Foam Born Goddess of Desire",
     "syncretic_ids": [
       "Q272486",
-      "Q107873",
       "Q179198"
     ],
     "extract": "Aphrodite is an ancient Greek goddess associated with love, lust, beauty, pleasure, passion, procreation, and as her syncretised Roman counterpart Venus, desire, sex, fertility, prosperity, and victory. Aphrodite's major symbols include seashells, myrtles, roses, doves, sparrows, and swans. The cult of Aphrodite may have been derived from the Phoenician goddess Astarte, a cognate of the East Semitic goddess Ishtar, whose cult was based on the Sumerian cult of Inanna; or as asserted by Pausanias, her origin was in Cyprus; or, via the Greek dawn goddess, Eos, her origin could have been Indo-European. Aphrodite's main cult centers were Cythera, Cyprus, Corinth, and Athens. Her main festival was the Aphrodisia, which was celebrated annually in midsummer. In Laconia, Aphrodite was worshipped as a warrior goddess. She was the patron goddess of prostitutes, an association which led early scholars to propose the concept of sacred prostitution in Greco-Roman culture, an idea now generally seen as erroneous.",
@@ -530,8 +598,7 @@
     "culture": "Greco-Roman",
     "archetype": "Destined Translation of Empire (Translatio Imperii)",
     "syncretic_ids": [
-      "Q8275",
-      "Q35160"
+      "Q8275"
     ],
     "extract": "The Aeneid is a Latin epic poem that tells the legendary story of Aeneas, a Trojan who fled the fall of Troy and travelled to Italy, where he became the ancestor of the Romans. Written by the Roman poet Virgil between 29 and 19 BC, the Aeneid comprises 9,896 lines in dactylic hexameter. The first six of its twelve books tell the story of Aeneas' wanderings from Troy to Italy, and the latter six tell of the Trojans' ultimately victorious war upon the Latins, under whose name Aeneas and his Trojan followers are destined to be subsumed.",
     "description": "Latin epic poem by Virgil",
@@ -546,7 +613,7 @@
     "lng": -21.13,
     "epoch_start": 800,
     "epoch_end": 1250,
-    "culture": "Norse",
+    "culture": "Norse & Germanic",
     "archetype": "Eschatological Apocalypse & Rebirth",
     "syncretic_ids": [
       "Q1164",
@@ -565,12 +632,11 @@
     "lng": 17.63,
     "epoch_start": 700,
     "epoch_end": 1200,
-    "culture": "Norse",
+    "culture": "Norse & Germanic",
     "archetype": "Thunder God vs Midgard Serpent",
     "syncretic_ids": [
       "Q8785",
-      "Q131379",
-      "Q131590"
+      "Q131379"
     ],
     "extract": "In Norse mythology, Jörmungandr, also known as the Midgard Serpent or World Serpent, is an unfathomably large and monstrous sea serpent who dwells in the world sea, encircling the Earth (Midgard) and biting his own tail, an example of an ouroboros. As a result of him surrounding Midgard, the beast is referred to as the World Serpent. Jörmungandr releasing his tail is one of the signs of the beginning of Ragnarök.",
     "description": "Sea serpent in Norse mythology",
@@ -585,7 +651,7 @@
     "lng": 10.75,
     "epoch_start": 600,
     "epoch_end": 1250,
-    "culture": "Norse",
+    "culture": "Norse & Germanic",
     "archetype": "Wounded Shaman / Hanging for Runes of Wisdom",
     "syncretic_ids": [
       "Q83364"
@@ -603,11 +669,10 @@
     "lng": 12.56,
     "epoch_start": 800,
     "epoch_end": 1200,
-    "culture": "Norse",
+    "culture": "Norse & Germanic",
     "archetype": "Death of the Pure Light God / Foretoken of Doom",
     "syncretic_ids": [
-      "Q46580",
-      "Q107873"
+      "Q46580"
     ],
     "extract": "Baldr in Old Norse, Bældæġ in Old English, Balder or Palter in Old High German, is a god in Germanic mythology. In Norse mythology, he is a son of the god Odin and the goddess Frigg, and has numerous brothers, such as Thor and Váli.",
     "description": "Norse deity",
@@ -615,79 +680,168 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Baldr"
   },
   {
-    "id": "Q190828",
-    "name": "Popol Vuh (Hero Twins and Underworld Xibalba)",
-    "wiki_title": "Popol_Vuh",
-    "lat": 14.63,
-    "lng": -90.51,
-    "epoch_start": 300,
-    "epoch_end": 1550,
-    "culture": "Mesoamerican",
-    "archetype": "Hero Twins Ballgame Triumph over Death Lords",
+    "id": "Q131600",
+    "name": "Perun vs Veles (Thunder God vs Underworld Serpent)",
+    "wiki_title": "Perun",
+    "lat": 50.45,
+    "lng": 30.52,
+    "epoch_start": 500,
+    "epoch_end": 1200,
+    "culture": "Slavic & Baltic",
+    "archetype": "Storm God in Tree vs Horned Serpent in Roots",
+    "syncretic_ids": [
+      "Q8785",
+      "Q42952"
+    ],
+    "extract": "In Slavic mythology, Perun is the highest god of the pantheon and the god of sky, thunder, lightning, storms, rain, law, war, fertility and oak trees. His other attributes were fire, mountains, wind, iris, eagle, firmament, horses and carts, and weapons. The supreme god in the Kievan Rus' during the 9th-10th centuries, Perun was first associated with weapons made of stone and later with those of metal.",
+    "description": "Slavic supreme god of the sky and war",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8b/Saint_George_slays_the_dragon%2C_Croatia%2C_8th_century.jpg/330px-Saint_George_slays_the_dragon%2C_Croatia%2C_8th_century.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Perun"
+  },
+  {
+    "id": "Q187224",
+    "name": "Baba Yaga in the Hut on Fowl's Legs",
+    "wiki_title": "Baba_Yaga",
+    "lat": 56.83,
+    "lng": 60.6,
+    "epoch_start": 600,
+    "epoch_end": 1500,
+    "culture": "Slavic & Baltic",
+    "archetype": "Threshold Guardian Witch / Forest Initiator",
+    "syncretic_ids": [
+      "Q686259"
+    ],
+    "extract": "Baba Yaga is a female character from Slavic folklore who has two contrasting roles. In some narratives, she is described as a repulsive or ferocious-looking old woman who fries and eats children, while in others she is depicted as a nice old woman who helps the hero. Both versions often depict her as a witch. She is often associated with forest wildlife. Her distinctive traits are flying around in a wooden mortar, wielding a pestle, and dwelling deep in the forest in a hut with chicken legs.",
+    "description": "Slavic mythological figure",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6c/%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%91%D0%B0%D0%B1%D0%B0-%D1%8F%D0%B3%D0%B0_3.jpg/330px-%D0%A1%D0%BA%D0%B0%D0%B7%D0%BA%D0%B0_%D0%91%D0%B0%D0%B1%D0%B0-%D1%8F%D0%B3%D0%B0_3.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Baba_Yaga"
+  },
+  {
+    "id": "Q130009",
+    "name": "The Kalevala (Forging of the Sampo)",
+    "wiki_title": "Kalevala",
+    "lat": 64.0,
+    "lng": 30.0,
+    "epoch_start": 800,
+    "epoch_end": 1400,
+    "culture": "Finno-Ugric",
+    "archetype": "Magic Singing Sorcerer (Väinämöinen) & Mill of Plenty",
+    "syncretic_ids": [
+      "Q190532"
+    ],
+    "extract": "The Kalevala is a 19th-century compilation of epic poetry, compiled by Elias Lönnrot from Finnish, Karelian and Ingrian folklore and mythology, telling a story about the Creation of the Earth, describing the controversies and retaliatory voyages between the peoples of the land of Kalevala called Väinölä and the land of Pohjola and their various protagonists and antagonists, as well as the construction and robbery of the mythical wealth-making machine Sampo.",
+    "description": "1835 Finnish epic poem compiled by Elias Lönnrot",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/64/Kalevala1.jpg/330px-Kalevala1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kalevala"
+  },
+  {
+    "id": "Q130015",
+    "name": "Lemminkäinen's Resurrection from the Tuonela River",
+    "wiki_title": "Lemminkäinen",
+    "lat": 61.5,
+    "lng": 28.5,
+    "epoch_start": 800,
+    "epoch_end": 1400,
+    "culture": "Finno-Ugric",
+    "archetype": "Katabasis / Mother's Rake Piecing Hero Back from the River of Death",
     "syncretic_ids": [
       "Q272486",
-      "Q46580"
+      "Q179654"
     ],
-    "extract": "Popol Vuh is a text recounting the mythology and history of the Kʼicheʼ people of Guatemala, one of the Maya peoples who also inhabit the Mexican states of Chiapas, Campeche, Yucatan and Quintana Roo, as well as areas of Belize, Honduras and El Salvador.",
-    "description": "Text recounting Maya mythology and history",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Popol_vuh.jpg/330px-Popol_vuh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Popol_Vuh"
+    "extract": "Lemminkäinen or Lemminki is a prominent figure in Finnish mythology. He also appears in Karelian and Estonian folk poetry. He is one of the heroes of the Kalevala, where his character is a composite of several separate heroes of oral poetry. He is usually depicted as young and good-looking, with wavy red hair.",
+    "description": "Character in Finnish mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Gallen_Kallela_Lemminkainens_Mother.jpg/330px-Gallen_Kallela_Lemminkainens_Mother.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Lemmink%C3%A4inen"
   },
   {
-    "id": "Q218415",
-    "name": "Legend of the Feathered Serpent (Quetzalcoatl)",
-    "wiki_title": "Quetzalcoatl",
-    "lat": 19.69,
-    "lng": -98.84,
-    "epoch_start": -100,
-    "epoch_end": 1521,
-    "culture": "Mesoamerican",
-    "archetype": "Culture Hero / Boundary Crosser / Venus Morning Star",
+    "id": "Q130020",
+    "name": "Kalevipoeg (The Giant Hero of Estonia)",
+    "wiki_title": "Kalevipoeg",
+    "lat": 58.59,
+    "lng": 25.01,
+    "epoch_start": 900,
+    "epoch_end": 1400,
+    "culture": "Finno-Ugric",
+    "archetype": "Giant Culture Hero / Earth Sculptor and Underworld Descent",
     "syncretic_ids": [
-      "Q190828",
-      "Q83364"
+      "Q1164"
     ],
-    "extract": "Quetzalcoatl is a deity in Aztec culture and literature. Among the Aztecs, he was related to wind, the planet Venus, the Sun, merchants, arts, crafts, knowledge, and learning. He was also the patron god of the Aztec priesthood. He is also a god of wisdom, learning and intelligence. He was one of several important gods in the Aztec pantheon, along with the gods Tlaloc, Tezcatlipoca and Huitzilopochtli. The two other gods represented by the planet Venus are Tlaloc and Xolotl.",
-    "description": "Central deity in Aztec religion",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg/330px-Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Quetzalc%C5%8D%C4%81tl"
+    "extract": "Kalevipoeg is a 19th-century epic poem by Friedrich Reinhold Kreutzwald which has since been considered the Estonian national epic.",
+    "description": "Estonian national epic",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Kalevipoeg.jpg/330px-Kalevipoeg.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kalevipoeg"
   },
   {
-    "id": "Q217032",
-    "name": "Aztec Legend of the Fifth Sun (Nahui-Ollin)",
-    "wiki_title": "Five_Suns",
-    "lat": 19.43,
-    "lng": -99.13,
-    "epoch_start": 1200,
-    "epoch_end": 1521,
-    "culture": "Mesoamerican",
-    "archetype": "Cyclical World Ages & Solar Sacrifice of Nanahuatzin",
+    "id": "Q131605",
+    "name": "Perkunas and Saule (Baltic Sun and Thunder)",
+    "wiki_title": "Perkūnas",
+    "lat": 54.68,
+    "lng": 25.27,
+    "epoch_start": 400,
+    "epoch_end": 1387,
+    "culture": "Slavic & Baltic",
+    "archetype": "Oak-Tree Thunder God Purifying Chthonic Shadows",
     "syncretic_ids": [
-      "Q169542",
-      "Q190864"
+      "Q131600"
     ],
-    "extract": "In creation myths, the term \"Five Suns\" refers to the belief of certain Nahua cultures and Aztec peoples that the world has gone through five distinct cycles of creation and destruction, with the current era being the fifth. It is primarily derived from a combination of myths, cosmologies, and eschatological beliefs that were originally held by pre-Columbian peoples in the Mesoamerican region, including central Mexico, and it is part of a larger mythology of Fifth World or Fifth Sun beliefs.",
-    "description": "Creation Legend of the Aztecs",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/File-Monolito_de_la_Piedra_del_Sol_%28centro%29.jpg/330px-File-Monolito_de_la_Piedra_del_Sol_%28centro%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Five_Suns"
+    "extract": "Perkūnas was the common Baltic god of thunder, and the second most important deity in the Baltic pantheon after Dievas. In both Lithuanian and Latvian mythology, he is documented as the god of sky, thunder, lightning, storms, rain, fire, war, law, order, fertility, mountains, and oak trees.",
+    "description": "Baltic god of thunder",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c0/Perkunas_of_Kernav%C4%97s.jpg/330px-Perkunas_of_Kernav%C4%97s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Perk%C5%ABnas"
   },
   {
-    "id": "Q219455",
-    "name": "Kukulcan Descent at Equinox",
-    "wiki_title": "Kukulkan",
-    "lat": 20.68,
-    "lng": -88.56,
-    "epoch_start": 700,
+    "id": "Q1145281",
+    "name": "Tain Bo Cuailnge (Cattle Raid of Cooley)",
+    "wiki_title": "Táin_Bó_Cúailnge",
+    "lat": 54.0,
+    "lng": -6.4,
+    "epoch_start": 100,
+    "epoch_end": 1100,
+    "culture": "Celtic",
+    "archetype": "Berserker Demi-God (Cú Chulainn) Defending Homeland",
+    "syncretic_ids": [
+      "Q8275"
+    ],
+    "extract": "Táin Bó Cúailnge, commonly known as The Táin or less commonly as The Cattle Raid of Cooley, is an epic from Irish mythology. It is often called \"the Irish Iliad\", although like most other early Irish literature, the Táin is written in prosimetrum, i.e. prose with periodic additions of verse composed by the characters. The Táin tells of a war against Ulster by Queen Medb of Connacht and her husband King Ailill, who intend to steal the stud bull Donn Cuailnge. Due to a curse upon the king and warriors of Ulster, the invaders are opposed only by the young demigod, Cú Chulainn.",
+    "description": "Epic of early Irish literature",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Cuchulain_in_Battle.jpg/330px-Cuchulain_in_Battle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/T%C3%A1in_B%C3%B3_C%C3%BAailnge"
+  },
+  {
+    "id": "Q1145290",
+    "name": "The Quest for the Holy Grail",
+    "wiki_title": "Holy_Grail",
+    "lat": 51.14,
+    "lng": -2.71,
+    "epoch_start": 1180,
+    "epoch_end": 1485,
+    "culture": "Celtic",
+    "archetype": "Healing of Wounded King / Sacred Vessel",
+    "syncretic_ids": [
+      "Q190532"
+    ],
+    "extract": "The Holy Grail is a treasure that serves as an important motif in Arthurian literature. Various traditions describe the Holy Grail as a cup, dish, or stone with miraculous healing powers, sometimes providing eternal youth or sustenance in infinite abundance, often guarded in the custody of the Fisher King and located in the hidden Grail castle. By analogy, any elusive object or goal of great significance may be perceived as a \"holy grail\" by those seeking such.",
+    "description": "Treasure motif in Arthurian literature",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dante_Gabriel_Rossetti_-_The_Damsel_of_the_Sanct_Grael_%281874%29.jpg/330px-Dante_Gabriel_Rossetti_-_The_Damsel_of_the_Sanct_Grael_%281874%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Holy_Grail"
+  },
+  {
+    "id": "Q1145295",
+    "name": "The Children of Lir (Swan Metamorphosis)",
+    "wiki_title": "Children_of_Lir",
+    "lat": 53.6,
+    "lng": -7.3,
+    "epoch_start": 500,
     "epoch_end": 1200,
-    "culture": "Mesoamerican",
-    "archetype": "Plumed Serpent Solar Shadow at Sacred Pyramid",
+    "culture": "Celtic",
+    "archetype": "Jealous Stepmother Curse / 900 Years of Metamorphosis",
     "syncretic_ids": [
-      "Q218415"
+      "Q179654"
     ],
-    "extract": "Kukulkan, also spelled K’uk’ulkan, is the serpent deity of Maya mythology. It is closely related to the deity Qʼuqʼumatz of the Kʼicheʼ people and to Quetzalcoatl of Aztec mythology. Prominent temples to Kukulkan are found at archaeological sites in the Yucatán Peninsula, such as Chichen Itza, Uxmal and Mayapan.",
-    "description": "Serpent deity in Mesoamerican mythology",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kukulkan_%28reconstructed%29.jpg/330px-Kukulkan_%28reconstructed%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Kukulkan"
+    "extract": "The Children of Lir is a legend from Irish mythology. It is a tale from the post-Christianisation period that mixes magical elements such as wands and spells with a Christian message of faith bringing freedom from suffering.",
+    "description": "Legend from Irish mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/John_Duncan_%281924%29_Children_of_Lir.jpg/330px-John_Duncan_%281924%29_Children_of_Lir.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Children_of_Lir"
   },
   {
     "id": "Q242488",
@@ -754,7 +908,7 @@
     "epoch_start": 629,
     "epoch_end": 1592,
     "culture": "East Asian",
-    "archetype": "Monkey King Trickster & Spiritual Pilgrimage to India",
+    "archetype": "Monkey King Trickster & Pilgrimage to India",
     "syncretic_ids": [
       "Q37140",
       "Q83364"
@@ -794,8 +948,7 @@
     "culture": "East Asian",
     "archetype": "Solar Goddess Hidden in Cave Restored by Sacred Dance",
     "syncretic_ids": [
-      "Q179654",
-      "Q272486"
+      "Q179654"
     ],
     "extract": "Amaterasu Ōmikami , often called Amaterasu for short, also known as Amateru Kami (天照神) and Ōhirume no Muchi (大日孁貴), is the goddess of the sun in Japanese mythology. Often considered the chief deity (kami) of the Shinto pantheon, she is also portrayed in Japan's earliest literary texts, the Kojiki and the Nihon Shoki, as the ruler of the heavenly realm Takamagahara and as the mythical ancestress of the Imperial House of Japan via her grandson Ninigi. Along with two of her siblings she ranks as one of the \"Three Precious Children\", the three most important offspring of the creator god Izanagi.",
     "description": "Sun goddess in Shinto",
@@ -803,60 +956,423 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Amaterasu"
   },
   {
-    "id": "Q1145281",
-    "name": "Tain Bo Cuailnge (Cattle Raid of Cooley)",
-    "wiki_title": "Táin_Bó_Cúailnge",
-    "lat": 54.0,
-    "lng": -6.4,
-    "epoch_start": 100,
-    "epoch_end": 1100,
-    "culture": "Celtic",
-    "archetype": "Berserker Demi-God (Cu Chulainn) Defending Homeland",
-    "syncretic_ids": [
-      "Q8275",
-      "Q12224"
-    ],
-    "extract": "Táin Bó Cúailnge, commonly known as The Táin or less commonly as The Cattle Raid of Cooley, is an epic from Irish mythology. It is often called \"the Irish Iliad\", although like most other early Irish literature, the Táin is written in prosimetrum, i.e. prose with periodic additions of verse composed by the characters. The Táin tells of a war against Ulster by Queen Medb of Connacht and her husband King Ailill, who intend to steal the stud bull Donn Cuailnge. Due to a curse upon the king and warriors of Ulster, the invaders are opposed only by the young demigod, Cú Chulainn.",
-    "description": "Epic of early Irish literature",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Cuchulain_in_Battle.jpg/330px-Cuchulain_in_Battle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/T%C3%A1in_B%C3%B3_C%C3%BAailnge"
-  },
-  {
-    "id": "Q1145290",
-    "name": "The Quest for the Holy Grail",
-    "wiki_title": "Holy_Grail",
-    "lat": 51.14,
-    "lng": -2.71,
-    "epoch_start": 1180,
-    "epoch_end": 1485,
-    "culture": "Celtic",
-    "archetype": "Healing of Wounded King / Quest for Sacred Vessel",
-    "syncretic_ids": [
-      "Q190532",
-      "Q248352"
-    ],
-    "extract": "The Holy Grail is a treasure that serves as an important motif in Arthurian literature. Various traditions describe the Holy Grail as a cup, dish, or stone with miraculous healing powers, sometimes providing eternal youth or sustenance in infinite abundance, often guarded in the custody of the Fisher King and located in the hidden Grail castle. By analogy, any elusive object or goal of great significance may be perceived as a \"holy grail\" by those seeking such.",
-    "description": "Treasure motif in Arthurian literature",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dante_Gabriel_Rossetti_-_The_Damsel_of_the_Sanct_Grael_%281874%29.jpg/330px-Dante_Gabriel_Rossetti_-_The_Damsel_of_the_Sanct_Grael_%281874%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Holy_Grail"
-  },
-  {
-    "id": "Q1145295",
-    "name": "The Children of Lir (Transforming into Swans)",
-    "wiki_title": "Children_of_Lir",
-    "lat": 53.6,
-    "lng": -7.3,
+    "id": "Q131610",
+    "name": "Susanoo slaying Yamata no Orochi",
+    "wiki_title": "Yamata_no_Orochi",
+    "lat": 35.36,
+    "lng": 133.05,
     "epoch_start": 500,
-    "epoch_end": 1200,
-    "culture": "Celtic",
-    "archetype": "Jealous Stepmother Curse / 900 Years of Metamorphosis",
+    "epoch_end": 712,
+    "culture": "East Asian",
+    "archetype": "Storm God Slaying Eight-Headed Dragon for Sacred Sword",
+    "syncretic_ids": [
+      "Q8785",
+      "Q42952"
+    ],
+    "extract": "Yamata no Orochi  is a legendary eight-headed and eight-tailed serpent that appears in Japanese mythology. Both the Kojiki and Nihon Shoki record that the kami Susanoo no Mikoto, in order to rescue Kushinadahime, defeated the serpent and that the Kusanagi no Tsurugi, part of the Imperial Regalia of Japan, was found within the serpent's tail.",
+    "description": "Japanese dragon",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Susano-o_no_Mikoto_Killing_the_Eight-headed_Dragon.jpg/330px-Susano-o_no_Mikoto_Killing_the_Eight-headed_Dragon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Yamata_no_Orochi"
+  },
+  {
+    "id": "Q210740",
+    "name": "Dangun Myth (Founding of Gojoseon)",
+    "wiki_title": "Dangun",
+    "lat": 38.0,
+    "lng": 126.5,
+    "epoch_start": -1000,
+    "epoch_end": 1281,
+    "culture": "East Asian",
+    "archetype": "Bear-Woman (Ungnyeo) and Heavenly Son King",
+    "syncretic_ids": [
+      "Q60184"
+    ],
+    "extract": "Tan'gun, also known as Tan'gun Wanggŏm, was the legendary founder and first king of Gojoseon, the first Korean kingdom. He founded the first kingdom around the northern part of the Korean Peninsula. He is said to be the \"grandson of heaven\", \"son of a bear\", and to have founded the first kingdom in 2333 BC, whose descendants was surname Park or Pai.",
+    "description": "Korean king and deity",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b8/Portrait_of_Dangun.jpg/330px-Portrait_of_Dangun.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tan'gun"
+  },
+  {
+    "id": "Q131615",
+    "name": "Tengri and the Eternal Blue Sky",
+    "wiki_title": "Tengrism",
+    "lat": 47.92,
+    "lng": 106.91,
+    "epoch_start": -1000,
+    "epoch_end": 1300,
+    "culture": "Central Asian & Steppe",
+    "archetype": "Supreme Celestial Sky Father & Shamanic Tree",
+    "syncretic_ids": [
+      "Q133346"
+    ],
+    "extract": "Tengrism is a belief system originating in the Eurasian steppes, based on shamanism and animism, and commonly centered on the titular sky god Tengri. According to some scholars, adherents of Tengrism view the purpose of life as living in harmony with the universe.",
+    "description": "Religion of the Eurasian steppe nations",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/11/Peak_of_Khan_Tengri_at_sunset.jpg/330px-Peak_of_Khan_Tengri_at_sunset.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Tengrism"
+  },
+  {
+    "id": "Q248235",
+    "name": "The Epic of King Gesar",
+    "wiki_title": "Epic_of_King_Gesar",
+    "lat": 33.0,
+    "lng": 98.0,
+    "epoch_start": 300,
+    "epoch_end": 1400,
+    "culture": "Central Asian & Steppe",
+    "archetype": "Miraculous Demi-God Warrior Defeating Demons of the Directions",
+    "syncretic_ids": [
+      "Q37140",
+      "Q1164"
+    ],
+    "extract": "The Epic of King Gesar, also spelled Kesar or Geser, is a traditional epic originating from Tibet and Central Asia. Folk balladeers continued to transmit the story orally, enriching its plot and embellished its language over time. The narrative reached its \"final\" form and peak popularity in the early 12th century.",
+    "description": "East and Central Asian epic cycle",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Gesar_Gruschke.jpg/330px-Gesar_Gruschke.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epic_of_King_Gesar"
+  },
+  {
+    "id": "Q836248",
+    "name": "The Epic of Manas (Unification of the Kyrgyz)",
+    "wiki_title": "Epic_of_Manas",
+    "lat": 42.52,
+    "lng": 72.24,
+    "epoch_start": 900,
+    "epoch_end": 1500,
+    "culture": "Central Asian & Steppe",
+    "archetype": "Chivalric Warrior Uniting the Steppe Tribes",
+    "syncretic_ids": [
+      "Q1055745"
+    ],
+    "extract": "The Epic of Manas is a lengthy and traditional epic poem of the Kyrgyz people of Central Asia. Versions of the poem which date to the 19th century contain historical events of the 8th century; however, Kyrgyz tradition holds it to be much older. The plot of Manas revolves around a series of events that coincide with the history of the region—primarily the interaction of the Kyrgyz people with other neighbouring peoples.",
+    "description": "Kyrgyz traditional epic poem",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epic_of_Manas"
+  },
+  {
+    "id": "Q131620",
+    "name": "Dewi Sri (The Rice Mother Goddess)",
+    "wiki_title": "Dewi_Sri",
+    "lat": -7.79,
+    "lng": 110.36,
+    "epoch_start": 700,
+    "epoch_end": 1500,
+    "culture": "Southeast Asian",
+    "archetype": "Self-Sacrificing Goddess Transforming into Sacred Rice",
     "syncretic_ids": [
       "Q179654"
     ],
-    "extract": "The Children of Lir is a legend from Irish mythology. It is a tale from the post-Christianisation period that mixes magical elements such as wands and spells with a Christian message of faith bringing freedom from suffering.",
-    "description": "Legend from Irish mythology",
-    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/John_Duncan_%281924%29_Children_of_Lir.jpg/330px-John_Duncan_%281924%29_Children_of_Lir.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Children_of_Lir"
+    "extract": "Dewi Sri or Shridevi is the Javanese, Sundanese, and Balinese Hindu Goddess of rice and fertility, still widely worshiped on the islands of Java, Bali and Lombok, Indonesia. She is often associated or equated with the Hindu goddess Lakshmi, the shakti (consort) of Vishnu.",
+    "description": "Hindu Goddess of rice and fertility in Indonesia",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/af/Dewi_Sri_Lakshmi_Ancient_Java_in_Sonobudoyo.jpg/330px-Dewi_Sri_Lakshmi_Ancient_Java_in_Sonobudoyo.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dewi_Sri"
+  },
+  {
+    "id": "Q131625",
+    "name": "Barong vs Rangda (Eternal Cosmic Equilibrium)",
+    "wiki_title": "Barong_(mythology)",
+    "lat": -8.5,
+    "lng": 115.26,
+    "epoch_start": 900,
+    "epoch_end": 1600,
+    "culture": "Southeast Asian",
+    "archetype": "Lion Spirit of Good vs Demon Queen of Calon Arang",
+    "syncretic_ids": [
+      "Q190864"
+    ],
+    "extract": "Barong is a panther-like creature and character in the Balinese culture of Bali, Indonesia. He is the king of the spirits, leader of the hosts of good, and enemy of Rangda, the demon queen and mother of all spirit guarders in the mythological traditions of Bali. The battle between Barong and Rangda is featured in the Barong dance to represent the eternal battle between good and evil.",
+    "description": "Character in Balinese mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/09/Barong%2C_Pura_Taman_Ayun_1501.jpg/330px-Barong%2C_Pura_Taman_Ayun_1501.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Barong_(mythology)"
+  },
+  {
+    "id": "Q131630",
+    "name": "Bakunawa Swallowing the Seven Moons",
+    "wiki_title": "Bakunawa",
+    "lat": 10.31,
+    "lng": 123.89,
+    "epoch_start": 800,
+    "epoch_end": 1600,
+    "culture": "Southeast Asian",
+    "archetype": "Serpentine Sea Dragon Causing Lunar Eclipse",
+    "syncretic_ids": [
+      "Q42952"
+    ],
+    "extract": "The Bakunawa, also called the Philippine moon-eating dragon, the Philippine moon dragon, moon dragon, or the moon-eating dragon, is a dragon-like serpent in Philippine mythology that causes several natural phenomena, primarily eclipses. The movements of the Bakunawa served as a geomantic calendar system for ancient Filipinos and were part of the rituals of the babaylan priestess. It is usually depicted with a distinctive looped tail and a single horn on the nose. It was believed to inhabit either the sky or the underworld.",
+    "description": "Philippine mythological dragon",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f3/Malakas_and_Maganda_Emerging_from_Bamboo_BambooMan.jpg/330px-Malakas_and_Maganda_Emerging_from_Bamboo_BambooMan.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bakunawa"
+  },
+  {
+    "id": "Q131635",
+    "name": "Lac Long Quan and Au Co (Birth of the Viet People)",
+    "wiki_title": "Lạc_Long_Quân",
+    "lat": 21.03,
+    "lng": 105.85,
+    "epoch_start": -700,
+    "epoch_end": 1400,
+    "culture": "Southeast Asian",
+    "archetype": "Dragon Lord of the Waters & Fairy of the Mountains producing 100 Eggs",
+    "syncretic_ids": [
+      "Q179831"
+    ],
+    "extract": "Lạc Long Quân, also known as Sùng Lãm (崇纜), is a legendary king of the Hồng Bàng dynasty of ancient Vietnam. Quân was the son of Kinh Dương Vương, the king of Xích Quỷ. He is the main figure in the Vietnamese myth of Lạc Long Quân - Âu Cơ.",
+    "description": "Ancient king of Vietnam",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0e/Ph%C3%B9_%C4%91i%C3%AAu_Qu%E1%BB%91c_t%E1%BB%95_L%E1%BA%A1c_Long_Qu%C3%A2n_t%E1%BA%A1i_%C4%90%E1%BB%81n_N%E1%BB%99i_B%C3%ACnh_%C4%90%C3%A0.jpg/330px-Ph%C3%B9_%C4%91i%C3%AAu_Qu%E1%BB%91c_t%E1%BB%95_L%E1%BA%A1c_Long_Qu%C3%A2n_t%E1%BA%A1i_%C4%90%E1%BB%81n_N%E1%BB%99i_B%C3%ACnh_%C4%90%C3%A0.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/L%E1%BA%A1c_Long_Qu%C3%A2n"
+  },
+  {
+    "id": "Q131640",
+    "name": "Dine Bahane' (Navajo Emergence through the Four Worlds)",
+    "wiki_title": "Diné_Bahaneʼ",
+    "lat": 36.0,
+    "lng": -109.5,
+    "epoch_start": 500,
+    "epoch_end": 1500,
+    "culture": "North American Indigenous",
+    "archetype": "Emergence Myth / Holy People (Diyin Dine'é) Ascending Worlds",
+    "syncretic_ids": [
+      "Q190828"
+    ],
+    "extract": "Diné Bahaneʼ, is a Navajo creation story that describes the prehistoric emergence of the Navajo as a part of the Navajo religious beliefs. It centers on the area known as the Dinétah, the traditional homeland of the Navajo, and forms the basis of the traditional Navajo way of life and ceremony. Throughout the stories, the importance of cardinal points and the number four are emphasized in multiple aspects.",
+    "description": "Navajo creation myth",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Din%C3%A9_Bahane%CA%BC"
+  },
+  {
+    "id": "Q131645",
+    "name": "Sedna (Mistress of the Arctic Underworld)",
+    "wiki_title": "Sedna_(mythology)",
+    "lat": 69.0,
+    "lng": -95.0,
+    "epoch_start": -1000,
+    "epoch_end": 1500,
+    "culture": "North American Indigenous",
+    "archetype": "Sacrificed Sea Maiden whose Severed Fingers become Seals & Whales",
+    "syncretic_ids": [
+      "Q272486"
+    ],
+    "extract": "Sedna is the goddess of the sea and marine animals in Inuit religion, also known as the Mother of the Sea or Mistress of the Sea. The story of Sedna, which is a creation myth, describes how she came to rule over Adlivun, the Inuit equivalent of the underworld. In sculptures, Sedna is often depicted with the head and upper body of a woman and the tail of a marine mammal, similar to a mermaid.",
+    "description": "Inuit water deity",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/06/Sanna_aux_doigts_coup%C3%A9s.jpg/330px-Sanna_aux_doigts_coup%C3%A9s.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Sedna_(mythology)"
+  },
+  {
+    "id": "Q131650",
+    "name": "Raven Stealing the Light of the Sun",
+    "wiki_title": "Raven_Tales",
+    "lat": 53.25,
+    "lng": -132.0,
+    "epoch_start": -1500,
+    "epoch_end": 1600,
+    "culture": "North American Indigenous",
+    "archetype": "Trickster Transformer Liberating the Sun from Celestial Chieftain",
+    "syncretic_ids": [
+      "Q83364",
+      "Q686259"
+    ],
+    "extract": "Raven Tales are the traditional human and animal creation stories of the indigenous peoples of the Pacific Northwest Coast. They are also found among Athabaskan-speaking peoples and others. Raven stories exist in nearly all of the First Nations throughout the region but are most prominent in the tales of the Haida, Tsimshian, Tlingit and Tahltan people.",
+    "description": "Traditional creation stories of indigenous peoples of North America",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b5/The_Raven_Flood_Totem._-_NARA_-_298052.jpg/330px-The_Raven_Flood_Totem._-_NARA_-_298052.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ravens_in_Native_American_mythology"
+  },
+  {
+    "id": "Q131655",
+    "name": "White Buffalo Calf Woman (Sacred Pipe Chanunpa)",
+    "wiki_title": "White_Buffalo_Calf_Woman",
+    "lat": 43.8,
+    "lng": -103.5,
+    "epoch_start": 900,
+    "epoch_end": 1700,
+    "culture": "North American Indigenous",
+    "archetype": "Celestial Maiden Bringing Seven Sacred Rites and Moral Covenant",
+    "syncretic_ids": [
+      "Q218415"
+    ],
+    "extract": "White Buffalo Calf Woman or White Buffalo Maiden is a sacred woman of supernatural origin, central to the Lakota religion as the primary cultural prophet. Oral traditions relate that she brought the \"Seven Sacred Rites\" to the Lakota people.",
+    "description": "Sacred woman of supernatural origin, central to the Lakota religion",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b0/Detail_from_%E2%80%9CApparition_of_the_Buffalo_Calf_Maiden%E2%80%9D_%281959%29_by_Frithjof_Schuon.jpg/330px-Detail_from_%E2%80%9CApparition_of_the_Buffalo_Calf_Maiden%E2%80%9D_%281959%29_by_Frithjof_Schuon.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/White_Buffalo_Calf_Woman"
+  },
+  {
+    "id": "Q131660",
+    "name": "Iroquois Sky Woman and the Turtle Island",
+    "wiki_title": "Iroquois_mythology",
+    "lat": 43.0,
+    "lng": -76.0,
+    "epoch_start": 1000,
+    "epoch_end": 1500,
+    "culture": "North American Indigenous",
+    "archetype": "Pregnant Sky Woman Falling to Earth / World Built on Turtle's Back",
+    "syncretic_ids": [
+      "Q242488"
+    ],
+    "extract": "Haudenosaunee mythology, or Iroquois mythology, includes the creation stories and other religious oral literature of the Haudenosaunee Confederacy composed of six nations of Indigenous peoples of the Northeastern Woodlands in Canada and the United States. Five nations, the Cayuga, Onondaga, Oneida, Mohawk, and Seneca, founded the confederacy. They were joined by the sixth nation, the Tuscarora, in the 18th century.",
+    "description": "",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/24/Three_Iroquois_-_David_Cusick_-_circa_1827.jpg/330px-Three_Iroquois_-_David_Cusick_-_circa_1827.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Haudenosaunee_mythology"
+  },
+  {
+    "id": "Q190828",
+    "name": "Popol Vuh (Hero Twins and Underworld Xibalba)",
+    "wiki_title": "Popol_Vuh",
+    "lat": 14.63,
+    "lng": -90.51,
+    "epoch_start": 300,
+    "epoch_end": 1550,
+    "culture": "Mesoamerican",
+    "archetype": "Hero Twins Ballgame Triumph over Death Lords",
+    "syncretic_ids": [
+      "Q272486",
+      "Q46580"
+    ],
+    "extract": "Popol Vuh is a text recounting the mythology and history of the Kʼicheʼ people of Guatemala, one of the Maya peoples who also inhabit the Mexican states of Chiapas, Campeche, Yucatan and Quintana Roo, as well as areas of Belize, Honduras and El Salvador.",
+    "description": "Text recounting Maya mythology and history",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Popol_vuh.jpg/330px-Popol_vuh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Popol_Vuh"
+  },
+  {
+    "id": "Q218415",
+    "name": "Legend of the Feathered Serpent (Quetzalcoatl)",
+    "wiki_title": "Quetzalcoatl",
+    "lat": 19.69,
+    "lng": -98.84,
+    "epoch_start": -100,
+    "epoch_end": 1521,
+    "culture": "Mesoamerican",
+    "archetype": "Culture Hero / Boundary Crosser / Venus Morning Star",
+    "syncretic_ids": [
+      "Q83364"
+    ],
+    "extract": "Quetzalcoatl is a deity in Aztec culture and literature. Among the Aztecs, he was related to wind, the planet Venus, the Sun, merchants, arts, crafts, knowledge, and learning. He was also the patron god of the Aztec priesthood. He is also a god of wisdom, learning and intelligence. He was one of several important gods in the Aztec pantheon, along with the gods Tlaloc, Tezcatlipoca and Huitzilopochtli. The two other gods represented by the planet Venus are Tlaloc and Xolotl.",
+    "description": "Central deity in Aztec religion",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg/330px-Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quetzalc%C5%8D%C4%81tl"
+  },
+  {
+    "id": "Q217032",
+    "name": "Aztec Legend of the Fifth Sun (Nahui-Ollin)",
+    "wiki_title": "Five_Suns",
+    "lat": 19.43,
+    "lng": -99.13,
+    "epoch_start": 1200,
+    "epoch_end": 1521,
+    "culture": "Mesoamerican",
+    "archetype": "Cyclical World Ages & Solar Sacrifice of Nanahuatzin",
+    "syncretic_ids": [
+      "Q169542"
+    ],
+    "extract": "In creation myths, the term \"Five Suns\" refers to the belief of certain Nahua cultures and Aztec peoples that the world has gone through five distinct cycles of creation and destruction, with the current era being the fifth. It is primarily derived from a combination of myths, cosmologies, and eschatological beliefs that were originally held by pre-Columbian peoples in the Mesoamerican region, including central Mexico, and it is part of a larger mythology of Fifth World or Fifth Sun beliefs.",
+    "description": "Creation Legend of the Aztecs",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/File-Monolito_de_la_Piedra_del_Sol_%28centro%29.jpg/330px-File-Monolito_de_la_Piedra_del_Sol_%28centro%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Five_Suns"
+  },
+  {
+    "id": "Q219455",
+    "name": "Kukulcan Descent at Equinox",
+    "wiki_title": "Kukulkan",
+    "lat": 20.68,
+    "lng": -88.56,
+    "epoch_start": 700,
+    "epoch_end": 1200,
+    "culture": "Mesoamerican",
+    "archetype": "Plumed Serpent Solar Shadow at Sacred Pyramid",
+    "syncretic_ids": [
+      "Q218415"
+    ],
+    "extract": "Kukulkan, also spelled K’uk’ulkan, is the serpent deity of Maya mythology. It is closely related to the deity Qʼuqʼumatz of the Kʼicheʼ people and to Quetzalcoatl of Aztec mythology. Prominent temples to Kukulkan are found at archaeological sites in the Yucatán Peninsula, such as Chichen Itza, Uxmal and Mayapan.",
+    "description": "Serpent deity in Mesoamerican mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kukulkan_%28reconstructed%29.jpg/330px-Kukulkan_%28reconstructed%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kukulkan"
+  },
+  {
+    "id": "Q131665",
+    "name": "Taino Creation of the Sea (The Gourd of Yaya)",
+    "wiki_title": "Taíno",
+    "lat": 18.22,
+    "lng": -66.59,
+    "epoch_start": 800,
+    "epoch_end": 1500,
+    "culture": "Mesoamerican",
+    "archetype": "Sacred Gourd Shattering into the Ocean Waters & Fishes",
+    "syncretic_ids": [
+      "Q10801"
+    ],
+    "extract": "The Taíno were the Indigenous peoples in most of the West Indies, in the Caribbean region of the Americas. Their culture has been continued today by their descendants and by Taíno revivalist communities. They were the first New World peoples encountered by non-Norse Europeans. Part of the Arawak group of Indigenous peoples in the Americas, the Taíno are also referred to as Island Arawaks or Antillean Arawaks.",
+    "description": "Indigenous people of the Caribbean",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Estatua_de_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_el_Parque_Monumento_a_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_Ponce%2C_Puerto_Rico_%28DSC02672C%29.jpg/330px-Estatua_de_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_el_Parque_Monumento_a_Ag%C3%BCeyban%C3%A1_II%2C_El_Bravo%2C_en_Ponce%2C_Puerto_Rico_%28DSC02672C%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ta%C3%ADno"
+  },
+  {
+    "id": "Q1145315",
+    "name": "Viracocha Creation at Lake Titicaca",
+    "wiki_title": "Viracocha",
+    "lat": -15.92,
+    "lng": -69.33,
+    "epoch_start": 200,
+    "epoch_end": 1532,
+    "culture": "Andean & South American",
+    "archetype": "Supreme Creator Rising from Sacred Waters to Make Sun",
+    "syncretic_ids": [
+      "Q218415"
+    ],
+    "extract": "\nViracocha is the creator and supreme deity in the pre-Inca and Inca mythology in the Andes region of South America. According to the myth Viracocha had human appearance and was generally considered as bearded. According to the myth he ordered the construction of Tiwanaku. It is also said that he was accompanied by men also referred to as Viracochas.",
+    "description": "Creator deity in Inca mythology",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Viracocha"
+  },
+  {
+    "id": "Q1145320",
+    "name": "Legend of the Ayar Brothers (Founding of Cusco)",
+    "wiki_title": "Inca_mythology",
+    "lat": -13.53,
+    "lng": -71.96,
+    "epoch_start": 1100,
+    "epoch_end": 1532,
+    "culture": "Andean & South American",
+    "archetype": "Four Brothers and Four Sisters Emerging from Sacred Cave",
+    "syncretic_ids": [
+      "Q60184"
+    ],
+    "extract": "Inca mythology of the Inca Empire was based on pre-Inca beliefs that can be found in the Huarochirí Manuscript, and in pre-Inca cultures including Chavín, Paracas, Moche, and the Nazca culture. The mythology informed and supported Inca religion.",
+    "description": "Myths of the Inca civilization",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/15/Machu_Picchu_Panorama_2025_%28cropped%29.jpg/330px-Machu_Picchu_Panorama_2025_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Inca_mythology"
+  },
+  {
+    "id": "Q131670",
+    "name": "Trentren Vilu and Caicai Vilu (Mapuche Deluge)",
+    "wiki_title": "Mapuche_mythology",
+    "lat": -39.0,
+    "lng": -72.5,
+    "epoch_start": 500,
+    "epoch_end": 1550,
+    "culture": "Andean & South American",
+    "archetype": "Earth Serpent vs Sea Serpent Battle Raising Mountains Above Waters",
+    "syncretic_ids": [
+      "Q42952",
+      "Q10801"
+    ],
+    "extract": "Mapuche religion is the traditional Native American religion of the Mapuche people. It is practiced primarily in south-central Chile and southwest Argentina. The tradition has no formal leadership or organizational structure and displays much internal variation.",
+    "description": "Religion of the indigenous Mapuche people of South America",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8b/Mapuche_kultrun.svg/330px-Mapuche_kultrun.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mapuche_religion"
+  },
+  {
+    "id": "Q131675",
+    "name": "Tupa and Arasy (Guarani Creation of Humanity)",
+    "wiki_title": "Guarani_mythology",
+    "lat": -25.26,
+    "lng": -57.57,
+    "epoch_start": 600,
+    "epoch_end": 1600,
+    "culture": "Andean & South American",
+    "archetype": "Supreme Thunder Deity Fashioning First Couple from Clay",
+    "syncretic_ids": [
+      "Q190535"
+    ],
+    "extract": "The Guarani mythology is the set of narratives about the gods and spirits of the different Tupi-Guarani peoples, ancient and current. Together with the cosmogonies, anthropogonies and rituals, they form part of the religion of these peoples.",
+    "description": "",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Guarani_mythology"
   },
   {
     "id": "Q1055745",
@@ -869,8 +1385,7 @@
     "culture": "West African",
     "archetype": "Disabled Prince Rising to Unify Empire / Griot Destiny",
     "syncretic_ids": [
-      "Q37140",
-      "Q60184"
+      "Q37140"
     ],
     "extract": "The Epic of Sundiata is an epic poem of the Malinke people that tells the story of Sundiata Keita, the founder of the Mali Empire in West Africa, who ruled from 1235 C.E. until his death in 1255 C.E. It details how Sundiata established the empire through strategic alliances and exceptional skill, and is structured as a Hero's journey. The epic is a foundational to Mandé culture and has been narrated for generations by Griots through oral tradition.",
     "description": "Epic poem of the Malinke culture",
@@ -886,7 +1401,7 @@
     "epoch_start": 1000,
     "epoch_end": 1700,
     "culture": "West African",
-    "archetype": "Trickster Weaver / Outsmarting the Sky God",
+    "archetype": "Trickster Weaver Outsmarting Sky God Nyame",
     "syncretic_ids": [
       "Q83364",
       "Q487840"
@@ -907,13 +1422,122 @@
     "culture": "West African",
     "archetype": "Descent from Sky with Sacred Rooster and Five Claws",
     "syncretic_ids": [
-      "Q179831",
-      "Q190864"
+      "Q179831"
     ],
     "extract": "Odùduwà was a Yoruba divine king, an Oriṣa in the Yoruba religion, and the progenitor who ushered in the classical period that later led to the foundation of the Ife Empire. His earthly origins are from the village of Oke Ora. According to tradition, he was the holder of the title of the Olofin of Ile-Ife, the Yoruba holy city. He ruled there briefly and also served as the progenitor of a number of independent royal dynasties in Yorubaland, with the praise names Olofin Adimula and Olofin Ayé.",
     "description": "Yoruba king and deity",
     "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Oduduwa_02.jpg/330px-Oduduwa_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Oduduwa"
+  },
+  {
+    "id": "Q131680",
+    "name": "Shango the Orisha of Lightning and Thunder",
+    "wiki_title": "Shango",
+    "lat": 7.84,
+    "lng": 3.93,
+    "epoch_start": 1100,
+    "epoch_end": 1600,
+    "culture": "West African",
+    "archetype": "Deified King / Double-Headed Axe Thunder God",
+    "syncretic_ids": [
+      "Q8785",
+      "Q42952"
+    ],
+    "extract": "Shango is the Orisha of fire, thunder, lightning, virility, dance, drumming, strength and justice in the Yoruba religion. Genealogically, Shango is a royal ancestor of the Yoruba as he was the third Alaafin of the Oyo Empire prior to his posthumous deification. Shango is known for his double-headed battle-axe (Oṣé) and is considered to be one of the most powerful rulers in Yoruba history.",
+    "description": "Yoruba deity of thunder and 3rd Alaafin of the Oyo Empire",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/14/Representa%C3%A7%C3%A3o_de_Xang%C3%B4_MN_01.jpg/330px-Representa%C3%A7%C3%A3o_de_Xang%C3%B4_MN_01.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shango"
+  },
+  {
+    "id": "Q131685",
+    "name": "Unkulunkulu Emerging from the Reeds (Zulu Creation)",
+    "wiki_title": "Unkulunkulu",
+    "lat": -28.75,
+    "lng": 31.0,
+    "epoch_start": 800,
+    "epoch_end": 1600,
+    "culture": "Central & Southern African",
+    "archetype": "First Ancestor Growing from the Primordial Swamp Reed (Uhlanga)",
+    "syncretic_ids": [
+      "Q35061"
+    ],
+    "extract": "Unkulunkulu (/uɲɠulun'ɠulu/), often formatted as uNkulunkulu or uMkhulu Omkhulu, is a mythical ancestor, mythical predecessor group, or Supreme Creator in the language of the Zulu, Ndebele, and Swati people. Originally a \"first ancestor\" figure, Unkulunkulu morphed into a creator-god figure with the spread of Christianity.",
+    "description": "Zulu mythological figure",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Unkulunkulu"
+  },
+  {
+    "id": "Q131690",
+    "name": "The Nommo Water Spirits and Sirius (Dogon Cosmogony)",
+    "wiki_title": "Nommo",
+    "lat": 14.45,
+    "lng": -3.2,
+    "epoch_start": 1000,
+    "epoch_end": 1600,
+    "culture": "West African",
+    "archetype": "Amphibious Primordial Teachers Bringing Civilization and Weaver Loom",
+    "syncretic_ids": [
+      "Q218415"
+    ],
+    "extract": "The Nommo or Nummo are primordial ancestral spirits in Dogon religion and cosmogony venerated by the Dogon people of Mali. The word Nommos is derived from a Dogon word meaning \"to make one drink.\" Nommos are usually described as amphibious, hermaphroditic, fish-like creatures. Folk art depictions of Nommos show creatures with humanoid upper torsos, legs/feet, and a fish-like lower torso and tail. Nommos are also referred to as \"Masters of the Water\", \"the Monitors\", and \"the Teachers\". Nommo can be a proper name of an individual or can refer to the group of spirits as a whole. For purposes of this article, \"Nommo\" refers to a specific individual and \"Nommos\" is used to reference the group of beings.",
+    "description": "Primordial ancestral spirits in Dogon religion and cosmogony",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/97/Brooklyn_Museum_1989.51.39_Nommo_Figure_with_Raised_Arms.jpg/330px-Brooklyn_Museum_1989.51.39_Nommo_Figure_with_Raised_Arms.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nommo"
+  },
+  {
+    "id": "Q131695",
+    "name": "|Kaggen the Mantis Trickster (|Xam San Myth)",
+    "wiki_title": "Kaggen",
+    "lat": -30.0,
+    "lng": 21.0,
+    "epoch_start": -4000,
+    "epoch_end": 1700,
+    "culture": "Central & Southern African",
+    "archetype": "Shape-Shifting Mantis Creating the Moon from an Eland's Shoe",
+    "syncretic_ids": [
+      "Q83364"
+    ],
+    "extract": "ǀKaggen is a demiurge and folk hero of the San people of southern Africa. He is a trickster god who can shape shift, usually taking the form of a praying mantis but also a bull eland, a louse, a snake, and a caterpillar.",
+    "description": "Demiurge and folk hero of the San people of southern Africa",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/%C7%80Kaggen"
+  },
+  {
+    "id": "Q131696",
+    "name": "The Mwindo Epic (Nyanga Hero's Descent to the Underworld)",
+    "wiki_title": "Mwindo_epic",
+    "lat": -1.33,
+    "lng": 28.0,
+    "epoch_start": 900,
+    "epoch_end": 1500,
+    "culture": "Central & Southern African",
+    "archetype": "Underworld Descent and Reconciliation with Lightning God",
+    "syncretic_ids": [
+      "Q272486",
+      "Q1055745"
+    ],
+    "extract": "The Mwindo epic is an oral tale from the Congo told by the Nyanga people. The origins and creation of the Mwindo epic are mostly unknown since the story is only passed down orally. A version of the story was recorded by Kahombo Mateene and Daniel Biebuyck and published in 1969.",
+    "description": "Oral tale from the Congo told by the Nyanga people",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mwindo_epic"
+  },
+  {
+    "id": "Q131697",
+    "name": "Kintu and Nambi (Buganda Genesis and the Origin of Death)",
+    "wiki_title": "Kintu",
+    "lat": 0.31,
+    "lng": 32.58,
+    "epoch_start": 1000,
+    "epoch_end": 1500,
+    "culture": "Central & Southern African",
+    "archetype": "First Man Gaining the Earth and the Origin of Death (Walumbe)",
+    "syncretic_ids": [
+      "Q35061"
+    ],
+    "extract": "\nKintu is a mythological figure who appears in a creation myth of the people of Buganda, Uganda. According to this legend, Kintu was the first person on earth, and the first Muganda.",
+    "description": "Ugandan mythological figure",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kintu"
   },
   {
     "id": "Q1145299",
@@ -923,11 +1547,10 @@
     "lng": 130.84,
     "epoch_start": -4000,
     "epoch_end": 1500,
-    "culture": "Oceanic",
+    "culture": "Oceanic & Australasian",
     "archetype": "Primordial Creator Serpent Carving Riverways",
     "syncretic_ids": [
-      "Q218415",
-      "Q42952"
+      "Q218415"
     ],
     "extract": "The Rainbow Serpent or Rainbow Snake is a common deity often seen as the creator god, known by numerous names in different Australian Aboriginal languages by the many different Aboriginal peoples. It is a common motif in the art and religion of many Aboriginal Australian peoples. Much like the archetypal mother goddess, the Rainbow Serpent creates land and diversity for the Aboriginal people, but when disturbed can bring great chaos.",
     "description": "Creator god and common motif of Aboriginal Australia",
@@ -937,20 +1560,19 @@
   {
     "id": "Q1145305",
     "name": "Maui Fishing Up the North Island (Te Ika-a-Maui)",
-    "wiki_title": "M%C4%81ui_(M%C4%81ori_mythology)",
+    "wiki_title": "Māui_(Māori_mythology)",
     "lat": -38.68,
     "lng": 176.07,
     "epoch_start": 900,
     "epoch_end": 1400,
-    "culture": "Oceanic",
+    "culture": "Oceanic & Australasian",
     "archetype": "Demi-god Trickster Pulling Landmass from Depths",
     "syncretic_ids": [
-      "Q83364",
-      "Q39546"
+      "Q83364"
     ],
-    "extract": "Maui Fishing Up the North Island (Te Ika-a-Maui) is a foundational mythic narrative from the Oceanic tradition.",
-    "description": "",
-    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "extract": "In Māori mythology, as in other Polynesian traditions, Māui is a culture hero, demigod and a trickster, famous for his exploits and cleverness. He possessed superhuman strength, and was capable of shapeshifting into animals such as birds and worms.",
+    "description": "Māori culture hero",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b7/Te_Tohunga_-_p49.png/330px-Te_Tohunga_-_p49.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
     "wikipedia_url": "https://en.wikipedia.org/wiki/M%C4%81ui_(M%C4%81ori_mythology)"
   },
   {
@@ -961,11 +1583,10 @@
     "lng": -155.58,
     "epoch_start": 1200,
     "epoch_end": 1700,
-    "culture": "Oceanic",
+    "culture": "Oceanic & Australasian",
     "archetype": "Evolutionary Chant from Slime to Coral to Gods",
     "syncretic_ids": [
-      "Q133346",
-      "Q35061"
+      "Q133346"
     ],
     "extract": "In Hawaiian religion, the Kumulipo is the creation chant, first recorded in the 18th century. It also includes a genealogy of the members of Hawaiian royalty and was created in honor of Kalaninuiamamao and passed down orally to his daughter Alapaʻiwahine.",
     "description": "Hawaiian chant",
@@ -973,57 +1594,40 @@
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kumulipo"
   },
   {
-    "id": "Q1145315",
-    "name": "Viracocha Creation at Lake Titicaca",
-    "wiki_title": "Viracocha",
-    "lat": -15.92,
-    "lng": -69.33,
-    "epoch_start": 200,
-    "epoch_end": 1532,
-    "culture": "Andean",
-    "archetype": "Supreme Creator Rising from Sacred Waters to Make Sun",
+    "id": "Q131700",
+    "name": "Pele and Namakaokahai (Fire vs Sea in Hawaii)",
+    "wiki_title": "Pele_(deity)",
+    "lat": 19.41,
+    "lng": -155.28,
+    "epoch_start": 1000,
+    "epoch_end": 1700,
+    "culture": "Oceanic & Australasian",
+    "archetype": "Volcano Goddess Battling Sea Goddess across Archipelagos",
     "syncretic_ids": [
-      "Q218415",
-      "Q131371"
+      "Q131670"
     ],
-    "extract": "\nViracocha is the creator and supreme deity in the pre-Inca and Inca mythology in the Andes region of South America. According to the myth Viracocha had human appearance and was generally considered as bearded. According to the myth he ordered the construction of Tiwanaku. It is also said that he was accompanied by men also referred to as Viracochas.",
-    "description": "Creator deity in Inca mythology",
-    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Viracocha"
+    "extract": "In Hawaiian religion, Pele is the goddess of volcanoes and fire and the creator of the Hawaiian Islands. Often referred to as \"Madame Pele\" or \"Tūtū Pele\" as a sign of respect, she is a well-known deity within Hawaiian mythology and is notable for her contemporary presence and cultural influence as an enduring figure from ancient Hawaii. Epithets of the goddess include Pele-honua-mea and Ka wahine ʻai honua.",
+    "description": "Hawaiian goddess of volcanoes and fire",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/en/1/1b/The_goddess_pele_by_arthur_johnsen.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pele_(deity)"
   },
   {
-    "id": "Q1145320",
-    "name": "Legend of the Ayar Brothers (Founding of Cusco)",
-    "wiki_title": "Ayar_brothers",
-    "lat": -13.53,
-    "lng": -71.96,
-    "epoch_start": 1100,
-    "epoch_end": 1532,
-    "culture": "Andean",
-    "archetype": "Four Brothers and Four Sisters Emerging from Sacred Cave",
+    "id": "Q131705",
+    "name": "Ranginui and Papatuanuku (Separation of Sky and Earth)",
+    "wiki_title": "Rangi_and_Papa",
+    "lat": -37.0,
+    "lng": 175.0,
+    "epoch_start": 900,
+    "epoch_end": 1500,
+    "culture": "Oceanic & Australasian",
+    "archetype": "Primordial Sky Father & Earth Mother Separated by Forest God Tane",
     "syncretic_ids": [
-      "Q60184",
-      "Q190828"
+      "Q35061",
+      "Q190864"
     ],
-    "extract": "Legend of the Ayar Brothers (Founding of Cusco) is a foundational mythic narrative from the Andean tradition.",
-    "description": "",
-    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Ayar_brothers"
-  },
-  {
-    "id": "Q1956967",
-    "name": "Myth of Langemarck",
-    "wiki_title": "Myth_of_Langemarck",
-    "lat": 50.9202,
-    "lng": 2.9173,
-    "epoch_start": -1000,
-    "epoch_end": 500,
-    "culture": "Cross-Cultural",
-    "archetype": "Mythological Narrative",
-    "syncretic_ids": [],
-    "extract": "Myth of Langemarck is a foundational mythic narrative from the Cross-Cultural tradition.",
-    "description": "",
-    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
-    "wikipedia_url": "https://en.wikipedia.org/wiki/Myth_of_Langemarck"
+    "extract": "In Māori mythology the primal couple Rangi and Papa appear in a creation myth explaining the origin of the world and the Māori people. In some South Island dialects, Rangi is called Raki or Rakinui.",
+    "description": "World parents of Māori creation story",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d7/WahineTane.jpg/330px-WahineTane.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rangi_and_Papa"
   }
 ]

@@ -45,7 +45,8 @@ def save_cache(cache: Dict[str, Any]) -> None:
 
 def fetch_wikipedia_summary(title: str, session: requests.Session) -> Optional[Dict[str, Any]]:
     """Fetches summary, extract, and thumbnail from Wikipedia REST API."""
-    encoded_title = urllib.parse.quote(title.replace(" ", "_"), safe=":/_")
+    clean_title = urllib.parse.unquote(title).strip().replace(" ", "_")
+    encoded_title = urllib.parse.quote(clean_title, safe=":/_")
     url = f"{REST_API_BASE}/{encoded_title}"
     headers = {
         "User-Agent": USER_AGENT,

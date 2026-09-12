@@ -13,21 +13,46 @@ import { store, ActiveMyth } from '../state/store.ts';
 const GLOBE_RADIUS = 100;
 const BORDER_ELEVATION = 100.18;
 const NODE_ELEVATION = 101.4;
-const MAX_INSTANCES = 250;
+const MAX_INSTANCES = 500;
 
 export const CULTURE_COLORS: Record<string, string> = {
-  Mesopotamian: '#E6B86A', // Ancient Gold
+  // Near Eastern & Mediterranean
+  Mesopotamian: '#E6B86A', // Ancient Cuneiform Gold
   Levantine: '#F4A261',    // Bronze Amber
-  Egyptian: '#E76F51',     // Terracotta Sun
-  Vedic: '#48CAE4',        // Celestial Cyan
+  Egyptian: '#E76F51',     // Terracotta Sun / Red Ochre
   'Greco-Roman': '#00B4D8', // Aegean Blue
-  Norse: '#90E0EF',        // Glacial Frost
-  Mesoamerican: '#2A9D8F', // Jade Quetzal
-  'East Asian': '#E63946', // Imperial Vermilion
-  Celtic: '#52B788',       // Forest Emerald
-  'West African': '#F77F00',// Saharan Gold
-  Oceanic: '#06D6A0',      // Pacific Aqua
-  Andean: '#FFB703',       // Incan Sun
+
+  // Indo-Iranian & South Asian
+  'Vedic & Hindu': '#48CAE4', // Celestial Cyan / Soma Blue
+  Vedic: '#48CAE4',
+  'Persian & Iranian': '#C77DFF', // Imperial Sasanian Amethyst
+  
+  // European Traditions
+  'Norse & Germanic': '#90E0EF', // Glacial Frost
+  Norse: '#90E0EF',
+  Celtic: '#52B788',       // Forest Druidic Emerald
+  'Slavic & Baltic': '#38B000', // Sacred Oak Green
+  'Finno-Ugric': '#70E000',     // Taiga Moss Lime
+
+  // East, Central & Southeast Asian
+  'East Asian': '#E63946', // Imperial Vermilion / Dragon Red
+  'Central Asian & Steppe': '#FFD166', // Golden Steppe Sun
+  'Southeast Asian': '#FF70A6', // Tropical Lotus Pink
+
+  // Americas
+  'North American Indigenous': '#FF9F1C', // Amber Ochre / Turquoise Feather
+  Mesoamerican: '#2A9D8F', // Jade Quetzal Green
+  'Andean & South American': '#FFB703', // Incan Sun Gold
+  Andean: '#FFB703',
+
+  // Africa
+  'West African': '#F77F00', // Saharan Sun Gold
+  'Central & Southern African': '#D62828', // Great Rift Ochre Crimson
+
+  // Oceania & Australasia
+  'Oceanic & Australasian': '#06D6A0', // Pacific Reef Aquamarine
+  Oceanic: '#06D6A0',
+
   Default: '#E6B86A',
 };
 

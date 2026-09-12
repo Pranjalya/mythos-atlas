@@ -46,8 +46,12 @@ def test_static_myths_schema():
         cultures_found.add(myth["culture"])
 
     # Ensure diversity across continents/civilizations
-    assert len(cultures_found) >= 5, f"Expected at least 5 distinct cultures, found: {cultures_found}"
-    expected_major = {"Mesopotamian", "Egyptian", "Vedic", "Greco-Roman", "Norse", "Mesoamerican"}
+    assert len(cultures_found) >= 15, f"Expected at least 15 distinct cultures across continents, found: {cultures_found}"
+    expected_major = {
+        "Mesopotamian", "Egyptian", "Vedic & Hindu", "Greco-Roman", "Norse & Germanic",
+        "Mesoamerican", "East Asian", "West African", "Oceanic & Australasian",
+        "North American Indigenous", "Andean & South American", "Slavic & Baltic"
+    }
     assert expected_major.issubset(cultures_found), f"Missing major civilizational traditions. Found: {cultures_found}"
 
 

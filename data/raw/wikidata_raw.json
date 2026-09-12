@@ -73,8 +73,7 @@
     "archetype": "Storm God vs Sea Serpent",
     "syncretic_ids": [
       "Q190864",
-      "Q131379",
-      "Q179198"
+      "Q131379"
     ]
   },
   {
@@ -105,8 +104,7 @@
     "archetype": "Storm God vs Mot (Death) & Yam (Sea)",
     "syncretic_ids": [
       "Q190864",
-      "Q8785",
-      "Q107873"
+      "Q8785"
     ]
   },
   {
@@ -152,8 +150,7 @@
     "archetype": "Dying-and-Rising King / Underworld Judge",
     "syncretic_ids": [
       "Q272486",
-      "Q107873",
-      "Q35060"
+      "Q179654"
     ]
   },
   {
@@ -168,8 +165,7 @@
     "archetype": "Magical Protector & Divine Mother",
     "syncretic_ids": [
       "Q46580",
-      "Q35060",
-      "Q179198"
+      "Q35060"
     ]
   },
   {
@@ -224,7 +220,7 @@
     "lng": 81.84,
     "epoch_start": -1500,
     "epoch_end": -500,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Cosmic Churning / Elixir of Immortality (Amrita)",
     "syncretic_ids": [
       "Q248352",
@@ -239,7 +235,7 @@
     "lng": 76.4,
     "epoch_start": -1500,
     "epoch_end": -1000,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Primordial Void & Cosmic Paradox",
     "syncretic_ids": [
       "Q190864"
@@ -253,12 +249,11 @@
     "lng": 76.77,
     "epoch_start": -1500,
     "epoch_end": -900,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Chaoskampf / Releasing the Waters",
     "syncretic_ids": [
       "Q8785",
-      "Q131379",
-      "Q131488"
+      "Q131379"
     ]
   },
   {
@@ -269,7 +264,7 @@
     "lng": 82.2,
     "epoch_start": -700,
     "epoch_end": -200,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Exile of Righteous Hero & Rescue of Consort",
     "syncretic_ids": [
       "Q1164",
@@ -284,7 +279,7 @@
     "lng": 76.88,
     "epoch_start": -800,
     "epoch_end": 400,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Dynastic Apocalypse / The Cosmic Wheel (Dharma)",
     "syncretic_ids": [
       "Q8275",
@@ -299,10 +294,84 @@
     "lng": 78.93,
     "epoch_start": -600,
     "epoch_end": 300,
-    "culture": "Vedic",
+    "culture": "Vedic & Hindu",
     "archetype": "Celestial River Tamed by Ascetic God",
     "syncretic_ids": [
       "Q39546"
+    ]
+  },
+  {
+    "id": "Q131580",
+    "name": "Shiva Tandava (Cosmic Dance of Destruction)",
+    "wiki_title": "Tandava",
+    "lat": 11.39,
+    "lng": 79.69,
+    "epoch_start": -500,
+    "epoch_end": 600,
+    "culture": "Vedic & Hindu",
+    "archetype": "Cosmic Dissolution and Re-Creation",
+    "syncretic_ids": [
+      "Q169542",
+      "Q190864"
+    ]
+  },
+  {
+    "id": "Q131585",
+    "name": "Ahura Mazda vs Angra Mainyu",
+    "wiki_title": "Ahura_Mazda",
+    "lat": 32.88,
+    "lng": 59.22,
+    "epoch_start": -1200,
+    "epoch_end": 651,
+    "culture": "Persian & Iranian",
+    "archetype": "Cosmic Dualism: Light (Asha) vs Deceit (Druj)",
+    "syncretic_ids": [
+      "Q190864",
+      "Q131379"
+    ]
+  },
+  {
+    "id": "Q8279",
+    "name": "Ferdowsi's Shahnameh (Rostam and Sohrab)",
+    "wiki_title": "Shahnameh",
+    "lat": 36.3,
+    "lng": 59.6,
+    "epoch_start": 977,
+    "epoch_end": 1010,
+    "culture": "Persian & Iranian",
+    "archetype": "Tragic Filicide / National Heroic Epic",
+    "syncretic_ids": [
+      "Q1164",
+      "Q8275"
+    ]
+  },
+  {
+    "id": "Q131595",
+    "name": "The Simurgh and Prince Zal",
+    "wiki_title": "Simurgh",
+    "lat": 35.95,
+    "lng": 52.11,
+    "epoch_start": -500,
+    "epoch_end": 1000,
+    "culture": "Persian & Iranian",
+    "archetype": "Benevolent Mythic Avian Guardian of the Hero",
+    "syncretic_ids": [
+      "Q487840"
+    ]
+  },
+  {
+    "id": "Q131598",
+    "name": "Jamshid and the Golden Age (Yima's Vara)",
+    "wiki_title": "Jamshid",
+    "lat": 29.93,
+    "lng": 52.89,
+    "epoch_start": -1000,
+    "epoch_end": 651,
+    "culture": "Persian & Iranian",
+    "archetype": "Golden Age King / Subterranean Haven Against Cosmic Winter",
+    "syncretic_ids": [
+      "Q190535",
+      "Q248352"
     ]
   },
   {
@@ -362,8 +431,7 @@
     "archetype": "Underworld Abduction & Agricultural Rebirth",
     "syncretic_ids": [
       "Q272486",
-      "Q46580",
-      "Q107873"
+      "Q46580"
     ]
   },
   {
@@ -375,23 +443,8 @@
     "epoch_start": -700,
     "epoch_end": -300,
     "culture": "Greco-Roman",
-    "archetype": "Solar Hero Expitiation & Monster Cleansing",
+    "archetype": "Solar Hero Expiation & Monster Cleansing",
     "syncretic_ids": [
-      "Q248352"
-    ]
-  },
-  {
-    "id": "Q190532",
-    "name": "Jason and the Argonauts (Golden Fleece)",
-    "wiki_title": "Argonauts",
-    "lat": 39.36,
-    "lng": 22.94,
-    "epoch_start": -750,
-    "epoch_end": -200,
-    "culture": "Greco-Roman",
-    "archetype": "Quest for the Sacred Talisman Across Edge of World",
-    "syncretic_ids": [
-      "Q35160",
       "Q248352"
     ]
   },
@@ -407,7 +460,6 @@
     "archetype": "Sea-Foam Born Goddess of Desire",
     "syncretic_ids": [
       "Q272486",
-      "Q107873",
       "Q179198"
     ]
   },
@@ -422,8 +474,7 @@
     "culture": "Greco-Roman",
     "archetype": "Destined Translation of Empire (Translatio Imperii)",
     "syncretic_ids": [
-      "Q8275",
-      "Q35160"
+      "Q8275"
     ]
   },
   {
@@ -434,7 +485,7 @@
     "lng": -21.13,
     "epoch_start": 800,
     "epoch_end": 1250,
-    "culture": "Norse",
+    "culture": "Norse & Germanic",
     "archetype": "Eschatological Apocalypse & Rebirth",
     "syncretic_ids": [
       "Q1164",
@@ -449,12 +500,11 @@
     "lng": 17.63,
     "epoch_start": 700,
     "epoch_end": 1200,
-    "culture": "Norse",
+    "culture": "Norse & Germanic",
     "archetype": "Thunder God vs Midgard Serpent",
     "syncretic_ids": [
       "Q8785",
-      "Q131379",
-      "Q131590"
+      "Q131379"
     ]
   },
   {
@@ -465,7 +515,7 @@
     "lng": 10.75,
     "epoch_start": 600,
     "epoch_end": 1250,
-    "culture": "Norse",
+    "culture": "Norse & Germanic",
     "archetype": "Wounded Shaman / Hanging for Runes of Wisdom",
     "syncretic_ids": [
       "Q83364"
@@ -479,70 +529,138 @@
     "lng": 12.56,
     "epoch_start": 800,
     "epoch_end": 1200,
-    "culture": "Norse",
+    "culture": "Norse & Germanic",
     "archetype": "Death of the Pure Light God / Foretoken of Doom",
     "syncretic_ids": [
-      "Q46580",
-      "Q107873"
-    ]
-  },
-  {
-    "id": "Q190828",
-    "name": "Popol Vuh (Hero Twins and Underworld Xibalba)",
-    "wiki_title": "Popol_Vuh",
-    "lat": 14.63,
-    "lng": -90.51,
-    "epoch_start": 300,
-    "epoch_end": 1550,
-    "culture": "Mesoamerican",
-    "archetype": "Hero Twins Ballgame Triumph over Death Lords",
-    "syncretic_ids": [
-      "Q272486",
       "Q46580"
     ]
   },
   {
-    "id": "Q218415",
-    "name": "Legend of the Feathered Serpent (Quetzalcoatl)",
-    "wiki_title": "Quetzalcoatl",
-    "lat": 19.69,
-    "lng": -98.84,
-    "epoch_start": -100,
-    "epoch_end": 1521,
-    "culture": "Mesoamerican",
-    "archetype": "Culture Hero / Boundary Crosser / Venus Morning Star",
-    "syncretic_ids": [
-      "Q190828",
-      "Q83364"
-    ]
-  },
-  {
-    "id": "Q217032",
-    "name": "Aztec Legend of the Fifth Sun (Nahui-Ollin)",
-    "wiki_title": "Five_Suns",
-    "lat": 19.43,
-    "lng": -99.13,
-    "epoch_start": 1200,
-    "epoch_end": 1521,
-    "culture": "Mesoamerican",
-    "archetype": "Cyclical World Ages & Solar Sacrifice of Nanahuatzin",
-    "syncretic_ids": [
-      "Q169542",
-      "Q190864"
-    ]
-  },
-  {
-    "id": "Q219455",
-    "name": "Kukulcan Descent at Equinox",
-    "wiki_title": "Kukulkan",
-    "lat": 20.68,
-    "lng": -88.56,
-    "epoch_start": 700,
+    "id": "Q131600",
+    "name": "Perun vs Veles (Thunder God vs Underworld Serpent)",
+    "wiki_title": "Perun",
+    "lat": 50.45,
+    "lng": 30.52,
+    "epoch_start": 500,
     "epoch_end": 1200,
-    "culture": "Mesoamerican",
-    "archetype": "Plumed Serpent Solar Shadow at Sacred Pyramid",
+    "culture": "Slavic & Baltic",
+    "archetype": "Storm God in Tree vs Horned Serpent in Roots",
     "syncretic_ids": [
-      "Q218415"
+      "Q8785",
+      "Q42952"
+    ]
+  },
+  {
+    "id": "Q187224",
+    "name": "Baba Yaga in the Hut on Fowl's Legs",
+    "wiki_title": "Baba_Yaga",
+    "lat": 56.83,
+    "lng": 60.6,
+    "epoch_start": 600,
+    "epoch_end": 1500,
+    "culture": "Slavic & Baltic",
+    "archetype": "Threshold Guardian Witch / Forest Initiator",
+    "syncretic_ids": [
+      "Q686259"
+    ]
+  },
+  {
+    "id": "Q130009",
+    "name": "The Kalevala (Forging of the Sampo)",
+    "wiki_title": "Kalevala",
+    "lat": 64.0,
+    "lng": 30.0,
+    "epoch_start": 800,
+    "epoch_end": 1400,
+    "culture": "Finno-Ugric",
+    "archetype": "Magic Singing Sorcerer (Väinämöinen) & Mill of Plenty",
+    "syncretic_ids": [
+      "Q190532"
+    ]
+  },
+  {
+    "id": "Q130015",
+    "name": "Lemminkäinen's Resurrection from the Tuonela River",
+    "wiki_title": "Lemminkäinen",
+    "lat": 61.5,
+    "lng": 28.5,
+    "epoch_start": 800,
+    "epoch_end": 1400,
+    "culture": "Finno-Ugric",
+    "archetype": "Katabasis / Mother's Rake Piecing Hero Back from the River of Death",
+    "syncretic_ids": [
+      "Q272486",
+      "Q179654"
+    ]
+  },
+  {
+    "id": "Q130020",
+    "name": "Kalevipoeg (The Giant Hero of Estonia)",
+    "wiki_title": "Kalevipoeg",
+    "lat": 58.59,
+    "lng": 25.01,
+    "epoch_start": 900,
+    "epoch_end": 1400,
+    "culture": "Finno-Ugric",
+    "archetype": "Giant Culture Hero / Earth Sculptor and Underworld Descent",
+    "syncretic_ids": [
+      "Q1164"
+    ]
+  },
+  {
+    "id": "Q131605",
+    "name": "Perkunas and Saule (Baltic Sun and Thunder)",
+    "wiki_title": "Perkūnas",
+    "lat": 54.68,
+    "lng": 25.27,
+    "epoch_start": 400,
+    "epoch_end": 1387,
+    "culture": "Slavic & Baltic",
+    "archetype": "Oak-Tree Thunder God Purifying Chthonic Shadows",
+    "syncretic_ids": [
+      "Q131600"
+    ]
+  },
+  {
+    "id": "Q1145281",
+    "name": "Tain Bo Cuailnge (Cattle Raid of Cooley)",
+    "wiki_title": "Táin_Bó_Cúailnge",
+    "lat": 54.0,
+    "lng": -6.4,
+    "epoch_start": 100,
+    "epoch_end": 1100,
+    "culture": "Celtic",
+    "archetype": "Berserker Demi-God (Cú Chulainn) Defending Homeland",
+    "syncretic_ids": [
+      "Q8275"
+    ]
+  },
+  {
+    "id": "Q1145290",
+    "name": "The Quest for the Holy Grail",
+    "wiki_title": "Holy_Grail",
+    "lat": 51.14,
+    "lng": -2.71,
+    "epoch_start": 1180,
+    "epoch_end": 1485,
+    "culture": "Celtic",
+    "archetype": "Healing of Wounded King / Sacred Vessel",
+    "syncretic_ids": [
+      "Q190532"
+    ]
+  },
+  {
+    "id": "Q1145295",
+    "name": "The Children of Lir (Swan Metamorphosis)",
+    "wiki_title": "Children_of_Lir",
+    "lat": 53.6,
+    "lng": -7.3,
+    "epoch_start": 500,
+    "epoch_end": 1200,
+    "culture": "Celtic",
+    "archetype": "Jealous Stepmother Curse / 900 Years of Metamorphosis",
+    "syncretic_ids": [
+      "Q179654"
     ]
   },
   {
@@ -598,7 +716,7 @@
     "epoch_start": 629,
     "epoch_end": 1592,
     "culture": "East Asian",
-    "archetype": "Monkey King Trickster & Spiritual Pilgrimage to India",
+    "archetype": "Monkey King Trickster & Pilgrimage to India",
     "syncretic_ids": [
       "Q37140",
       "Q83364"
@@ -630,52 +748,334 @@
     "culture": "East Asian",
     "archetype": "Solar Goddess Hidden in Cave Restored by Sacred Dance",
     "syncretic_ids": [
-      "Q179654",
+      "Q179654"
+    ]
+  },
+  {
+    "id": "Q131610",
+    "name": "Susanoo slaying Yamata no Orochi",
+    "wiki_title": "Yamata_no_Orochi",
+    "lat": 35.36,
+    "lng": 133.05,
+    "epoch_start": 500,
+    "epoch_end": 712,
+    "culture": "East Asian",
+    "archetype": "Storm God Slaying Eight-Headed Dragon for Sacred Sword",
+    "syncretic_ids": [
+      "Q8785",
+      "Q42952"
+    ]
+  },
+  {
+    "id": "Q210740",
+    "name": "Dangun Myth (Founding of Gojoseon)",
+    "wiki_title": "Dangun",
+    "lat": 38.0,
+    "lng": 126.5,
+    "epoch_start": -1000,
+    "epoch_end": 1281,
+    "culture": "East Asian",
+    "archetype": "Bear-Woman (Ungnyeo) and Heavenly Son King",
+    "syncretic_ids": [
+      "Q60184"
+    ]
+  },
+  {
+    "id": "Q131615",
+    "name": "Tengri and the Eternal Blue Sky",
+    "wiki_title": "Tengrism",
+    "lat": 47.92,
+    "lng": 106.91,
+    "epoch_start": -1000,
+    "epoch_end": 1300,
+    "culture": "Central Asian & Steppe",
+    "archetype": "Supreme Celestial Sky Father & Shamanic Tree",
+    "syncretic_ids": [
+      "Q133346"
+    ]
+  },
+  {
+    "id": "Q248235",
+    "name": "The Epic of King Gesar",
+    "wiki_title": "Epic_of_King_Gesar",
+    "lat": 33.0,
+    "lng": 98.0,
+    "epoch_start": 300,
+    "epoch_end": 1400,
+    "culture": "Central Asian & Steppe",
+    "archetype": "Miraculous Demi-God Warrior Defeating Demons of the Directions",
+    "syncretic_ids": [
+      "Q37140",
+      "Q1164"
+    ]
+  },
+  {
+    "id": "Q836248",
+    "name": "The Epic of Manas (Unification of the Kyrgyz)",
+    "wiki_title": "Epic_of_Manas",
+    "lat": 42.52,
+    "lng": 72.24,
+    "epoch_start": 900,
+    "epoch_end": 1500,
+    "culture": "Central Asian & Steppe",
+    "archetype": "Chivalric Warrior Uniting the Steppe Tribes",
+    "syncretic_ids": [
+      "Q1055745"
+    ]
+  },
+  {
+    "id": "Q131620",
+    "name": "Dewi Sri (The Rice Mother Goddess)",
+    "wiki_title": "Dewi_Sri",
+    "lat": -7.79,
+    "lng": 110.36,
+    "epoch_start": 700,
+    "epoch_end": 1500,
+    "culture": "Southeast Asian",
+    "archetype": "Self-Sacrificing Goddess Transforming into Sacred Rice",
+    "syncretic_ids": [
+      "Q179654"
+    ]
+  },
+  {
+    "id": "Q131625",
+    "name": "Barong vs Rangda (Eternal Cosmic Equilibrium)",
+    "wiki_title": "Barong_(mythology)",
+    "lat": -8.5,
+    "lng": 115.26,
+    "epoch_start": 900,
+    "epoch_end": 1600,
+    "culture": "Southeast Asian",
+    "archetype": "Lion Spirit of Good vs Demon Queen of Calon Arang",
+    "syncretic_ids": [
+      "Q190864"
+    ]
+  },
+  {
+    "id": "Q131630",
+    "name": "Bakunawa Swallowing the Seven Moons",
+    "wiki_title": "Bakunawa",
+    "lat": 10.31,
+    "lng": 123.89,
+    "epoch_start": 800,
+    "epoch_end": 1600,
+    "culture": "Southeast Asian",
+    "archetype": "Serpentine Sea Dragon Causing Lunar Eclipse",
+    "syncretic_ids": [
+      "Q42952"
+    ]
+  },
+  {
+    "id": "Q131635",
+    "name": "Lac Long Quan and Au Co (Birth of the Viet People)",
+    "wiki_title": "Lạc_Long_Quân",
+    "lat": 21.03,
+    "lng": 105.85,
+    "epoch_start": -700,
+    "epoch_end": 1400,
+    "culture": "Southeast Asian",
+    "archetype": "Dragon Lord of the Waters & Fairy of the Mountains producing 100 Eggs",
+    "syncretic_ids": [
+      "Q179831"
+    ]
+  },
+  {
+    "id": "Q131640",
+    "name": "Dine Bahane' (Navajo Emergence through the Four Worlds)",
+    "wiki_title": "Diné_Bahaneʼ",
+    "lat": 36.0,
+    "lng": -109.5,
+    "epoch_start": 500,
+    "epoch_end": 1500,
+    "culture": "North American Indigenous",
+    "archetype": "Emergence Myth / Holy People (Diyin Dine'é) Ascending Worlds",
+    "syncretic_ids": [
+      "Q190828"
+    ]
+  },
+  {
+    "id": "Q131645",
+    "name": "Sedna (Mistress of the Arctic Underworld)",
+    "wiki_title": "Sedna_(mythology)",
+    "lat": 69.0,
+    "lng": -95.0,
+    "epoch_start": -1000,
+    "epoch_end": 1500,
+    "culture": "North American Indigenous",
+    "archetype": "Sacrificed Sea Maiden whose Severed Fingers become Seals & Whales",
+    "syncretic_ids": [
       "Q272486"
     ]
   },
   {
-    "id": "Q1145281",
-    "name": "Tain Bo Cuailnge (Cattle Raid of Cooley)",
-    "wiki_title": "Táin_Bó_Cúailnge",
-    "lat": 54.0,
-    "lng": -6.4,
-    "epoch_start": 100,
-    "epoch_end": 1100,
-    "culture": "Celtic",
-    "archetype": "Berserker Demi-God (Cu Chulainn) Defending Homeland",
+    "id": "Q131650",
+    "name": "Raven Stealing the Light of the Sun",
+    "wiki_title": "Raven_Tales",
+    "lat": 53.25,
+    "lng": -132.0,
+    "epoch_start": -1500,
+    "epoch_end": 1600,
+    "culture": "North American Indigenous",
+    "archetype": "Trickster Transformer Liberating the Sun from Celestial Chieftain",
     "syncretic_ids": [
-      "Q8275",
-      "Q12224"
+      "Q83364",
+      "Q686259"
     ]
   },
   {
-    "id": "Q1145290",
-    "name": "The Quest for the Holy Grail",
-    "wiki_title": "Holy_Grail",
-    "lat": 51.14,
-    "lng": -2.71,
-    "epoch_start": 1180,
-    "epoch_end": 1485,
-    "culture": "Celtic",
-    "archetype": "Healing of Wounded King / Quest for Sacred Vessel",
+    "id": "Q131655",
+    "name": "White Buffalo Calf Woman (Sacred Pipe Chanunpa)",
+    "wiki_title": "White_Buffalo_Calf_Woman",
+    "lat": 43.8,
+    "lng": -103.5,
+    "epoch_start": 900,
+    "epoch_end": 1700,
+    "culture": "North American Indigenous",
+    "archetype": "Celestial Maiden Bringing Seven Sacred Rites and Moral Covenant",
     "syncretic_ids": [
-      "Q190532",
-      "Q248352"
+      "Q218415"
     ]
   },
   {
-    "id": "Q1145295",
-    "name": "The Children of Lir (Transforming into Swans)",
-    "wiki_title": "Children_of_Lir",
-    "lat": 53.6,
-    "lng": -7.3,
-    "epoch_start": 500,
+    "id": "Q131660",
+    "name": "Iroquois Sky Woman and the Turtle Island",
+    "wiki_title": "Iroquois_mythology",
+    "lat": 43.0,
+    "lng": -76.0,
+    "epoch_start": 1000,
+    "epoch_end": 1500,
+    "culture": "North American Indigenous",
+    "archetype": "Pregnant Sky Woman Falling to Earth / World Built on Turtle's Back",
+    "syncretic_ids": [
+      "Q242488"
+    ]
+  },
+  {
+    "id": "Q190828",
+    "name": "Popol Vuh (Hero Twins and Underworld Xibalba)",
+    "wiki_title": "Popol_Vuh",
+    "lat": 14.63,
+    "lng": -90.51,
+    "epoch_start": 300,
+    "epoch_end": 1550,
+    "culture": "Mesoamerican",
+    "archetype": "Hero Twins Ballgame Triumph over Death Lords",
+    "syncretic_ids": [
+      "Q272486",
+      "Q46580"
+    ]
+  },
+  {
+    "id": "Q218415",
+    "name": "Legend of the Feathered Serpent (Quetzalcoatl)",
+    "wiki_title": "Quetzalcoatl",
+    "lat": 19.69,
+    "lng": -98.84,
+    "epoch_start": -100,
+    "epoch_end": 1521,
+    "culture": "Mesoamerican",
+    "archetype": "Culture Hero / Boundary Crosser / Venus Morning Star",
+    "syncretic_ids": [
+      "Q83364"
+    ]
+  },
+  {
+    "id": "Q217032",
+    "name": "Aztec Legend of the Fifth Sun (Nahui-Ollin)",
+    "wiki_title": "Five_Suns",
+    "lat": 19.43,
+    "lng": -99.13,
+    "epoch_start": 1200,
+    "epoch_end": 1521,
+    "culture": "Mesoamerican",
+    "archetype": "Cyclical World Ages & Solar Sacrifice of Nanahuatzin",
+    "syncretic_ids": [
+      "Q169542"
+    ]
+  },
+  {
+    "id": "Q219455",
+    "name": "Kukulcan Descent at Equinox",
+    "wiki_title": "Kukulkan",
+    "lat": 20.68,
+    "lng": -88.56,
+    "epoch_start": 700,
     "epoch_end": 1200,
-    "culture": "Celtic",
-    "archetype": "Jealous Stepmother Curse / 900 Years of Metamorphosis",
+    "culture": "Mesoamerican",
+    "archetype": "Plumed Serpent Solar Shadow at Sacred Pyramid",
     "syncretic_ids": [
-      "Q179654"
+      "Q218415"
+    ]
+  },
+  {
+    "id": "Q131665",
+    "name": "Taino Creation of the Sea (The Gourd of Yaya)",
+    "wiki_title": "Taíno",
+    "lat": 18.22,
+    "lng": -66.59,
+    "epoch_start": 800,
+    "epoch_end": 1500,
+    "culture": "Mesoamerican",
+    "archetype": "Sacred Gourd Shattering into the Ocean Waters & Fishes",
+    "syncretic_ids": [
+      "Q10801"
+    ]
+  },
+  {
+    "id": "Q1145315",
+    "name": "Viracocha Creation at Lake Titicaca",
+    "wiki_title": "Viracocha",
+    "lat": -15.92,
+    "lng": -69.33,
+    "epoch_start": 200,
+    "epoch_end": 1532,
+    "culture": "Andean & South American",
+    "archetype": "Supreme Creator Rising from Sacred Waters to Make Sun",
+    "syncretic_ids": [
+      "Q218415"
+    ]
+  },
+  {
+    "id": "Q1145320",
+    "name": "Legend of the Ayar Brothers (Founding of Cusco)",
+    "wiki_title": "Inca_mythology",
+    "lat": -13.53,
+    "lng": -71.96,
+    "epoch_start": 1100,
+    "epoch_end": 1532,
+    "culture": "Andean & South American",
+    "archetype": "Four Brothers and Four Sisters Emerging from Sacred Cave",
+    "syncretic_ids": [
+      "Q60184"
+    ]
+  },
+  {
+    "id": "Q131670",
+    "name": "Trentren Vilu and Caicai Vilu (Mapuche Deluge)",
+    "wiki_title": "Mapuche_mythology",
+    "lat": -39.0,
+    "lng": -72.5,
+    "epoch_start": 500,
+    "epoch_end": 1550,
+    "culture": "Andean & South American",
+    "archetype": "Earth Serpent vs Sea Serpent Battle Raising Mountains Above Waters",
+    "syncretic_ids": [
+      "Q42952",
+      "Q10801"
+    ]
+  },
+  {
+    "id": "Q131675",
+    "name": "Tupa and Arasy (Guarani Creation of Humanity)",
+    "wiki_title": "Guarani_mythology",
+    "lat": -25.26,
+    "lng": -57.57,
+    "epoch_start": 600,
+    "epoch_end": 1600,
+    "culture": "Andean & South American",
+    "archetype": "Supreme Thunder Deity Fashioning First Couple from Clay",
+    "syncretic_ids": [
+      "Q190535"
     ]
   },
   {
@@ -689,8 +1089,7 @@
     "culture": "West African",
     "archetype": "Disabled Prince Rising to Unify Empire / Griot Destiny",
     "syncretic_ids": [
-      "Q37140",
-      "Q60184"
+      "Q37140"
     ]
   },
   {
@@ -702,7 +1101,7 @@
     "epoch_start": 1000,
     "epoch_end": 1700,
     "culture": "West African",
-    "archetype": "Trickster Weaver / Outsmarting the Sky God",
+    "archetype": "Trickster Weaver Outsmarting Sky God Nyame",
     "syncretic_ids": [
       "Q83364",
       "Q487840"
@@ -719,8 +1118,93 @@
     "culture": "West African",
     "archetype": "Descent from Sky with Sacred Rooster and Five Claws",
     "syncretic_ids": [
-      "Q179831",
-      "Q190864"
+      "Q179831"
+    ]
+  },
+  {
+    "id": "Q131680",
+    "name": "Shango the Orisha of Lightning and Thunder",
+    "wiki_title": "Shango",
+    "lat": 7.84,
+    "lng": 3.93,
+    "epoch_start": 1100,
+    "epoch_end": 1600,
+    "culture": "West African",
+    "archetype": "Deified King / Double-Headed Axe Thunder God",
+    "syncretic_ids": [
+      "Q8785",
+      "Q42952"
+    ]
+  },
+  {
+    "id": "Q131685",
+    "name": "Unkulunkulu Emerging from the Reeds (Zulu Creation)",
+    "wiki_title": "Unkulunkulu",
+    "lat": -28.75,
+    "lng": 31.0,
+    "epoch_start": 800,
+    "epoch_end": 1600,
+    "culture": "Central & Southern African",
+    "archetype": "First Ancestor Growing from the Primordial Swamp Reed (Uhlanga)",
+    "syncretic_ids": [
+      "Q35061"
+    ]
+  },
+  {
+    "id": "Q131690",
+    "name": "The Nommo Water Spirits and Sirius (Dogon Cosmogony)",
+    "wiki_title": "Nommo",
+    "lat": 14.45,
+    "lng": -3.2,
+    "epoch_start": 1000,
+    "epoch_end": 1600,
+    "culture": "West African",
+    "archetype": "Amphibious Primordial Teachers Bringing Civilization and Weaver Loom",
+    "syncretic_ids": [
+      "Q218415"
+    ]
+  },
+  {
+    "id": "Q131695",
+    "name": "|Kaggen the Mantis Trickster (|Xam San Myth)",
+    "wiki_title": "Kaggen",
+    "lat": -30.0,
+    "lng": 21.0,
+    "epoch_start": -4000,
+    "epoch_end": 1700,
+    "culture": "Central & Southern African",
+    "archetype": "Shape-Shifting Mantis Creating the Moon from an Eland's Shoe",
+    "syncretic_ids": [
+      "Q83364"
+    ]
+  },
+  {
+    "id": "Q131696",
+    "name": "The Mwindo Epic (Nyanga Hero's Descent to the Underworld)",
+    "wiki_title": "Mwindo_epic",
+    "lat": -1.33,
+    "lng": 28.0,
+    "epoch_start": 900,
+    "epoch_end": 1500,
+    "culture": "Central & Southern African",
+    "archetype": "Underworld Descent and Reconciliation with Lightning God",
+    "syncretic_ids": [
+      "Q272486",
+      "Q1055745"
+    ]
+  },
+  {
+    "id": "Q131697",
+    "name": "Kintu and Nambi (Buganda Genesis and the Origin of Death)",
+    "wiki_title": "Kintu",
+    "lat": 0.31,
+    "lng": 32.58,
+    "epoch_start": 1000,
+    "epoch_end": 1500,
+    "culture": "Central & Southern African",
+    "archetype": "First Man Gaining the Earth and the Origin of Death (Walumbe)",
+    "syncretic_ids": [
+      "Q35061"
     ]
   },
   {
@@ -731,26 +1215,24 @@
     "lng": 130.84,
     "epoch_start": -4000,
     "epoch_end": 1500,
-    "culture": "Oceanic",
+    "culture": "Oceanic & Australasian",
     "archetype": "Primordial Creator Serpent Carving Riverways",
     "syncretic_ids": [
-      "Q218415",
-      "Q42952"
+      "Q218415"
     ]
   },
   {
     "id": "Q1145305",
     "name": "Maui Fishing Up the North Island (Te Ika-a-Maui)",
-    "wiki_title": "M%C4%81ui_(M%C4%81ori_mythology)",
+    "wiki_title": "Māui_(Māori_mythology)",
     "lat": -38.68,
     "lng": 176.07,
     "epoch_start": 900,
     "epoch_end": 1400,
-    "culture": "Oceanic",
+    "culture": "Oceanic & Australasian",
     "archetype": "Demi-god Trickster Pulling Landmass from Depths",
     "syncretic_ids": [
-      "Q83364",
-      "Q39546"
+      "Q83364"
     ]
   },
   {
@@ -761,53 +1243,39 @@
     "lng": -155.58,
     "epoch_start": 1200,
     "epoch_end": 1700,
-    "culture": "Oceanic",
+    "culture": "Oceanic & Australasian",
     "archetype": "Evolutionary Chant from Slime to Coral to Gods",
     "syncretic_ids": [
-      "Q133346",
-      "Q35061"
+      "Q133346"
     ]
   },
   {
-    "id": "Q1145315",
-    "name": "Viracocha Creation at Lake Titicaca",
-    "wiki_title": "Viracocha",
-    "lat": -15.92,
-    "lng": -69.33,
-    "epoch_start": 200,
-    "epoch_end": 1532,
-    "culture": "Andean",
-    "archetype": "Supreme Creator Rising from Sacred Waters to Make Sun",
+    "id": "Q131700",
+    "name": "Pele and Namakaokahai (Fire vs Sea in Hawaii)",
+    "wiki_title": "Pele_(deity)",
+    "lat": 19.41,
+    "lng": -155.28,
+    "epoch_start": 1000,
+    "epoch_end": 1700,
+    "culture": "Oceanic & Australasian",
+    "archetype": "Volcano Goddess Battling Sea Goddess across Archipelagos",
     "syncretic_ids": [
-      "Q218415",
-      "Q131371"
+      "Q131670"
     ]
   },
   {
-    "id": "Q1145320",
-    "name": "Legend of the Ayar Brothers (Founding of Cusco)",
-    "wiki_title": "Ayar_brothers",
-    "lat": -13.53,
-    "lng": -71.96,
-    "epoch_start": 1100,
-    "epoch_end": 1532,
-    "culture": "Andean",
-    "archetype": "Four Brothers and Four Sisters Emerging from Sacred Cave",
+    "id": "Q131705",
+    "name": "Ranginui and Papatuanuku (Separation of Sky and Earth)",
+    "wiki_title": "Rangi_and_Papa",
+    "lat": -37.0,
+    "lng": 175.0,
+    "epoch_start": 900,
+    "epoch_end": 1500,
+    "culture": "Oceanic & Australasian",
+    "archetype": "Primordial Sky Father & Earth Mother Separated by Forest God Tane",
     "syncretic_ids": [
-      "Q60184",
-      "Q190828"
+      "Q35061",
+      "Q190864"
     ]
-  },
-  {
-    "id": "Q1956967",
-    "name": "Myth of Langemarck",
-    "wiki_title": "Myth_of_Langemarck",
-    "lat": 50.9202,
-    "lng": 2.9173,
-    "epoch_start": -1000,
-    "epoch_end": 500,
-    "culture": "Cross-Cultural",
-    "archetype": "Mythological Narrative",
-    "syncretic_ids": []
   }
 ]

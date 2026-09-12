@@ -136,22 +136,29 @@ mythos-atlas/
 
 ## 📜 Cultural Traditions Covered
 
-MythosAtlas includes foundational narratives spanning 12 civilizational traditions:
+MythosAtlas includes 88+ foundational narratives spanning 19 cultural and indigenous traditions across all inhabited continents:
 
 | Tradition | Representative Epics & Motifs | Temporal Range |
 | :--- | :--- | :--- |
 | **Mesopotamian** | *Epic of Gilgamesh*, *Enuma Elish*, *Descent of Inanna*, *Atrahasis*, *Marduk* | -2300 to -539 BCE |
 | **Levantine** | *Baal Cycle*, *Astarte and the Sea*, *Genesis Deluge (Noah's Ark)* | -1500 to -300 BCE |
 | **Egyptian** | *Osiris Myth & Resurrection*, *Isis*, *Contendings of Horus and Seth*, *Book of the Dead* | -2600 to 400 CE |
-| **Vedic & Hindu** | *Samudra Manthana*, *Nasadiya Sukta*, *Ramayana*, *Mahabharata*, *Descent of Ganges* | -1500 BCE to 400 CE |
 | **Greco-Roman** | *Homer's Iliad & Odyssey*, *Prometheus Bound*, *Eleusinian Mysteries*, *Aeneid* | -800 BCE to 395 CE |
-| **Norse** | *Ragnarök*, *Thor's Fishing Trip for Jormungandr*, *Odin on Yggdrasil*, *Baldr's Death* | 600 to 1250 CE |
-| **Mesoamerican** | *Popol Vuh (Hero Twins)*, *Quetzalcoatl*, *Legend of the Fifth Sun*, *Kukulcan* | -100 BCE to 1550 CE |
-| **East Asian** | *Nuwa Mending Heavens*, *Pangu Cosmic Egg*, *Journey to the West*, *Kojiki (Izanami)* | -1000 BCE to 1592 CE |
+| **Vedic & Hindu** | *Samudra Manthana*, *Nasadiya Sukta*, *Ramayana*, *Mahabharata*, *Descent of Ganges*, *Nataraja* | -1500 BCE to 600 CE |
+| **Persian & Iranian** | *Ahura Mazda vs Angra Mainyu*, *Shahnameh (Rostam and Sohrab)*, *Simurgh*, *Jamshid* | -1200 BCE to 1010 CE |
+| **Norse & Germanic** | *Ragnarök*, *Thor's Fishing Trip for Jormungandr*, *Odin on Yggdrasil*, *Baldr's Death* | 600 to 1250 CE |
 | **Celtic** | *Táin Bó Cúailnge (Cu Chulainn)*, *Quest for the Holy Grail*, *Children of Lir* | 100 to 1485 CE |
-| **West African** | *Epic of Sundiata (Lion King of Mali)*, *Anansi the Spider*, *Yoruba Creation at Ife* | 800 to 1700 CE |
-| **Oceanic** | *The Rainbow Serpent (Dreamtime)*, *Māui Fishing Up New Zealand*, *Kumulipo Chant* | -4000 BCE to 1700 CE |
-| **Andean** | *Viracocha Creation at Lake Titicaca*, *Legend of the Ayar Brothers (Cusco)* | 200 to 1532 CE |
+| **Slavic & Baltic** | *Perun vs Veles*, *Baba Yaga*, *Perkūnas & Saule (Baltic Sun and Thunder)* | 400 to 1500 CE |
+| **Finno-Ugric** | *The Kalevala (Forging of Sampo)*, *Lemminkäinen's Resurrection*, *Kalevipoeg* | 800 to 1400 CE |
+| **East Asian** | *Nuwa Mends Heavens*, *Pangu Cosmic Egg*, *Journey to the West*, *Kojiki (Izanami)*, *Dangun* | -1000 BCE to 1592 CE |
+| **Central Asian & Steppe** | *Tengri and Eternal Blue Sky*, *Epic of King Gesar (Tibet)*, *Epic of Manas (Kyrgyz)* | -1000 BCE to 1500 CE |
+| **Southeast Asian** | *Dewi Sri (Rice Goddess)*, *Barong vs Rangda*, *Bakunawa and Seven Moons*, *Lac Long Quan* | -700 BCE to 1600 CE |
+| **North American Indigenous** | *Diné Bahane' (Navajo Emergence)*, *Sedna (Inuit)*, *Raven Tales (Haida)*, *White Buffalo Calf Woman*, *Sky Woman* | -1500 BCE to 1700 CE |
+| **Mesoamerican** | *Popol Vuh (Hero Twins)*, *Quetzalcoatl*, *Legend of the Fifth Sun*, *Kukulcan*, *Taino Gourd* | -100 BCE to 1550 CE |
+| **Andean & South American** | *Viracocha Creation at Titicaca*, *Ayar Brothers (Cusco)*, *Mapuche Deluge*, *Guarani Creation* | 200 to 1600 CE |
+| **West African** | *Epic of Sundiata (Lion King)*, *Anansi the Spider*, *Yoruba Creation at Ife*, *Shango* | 800 to 1700 CE |
+| **Central & Southern African** | *Unkulunkulu (Zulu)*, *Nommo Spirits (Dogon)*, *\|Kaggen (San)*, *Mwindo Epic*, *Kintu (Buganda)* | -4000 BCE to 1700 CE |
+| **Oceanic & Australasian** | *Rainbow Serpent (Dreamtime)*, *Māui Fishing Up New Zealand*, *Kumulipo*, *Pele & Namakaokahai*, *Rangi & Papa* | -4000 BCE to 1700 CE |
 
 ---
 
