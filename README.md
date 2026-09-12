@@ -51,6 +51,8 @@ MythosAtlas bridges high-frequency client-side cartography with on-demand cloud 
 ## ✨ Key Features
 
 - **3D Celestial WebGL Globe (`Three.js`)**:
+  - **Modern Country Cartography**: 177 modern vector country boundaries rendered via high-precision GeoJSON line segments with toggleable border overlays (`#btn-toggle-borders`).
+  - **Country Hover Intelligence**: Raycasts Earth surface coordinates in real time to identify modern sovereign states, continents, and their ancient mythological roots.
   - Procedural atmospheric twilight Fresnel glow shaders.
   - Interactive sphere with custom dark ocean textures, graticule gridlines, and topography.
   - Active myths rendered via `THREE.InstancedMesh` with visual scaling and colors mapped to civilizational traditions.
