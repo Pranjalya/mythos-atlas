@@ -1,0 +1,867 @@
+[
+  {
+    "id": "Q248352",
+    "name": "Epic of Gilgamesh",
+    "lat": 31.32,
+    "lng": 45.63,
+    "epoch_start": -2100,
+    "epoch_end": -1200,
+    "culture": "Mesopotamian",
+    "archetype": "Deluge / Quest for Immortality",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/British_Museum_Flood_Tablet.jpg/330px-British_Museum_Flood_Tablet.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q10801",
+      "Q131379",
+      "Q190535"
+    ],
+    "description": "Epic poem from Mesopotamia"
+  },
+  {
+    "id": "Q190535",
+    "name": "Atrahasis Epic",
+    "lat": 32.53,
+    "lng": 44.42,
+    "epoch_start": -1800,
+    "epoch_end": -1600,
+    "culture": "Mesopotamian",
+    "archetype": "Cosmic Flood / Divine Warning",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chaos_Monster_and_Sun_God.png/330px-Chaos_Monster_and_Sun_God.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q248352",
+      "Q10801"
+    ],
+    "description": "Akkadian creation myth"
+  },
+  {
+    "id": "Q190864",
+    "name": "Enuma Elish",
+    "lat": 32.536,
+    "lng": 44.42,
+    "epoch_start": -1750,
+    "epoch_end": -1100,
+    "culture": "Mesopotamian",
+    "archetype": "Chaoskampf / Primordial Slaying",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Chaos_Monster_and_Sun_God.png/330px-Chaos_Monster_and_Sun_God.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q8785",
+      "Q131379"
+    ],
+    "description": "Babylonian creation myth"
+  },
+  {
+    "id": "Q272486",
+    "name": "Descent of Inanna into the Underworld",
+    "lat": 31.31,
+    "lng": 45.65,
+    "epoch_start": -2300,
+    "epoch_end": -1700,
+    "culture": "Mesopotamian",
+    "archetype": "Katabasis / Dying-and-Rising Divinity",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ishtar_on_an_Akkadian_seal.jpg/330px-Ishtar_on_an_Akkadian_seal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q131379",
+      "Q107873",
+      "Q179198"
+    ],
+    "description": "Ancient Mesopotamian goddess"
+  },
+  {
+    "id": "Q8785",
+    "name": "Marduk slaying Tiamat",
+    "lat": 32.54,
+    "lng": 44.42,
+    "epoch_start": -1800,
+    "epoch_end": -539,
+    "culture": "Mesopotamian",
+    "archetype": "Storm God vs Sea Serpent",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Chaos_Monster_and_Sun_God.png/330px-Chaos_Monster_and_Sun_God.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q190864",
+      "Q131379",
+      "Q179198"
+    ],
+    "description": "National god of the Babylonians"
+  },
+  {
+    "id": "Q107873",
+    "name": "Ishtar and Tammuz Cycle",
+    "lat": 36.36,
+    "lng": 43.15,
+    "epoch_start": -2000,
+    "epoch_end": -600,
+    "culture": "Mesopotamian",
+    "archetype": "Sacred Marriage & Seasonal Death",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ishtar_on_an_Akkadian_seal.jpg/330px-Ishtar_on_an_Akkadian_seal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q272486",
+      "Q179198",
+      "Q35060"
+    ],
+    "description": "Ancient Mesopotamian goddess"
+  },
+  {
+    "id": "Q131379",
+    "name": "Baal Cycle",
+    "lat": 35.6,
+    "lng": 35.78,
+    "epoch_start": -1400,
+    "epoch_end": -1200,
+    "culture": "Levantine",
+    "archetype": "Storm God vs Mot (Death) & Yam (Sea)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/P1180250_Louvre_Langue_ougaritique_Tablette_poeme_mythologique_AO16641_et_16642_rwk.jpg/330px-P1180250_Louvre_Langue_ougaritique_Tablette_poeme_mythologique_AO16641_et_16642_rwk.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q190864",
+      "Q8785",
+      "Q107873"
+    ],
+    "description": "Levantine mythological cycle of stories"
+  },
+  {
+    "id": "Q179198",
+    "name": "Astarte and the Sea",
+    "lat": 34.12,
+    "lng": 35.65,
+    "epoch_start": -1500,
+    "epoch_end": -300,
+    "culture": "Levantine",
+    "archetype": "Goddess of War and Fertility",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Astarte_-_7th_cent_AD_-_Museo_Arqueol%C3%B3gico_de_Sevilla-2.jpg/330px-Astarte_-_7th_cent_AD_-_Museo_Arqueol%C3%B3gico_de_Sevilla-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q272486",
+      "Q107873",
+      "Q35060"
+    ],
+    "description": "Middle Eastern goddess, worshipped from the Bronze Age through classical antiquity"
+  },
+  {
+    "id": "Q10801",
+    "name": "Genesis Deluge (Noah's Ark)",
+    "lat": 39.7,
+    "lng": 44.29,
+    "epoch_start": -1000,
+    "epoch_end": -400,
+    "culture": "Levantine",
+    "archetype": "Deluge / Moral Renewal",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Le_d%C3%A9luge_-_mus%C3%A9e_de_beaux_arts_de_Nantes_20091017.jpg/330px-Le_d%C3%A9luge_-_mus%C3%A9e_de_beaux_arts_de_Nantes_20091017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q248352",
+      "Q190535"
+    ],
+    "description": "Biblical flood myth"
+  },
+  {
+    "id": "Q46580",
+    "name": "Osiris Myth and Resurrection",
+    "lat": 26.18,
+    "lng": 31.92,
+    "epoch_start": -2400,
+    "epoch_end": -30,
+    "culture": "Egyptian",
+    "archetype": "Dying-and-Rising King / Underworld Judge",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jewel_Osiris_family-E_6204-IMG_0641-gradient.jpg/330px-Jewel_Osiris_family-E_6204-IMG_0641-gradient.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q272486",
+      "Q107873",
+      "Q35060"
+    ],
+    "description": "Story in ancient Egyptian mythology"
+  },
+  {
+    "id": "Q7988",
+    "name": "Isis Searching for Osiris",
+    "lat": 24.02,
+    "lng": 32.88,
+    "epoch_start": -2500,
+    "epoch_end": 400,
+    "culture": "Egyptian",
+    "archetype": "Magical Protector & Divine Mother",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Isis.svg/330px-Isis.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q46580",
+      "Q35060",
+      "Q179198"
+    ],
+    "description": "Ancient Egyptian goddess"
+  },
+  {
+    "id": "Q131488",
+    "name": "Contendings of Horus and Seth",
+    "lat": 25.72,
+    "lng": 32.61,
+    "epoch_start": -1180,
+    "epoch_end": -1000,
+    "culture": "Egyptian",
+    "archetype": "Legitimacy Duel & Cosmic Order vs Chaos",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [
+      "Q46580",
+      "Q190864"
+    ],
+    "description": "Mythological story from the Twentieth Dynasty of Ancient Egypt"
+  },
+  {
+    "id": "Q178749",
+    "name": "Book of the Dead (Weighing of the Heart)",
+    "lat": 25.73,
+    "lng": 32.6,
+    "epoch_start": -1550,
+    "epoch_end": -50,
+    "culture": "Egyptian",
+    "archetype": "Psychostasia / Judgment of the Dead",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/El_pesado_del_coraz%C3%B3n_en_el_Papiro_de_Hunefer.jpg/330px-El_pesado_del_coraz%C3%B3n_en_el_Papiro_de_Hunefer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q46580"
+    ],
+    "description": "Ancient Egyptian funerary text"
+  },
+  {
+    "id": "Q131371",
+    "name": "Ra's Solar Bark through the Duat",
+    "lat": 30.13,
+    "lng": 31.31,
+    "epoch_start": -2600,
+    "epoch_end": -300,
+    "culture": "Egyptian",
+    "archetype": "Nocturnal Solar Journey vs Apep Serpent",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Re-Horakhty.svg/330px-Re-Horakhty.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q8785",
+      "Q131379"
+    ],
+    "description": "Ancient Egyptian solar deity"
+  },
+  {
+    "id": "Q39546",
+    "name": "Samudra Manthana (Churning of Ocean)",
+    "lat": 25.43,
+    "lng": 81.84,
+    "epoch_start": -1500,
+    "epoch_end": -500,
+    "culture": "Vedic",
+    "archetype": "Cosmic Churning / Elixir of Immortality (Amrita)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Samudra-Manthan-The-Churning-of-the-Ocean-of-Milk.jpg/330px-Samudra-Manthan-The-Churning-of-the-Ocean-of-Milk.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q248352",
+      "Q190864"
+    ],
+    "description": "Hindu legend"
+  },
+  {
+    "id": "Q133346",
+    "name": "Rigveda Creation Hymn (Nasadiya Sukta)",
+    "lat": 30.31,
+    "lng": 76.4,
+    "epoch_start": -1500,
+    "epoch_end": -1000,
+    "culture": "Vedic",
+    "archetype": "Primordial Void & Cosmic Paradox",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [
+      "Q190864"
+    ],
+    "description": "One hymn of the Rigveda which concerned with cosmology and the origin of the universe"
+  },
+  {
+    "id": "Q131590",
+    "name": "Indra slaying Vritra",
+    "lat": 30.73,
+    "lng": 76.77,
+    "epoch_start": -1500,
+    "epoch_end": -900,
+    "culture": "Vedic",
+    "archetype": "Chaoskampf / Releasing the Waters",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [
+      "Q8785",
+      "Q131379",
+      "Q131488"
+    ],
+    "description": "Asura in Hinduism"
+  },
+  {
+    "id": "Q37140",
+    "name": "The Ramayana (Exile and War in Lanka)",
+    "lat": 26.79,
+    "lng": 82.2,
+    "epoch_start": -700,
+    "epoch_end": -200,
+    "culture": "Vedic",
+    "archetype": "Exile of Righteous Hero & Rescue of Consort",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png/330px-R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q1164",
+      "Q8275"
+    ],
+    "description": "Ancient Sanskrit epic"
+  },
+  {
+    "id": "Q1164",
+    "name": "The Mahabharata & Kurukshetra War",
+    "lat": 29.96,
+    "lng": 76.88,
+    "epoch_start": -800,
+    "epoch_end": 400,
+    "culture": "Vedic",
+    "archetype": "Dynastic Apocalypse / The Cosmic Wheel (Dharma)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Kurukshetra.jpg/330px-Kurukshetra.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q8275",
+      "Q37140"
+    ],
+    "description": "Ancient smṛti text and Sanskrit epic"
+  },
+  {
+    "id": "Q183610",
+    "name": "Descent of the Ganges (Bhagiratha's Penance)",
+    "lat": 30.99,
+    "lng": 78.93,
+    "epoch_start": -600,
+    "epoch_end": 300,
+    "culture": "Vedic",
+    "archetype": "Celestial River Tamed by Ascetic God",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/17th_to_18th-century_goddess_Ganga_sculpture%2C_Mus%C3%A9e_Rodin%2C_Paris.jpg/330px-17th_to_18th-century_goddess_Ganga_sculpture%2C_Mus%C3%A9e_Rodin%2C_Paris.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q39546"
+    ],
+    "description": "Personification of the river Ganges as a deity in Hinduism"
+  },
+  {
+    "id": "Q8275",
+    "name": "Homer's Iliad (Fall of Troy)",
+    "lat": 39.95,
+    "lng": 26.24,
+    "epoch_start": -800,
+    "epoch_end": -700,
+    "culture": "Greco-Roman",
+    "archetype": "Tragic War & Wrath of the Hero (Achilles)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Illiad_fragmented_papyrus.png/330px-Illiad_fragmented_papyrus.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q1164",
+      "Q37140"
+    ],
+    "description": "Epic poem attributed to Homer"
+  },
+  {
+    "id": "Q35160",
+    "name": "Homer's Odyssey (Nostos of Odysseus)",
+    "lat": 38.37,
+    "lng": 20.71,
+    "epoch_start": -800,
+    "epoch_end": -650,
+    "culture": "Greco-Roman",
+    "archetype": "The Hero's Perilous Sea Homecoming",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Fragment_Odyssee_2245_2.jpg/330px-Fragment_Odyssee_2245_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q248352",
+      "Q8275"
+    ],
+    "description": "Epic poem attributed to Homer"
+  },
+  {
+    "id": "Q83364",
+    "name": "Prometheus Bound and Gift of Fire",
+    "lat": 43.35,
+    "lng": 42.45,
+    "epoch_start": -750,
+    "epoch_end": -400,
+    "culture": "Greco-Roman",
+    "archetype": "Trickster Titan / Theft of Divine Light",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Prometheus_and_Atlas%2C_Laconian_black-figure_kylix%2C_by_the_Arkesilas_Painter%2C_560-550_BC%2C_inv._16592_-_Museo_Gregoriano_Etrusco_-_Vatican_Museums_-_DSC01069.jpg/330px-Prometheus_and_Atlas%2C_Laconian_black-figure_kylix%2C_by_the_Arkesilas_Painter%2C_560-550_BC%2C_inv._16592_-_Museo_Gregoriano_Etrusco_-_Vatican_Museums_-_DSC01069.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q10801",
+      "Q39546"
+    ],
+    "description": "Greek mythological figure"
+  },
+  {
+    "id": "Q179654",
+    "name": "Demeter and Persephone (Eleusinian Mysteries)",
+    "lat": 38.04,
+    "lng": 23.54,
+    "epoch_start": -800,
+    "epoch_end": 395,
+    "culture": "Greco-Roman",
+    "archetype": "Underworld Abduction & Agricultural Rebirth",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Terracotta_votive_plaque_from_Eleusis%2C_450_BC%2C_NAMA%2C_190875.jpg/330px-Terracotta_votive_plaque_from_Eleusis%2C_450_BC%2C_NAMA%2C_190875.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q272486",
+      "Q46580",
+      "Q107873"
+    ],
+    "description": "Greek goddess of spring and the queen of the underworld"
+  },
+  {
+    "id": "Q12224",
+    "name": "The Twelve Labors of Heracles",
+    "lat": 37.64,
+    "lng": 22.72,
+    "epoch_start": -700,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Solar Hero Expitiation & Monster Cleansing",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/LL%C3%8DRIA_%28SPAIN%29_MOSAIC_OF_THE_LABORS_OF_HERACLES.jpg/330px-LL%C3%8DRIA_%28SPAIN%29_MOSAIC_OF_THE_LABORS_OF_HERACLES.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q248352"
+    ],
+    "description": "Series of feats carried out by Heracles"
+  },
+  {
+    "id": "Q190532",
+    "name": "Jason and the Argonauts (Golden Fleece)",
+    "lat": 39.36,
+    "lng": 22.94,
+    "epoch_start": -750,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Quest for the Sacred Talisman Across Edge of World",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Krater_Niobid_Painter_A_Louvre_G341.jpg/330px-Krater_Niobid_Painter_A_Louvre_G341.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q35160",
+      "Q248352"
+    ],
+    "description": "Band of heroes in Greek mythology"
+  },
+  {
+    "id": "Q35060",
+    "name": "Birth of Aphrodite / Venus",
+    "lat": 34.66,
+    "lng": 32.62,
+    "epoch_start": -800,
+    "epoch_end": -100,
+    "culture": "Greco-Roman",
+    "archetype": "Sea-Foam Born Goddess of Desire",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Cnidus_Aphrodite_Altemps_Inv8619.jpg/330px-Cnidus_Aphrodite_Altemps_Inv8619.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q272486",
+      "Q107873",
+      "Q179198"
+    ],
+    "description": "Ancient Greek goddess of love"
+  },
+  {
+    "id": "Q60184",
+    "name": "Virgil's Aeneid (Founding of Roman Destiny)",
+    "lat": 41.9,
+    "lng": 12.49,
+    "epoch_start": -29,
+    "epoch_end": -19,
+    "culture": "Greco-Roman",
+    "archetype": "Destined Translation of Empire (Translatio Imperii)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Aeneas%27_Flight_from_Troy_by_Federico_Barocci.jpg/330px-Aeneas%27_Flight_from_Troy_by_Federico_Barocci.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q8275",
+      "Q35160"
+    ],
+    "description": "Latin epic poem by Virgil"
+  },
+  {
+    "id": "Q169542",
+    "name": "Ragnarok (Twilight of the Gods)",
+    "lat": 64.25,
+    "lng": -21.13,
+    "epoch_start": 800,
+    "epoch_end": 1250,
+    "culture": "Norse",
+    "archetype": "Eschatological Apocalypse & Rebirth",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Stave_church_Urnes%2C_craving_detail_1.jpg/330px-Stave_church_Urnes%2C_craving_detail_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q1164",
+      "Q190864"
+    ],
+    "description": "End times in Norse mythology"
+  },
+  {
+    "id": "Q42952",
+    "name": "Thor's Fishing Trip for Jormungandr",
+    "lat": 59.85,
+    "lng": 17.63,
+    "epoch_start": 700,
+    "epoch_end": 1200,
+    "culture": "Norse",
+    "archetype": "Thunder God vs Midgard Serpent",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ragnarok_-_Louis_Moe_%2817006%29_-_cropped_%28cropped%29.png/330px-Ragnarok_-_Louis_Moe_%2817006%29_-_cropped_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q8785",
+      "Q131379",
+      "Q131590"
+    ],
+    "description": "Sea serpent in Norse mythology"
+  },
+  {
+    "id": "Q43610",
+    "name": "Odin's Self-Sacrifice on Yggdrasil",
+    "lat": 59.85,
+    "lng": 10.75,
+    "epoch_start": 600,
+    "epoch_end": 1250,
+    "culture": "Norse",
+    "archetype": "Wounded Shaman / Hanging for Runes of Wisdom",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg/330px-Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q83364"
+    ],
+    "description": "Widely revered deity in Germanic mythology"
+  },
+  {
+    "id": "Q179612",
+    "name": "Baldr's Death and the Mistletoe",
+    "lat": 55.67,
+    "lng": 12.56,
+    "epoch_start": 800,
+    "epoch_end": 1200,
+    "culture": "Norse",
+    "archetype": "Death of the Pure Light God / Foretoken of Doom",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Each_arrow_overshot_his_head_by_Elmer_Boyd_Smith.jpg/330px-Each_arrow_overshot_his_head_by_Elmer_Boyd_Smith.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q46580",
+      "Q107873"
+    ],
+    "description": "Norse deity"
+  },
+  {
+    "id": "Q190828",
+    "name": "Popol Vuh (Hero Twins and Underworld Xibalba)",
+    "lat": 14.63,
+    "lng": -90.51,
+    "epoch_start": 300,
+    "epoch_end": 1550,
+    "culture": "Mesoamerican",
+    "archetype": "Hero Twins Ballgame Triumph over Death Lords",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Popol_vuh.jpg/330px-Popol_vuh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q272486",
+      "Q46580"
+    ],
+    "description": "Text recounting Maya mythology and history"
+  },
+  {
+    "id": "Q218415",
+    "name": "Legend of the Feathered Serpent (Quetzalcoatl)",
+    "lat": 19.69,
+    "lng": -98.84,
+    "epoch_start": -100,
+    "epoch_end": 1521,
+    "culture": "Mesoamerican",
+    "archetype": "Culture Hero / Boundary Crosser / Venus Morning Star",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg/330px-Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q190828",
+      "Q83364"
+    ],
+    "description": "Central deity in Aztec religion"
+  },
+  {
+    "id": "Q217032",
+    "name": "Aztec Legend of the Fifth Sun (Nahui-Ollin)",
+    "lat": 19.43,
+    "lng": -99.13,
+    "epoch_start": 1200,
+    "epoch_end": 1521,
+    "culture": "Mesoamerican",
+    "archetype": "Cyclical World Ages & Solar Sacrifice of Nanahuatzin",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/File-Monolito_de_la_Piedra_del_Sol_%28centro%29.jpg/330px-File-Monolito_de_la_Piedra_del_Sol_%28centro%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q169542",
+      "Q190864"
+    ],
+    "description": "Creation Legend of the Aztecs"
+  },
+  {
+    "id": "Q219455",
+    "name": "Kukulcan Descent at Equinox",
+    "lat": 20.68,
+    "lng": -88.56,
+    "epoch_start": 700,
+    "epoch_end": 1200,
+    "culture": "Mesoamerican",
+    "archetype": "Plumed Serpent Solar Shadow at Sacred Pyramid",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kukulkan_%28reconstructed%29.jpg/330px-Kukulkan_%28reconstructed%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q218415"
+    ],
+    "description": "Serpent deity in Mesoamerican mythology"
+  },
+  {
+    "id": "Q242488",
+    "name": "Nuwa Mends the Fallen Heavens",
+    "lat": 36.63,
+    "lng": 113.62,
+    "epoch_start": -1000,
+    "epoch_end": 200,
+    "culture": "East Asian",
+    "archetype": "Mother Goddess / Cosmic Pillar Repair",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ping_Sien_Si_-_065_Nu_Wa_Niang_Niang_%2816140351273%29.jpg/330px-Ping_Sien_Si_-_065_Nu_Wa_Niang_Niang_%2816140351273%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q248352",
+      "Q190864"
+    ],
+    "description": "Mother goddess of Chinese mythology"
+  },
+  {
+    "id": "Q35061",
+    "name": "Pangu and the Primordial Cosmic Egg",
+    "lat": 34.79,
+    "lng": 113.66,
+    "epoch_start": -200,
+    "epoch_end": 500,
+    "culture": "East Asian",
+    "archetype": "Cosmic Giant Self-Sacrifice to form Earth",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Pangu.jpg/330px-Pangu.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q190864",
+      "Q169542"
+    ],
+    "description": "Chinese mythical figure"
+  },
+  {
+    "id": "Q234988",
+    "name": "Hou Yi Shooting Down the Nine Suns",
+    "lat": 34.26,
+    "lng": 108.94,
+    "epoch_start": -800,
+    "epoch_end": -100,
+    "culture": "East Asian",
+    "archetype": "Master Archer Restoring Ecological Balance",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Houyi_Shooting_an_Arrow%2C_Xiao_Yuncong.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "syncretic_ids": [
+      "Q12224"
+    ],
+    "description": "Chinese mythological archer"
+  },
+  {
+    "id": "Q487840",
+    "name": "Journey to the West (Sun Wukong's Rebellion)",
+    "lat": 34.34,
+    "lng": 108.93,
+    "epoch_start": 629,
+    "epoch_end": 1592,
+    "culture": "East Asian",
+    "archetype": "Monkey King Trickster & Spiritual Pilgrimage to India",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Evl53201b_pic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "syncretic_ids": [
+      "Q37140",
+      "Q83364"
+    ],
+    "description": "16th-century novel by Wu Cheng'en"
+  },
+  {
+    "id": "Q179831",
+    "name": "Izanagi and Izanami Creating Japan (Kojiki)",
+    "lat": 34.45,
+    "lng": 134.8,
+    "epoch_start": 600,
+    "epoch_end": 712,
+    "culture": "East Asian",
+    "archetype": "Divine Primordial Couple / Underworld Separation (Yomi)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kobayashi_Izanami_and_Izanagi.jpg/330px-Kobayashi_Izanami_and_Izanagi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q179654",
+      "Q46580"
+    ],
+    "description": "Goddess of Shinto religion"
+  },
+  {
+    "id": "Q131346",
+    "name": "Amaterasu Emerging from the Heavenly Cave",
+    "lat": 32.71,
+    "lng": 131.3,
+    "epoch_start": 500,
+    "epoch_end": 712,
+    "culture": "East Asian",
+    "archetype": "Solar Goddess Hidden in Cave Restored by Sacred Dance",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Amaterasu_cave_crop.jpg/330px-Amaterasu_cave_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q179654",
+      "Q272486"
+    ],
+    "description": "Sun goddess in Shinto"
+  },
+  {
+    "id": "Q1145281",
+    "name": "Tain Bo Cuailnge (Cattle Raid of Cooley)",
+    "lat": 54.0,
+    "lng": -6.4,
+    "epoch_start": 100,
+    "epoch_end": 1100,
+    "culture": "Celtic",
+    "archetype": "Berserker Demi-God (Cu Chulainn) Defending Homeland",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Cuchulain_in_Battle.jpg/330px-Cuchulain_in_Battle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q8275",
+      "Q12224"
+    ],
+    "description": "Epic of early Irish literature"
+  },
+  {
+    "id": "Q1145290",
+    "name": "The Quest for the Holy Grail",
+    "lat": 51.14,
+    "lng": -2.71,
+    "epoch_start": 1180,
+    "epoch_end": 1485,
+    "culture": "Celtic",
+    "archetype": "Healing of Wounded King / Quest for Sacred Vessel",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dante_Gabriel_Rossetti_-_The_Damsel_of_the_Sanct_Grael_%281874%29.jpg/330px-Dante_Gabriel_Rossetti_-_The_Damsel_of_the_Sanct_Grael_%281874%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q190532",
+      "Q248352"
+    ],
+    "description": "Treasure motif in Arthurian literature"
+  },
+  {
+    "id": "Q1145295",
+    "name": "The Children of Lir (Transforming into Swans)",
+    "lat": 53.6,
+    "lng": -7.3,
+    "epoch_start": 500,
+    "epoch_end": 1200,
+    "culture": "Celtic",
+    "archetype": "Jealous Stepmother Curse / 900 Years of Metamorphosis",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/John_Duncan_%281924%29_Children_of_Lir.jpg/330px-John_Duncan_%281924%29_Children_of_Lir.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q179654"
+    ],
+    "description": "Legend from Irish mythology"
+  },
+  {
+    "id": "Q1055745",
+    "name": "The Epic of Sundiata (The Lion King of Mali)",
+    "lat": 11.55,
+    "lng": -8.15,
+    "epoch_start": 1235,
+    "epoch_end": 1400,
+    "culture": "West African",
+    "archetype": "Disabled Prince Rising to Unify Empire / Griot Destiny",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/87/Djenne_Terracotta_Archer_%2813th-15th_cent%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "syncretic_ids": [
+      "Q37140",
+      "Q60184"
+    ],
+    "description": "Epic poem of the Malinke culture"
+  },
+  {
+    "id": "Q686259",
+    "name": "Anansi the Spider Buying Stories from the Sky God",
+    "lat": 6.68,
+    "lng": -1.62,
+    "epoch_start": 1000,
+    "epoch_end": 1700,
+    "culture": "West African",
+    "archetype": "Trickster Weaver / Outsmarting the Sky God",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Anansi-34.png/330px-Anansi-34.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q83364",
+      "Q487840"
+    ],
+    "description": "African folktale character, totem of wisdom and stories"
+  },
+  {
+    "id": "Q219460",
+    "name": "Yoruba Creation Myth (Obatala and Oduduwa at Ife)",
+    "lat": 7.48,
+    "lng": 4.56,
+    "epoch_start": 800,
+    "epoch_end": 1400,
+    "culture": "West African",
+    "archetype": "Descent from Sky with Sacred Rooster and Five Claws",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Oduduwa_02.jpg/330px-Oduduwa_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q179831",
+      "Q190864"
+    ],
+    "description": "Yoruba king and deity"
+  },
+  {
+    "id": "Q1145299",
+    "name": "The Rainbow Serpent (Dreamtime Earth Sculptor)",
+    "lat": -12.46,
+    "lng": 130.84,
+    "epoch_start": -4000,
+    "epoch_end": 1500,
+    "culture": "Oceanic",
+    "archetype": "Primordial Creator Serpent Carving Riverways",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/RainbowSerpent.jpg/330px-RainbowSerpent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q218415",
+      "Q42952"
+    ],
+    "description": "Creator god and common motif of Aboriginal Australia"
+  },
+  {
+    "id": "Q1145305",
+    "name": "Maui Fishing Up the North Island (Te Ika-a-Maui)",
+    "lat": -38.68,
+    "lng": 176.07,
+    "epoch_start": 900,
+    "epoch_end": 1400,
+    "culture": "Oceanic",
+    "archetype": "Demi-god Trickster Pulling Landmass from Depths",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [
+      "Q83364",
+      "Q39546"
+    ],
+    "description": ""
+  },
+  {
+    "id": "Q1145310",
+    "name": "Kumulipo (Hawaiian Cosmic Genealogic Chant)",
+    "lat": 19.89,
+    "lng": -155.58,
+    "epoch_start": 1200,
+    "epoch_end": 1700,
+    "culture": "Oceanic",
+    "archetype": "Evolutionary Chant from Slime to Coral to Gods",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [
+      "Q133346",
+      "Q35061"
+    ],
+    "description": "Hawaiian chant"
+  },
+  {
+    "id": "Q1145315",
+    "name": "Viracocha Creation at Lake Titicaca",
+    "lat": -15.92,
+    "lng": -69.33,
+    "epoch_start": 200,
+    "epoch_end": 1532,
+    "culture": "Andean",
+    "archetype": "Supreme Creator Rising from Sacred Waters to Make Sun",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [
+      "Q218415",
+      "Q131371"
+    ],
+    "description": "Creator deity in Inca mythology"
+  },
+  {
+    "id": "Q1145320",
+    "name": "Legend of the Ayar Brothers (Founding of Cusco)",
+    "lat": -13.53,
+    "lng": -71.96,
+    "epoch_start": 1100,
+    "epoch_end": 1532,
+    "culture": "Andean",
+    "archetype": "Four Brothers and Four Sisters Emerging from Sacred Cave",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [
+      "Q60184",
+      "Q190828"
+    ],
+    "description": ""
+  },
+  {
+    "id": "Q1956967",
+    "name": "Myth of Langemarck",
+    "lat": 50.9202,
+    "lng": 2.9173,
+    "epoch_start": -1000,
+    "epoch_end": 500,
+    "culture": "Cross-Cultural",
+    "archetype": "Mythological Narrative",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [],
+    "description": ""
+  }
+]

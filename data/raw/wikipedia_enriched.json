@@ -1,0 +1,1029 @@
+[
+  {
+    "id": "Q248352",
+    "name": "Epic of Gilgamesh",
+    "wiki_title": "Epic_of_Gilgamesh",
+    "lat": 31.32,
+    "lng": 45.63,
+    "epoch_start": -2100,
+    "epoch_end": -1200,
+    "culture": "Mesopotamian",
+    "archetype": "Deluge / Quest for Immortality",
+    "syncretic_ids": [
+      "Q10801",
+      "Q131379",
+      "Q190535"
+    ],
+    "extract": "The Epic of Gilgamesh is an epic from ancient Mesopotamia that is the world's oldest surviving example of narrative literature. The literary history of Gilgamesh begins with five Sumerian poems about Gilgamesh, king of Uruk, some of which may date to the Third Dynasty of Ur. These independent stories were later used as source material for a combined epic in Akkadian. The first surviving version of this combined epic, known as the \"Old Babylonian\" version, dates to the 18th century BCE and is titled after its incipit, Shūtur eli sharrī. Only a few tablets of it have survived. The later Standard Babylonian version compiled by Sîn-lēqi-unninni dates to somewhere between the 13th and 10th centuries BCE and bears the incipit Sha naqba īmuru. About two-thirds of this longer, 12-tablet version have been recovered. Some of the best copies were discovered in the library ruins of the 7th-century BCE Assyrian King Ashurbanipal.",
+    "description": "Epic poem from Mesopotamia",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7a/British_Museum_Flood_Tablet.jpg/330px-British_Museum_Flood_Tablet.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epic_of_Gilgamesh"
+  },
+  {
+    "id": "Q190535",
+    "name": "Atrahasis Epic",
+    "wiki_title": "Atra-Hasis",
+    "lat": 32.53,
+    "lng": 44.42,
+    "epoch_start": -1800,
+    "epoch_end": -1600,
+    "culture": "Mesopotamian",
+    "archetype": "Cosmic Flood / Divine Warning",
+    "syncretic_ids": [
+      "Q248352",
+      "Q10801"
+    ],
+    "extract": "Atra-Hasis is an 18th-century BC Akkadian epic, recorded in various versions on clay tablets and named for one of its protagonists, the priest Atra-Hasis. The narrative has its origins in Sumerian historiography and comprises four focal points: An organisation of allied upper and lower gods shaping Mesopotamia agriculturally; a political conflict between them, pacified by manufacturing of a first human couple to serve as their labour force; the human's mass reproduction within a few millennia; and a devastating deluge linked to the intention of the upper gods to destroy their imperfect artificial creatures.",
+    "description": "Akkadian creation myth",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Chaos_Monster_and_Sun_God.png/330px-Chaos_Monster_and_Sun_God.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Atra-Hasis"
+  },
+  {
+    "id": "Q190864",
+    "name": "Enuma Elish",
+    "wiki_title": "Enūma_Eliš",
+    "lat": 32.536,
+    "lng": 44.42,
+    "epoch_start": -1750,
+    "epoch_end": -1100,
+    "culture": "Mesopotamian",
+    "archetype": "Chaoskampf / Primordial Slaying",
+    "syncretic_ids": [
+      "Q8785",
+      "Q131379"
+    ],
+    "extract": "Enūma Eliš, meaning \"When on High\", is a Babylonian creation myth from the late 2nd millennium BCE and the only complete surviving account of ancient near eastern cosmology. It was recovered by English archaeologist Austen Henry Layard in 1849 in the ruined Library of Ashurbanipal at Nineveh. A form of the myth was first published by English Assyriologist George Smith in 1876; active research and further excavations led to near completion of the texts and improved translation.",
+    "description": "Babylonian creation myth",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Chaos_Monster_and_Sun_God.png/330px-Chaos_Monster_and_Sun_God.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/En%C5%ABma_Eli%C5%A1"
+  },
+  {
+    "id": "Q272486",
+    "name": "Descent of Inanna into the Underworld",
+    "wiki_title": "Inanna",
+    "lat": 31.31,
+    "lng": 45.65,
+    "epoch_start": -2300,
+    "epoch_end": -1700,
+    "culture": "Mesopotamian",
+    "archetype": "Katabasis / Dying-and-Rising Divinity",
+    "syncretic_ids": [
+      "Q131379",
+      "Q107873",
+      "Q179198"
+    ],
+    "extract": "Inanna is the ancient Mesopotamian goddess of war, love, and sex. She is also associated with political power, divine law, sensuality, and procreation. Originally worshipped in Sumer, she was known by the Akkadians, Babylonians, and Assyrians as Ishtar. Her primary title is \"the Queen of Heaven\".",
+    "description": "Ancient Mesopotamian goddess",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ishtar_on_an_Akkadian_seal.jpg/330px-Ishtar_on_an_Akkadian_seal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Inanna"
+  },
+  {
+    "id": "Q8785",
+    "name": "Marduk slaying Tiamat",
+    "wiki_title": "Marduk",
+    "lat": 32.54,
+    "lng": 44.42,
+    "epoch_start": -1800,
+    "epoch_end": -539,
+    "culture": "Mesopotamian",
+    "archetype": "Storm God vs Sea Serpent",
+    "syncretic_ids": [
+      "Q190864",
+      "Q131379",
+      "Q179198"
+    ],
+    "extract": "Marduk was a god from ancient Mesopotamia, patron deity of Babylon.\nFirst sparsely attested in the 3rd millennium BC, Marduk slowly rose to prominence before being enshrined as leader of the Mesopotamian pantheon under Nebuchadnezzar I in the 2nd millennium BC. In Babylon, Marduk was worshipped in the Esagila temple.",
+    "description": "National god of the Babylonians",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c3/Chaos_Monster_and_Sun_God.png/330px-Chaos_Monster_and_Sun_God.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Marduk"
+  },
+  {
+    "id": "Q107873",
+    "name": "Ishtar and Tammuz Cycle",
+    "wiki_title": "Ishtar",
+    "lat": 36.36,
+    "lng": 43.15,
+    "epoch_start": -2000,
+    "epoch_end": -600,
+    "culture": "Mesopotamian",
+    "archetype": "Sacred Marriage & Seasonal Death",
+    "syncretic_ids": [
+      "Q272486",
+      "Q179198",
+      "Q35060"
+    ],
+    "extract": "Inanna is the ancient Mesopotamian goddess of war, love, and sex. She is also associated with political power, divine law, sensuality, and procreation. Originally worshipped in Sumer, she was known by the Akkadians, Babylonians, and Assyrians as Ishtar. Her primary title is \"the Queen of Heaven\".",
+    "description": "Ancient Mesopotamian goddess",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5c/Ishtar_on_an_Akkadian_seal.jpg/330px-Ishtar_on_an_Akkadian_seal.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Inanna"
+  },
+  {
+    "id": "Q131379",
+    "name": "Baal Cycle",
+    "wiki_title": "Baal_Cycle",
+    "lat": 35.6,
+    "lng": 35.78,
+    "epoch_start": -1400,
+    "epoch_end": -1200,
+    "culture": "Levantine",
+    "archetype": "Storm God vs Mot (Death) & Yam (Sea)",
+    "syncretic_ids": [
+      "Q190864",
+      "Q8785",
+      "Q107873"
+    ],
+    "extract": "The Baal Cycle is an Ugaritic text about the Canaanite god Baʿal, a storm god associated with fertility. It consists of six tablets, itemized as KTU 1.1–1.6. Tablets one and two are about the cosmic battle between the storm-god Baal and the sea god Yam, where the former attains victory. The next two tablets describe the construction of Baal's palace that marks his cosmic kingship. The last two tablets describe Baal's struggles against Mot, the god of the underworld.",
+    "description": "Levantine mythological cycle of stories",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/P1180250_Louvre_Langue_ougaritique_Tablette_poeme_mythologique_AO16641_et_16642_rwk.jpg/330px-P1180250_Louvre_Langue_ougaritique_Tablette_poeme_mythologique_AO16641_et_16642_rwk.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Baal_Cycle"
+  },
+  {
+    "id": "Q179198",
+    "name": "Astarte and the Sea",
+    "wiki_title": "Astarte",
+    "lat": 34.12,
+    "lng": 35.65,
+    "epoch_start": -1500,
+    "epoch_end": -300,
+    "culture": "Levantine",
+    "archetype": "Goddess of War and Fertility",
+    "syncretic_ids": [
+      "Q272486",
+      "Q107873",
+      "Q35060"
+    ],
+    "extract": "Astarte is the Hellenized form of the Ancient Near Eastern goddess ʿAṯtart. ʿAṯtart was the Northwest Semitic equivalent of the East Semitic goddess Ishtar.",
+    "description": "Middle Eastern goddess, worshipped from the Bronze Age through classical antiquity",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d6/Astarte_-_7th_cent_AD_-_Museo_Arqueol%C3%B3gico_de_Sevilla-2.jpg/330px-Astarte_-_7th_cent_AD_-_Museo_Arqueol%C3%B3gico_de_Sevilla-2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Astarte"
+  },
+  {
+    "id": "Q10801",
+    "name": "Genesis Deluge (Noah's Ark)",
+    "wiki_title": "Genesis_flood_narrative",
+    "lat": 39.7,
+    "lng": 44.29,
+    "epoch_start": -1000,
+    "epoch_end": -400,
+    "culture": "Levantine",
+    "archetype": "Deluge / Moral Renewal",
+    "syncretic_ids": [
+      "Q248352",
+      "Q190535"
+    ],
+    "extract": "The Genesis flood narrative is a Hebrew flood myth. It tells of God's decision to destroy creation, saving only Noah and the people and animals who went with him into an ark built on God's instructions.",
+    "description": "Biblical flood myth",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/52/Le_d%C3%A9luge_-_mus%C3%A9e_de_beaux_arts_de_Nantes_20091017.jpg/330px-Le_d%C3%A9luge_-_mus%C3%A9e_de_beaux_arts_de_Nantes_20091017.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Genesis_flood_narrative"
+  },
+  {
+    "id": "Q46580",
+    "name": "Osiris Myth and Resurrection",
+    "wiki_title": "Osiris_myth",
+    "lat": 26.18,
+    "lng": 31.92,
+    "epoch_start": -2400,
+    "epoch_end": -30,
+    "culture": "Egyptian",
+    "archetype": "Dying-and-Rising King / Underworld Judge",
+    "syncretic_ids": [
+      "Q272486",
+      "Q107873",
+      "Q35060"
+    ],
+    "extract": "The Osiris myth is the most elaborate and influential story in ancient Egyptian mythology. It concerns the murder of the god Osiris, a primeval king of Egypt, and its consequences. Osiris's murderer, his brother Set, usurps his throne. Meanwhile, Osiris's wife Isis restores her husband's body, allowing him to posthumously conceive their son, Horus. The remainder of the story focuses on Horus, the product of the union of Isis and Osiris, who is at first a vulnerable child protected by his mother and then becomes Set's rival for the throne. Their often violent conflict ends with Horus's triumph, which restores maat to Egypt after Set's unrighteous reign and completes the process of Osiris's resurrection.",
+    "description": "Story in ancient Egyptian mythology",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/Jewel_Osiris_family-E_6204-IMG_0641-gradient.jpg/330px-Jewel_Osiris_family-E_6204-IMG_0641-gradient.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Osiris_myth"
+  },
+  {
+    "id": "Q7988",
+    "name": "Isis Searching for Osiris",
+    "wiki_title": "Isis",
+    "lat": 24.02,
+    "lng": 32.88,
+    "epoch_start": -2500,
+    "epoch_end": 400,
+    "culture": "Egyptian",
+    "archetype": "Magical Protector & Divine Mother",
+    "syncretic_ids": [
+      "Q46580",
+      "Q35060",
+      "Q179198"
+    ],
+    "extract": "Isis was a major goddess in ancient Egyptian religion whose worship spread throughout the Greco-Roman world. Isis was first mentioned in the Old Kingdom as one of the main characters of the Osiris myth, in which she resurrects her slain brother and husband, the divine king Osiris, and produces and protects his heir, Horus. She was believed to help the dead enter the afterlife as she had helped Osiris, and she was considered the divine mother of the pharaoh, who was likened to Horus. Her maternal aid was invoked in healing spells to benefit ordinary people. Originally, she played a limited role in royal rituals and temple rites, although she was more prominent in funerary practices and magical texts. She was usually portrayed in art as a human woman wearing a throne-like hieroglyph on her head. During the New Kingdom, Isis took on traits that originally belonged to Hathor, the preeminent goddess of earlier time. Isis was portrayed wearing Hathor's headdress, a sun disk between the horns of a cow.",
+    "description": "Ancient Egyptian goddess",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ec/Isis.svg/330px-Isis.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Isis"
+  },
+  {
+    "id": "Q131488",
+    "name": "Contendings of Horus and Seth",
+    "wiki_title": "The_Contendings_of_Horus_and_Seth",
+    "lat": 25.72,
+    "lng": 32.61,
+    "epoch_start": -1180,
+    "epoch_end": -1000,
+    "culture": "Egyptian",
+    "archetype": "Legitimacy Duel & Cosmic Order vs Chaos",
+    "syncretic_ids": [
+      "Q46580",
+      "Q190864"
+    ],
+    "extract": "\"The Contendings of Horus and Seth\" is a mythological story from the Twentieth Dynasty of Egypt found in the first sixteen pages of the Chester Beatty Papyri and deals with the battles between Horus and Seth to determine who will succeed Osiris as king.",
+    "description": "Mythological story from the Twentieth Dynasty of Ancient Egypt",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Contendings_of_Horus_and_Seth"
+  },
+  {
+    "id": "Q178749",
+    "name": "Book of the Dead (Weighing of the Heart)",
+    "wiki_title": "Book_of_the_Dead",
+    "lat": 25.73,
+    "lng": 32.6,
+    "epoch_start": -1550,
+    "epoch_end": -50,
+    "culture": "Egyptian",
+    "archetype": "Psychostasia / Judgment of the Dead",
+    "syncretic_ids": [
+      "Q46580"
+    ],
+    "extract": "The Book of the Dead is the name given to an ancient Egyptian funerary text generally written on papyrus and used from the beginning of the New Kingdom to around 50 BC. \"Book\" is the closest term to describe the loose collection of texts consisting of a number of magic spells intended to assist a dead person's journey through the Duat, or underworld, and into the afterlife and written by many priests over a period of about 1,000 years. In 1842, the Egyptologist Karl Richard Lepsius introduced for these texts the German name Todtenbuch, translated to English as 'Book of the Dead'. The original Egyptian name for the text, transliterated rw nw prt m hrw, is translated as Spells of Coming Forth by Day.",
+    "description": "Ancient Egyptian funerary text",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/63/El_pesado_del_coraz%C3%B3n_en_el_Papiro_de_Hunefer.jpg/330px-El_pesado_del_coraz%C3%B3n_en_el_Papiro_de_Hunefer.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Book_of_the_Dead"
+  },
+  {
+    "id": "Q131371",
+    "name": "Ra's Solar Bark through the Duat",
+    "wiki_title": "Ra",
+    "lat": 30.13,
+    "lng": 31.31,
+    "epoch_start": -2600,
+    "epoch_end": -300,
+    "culture": "Egyptian",
+    "archetype": "Nocturnal Solar Journey vs Apep Serpent",
+    "syncretic_ids": [
+      "Q8785",
+      "Q131379"
+    ],
+    "extract": "Ra or Re was the ancient Egyptian deity of the Sun. By the Fifth Dynasty, in the 25th and 24th centuries BC, Ra had become one of the most important gods in ancient Egyptian religion, identified primarily with the noon-day Sun. Ra ruled in all parts of the created world: the sky, the Earth, and the Duat (underworld). He was believed to have ruled as the first pharaoh of Ancient Egypt. He was the god of the Sun, order, kings and the sky.",
+    "description": "Ancient Egyptian solar deity",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/0d/Re-Horakhty.svg/330px-Re-Horakhty.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ra"
+  },
+  {
+    "id": "Q39546",
+    "name": "Samudra Manthana (Churning of Ocean)",
+    "wiki_title": "Samudra_Manthana",
+    "lat": 25.43,
+    "lng": 81.84,
+    "epoch_start": -1500,
+    "epoch_end": -500,
+    "culture": "Vedic",
+    "archetype": "Cosmic Churning / Elixir of Immortality (Amrita)",
+    "syncretic_ids": [
+      "Q248352",
+      "Q190864"
+    ],
+    "extract": "The Samudra Manthana is a major episode in Hinduism that is elaborated in the Vishnu Purana, a major text of Hinduism. The Samudra Manthana explains the origin of the elixir of eternal life, amrita.",
+    "description": "Hindu legend",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/54/Samudra-Manthan-The-Churning-of-the-Ocean-of-Milk.jpg/330px-Samudra-Manthan-The-Churning-of-the-Ocean-of-Milk.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Samudra_Manthana"
+  },
+  {
+    "id": "Q133346",
+    "name": "Rigveda Creation Hymn (Nasadiya Sukta)",
+    "wiki_title": "Nasadiya_Sukta",
+    "lat": 30.31,
+    "lng": 76.4,
+    "epoch_start": -1500,
+    "epoch_end": -1000,
+    "culture": "Vedic",
+    "archetype": "Primordial Void & Cosmic Paradox",
+    "syncretic_ids": [
+      "Q190864"
+    ],
+    "extract": "The Nāsadīya Sūkta, also known as the Hymn of Creation, is the 129th hymn of the 10th mandala of the Rigveda (10:129). It is concerned with cosmology and the origin of the universe. The Nāsadīya Sūkta has been the subject of extensive scholarly attention.",
+    "description": "One hymn of the Rigveda which concerned with cosmology and the origin of the universe",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nasadiya_Sukta"
+  },
+  {
+    "id": "Q131590",
+    "name": "Indra slaying Vritra",
+    "wiki_title": "Vritra",
+    "lat": 30.73,
+    "lng": 76.77,
+    "epoch_start": -1500,
+    "epoch_end": -900,
+    "culture": "Vedic",
+    "archetype": "Chaoskampf / Releasing the Waters",
+    "syncretic_ids": [
+      "Q8785",
+      "Q131379",
+      "Q131488"
+    ],
+    "extract": "Vritra is a danava in Hinduism. He serves as the personification of drought, and is an adversary of the king of the devas, Indra. As a danava, he belongs to the race of the asuras. Vritra is also known in the Vedas as Ahi. He appears as a human-like serpent blocking the course of the Rigvedic rivers, and is slain by Indra with his newly forged vajra.",
+    "description": "Asura in Hinduism",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Vritra"
+  },
+  {
+    "id": "Q37140",
+    "name": "The Ramayana (Exile and War in Lanka)",
+    "wiki_title": "Ramayana",
+    "lat": 26.79,
+    "lng": 82.2,
+    "epoch_start": -700,
+    "epoch_end": -200,
+    "culture": "Vedic",
+    "archetype": "Exile of Righteous Hero & Rescue of Consort",
+    "syncretic_ids": [
+      "Q1164",
+      "Q8275"
+    ],
+    "extract": "The Ramayana, also known as the Valmiki Ramayana, as traditionally attributed to Valmiki, is a Hindu smriti mythological epic poem from ancient India. It is one of the two important epics of Hinduism known as the Itihasas, the other being the Mahabharata, narratives of past events, interspersed with teachings on the goals of human life. The epic narrates the life and journey of Rama, the seventh avatar of the Hindu deity Vishnu, who was the prince of Ayodhya. It is one of the largest ancient epics in world literature and consists of nearly 24,000 shlokas (verses), divided into seven kāṇḍa (chapters), where each shloka is a couplet.",
+    "description": "Ancient Sanskrit epic",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png/330px-R%C4%81ma_slays_R%C4%81va%E1%B9%87a.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ramayana"
+  },
+  {
+    "id": "Q1164",
+    "name": "The Mahabharata & Kurukshetra War",
+    "wiki_title": "Mahabharata",
+    "lat": 29.96,
+    "lng": 76.88,
+    "epoch_start": -800,
+    "epoch_end": 400,
+    "culture": "Vedic",
+    "archetype": "Dynastic Apocalypse / The Cosmic Wheel (Dharma)",
+    "syncretic_ids": [
+      "Q8275",
+      "Q37140"
+    ],
+    "extract": "The Mahābhārata is one of the two major Sanskrit epics of ancient India revered in Hinduism, the other being the Ramayana. Both are considered smṛti and itihasa texts. The Mahābhārata narrates the events around the Kurukshetra War, while also discussing philosophical concepts, such as the four \"goals of life\" or puruṣārtha. A principal element of the Mahābhārata is the Bhagavad Gita, which is a prominent sacred text in Hindu traditions.",
+    "description": "Ancient smṛti text and Sanskrit epic",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/81/Kurukshetra.jpg/330px-Kurukshetra.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mahabharata"
+  },
+  {
+    "id": "Q183610",
+    "name": "Descent of the Ganges (Bhagiratha's Penance)",
+    "wiki_title": "Ganga_in_Hinduism",
+    "lat": 30.99,
+    "lng": 78.93,
+    "epoch_start": -600,
+    "epoch_end": 300,
+    "culture": "Vedic",
+    "archetype": "Celestial River Tamed by Ascetic God",
+    "syncretic_ids": [
+      "Q39546"
+    ],
+    "extract": "Ganga is the personification of the river Ganges, who is worshipped by Hindus as the goddess of purification and forgiveness. She is often depicted as a fair, beautiful ornate woman, riding a divine crocodile-like creature called the makara.",
+    "description": "Personification of the river Ganges as a deity in Hinduism",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e0/17th_to_18th-century_goddess_Ganga_sculpture%2C_Mus%C3%A9e_Rodin%2C_Paris.jpg/330px-17th_to_18th-century_goddess_Ganga_sculpture%2C_Mus%C3%A9e_Rodin%2C_Paris.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ganga_(goddess)"
+  },
+  {
+    "id": "Q8275",
+    "name": "Homer's Iliad (Fall of Troy)",
+    "wiki_title": "Iliad",
+    "lat": 39.95,
+    "lng": 26.24,
+    "epoch_start": -800,
+    "epoch_end": -700,
+    "culture": "Greco-Roman",
+    "archetype": "Tragic War & Wrath of the Hero (Achilles)",
+    "syncretic_ids": [
+      "Q1164",
+      "Q37140"
+    ],
+    "extract": "The Iliad is one of two major epics of ancient Greek literature attributed to Homer. It is one of the oldest surviving works of literature and remains popular with modern audiences. Like the Odyssey, the poem is divided into 24 books. The Illiad depicts significant events in the Trojan War's final weeks, and traces the anger (μῆνις) of Achilles, a celebrated warrior, from a fierce quarrel between him and King Agamemnon, to the death of the Trojan prince Hector. The narrative moves between wide battleground scenes and more personal interactions.",
+    "description": "Epic poem attributed to Homer",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/68/Illiad_fragmented_papyrus.png/330px-Illiad_fragmented_papyrus.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Iliad"
+  },
+  {
+    "id": "Q35160",
+    "name": "Homer's Odyssey (Nostos of Odysseus)",
+    "wiki_title": "Odyssey",
+    "lat": 38.37,
+    "lng": 20.71,
+    "epoch_start": -800,
+    "epoch_end": -650,
+    "culture": "Greco-Roman",
+    "archetype": "The Hero's Perilous Sea Homecoming",
+    "syncretic_ids": [
+      "Q248352",
+      "Q8275"
+    ],
+    "extract": "The Odyssey is one of two major epics of ancient Greek literature attributed to Homer. It is one of the oldest surviving works of literature and remains popular with modern audiences. Like the Iliad, the Odyssey is divided into 24 books. It follows the heroic king of Ithaca, Odysseus, also known by the Latin variant Ulysses, and his homecoming journey after the ten-year-long Trojan War. His journey from Troy to Ithaca lasts an additional ten years, during which time he encounters many perils and all of his crewmates are killed. In Odysseus's long absence, he is presumed dead, leaving his wife Penelope and son Telemachus to contend with a group of unruly suitors competing for Penelope's hand in marriage.",
+    "description": "Epic poem attributed to Homer",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Fragment_Odyssee_2245_2.jpg/330px-Fragment_Odyssee_2245_2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Odyssey"
+  },
+  {
+    "id": "Q83364",
+    "name": "Prometheus Bound and Gift of Fire",
+    "wiki_title": "Prometheus",
+    "lat": 43.35,
+    "lng": 42.45,
+    "epoch_start": -750,
+    "epoch_end": -400,
+    "culture": "Greco-Roman",
+    "archetype": "Trickster Titan / Theft of Divine Light",
+    "syncretic_ids": [
+      "Q10801",
+      "Q39546"
+    ],
+    "extract": "In Greek mythology, Prometheus is a Titan who is responsible for creating and aiding humanity in its earliest days. He defied the Olympian gods by stealing fire from them and giving it to humanity.",
+    "description": "Greek mythological figure",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/72/Prometheus_and_Atlas%2C_Laconian_black-figure_kylix%2C_by_the_Arkesilas_Painter%2C_560-550_BC%2C_inv._16592_-_Museo_Gregoriano_Etrusco_-_Vatican_Museums_-_DSC01069.jpg/330px-Prometheus_and_Atlas%2C_Laconian_black-figure_kylix%2C_by_the_Arkesilas_Painter%2C_560-550_BC%2C_inv._16592_-_Museo_Gregoriano_Etrusco_-_Vatican_Museums_-_DSC01069.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Prometheus"
+  },
+  {
+    "id": "Q179654",
+    "name": "Demeter and Persephone (Eleusinian Mysteries)",
+    "wiki_title": "Persephone",
+    "lat": 38.04,
+    "lng": 23.54,
+    "epoch_start": -800,
+    "epoch_end": 395,
+    "culture": "Greco-Roman",
+    "archetype": "Underworld Abduction & Agricultural Rebirth",
+    "syncretic_ids": [
+      "Q272486",
+      "Q46580",
+      "Q107873"
+    ],
+    "extract": "In ancient Greek mythology and religion, Persephone is the daughter of Zeus and Demeter. She became the queen of the underworld after her abduction by her uncle Hades, the king of the underworld, who later took her into marriage. The myth of her abduction, her sojourn in the underworld, and her cyclical return to the surface represents her functions as the embodiment of spring and the personification of vegetation, especially grain crops, which disappear into the earth when sown, remain hidden for a period, sprout from the earth, and are harvested when fully grown.",
+    "description": "Greek goddess of spring and the queen of the underworld",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/4c/Terracotta_votive_plaque_from_Eleusis%2C_450_BC%2C_NAMA%2C_190875.jpg/330px-Terracotta_votive_plaque_from_Eleusis%2C_450_BC%2C_NAMA%2C_190875.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Persephone"
+  },
+  {
+    "id": "Q12224",
+    "name": "The Twelve Labors of Heracles",
+    "wiki_title": "Labours_of_Hercules",
+    "lat": 37.64,
+    "lng": 22.72,
+    "epoch_start": -700,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Solar Hero Expitiation & Monster Cleansing",
+    "syncretic_ids": [
+      "Q248352"
+    ],
+    "extract": "The Labours of Hercules or Labours of Heracles are a series of tasks carried out by Heracles, the greatest of the Greek heroes, whose name was later romanised as Hercules. They were accomplished in the service of King Eurystheus. The episodes were later connected by a continuous narrative.",
+    "description": "Series of feats carried out by Heracles",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a1/LL%C3%8DRIA_%28SPAIN%29_MOSAIC_OF_THE_LABORS_OF_HERACLES.jpg/330px-LL%C3%8DRIA_%28SPAIN%29_MOSAIC_OF_THE_LABORS_OF_HERACLES.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Labours_of_Hercules"
+  },
+  {
+    "id": "Q190532",
+    "name": "Jason and the Argonauts (Golden Fleece)",
+    "wiki_title": "Argonauts",
+    "lat": 39.36,
+    "lng": 22.94,
+    "epoch_start": -750,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Quest for the Sacred Talisman Across Edge of World",
+    "syncretic_ids": [
+      "Q35160",
+      "Q248352"
+    ],
+    "extract": "The Argonauts were a band of heroes in Greek mythology, who in the years before the Trojan War accompanied Jason to Colchis in his quest to find the Golden Fleece. Their name comes from their ship, Argo, named after its builder, Argus. They were sometimes called Minyans, after a prehistoric tribe in the area.",
+    "description": "Band of heroes in Greek mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6a/Krater_Niobid_Painter_A_Louvre_G341.jpg/330px-Krater_Niobid_Painter_A_Louvre_G341.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Argonauts"
+  },
+  {
+    "id": "Q35060",
+    "name": "Birth of Aphrodite / Venus",
+    "wiki_title": "Aphrodite",
+    "lat": 34.66,
+    "lng": 32.62,
+    "epoch_start": -800,
+    "epoch_end": -100,
+    "culture": "Greco-Roman",
+    "archetype": "Sea-Foam Born Goddess of Desire",
+    "syncretic_ids": [
+      "Q272486",
+      "Q107873",
+      "Q179198"
+    ],
+    "extract": "Aphrodite is an ancient Greek goddess associated with love, lust, beauty, pleasure, passion, procreation, and as her syncretised Roman counterpart Venus, desire, sex, fertility, prosperity, and victory. Aphrodite's major symbols include seashells, myrtles, roses, doves, sparrows, and swans. The cult of Aphrodite may have been derived from the Phoenician goddess Astarte, a cognate of the East Semitic goddess Ishtar, whose cult was based on the Sumerian cult of Inanna; or as asserted by Pausanias, her origin was in Cyprus; or, via the Greek dawn goddess, Eos, her origin could have been Indo-European. Aphrodite's main cult centers were Cythera, Cyprus, Corinth, and Athens. Her main festival was the Aphrodisia, which was celebrated annually in midsummer. In Laconia, Aphrodite was worshipped as a warrior goddess. She was the patron goddess of prostitutes, an association which led early scholars to propose the concept of sacred prostitution in Greco-Roman culture, an idea now generally seen as erroneous.",
+    "description": "Ancient Greek goddess of love",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/9a/Cnidus_Aphrodite_Altemps_Inv8619.jpg/330px-Cnidus_Aphrodite_Altemps_Inv8619.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aphrodite"
+  },
+  {
+    "id": "Q60184",
+    "name": "Virgil's Aeneid (Founding of Roman Destiny)",
+    "wiki_title": "Aeneid",
+    "lat": 41.9,
+    "lng": 12.49,
+    "epoch_start": -29,
+    "epoch_end": -19,
+    "culture": "Greco-Roman",
+    "archetype": "Destined Translation of Empire (Translatio Imperii)",
+    "syncretic_ids": [
+      "Q8275",
+      "Q35160"
+    ],
+    "extract": "The Aeneid is a Latin epic poem that tells the legendary story of Aeneas, a Trojan who fled the fall of Troy and travelled to Italy, where he became the ancestor of the Romans. Written by the Roman poet Virgil between 29 and 19 BC, the Aeneid comprises 9,896 lines in dactylic hexameter. The first six of its twelve books tell the story of Aeneas' wanderings from Troy to Italy, and the latter six tell of the Trojans' ultimately victorious war upon the Latins, under whose name Aeneas and his Trojan followers are destined to be subsumed.",
+    "description": "Latin epic poem by Virgil",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f7/Aeneas%27_Flight_from_Troy_by_Federico_Barocci.jpg/330px-Aeneas%27_Flight_from_Troy_by_Federico_Barocci.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Aeneid"
+  },
+  {
+    "id": "Q169542",
+    "name": "Ragnarok (Twilight of the Gods)",
+    "wiki_title": "Ragnarök",
+    "lat": 64.25,
+    "lng": -21.13,
+    "epoch_start": 800,
+    "epoch_end": 1250,
+    "culture": "Norse",
+    "archetype": "Eschatological Apocalypse & Rebirth",
+    "syncretic_ids": [
+      "Q1164",
+      "Q190864"
+    ],
+    "extract": "In Norse mythology, Ragnarök is a foretold series of impending events, including a great battle in which numerous great Norse mythological figures will perish ; it will entail a catastrophic series of natural disasters, including the burning of the world, and culminate in the submersion of the world underwater. After these events, the world will rise again, cleansed and fertile, the surviving and returning gods will meet, and the world will be repopulated by two human survivors, Líf and Lífþrasir. Ragnarök is an important event in Norse mythology and has been the subject of scholarly discourse and theory in the history of Germanic studies.",
+    "description": "End times in Norse mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e8/Stave_church_Urnes%2C_craving_detail_1.jpg/330px-Stave_church_Urnes%2C_craving_detail_1.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ragnar%C3%B6k"
+  },
+  {
+    "id": "Q42952",
+    "name": "Thor's Fishing Trip for Jormungandr",
+    "wiki_title": "Jörmungandr",
+    "lat": 59.85,
+    "lng": 17.63,
+    "epoch_start": 700,
+    "epoch_end": 1200,
+    "culture": "Norse",
+    "archetype": "Thunder God vs Midgard Serpent",
+    "syncretic_ids": [
+      "Q8785",
+      "Q131379",
+      "Q131590"
+    ],
+    "extract": "In Norse mythology, Jörmungandr, also known as the Midgard Serpent or World Serpent, is an unfathomably large and monstrous sea serpent who dwells in the world sea, encircling the Earth (Midgard) and biting his own tail, an example of an ouroboros. As a result of him surrounding Midgard, the beast is referred to as the World Serpent. Jörmungandr releasing his tail is one of the signs of the beginning of Ragnarök.",
+    "description": "Sea serpent in Norse mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c1/Ragnarok_-_Louis_Moe_%2817006%29_-_cropped_%28cropped%29.png/330px-Ragnarok_-_Louis_Moe_%2817006%29_-_cropped_%28cropped%29.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/J%C3%B6rmungandr"
+  },
+  {
+    "id": "Q43610",
+    "name": "Odin's Self-Sacrifice on Yggdrasil",
+    "wiki_title": "Odin",
+    "lat": 59.85,
+    "lng": 10.75,
+    "epoch_start": 600,
+    "epoch_end": 1250,
+    "culture": "Norse",
+    "archetype": "Wounded Shaman / Hanging for Runes of Wisdom",
+    "syncretic_ids": [
+      "Q83364"
+    ],
+    "extract": "Odin is a widely revered god in Norse mythology and Germanic paganism. Most surviving information on Odin comes from Norse mythology, but he figures prominently in the recorded history of Northern Europe. This includes the Roman Empire's partial occupation of Germania, the Migration Period and the Viking Age. Consequently, Odin has hundreds of names and titles. Several of these stem from the reconstructed Proto-Germanic theonym Wōðanaz, meaning \"lord of frenzy\" or \"leader of the possessed\", which may relate to the god's strong association with poetry.",
+    "description": "Widely revered deity in Germanic mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg/330px-Georg_von_Rosen_-_Oden_som_vandringsman%2C_1886_%28Odin%2C_the_Wanderer%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Odin"
+  },
+  {
+    "id": "Q179612",
+    "name": "Baldr's Death and the Mistletoe",
+    "wiki_title": "Baldr",
+    "lat": 55.67,
+    "lng": 12.56,
+    "epoch_start": 800,
+    "epoch_end": 1200,
+    "culture": "Norse",
+    "archetype": "Death of the Pure Light God / Foretoken of Doom",
+    "syncretic_ids": [
+      "Q46580",
+      "Q107873"
+    ],
+    "extract": "Baldr in Old Norse, Bældæġ in Old English, Balder or Palter in Old High German, is a god in Germanic mythology. In Norse mythology, he is a son of the god Odin and the goddess Frigg, and has numerous brothers, such as Thor and Váli.",
+    "description": "Norse deity",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ea/Each_arrow_overshot_his_head_by_Elmer_Boyd_Smith.jpg/330px-Each_arrow_overshot_his_head_by_Elmer_Boyd_Smith.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Baldr"
+  },
+  {
+    "id": "Q190828",
+    "name": "Popol Vuh (Hero Twins and Underworld Xibalba)",
+    "wiki_title": "Popol_Vuh",
+    "lat": 14.63,
+    "lng": -90.51,
+    "epoch_start": 300,
+    "epoch_end": 1550,
+    "culture": "Mesoamerican",
+    "archetype": "Hero Twins Ballgame Triumph over Death Lords",
+    "syncretic_ids": [
+      "Q272486",
+      "Q46580"
+    ],
+    "extract": "Popol Vuh is a text recounting the mythology and history of the Kʼicheʼ people of Guatemala, one of the Maya peoples who also inhabit the Mexican states of Chiapas, Campeche, Yucatan and Quintana Roo, as well as areas of Belize, Honduras and El Salvador.",
+    "description": "Text recounting Maya mythology and history",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b2/Popol_vuh.jpg/330px-Popol_vuh.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Popol_Vuh"
+  },
+  {
+    "id": "Q218415",
+    "name": "Legend of the Feathered Serpent (Quetzalcoatl)",
+    "wiki_title": "Quetzalcoatl",
+    "lat": 19.69,
+    "lng": -98.84,
+    "epoch_start": -100,
+    "epoch_end": 1521,
+    "culture": "Mesoamerican",
+    "archetype": "Culture Hero / Boundary Crosser / Venus Morning Star",
+    "syncretic_ids": [
+      "Q190828",
+      "Q83364"
+    ],
+    "extract": "Quetzalcoatl is a deity in Aztec culture and literature. Among the Aztecs, he was related to wind, the planet Venus, the Sun, merchants, arts, crafts, knowledge, and learning. He was also the patron god of the Aztec priesthood. He is also a god of wisdom, learning and intelligence. He was one of several important gods in the Aztec pantheon, along with the gods Tlaloc, Tezcatlipoca and Huitzilopochtli. The two other gods represented by the planet Venus are Tlaloc and Xolotl.",
+    "description": "Central deity in Aztec religion",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e5/Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg/330px-Quetzalc%C3%B3atl_como_la_serpiente_emplumada_y_el_dios_del_viento_Eh%C3%A9catl%2C_en_el_folio_19.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Quetzalc%C5%8D%C4%81tl"
+  },
+  {
+    "id": "Q217032",
+    "name": "Aztec Legend of the Fifth Sun (Nahui-Ollin)",
+    "wiki_title": "Five_Suns",
+    "lat": 19.43,
+    "lng": -99.13,
+    "epoch_start": 1200,
+    "epoch_end": 1521,
+    "culture": "Mesoamerican",
+    "archetype": "Cyclical World Ages & Solar Sacrifice of Nanahuatzin",
+    "syncretic_ids": [
+      "Q169542",
+      "Q190864"
+    ],
+    "extract": "In creation myths, the term \"Five Suns\" refers to the belief of certain Nahua cultures and Aztec peoples that the world has gone through five distinct cycles of creation and destruction, with the current era being the fifth. It is primarily derived from a combination of myths, cosmologies, and eschatological beliefs that were originally held by pre-Columbian peoples in the Mesoamerican region, including central Mexico, and it is part of a larger mythology of Fifth World or Fifth Sun beliefs.",
+    "description": "Creation Legend of the Aztecs",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/39/File-Monolito_de_la_Piedra_del_Sol_%28centro%29.jpg/330px-File-Monolito_de_la_Piedra_del_Sol_%28centro%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Five_Suns"
+  },
+  {
+    "id": "Q219455",
+    "name": "Kukulcan Descent at Equinox",
+    "wiki_title": "Kukulkan",
+    "lat": 20.68,
+    "lng": -88.56,
+    "epoch_start": 700,
+    "epoch_end": 1200,
+    "culture": "Mesoamerican",
+    "archetype": "Plumed Serpent Solar Shadow at Sacred Pyramid",
+    "syncretic_ids": [
+      "Q218415"
+    ],
+    "extract": "Kukulkan, also spelled K’uk’ulkan, is the serpent deity of Maya mythology. It is closely related to the deity Qʼuqʼumatz of the Kʼicheʼ people and to Quetzalcoatl of Aztec mythology. Prominent temples to Kukulkan are found at archaeological sites in the Yucatán Peninsula, such as Chichen Itza, Uxmal and Mayapan.",
+    "description": "Serpent deity in Mesoamerican mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3e/Kukulkan_%28reconstructed%29.jpg/330px-Kukulkan_%28reconstructed%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kukulkan"
+  },
+  {
+    "id": "Q242488",
+    "name": "Nuwa Mends the Fallen Heavens",
+    "wiki_title": "Nüwa",
+    "lat": 36.63,
+    "lng": 113.62,
+    "epoch_start": -1000,
+    "epoch_end": 200,
+    "culture": "East Asian",
+    "archetype": "Mother Goddess / Cosmic Pillar Repair",
+    "syncretic_ids": [
+      "Q248352",
+      "Q190864"
+    ],
+    "extract": "Nüwa, also read Nügua, is a mother goddess, culture hero, and/or member of the Three Sovereigns of Chinese mythology. She is a goddess in Chinese folk religion, Chinese Buddhism, Confucianism and Taoism. She is credited with creating humanity and repairing the Pillar of Heaven.",
+    "description": "Mother goddess of Chinese mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/18/Ping_Sien_Si_-_065_Nu_Wa_Niang_Niang_%2816140351273%29.jpg/330px-Ping_Sien_Si_-_065_Nu_Wa_Niang_Niang_%2816140351273%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/N%C3%BCwa"
+  },
+  {
+    "id": "Q35061",
+    "name": "Pangu and the Primordial Cosmic Egg",
+    "wiki_title": "Pangu",
+    "lat": 34.79,
+    "lng": 113.66,
+    "epoch_start": -200,
+    "epoch_end": 500,
+    "culture": "East Asian",
+    "archetype": "Cosmic Giant Self-Sacrifice to form Earth",
+    "syncretic_ids": [
+      "Q190864",
+      "Q169542"
+    ],
+    "extract": "Pangu or Pan Gu \n(Chinese: 盤古; pinyin: Pángǔ ; PAN-koo) is a primordial being and creation figure in Chinese mythology and in Taoism. According to legend, Pangu separated heaven and earth, and his body later became geographic features such as mountains and flowing water.",
+    "description": "Chinese mythical figure",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Pangu.jpg/330px-Pangu.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Pangu"
+  },
+  {
+    "id": "Q234988",
+    "name": "Hou Yi Shooting Down the Nine Suns",
+    "wiki_title": "Hou_Yi",
+    "lat": 34.26,
+    "lng": 108.94,
+    "epoch_start": -800,
+    "epoch_end": -100,
+    "culture": "East Asian",
+    "archetype": "Master Archer Restoring Ecological Balance",
+    "syncretic_ids": [
+      "Q12224"
+    ],
+    "extract": "Hou Yi is a mythological Chinese archer. He was also known as Shen Yi and simply as Yi (羿). He is also typically given the title of \"Lord Archer\". He is sometimes portrayed as a god of archery or a xian descended from heaven to aid mankind. Other times, he is portrayed as either simply half-divine or fully mortal. His wife, Chang'e, is one of the lunar deities.",
+    "description": "Chinese mythological archer",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/c/c0/Houyi_Shooting_an_Arrow%2C_Xiao_Yuncong.gif?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Hou_Yi"
+  },
+  {
+    "id": "Q487840",
+    "name": "Journey to the West (Sun Wukong's Rebellion)",
+    "wiki_title": "Journey_to_the_West",
+    "lat": 34.34,
+    "lng": 108.93,
+    "epoch_start": 629,
+    "epoch_end": 1592,
+    "culture": "East Asian",
+    "archetype": "Monkey King Trickster & Spiritual Pilgrimage to India",
+    "syncretic_ids": [
+      "Q37140",
+      "Q83364"
+    ],
+    "extract": "Journey to the West is a Chinese novel published in the 16th century during the Ming dynasty and attributed to Wu Cheng'en. It is regarded as one of the great Chinese novels, and has been described as arguably the most popular literary work in East Asia. It was widely known in English-speaking countries through the British scholar Arthur Waley's 1942 abridged translation Monkey.",
+    "description": "16th-century novel by Wu Cheng'en",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Evl53201b_pic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Journey_to_the_West"
+  },
+  {
+    "id": "Q179831",
+    "name": "Izanagi and Izanami Creating Japan (Kojiki)",
+    "wiki_title": "Izanami",
+    "lat": 34.45,
+    "lng": 134.8,
+    "epoch_start": 600,
+    "epoch_end": 712,
+    "culture": "East Asian",
+    "archetype": "Divine Primordial Couple / Underworld Separation (Yomi)",
+    "syncretic_ids": [
+      "Q179654",
+      "Q46580"
+    ],
+    "extract": "Izanami , formally referred to with the honorific Izanami-no-Mikoto , is the creator of both creation and death in Japanese mythology, as well as the Shinto mother goddess. She and her brother-husband Izanagi are the last of the seven generations of primordial deities that manifested after the formation of heaven and earth. Izanami and Izanagi are held to be the creators of the Japanese archipelago and the progenitors of many deities, which include the sun goddess Amaterasu, the moon deity Tsukuyomi and the storm god Susanoo. In mythology, she is the direct ancestor of the Japanese imperial family. In Shinto and Japanese mythology, Izanami gave humans death, so she is sometimes seen as a shinigami.",
+    "description": "Goddess of Shinto religion",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Kobayashi_Izanami_and_Izanagi.jpg/330px-Kobayashi_Izanami_and_Izanagi.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Izanami"
+  },
+  {
+    "id": "Q131346",
+    "name": "Amaterasu Emerging from the Heavenly Cave",
+    "wiki_title": "Amaterasu",
+    "lat": 32.71,
+    "lng": 131.3,
+    "epoch_start": 500,
+    "epoch_end": 712,
+    "culture": "East Asian",
+    "archetype": "Solar Goddess Hidden in Cave Restored by Sacred Dance",
+    "syncretic_ids": [
+      "Q179654",
+      "Q272486"
+    ],
+    "extract": "Amaterasu Ōmikami , often called Amaterasu for short, also known as Amateru Kami (天照神) and Ōhirume no Muchi (大日孁貴), is the goddess of the sun in Japanese mythology. Often considered the chief deity (kami) of the Shinto pantheon, she is also portrayed in Japan's earliest literary texts, the Kojiki and the Nihon Shoki, as the ruler of the heavenly realm Takamagahara and as the mythical ancestress of the Imperial House of Japan via her grandson Ninigi. Along with two of her siblings she ranks as one of the \"Three Precious Children\", the three most important offspring of the creator god Izanagi.",
+    "description": "Sun goddess in Shinto",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d1/Amaterasu_cave_crop.jpg/330px-Amaterasu_cave_crop.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amaterasu"
+  },
+  {
+    "id": "Q1145281",
+    "name": "Tain Bo Cuailnge (Cattle Raid of Cooley)",
+    "wiki_title": "Táin_Bó_Cúailnge",
+    "lat": 54.0,
+    "lng": -6.4,
+    "epoch_start": 100,
+    "epoch_end": 1100,
+    "culture": "Celtic",
+    "archetype": "Berserker Demi-God (Cu Chulainn) Defending Homeland",
+    "syncretic_ids": [
+      "Q8275",
+      "Q12224"
+    ],
+    "extract": "Táin Bó Cúailnge, commonly known as The Táin or less commonly as The Cattle Raid of Cooley, is an epic from Irish mythology. It is often called \"the Irish Iliad\", although like most other early Irish literature, the Táin is written in prosimetrum, i.e. prose with periodic additions of verse composed by the characters. The Táin tells of a war against Ulster by Queen Medb of Connacht and her husband King Ailill, who intend to steal the stud bull Donn Cuailnge. Due to a curse upon the king and warriors of Ulster, the invaders are opposed only by the young demigod, Cú Chulainn.",
+    "description": "Epic of early Irish literature",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Cuchulain_in_Battle.jpg/330px-Cuchulain_in_Battle.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/T%C3%A1in_B%C3%B3_C%C3%BAailnge"
+  },
+  {
+    "id": "Q1145290",
+    "name": "The Quest for the Holy Grail",
+    "wiki_title": "Holy_Grail",
+    "lat": 51.14,
+    "lng": -2.71,
+    "epoch_start": 1180,
+    "epoch_end": 1485,
+    "culture": "Celtic",
+    "archetype": "Healing of Wounded King / Quest for Sacred Vessel",
+    "syncretic_ids": [
+      "Q190532",
+      "Q248352"
+    ],
+    "extract": "The Holy Grail is a treasure that serves as an important motif in Arthurian literature. Various traditions describe the Holy Grail as a cup, dish, or stone with miraculous healing powers, sometimes providing eternal youth or sustenance in infinite abundance, often guarded in the custody of the Fisher King and located in the hidden Grail castle. By analogy, any elusive object or goal of great significance may be perceived as a \"holy grail\" by those seeking such.",
+    "description": "Treasure motif in Arthurian literature",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7c/Dante_Gabriel_Rossetti_-_The_Damsel_of_the_Sanct_Grael_%281874%29.jpg/330px-Dante_Gabriel_Rossetti_-_The_Damsel_of_the_Sanct_Grael_%281874%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Holy_Grail"
+  },
+  {
+    "id": "Q1145295",
+    "name": "The Children of Lir (Transforming into Swans)",
+    "wiki_title": "Children_of_Lir",
+    "lat": 53.6,
+    "lng": -7.3,
+    "epoch_start": 500,
+    "epoch_end": 1200,
+    "culture": "Celtic",
+    "archetype": "Jealous Stepmother Curse / 900 Years of Metamorphosis",
+    "syncretic_ids": [
+      "Q179654"
+    ],
+    "extract": "The Children of Lir is a legend from Irish mythology. It is a tale from the post-Christianisation period that mixes magical elements such as wands and spells with a Christian message of faith bringing freedom from suffering.",
+    "description": "Legend from Irish mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/04/John_Duncan_%281924%29_Children_of_Lir.jpg/330px-John_Duncan_%281924%29_Children_of_Lir.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Children_of_Lir"
+  },
+  {
+    "id": "Q1055745",
+    "name": "The Epic of Sundiata (The Lion King of Mali)",
+    "wiki_title": "Epic_of_Sundiata",
+    "lat": 11.55,
+    "lng": -8.15,
+    "epoch_start": 1235,
+    "epoch_end": 1400,
+    "culture": "West African",
+    "archetype": "Disabled Prince Rising to Unify Empire / Griot Destiny",
+    "syncretic_ids": [
+      "Q37140",
+      "Q60184"
+    ],
+    "extract": "The Epic of Sundiata is an epic poem of the Malinke people that tells the story of Sundiata Keita, the founder of the Mali Empire in West Africa, who ruled from 1235 C.E. until his death in 1255 C.E. It details how Sundiata established the empire through strategic alliances and exceptional skill, and is structured as a Hero's journey. The epic is a foundational to Mandé culture and has been narrated for generations by Griots through oral tradition.",
+    "description": "Epic poem of the Malinke culture",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/8/87/Djenne_Terracotta_Archer_%2813th-15th_cent%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Epic_of_Sundiata"
+  },
+  {
+    "id": "Q686259",
+    "name": "Anansi the Spider Buying Stories from the Sky God",
+    "wiki_title": "Anansi",
+    "lat": 6.68,
+    "lng": -1.62,
+    "epoch_start": 1000,
+    "epoch_end": 1700,
+    "culture": "West African",
+    "archetype": "Trickster Weaver / Outsmarting the Sky God",
+    "syncretic_ids": [
+      "Q83364",
+      "Q487840"
+    ],
+    "extract": "Anansi or Ananse is a character in Akan religion and folklore associated with stories, wisdom, knowledge, wit, mischievousness, cunning, and trickery, most commonly depicted as a spider. Anansi is a character who reflects the culture that he originates from. The Akan people are a close-knit people from present-day southern Ghana who rely on social order, which translates through the stories that come out of their culture. In many ways, Anansi is a paradoxical character whose actions defy this social order, but in incorporating rebellion and doubt into faith, his folkloric presence strengthens it.",
+    "description": "African folktale character, totem of wisdom and stories",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/93/Anansi-34.png/330px-Anansi-34.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Anansi"
+  },
+  {
+    "id": "Q219460",
+    "name": "Yoruba Creation Myth (Obatala and Oduduwa at Ife)",
+    "wiki_title": "Oduduwa",
+    "lat": 7.48,
+    "lng": 4.56,
+    "epoch_start": 800,
+    "epoch_end": 1400,
+    "culture": "West African",
+    "archetype": "Descent from Sky with Sacred Rooster and Five Claws",
+    "syncretic_ids": [
+      "Q179831",
+      "Q190864"
+    ],
+    "extract": "Odùduwà was a Yoruba divine king, an Oriṣa in the Yoruba religion, and the progenitor who ushered in the classical period that later led to the foundation of the Ife Empire. His earthly origins are from the village of Oke Ora. According to tradition, he was the holder of the title of the Olofin of Ile-Ife, the Yoruba holy city. He ruled there briefly and also served as the progenitor of a number of independent royal dynasties in Yorubaland, with the praise names Olofin Adimula and Olofin Ayé.",
+    "description": "Yoruba king and deity",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/9/94/Oduduwa_02.jpg/330px-Oduduwa_02.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Oduduwa"
+  },
+  {
+    "id": "Q1145299",
+    "name": "The Rainbow Serpent (Dreamtime Earth Sculptor)",
+    "wiki_title": "Rainbow_Serpent",
+    "lat": -12.46,
+    "lng": 130.84,
+    "epoch_start": -4000,
+    "epoch_end": 1500,
+    "culture": "Oceanic",
+    "archetype": "Primordial Creator Serpent Carving Riverways",
+    "syncretic_ids": [
+      "Q218415",
+      "Q42952"
+    ],
+    "extract": "The Rainbow Serpent or Rainbow Snake is a common deity often seen as the creator god, known by numerous names in different Australian Aboriginal languages by the many different Aboriginal peoples. It is a common motif in the art and religion of many Aboriginal Australian peoples. Much like the archetypal mother goddess, the Rainbow Serpent creates land and diversity for the Aboriginal people, but when disturbed can bring great chaos.",
+    "description": "Creator god and common motif of Aboriginal Australia",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a7/RainbowSerpent.jpg/330px-RainbowSerpent.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Rainbow_Serpent"
+  },
+  {
+    "id": "Q1145305",
+    "name": "Maui Fishing Up the North Island (Te Ika-a-Maui)",
+    "wiki_title": "M%C4%81ui_(M%C4%81ori_mythology)",
+    "lat": -38.68,
+    "lng": 176.07,
+    "epoch_start": 900,
+    "epoch_end": 1400,
+    "culture": "Oceanic",
+    "archetype": "Demi-god Trickster Pulling Landmass from Depths",
+    "syncretic_ids": [
+      "Q83364",
+      "Q39546"
+    ],
+    "extract": "Maui Fishing Up the North Island (Te Ika-a-Maui) is a foundational mythic narrative from the Oceanic tradition.",
+    "description": "",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/M%C4%81ui_(M%C4%81ori_mythology)"
+  },
+  {
+    "id": "Q1145310",
+    "name": "Kumulipo (Hawaiian Cosmic Genealogic Chant)",
+    "wiki_title": "Kumulipo",
+    "lat": 19.89,
+    "lng": -155.58,
+    "epoch_start": 1200,
+    "epoch_end": 1700,
+    "culture": "Oceanic",
+    "archetype": "Evolutionary Chant from Slime to Coral to Gods",
+    "syncretic_ids": [
+      "Q133346",
+      "Q35061"
+    ],
+    "extract": "In Hawaiian religion, the Kumulipo is the creation chant, first recorded in the 18th century. It also includes a genealogy of the members of Hawaiian royalty and was created in honor of Kalaninuiamamao and passed down orally to his daughter Alapaʻiwahine.",
+    "description": "Hawaiian chant",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Kumulipo"
+  },
+  {
+    "id": "Q1145315",
+    "name": "Viracocha Creation at Lake Titicaca",
+    "wiki_title": "Viracocha",
+    "lat": -15.92,
+    "lng": -69.33,
+    "epoch_start": 200,
+    "epoch_end": 1532,
+    "culture": "Andean",
+    "archetype": "Supreme Creator Rising from Sacred Waters to Make Sun",
+    "syncretic_ids": [
+      "Q218415",
+      "Q131371"
+    ],
+    "extract": "\nViracocha is the creator and supreme deity in the pre-Inca and Inca mythology in the Andes region of South America. According to the myth Viracocha had human appearance and was generally considered as bearded. According to the myth he ordered the construction of Tiwanaku. It is also said that he was accompanied by men also referred to as Viracochas.",
+    "description": "Creator deity in Inca mythology",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Viracocha"
+  },
+  {
+    "id": "Q1145320",
+    "name": "Legend of the Ayar Brothers (Founding of Cusco)",
+    "wiki_title": "Ayar_brothers",
+    "lat": -13.53,
+    "lng": -71.96,
+    "epoch_start": 1100,
+    "epoch_end": 1532,
+    "culture": "Andean",
+    "archetype": "Four Brothers and Four Sisters Emerging from Sacred Cave",
+    "syncretic_ids": [
+      "Q60184",
+      "Q190828"
+    ],
+    "extract": "Legend of the Ayar Brothers (Founding of Cusco) is a foundational mythic narrative from the Andean tradition.",
+    "description": "",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Ayar_brothers"
+  },
+  {
+    "id": "Q1956967",
+    "name": "Myth of Langemarck",
+    "wiki_title": "Myth_of_Langemarck",
+    "lat": 50.9202,
+    "lng": 2.9173,
+    "epoch_start": -1000,
+    "epoch_end": 500,
+    "culture": "Cross-Cultural",
+    "archetype": "Mythological Narrative",
+    "syncretic_ids": [],
+    "extract": "Myth of Langemarck is a foundational mythic narrative from the Cross-Cultural tradition.",
+    "description": "",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Myth_of_Langemarck"
+  }
+]
