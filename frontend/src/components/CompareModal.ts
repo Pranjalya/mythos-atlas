@@ -43,6 +43,7 @@ export class CompareModal {
     store.subscribe((state) => {
       if (state.compareModalOpen) {
         this.modalEl.classList.remove('modal-hidden');
+        this.contentEl.scrollTop = 0;
         this.populateDropdowns(state.allMyths, state.compareTargetA, state.compareTargetB);
       } else {
         this.modalEl.classList.add('modal-hidden');
@@ -69,11 +70,13 @@ export class CompareModal {
         const optA = document.createElement('option');
         optA.value = m.id;
         optA.textContent = `[${m.culture}] ${m.name}`;
+        optA.title = `[${m.culture}] ${m.name} (${m.archetype})`;
         this.selectA.appendChild(optA);
 
         const optB = document.createElement('option');
         optB.value = m.id;
         optB.textContent = `[${m.culture}] ${m.name}`;
+        optB.title = `[${m.culture}] ${m.name} (${m.archetype})`;
         this.selectB.appendChild(optB);
       }
     }
@@ -93,6 +96,7 @@ export class CompareModal {
 
     if (!mythAId || !mythBId) return;
 
+    this.contentEl.scrollTop = 0;
     this.contentEl.innerHTML = `
       <div class="compare-placeholder">
         <div style="font-size: 1.8rem; margin-bottom: 12px; animation: pulse-spin 2s infinite linear; display: inline-block;">✦</div>
@@ -197,5 +201,8 @@ export class CompareModal {
         </div>
       </div>
     `;
+    requestAnimationFrame(() => {
+      this.contentEl.scrollTop = 0;
+    });
   }
 }

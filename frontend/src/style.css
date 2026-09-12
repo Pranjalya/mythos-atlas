@@ -637,15 +637,15 @@ body:has(#timeline-container:hover) #hover-tooltip {
 .modal-window {
   position: relative;
   z-index: 51;
-  width: 900px;
-  max-width: 92vw;
+  width: 960px;
+  max-width: 94vw;
   max-height: 88vh;
-  background: var(--bg-glass);
+  background: rgba(10, 15, 29, 0.96);
   backdrop-filter: blur(32px);
   -webkit-backdrop-filter: blur(32px);
   border: 1px solid var(--border-gold);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 24px 64px rgba(0, 0, 0, 0.8), 0 0 24px rgba(230, 184, 106, 0.15);
   display: flex;
   flex-direction: column;
   overflow: hidden;
@@ -663,6 +663,7 @@ body:has(#timeline-container:hover) #hover-tooltip {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid var(--border-subtle);
+  flex-shrink: 0;
 }
 
 .engine-badge {
@@ -683,59 +684,118 @@ body:has(#timeline-container:hover) #hover-tooltip {
 .modal-selectors-bar {
   padding: 14px 24px;
   display: flex;
-  align-items: center;
-  gap: 16px;
-  background: rgba(10, 15, 29, 0.6);
+  align-items: flex-end;
+  gap: 14px;
+  background: rgba(8, 12, 24, 0.85);
   border-bottom: 1px solid var(--border-subtle);
+  flex-shrink: 0;
 }
 
 .selector-card {
-  flex: 1;
+  flex: 1 1 0;
+  min-width: 0; /* Ensures flex child can shrink below intrinsic select text width */
   display: flex;
   flex-direction: column;
-  gap: 4px;
+  gap: 6px;
 }
 
 .selector-card label {
   font-size: 0.72rem;
-  color: var(--text-muted);
+  color: var(--gold-light);
+  font-weight: 600;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  letter-spacing: 0.6px;
 }
 
 .selector-card select {
-  background: rgba(15, 23, 42, 0.9);
+  width: 100%;
+  max-width: 100%;
+  min-width: 0;
+  background: rgba(15, 23, 42, 0.95);
   color: var(--text-primary);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-sm);
-  padding: 8px 12px;
-  font-size: 0.85rem;
+  padding: 9px 12px;
+  font-size: 0.84rem;
+  font-family: var(--font-ui);
   outline: none;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  cursor: pointer;
+  transition: border-color 0.2s, box-shadow 0.2s;
 }
 
 .selector-card select:focus {
   border-color: var(--gold-primary);
+  box-shadow: 0 0 10px rgba(230, 184, 106, 0.25);
 }
 
 .versus-badge {
   font-family: var(--font-display);
   font-weight: 700;
-  font-size: 0.9rem;
+  font-size: 0.85rem;
   color: var(--gold-primary);
-  background: rgba(230, 184, 106, 0.15);
-  width: 36px;
-  height: 36px;
+  background: rgba(230, 184, 106, 0.12);
+  width: 38px;
+  height: 38px;
+  min-width: 38px;
+  flex-shrink: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 50%;
-  border: 1px solid var(--gold-primary);
+  border: 1px solid var(--border-gold);
+  margin-bottom: 1px;
+}
+
+#btn-run-comparison {
+  flex-shrink: 0;
+  white-space: nowrap;
+  height: 38px;
+  padding: 0 18px;
+  font-size: 0.84rem;
+  font-weight: 600;
+  margin-bottom: 1px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: linear-gradient(135deg, var(--gold-dark), var(--gold-primary));
+  color: #06080f;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+  box-shadow: var(--shadow-gold);
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+#btn-run-comparison:hover {
+  transform: scale(1.03);
+  box-shadow: 0 0 20px rgba(230, 184, 106, 0.45);
 }
 
 .modal-scroll-area {
   flex: 1;
   overflow-y: auto;
-  padding: 24px;
+  padding: 24px 24px 36px 24px;
+  scroll-behavior: smooth;
+}
+
+.modal-scroll-area::-webkit-scrollbar {
+  width: 8px;
+}
+
+.modal-scroll-area::-webkit-scrollbar-track {
+  background: rgba(11, 17, 32, 0.4);
+}
+
+.modal-scroll-area::-webkit-scrollbar-thumb {
+  background: rgba(230, 184, 106, 0.35);
+  border-radius: 4px;
+}
+
+.modal-scroll-area::-webkit-scrollbar-thumb:hover {
+  background: rgba(230, 184, 106, 0.65);
 }
 
 .compare-placeholder {
