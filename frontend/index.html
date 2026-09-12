@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MythosAtlas — 3D Spatio-Temporal Mythic Atlas & Comparative Knowledge Engine</title>
+    <meta name="description" content="Interactive 3D spatio-temporal globe and AI comparative knowledge engine visualizing global mythological narratives, motifs, and sacred geographies from -4000 BCE to 1500 CE." />
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+    
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <!-- 3D WebGL Canvas Container -->
+      <div id="canvas-container"></div>
+
+      <!-- Top Header Navigation -->
+      <header id="top-bar">
+        <div class="brand-group">
+          <div class="logo-icon">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10" />
+              <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+              <path d="M2 12h20" />
+            </svg>
+          </div>
+          <div class="brand-text">
+            <h1 class="brand-title">MYTHOS ATLAS</h1>
+            <span class="brand-subtitle">Spatio-Temporal Mythic Cartography</span>
+          </div>
+        </div>
+
+        <!-- Filter Controls -->
+        <div class="filter-controls">
+          <div class="filter-item">
+            <label for="culture-filter">Tradition</label>
+            <select id="culture-filter">
+              <option value="all">All Traditions (Global)</option>
+              <option value="Mesopotamian">Mesopotamian</option>
+              <option value="Levantine">Levantine</option>
+              <option value="Egyptian">Egyptian</option>
+              <option value="Vedic">Vedic & Hindu</option>
+              <option value="Greco-Roman">Greco-Roman</option>
+              <option value="Norse">Norse</option>
+              <option value="Mesoamerican">Mesoamerican</option>
+              <option value="East Asian">East Asian</option>
+              <option value="Celtic">Celtic</option>
+              <option value="West African">West African</option>
+              <option value="Oceanic">Oceanic</option>
+              <option value="Andean">Andean</option>
+            </select>
+          </div>
+
+          <button id="btn-toggle-syncretism" class="toggle-btn active" title="Toggle syncretic diffusion arcs">
+            <span class="toggle-indicator"></span>
+            Syncretic Arcs
+          </button>
+
+          <button id="btn-open-compare" class="action-btn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="3" width="7" height="18" rx="1" />
+              <rect x="14" y="3" width="7" height="18" rx="1" />
+            </svg>
+            Compare Traditions
+          </button>
+        </div>
+
+        <div class="stats-badge">
+          <span id="active-count">0</span> Active Epics
+          <span class="engine-tag">WASM 60 FPS</span>
+        </div>
+      </header>
+
+      <!-- Hover Tooltip -->
+      <div id="hover-tooltip" class="tooltip-hidden">
+        <div class="tooltip-header">
+          <span id="tooltip-culture" class="badge"></span>
+          <span id="tooltip-epoch"></span>
+        </div>
+        <h4 id="tooltip-name"></h4>
+        <p id="tooltip-archetype"></p>
+      </div>
+
+      <!-- Side-Panel Inspector -->
+      <aside id="inspector-panel" class="inspector-collapsed">
+        <div class="inspector-header">
+          <div class="inspector-title-group">
+            <span id="inspector-culture" class="badge"></span>
+            <span id="inspector-epoch" class="epoch-label"></span>
+          </div>
+          <button id="inspector-close-btn" class="icon-btn" aria-label="Close Inspector">&times;</button>
+        </div>
+
+        <div class="inspector-body">
+          <div class="thumbnail-wrapper">
+            <img id="inspector-thumbnail" src="" alt="Myth representation" />
+            <div class="thumbnail-gradient"></div>
+            <div class="thumbnail-info">
+              <h2 id="inspector-name">Select an Entity</h2>
+              <p id="inspector-archetype" class="archetype-text"></p>
+            </div>
+          </div>
+
+          <div class="inspector-meta-row">
+            <div class="meta-card">
+              <span class="meta-label">Geography</span>
+              <span id="inspector-coords" class="meta-value">0° N, 0° E</span>
+            </div>
+            <div class="meta-card">
+              <span class="meta-label">Timeline Span</span>
+              <span id="inspector-span" class="meta-value">-</span>
+            </div>
+          </div>
+
+          <div class="section-block">
+            <h3 class="section-title">Narrative Excerpt</h3>
+            <p id="inspector-extract" class="narrative-content">
+              Select any pulsing node on the 3D globe or scrub the historical timeline to explore how myths flourished across civilizations.
+            </p>
+            <a id="inspector-wiki-link" href="#" target="_blank" rel="noreferrer" class="wiki-link">
+              Read Primary Source Archive &rarr;
+            </a>
+          </div>
+
+          <div class="section-block">
+            <div class="section-header-row">
+              <h3 class="section-title">Syncretic Diffusion</h3>
+              <span class="sub-label">Cultural Counterparts</span>
+            </div>
+            <div id="inspector-syncretic-list" class="syncretic-grid">
+              <!-- Syncretic items injected here -->
+            </div>
+          </div>
+
+          <div class="section-block">
+            <div class="section-header-row">
+              <h3 class="section-title">Global Motif Parallels</h3>
+              <button id="btn-fetch-parallels" class="mini-action-btn">
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="11" cy="11" r="8" /><line x1="21" y1="21" x2="16.65" y2="16.65" />
+                </svg>
+                Find Parallels
+              </button>
+            </div>
+            <div id="inspector-parallels-list" class="parallels-grid">
+              <div class="empty-state-hint">Click "Find Parallels" to query semantic motif vectors in Qdrant.</div>
+            </div>
+          </div>
+
+          <div class="inspector-footer">
+            <button id="inspector-compare-btn" class="primary-btn full-width">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M16 3h5v5M4 20L21 3M21 16v5h-5M15 15l6 6M4 4l5 5" />
+              </svg>
+              Launch Comparative Synthesis
+            </button>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Comparative Copilot Modal -->
+      <div id="compare-modal" class="modal-hidden">
+        <div class="modal-backdrop"></div>
+        <div class="modal-window">
+          <div class="modal-header">
+            <div class="modal-title-group">
+              <span class="engine-badge">AI Comparative Copilot</span>
+              <h2>Cross-Civilizational Structural Synthesis</h2>
+            </div>
+            <button id="compare-modal-close" class="icon-btn">&times;</button>
+          </div>
+
+          <div class="modal-selectors-bar">
+            <div class="selector-card">
+              <label for="compare-select-a">Tradition A</label>
+              <select id="compare-select-a"></select>
+            </div>
+            <div class="versus-badge">VS</div>
+            <div class="selector-card">
+              <label for="compare-select-b">Tradition B</label>
+              <select id="compare-select-b"></select>
+            </div>
+            <button id="btn-run-comparison" class="primary-btn">
+              Generate Synthesis
+            </button>
+          </div>
+
+          <div id="compare-modal-content" class="modal-scroll-area">
+            <div class="compare-placeholder">
+              Select two mythological narratives to analyze structural motifs, character archetypes, and diffusion pathways.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Spatio-Temporal Timeline Bar -->
+      <div id="timeline-container">
+        <div class="timeline-header-row">
+          <div class="timeline-status">
+            <button id="btn-play-timeline" class="play-btn" aria-label="Play timeline animation">
+              <svg id="play-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                <polygon points="5 3 19 12 5 21 5 3" />
+              </svg>
+            </button>
+            <div class="year-readout">
+              <span id="current-year-display">-1200 BCE</span>
+              <span id="current-epoch-name" class="epoch-subtext">Late Bronze Age</span>
+            </div>
+          </div>
+
+          <!-- Epoch Quick Jumps -->
+          <div class="epoch-pills">
+            <button class="epoch-pill" data-year="-2100">Bronze Age (-2100)</button>
+            <button class="epoch-pill active" data-year="-1200">Collapse (-1200)</button>
+            <button class="epoch-pill" data-year="-800">Axial Age (-800)</button>
+            <button class="epoch-pill" data-year="0">Classical (0 CE)</button>
+            <button class="epoch-pill" data-year="800">Medieval (800 CE)</button>
+            <button class="epoch-pill" data-year="1300">Late Medieval (1300 CE)</button>
+          </div>
+
+          <div class="camera-controls">
+            <button id="btn-reset-view" class="icon-control-btn" title="Reset camera view">
+              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <circle cx="12" cy="12" r="10" />
+                <path d="M12 2a10 10 0 0 0-10 10" />
+              </svg>
+            </button>
+          </div>
+        </div>
+
+        <div class="slider-wrapper">
+          <input
+            type="range"
+            id="timeline-slider"
+            min="-4000"
+            max="1500"
+            step="10"
+            value="-1200"
+            aria-label="Temporal scrubber (-4000 BCE to 1500 CE)"
+          />
+          <div class="timeline-ticks">
+            <span class="tick" style="left: 0%">-4000 BCE</span>
+            <span class="tick" style="left: 27.2%">-2500 BCE</span>
+            <span class="tick" style="left: 50.9%">-1200 BCE</span>
+            <span class="tick" style="left: 72.7%">0 CE</span>
+            <span class="tick" style="left: 87.2%">800 CE</span>
+            <span class="tick" style="left: 100%">1500 CE</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>
