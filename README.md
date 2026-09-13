@@ -3,11 +3,20 @@
 > **Interactive 3D Spatio-Temporal Mythic Atlas & Comparative Knowledge Engine**  
 > Visualizing how mythological narratives, folklore motifs, and sacred geographies evolved and diffused across civilizations from **-4000 BCE to 1500 CE**.
 
+![Rust](https://img.shields.io/badge/Rust-1.80+-orange.svg?style=flat-square&logo=rust)
+![WebAssembly](https://img.shields.io/badge/WASM-engine--wasm-654ff0.svg?style=flat-square&logo=webassembly)
+![Three.js](https://img.shields.io/badge/Three.js-WebGL_Cartography-black.svg?style=flat-square&logo=three.js)
+![FastAPI](https://img.shields.io/badge/FastAPI-Python_3.12+-009688.svg?style=flat-square&logo=fastapi)
+![Qdrant](https://img.shields.io/badge/Qdrant-768D_Dense_Vectors-dc2626.svg?style=flat-square)
+![Gemini](https://img.shields.io/badge/Google_Gemini-Comparative_Synthesis-4285f4.svg?style=flat-square&logo=google)
+![Dataset](https://img.shields.io/badge/Myths-331_Global_Epics-e6b86a.svg?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
+
 ---
 
 ## 🏛️ Architectural Paradigm: Tiered Hybrid
 
-MythosAtlas bridges high-frequency client-side cartography with on-demand cloud intelligence:
+MythosAtlas bridges high-frequency client-side WebGL cartography with on-demand cloud intelligence:
 
 ```text
                           ┌──────────────────────────────────────────────────────────┐
@@ -17,19 +26,20 @@ MythosAtlas bridges high-frequency client-side cartography with on-demand cloud 
                           │  │   Three.js 3D Globe   │   │  Timeline UI (-4000 to │  │
                           │  │  InstancedMesh Nodes  │◄──┤       +1500 CE)        │  │
                           │  │  Syncretic Bezier Arcs│   └───────────┬────────────┘  │
-                          │  └───────────▲───────────┘               │               │
-                          │              │ 60+ FPS direct buffer     │ discrete year │
-                          │              │ updates (0ms network)     │ query         │
+                          │  │  Constellation Blooms │               │               │
+                          │  └───────────▲───────────┘               │ discrete year │
+                          │              │ 60+ FPS direct buffer     │ query         │
+                          │              │ updates (0ms network)     │               │
                           │  ┌───────────┴───────────────────────────▼────────────┐  │
                           │  │      Rust WASM Core (engine-wasm)                  │  │
                           │  │   1D Interval Tree + Static Spatial Bounds Index   │  │
                           │  └───────────────────▲────────────────────────────────┘  │
                           │                      │ pre-baked static bundle           │
-                          │                      │ (<5MB static_myths.json)          │
+                          │                      │ (206 KB static_myths.json)        │
                           └──────────────────────┼───────────────────────────────────┘
                                                  │
-                                                 │ On-demand hydration
-                                                 │ (Inspect / Compare / Vector Search)
+                                                 │ On-demand hydration & semantic search
+                                                 │ (Inspect / Compare / Qdrant Vectors)
                                                  │
                           ┌──────────────────────▼───────────────────────────────────┐
                           │               Backend Dynamic Knowledge Layer            │
@@ -37,38 +47,54 @@ MythosAtlas bridges high-frequency client-side cartography with on-demand cloud 
                           │                                                          │
                           │   ┌────────────────────────┐  ┌───────────────────────┐  │
                           │   │   Qdrant Vector DB     │  │   Gemini LLM Engine   │  │
-                          │   │  Motif Semantic Search │  │  Comparative Matrix   │  │
-                          │   │  Cross-Cultural Matches│  │  Structural Typology  │  │
+                          │   │  768D nomic-embed-text │  │  Comparative Matrix   │  │
+                          │   │  Cross-Cultural Search │  │  Structural Typology  │  │
                           │   └────────────────────────┘  └───────────────────────┘  │
                           └──────────────────────────────────────────────────────────┘
 ```
 
 1. **Client-Side Spatio-Temporal Core (Static + WASM):** High-frequency timeline scrubbing (-4000 BCE to 1500 CE) runs entirely in the browser at **60+ FPS with 0ms network roundtrips**. A Rust module compiled to WebAssembly (WASM) holds an in-memory 1D interval tree and spatial bounds to filter active entities from a pre-baked static bundle directly into Three.js rendering buffers.
-2. **Dynamic Knowledge Layer (FastAPI + Qdrant + Gemini):** On-demand hydration triggered only when a user selects a myth node, clicks an archetype, or initiates a cross-cultural comparison. The backend orchestrates motif vector retrieval, syncretic graph traversal, and comparative structuralist synthesis.
+2. **Dynamic Knowledge Layer (FastAPI + Qdrant + Gemini):** On-demand hydration triggered when a user selects a myth node, searches natural language queries, clicks an archetype, or initiates cross-cultural comparison. The backend orchestrates 768-dimensional motif vector retrieval (`nomic-embed-text-v1.5`), syncretic graph traversal, and structuralist synthesis.
 
 ---
 
 ## ✨ Key Features
 
-- **3D Celestial WebGL Globe (`Three.js`)**:
-  - **Modern Country Cartography**: 177 modern vector country boundaries rendered via high-precision GeoJSON line segments with toggleable border overlays (`#btn-toggle-borders`).
-  - **Country Hover Intelligence**: Raycasts Earth surface coordinates in real time to identify modern sovereign states, continents, and their ancient mythological roots.
-  - Procedural atmospheric twilight Fresnel glow shaders.
-  - Interactive sphere with custom dark ocean textures, graticule gridlines, and topography.
-  - Active myths rendered via `THREE.InstancedMesh` with visual scaling and colors mapped to civilizational traditions.
-  - Pulsing quadratic Bezier curve arcs connecting culturally syncretic nodes (e.g. Inanna $\rightarrow$ Ishtar $\rightarrow$ Astarte $\rightarrow$ Aphrodite).
-  - Smooth camera fly-to transitions and constrained OrbitControls.
-- **High-Performance WASM Timeline Scrubber (`Rust`)**:
-  - Continuous scrubbing across 5,500 years of recorded human narrative (-4000 BCE to 1500 CE).
-  - 1D Interval Tree queries in $O(\log N + K)$ time with continuous visual intensity calculations.
-  - Epoch landmark pills for instant temporal jumping (Early Bronze, Collapse, Axial Age, Classical, Medieval).
-- **Side-Panel Entity Inspector**:
-  - Live hydration of enriched narrative leads, sacred coordinates, and Wikimedia Commons thumbnails.
-  - Interactive syncretic links allowing users to jump across cultural counterpart nodes.
-  - **"Find Parallels" Button**: Queries the 384-dimensional dense motif vector space in **Qdrant Cloud** to retrieve top global counterparts across continents with similarity scores.
-- **Comparative Copilot Modal (`Google Gemini`)**:
-  - Dual-tradition comparison matrix analyzing character archetypes (protagonist agency, adversary dynamics, supernatural allies), inciting motifs (catalyst events, sacred taboos), and cosmological resolutions.
-  - **Structuralist Typology**: Evaluates whether cross-cultural narrative symmetries stem from **Cognitive Convergence** (universal human psychology) or **Historical Diffusion** (trade routes and syncretism) with scholarly rationales.
+### 🌍 3D Celestial WebGL Globe (`Three.js`)
+- **Modern Country Cartography**: 177 modern vector country boundaries rendered via high-precision GeoJSON line segments with toggleable border overlays (`#btn-toggle-borders`).
+- **Country Hover Intelligence**: Raycasts Earth surface coordinates in real time to identify modern sovereign states, continents, and their ancient mythological roots.
+- **Concurrent Narrative Constellation Blooming**: When multiple myths occur at the same sacred location and epoch (e.g. Rome, Thebes, Varanasi, Kyoto, Tenochtitlan), the primary locus dynamically blooms satellite nodes in an equilateral orbital ring connected by glowing constellation arcs.
+- **Syncretic Diffusion Arcs**: Pulsing quadratic Bezier curves connecting culturally syncretic nodes across continents (e.g., Inanna $\rightarrow$ Ishtar $\rightarrow$ Astarte $\rightarrow$ Aphrodite).
+- **Procedural Atmospheres**: Custom atmospheric twilight Fresnel glow shaders, dark ocean textures, graticule gridlines, and smooth camera fly-to transitions.
+
+### ⏳ High-Performance WASM Timeline Scrubber (`Rust`)
+- **Continuous Scrubbing**: Scrub across 5,500 years of recorded human narrative (-4000 BCE to 1500 CE).
+- **Sub-Millisecond Interval Queries**: 1D Interval Tree queries in $O(\log N + K)$ time with continuous visual intensity calculations.
+- **Landmark Epoch Pills**: Instant temporal navigation across civilizational eras (Bronze Age, Bronze Age Collapse, Axial Age, Classical, Medieval, Late Medieval).
+
+### 🔍 Omnisearch with Semantic Natural Language ("Ask the Atlas")
+- **Global Keybinding**: Press `Cmd + K` (or `Ctrl + K`) anywhere, or click the search bar in the top navigation.
+- **Dual-Engine Discovery**:
+  - **⚡ Instant 0ms Keyword Matching**: Instant client-side lookup across all 331 myths for heroes, motifs, deities, and traditions (e.g., *"Gilgamesh"*, *"snake"*, *"underworld"*, *"Norse"*, *"Japan"*).
+  - **🔮 Natural Language Vector Search**: Debounced semantic queries dispatched to FastAPI `/api/v1/myths/search/semantic`, matching against Qdrant Cloud's 768-dimensional `nomic-embed-text-v1.5` embeddings (e.g., *"Where did dragon myths come from?"*, *"Show me female sun deities"*), returning ranked results with percentage similarity scores.
+- **Interactive Navigation & Temporal Sync**: Selecting any myth updates the timeline epoch to its flourishing era, sweeps the Three.js camera to its exact locus, blooms its constellation, and hydrates the inspector.
+
+### 🧭 "Surprise Me" (Random Pilgrim Mode)
+- **Kinetic Pilgrim Journey**: Clicking the glowing compass button (`🧭 Surprise Me`) triggers a 1080° rotating compass animation, picks a random extraordinary myth across worldwide traditions, adjusts the temporal epoch, glides the camera across the globe, blooms the locus, and hydrates the inspector side-panel.
+
+### 📜 Side-Panel Entity Inspector & Sacred Epicenter Cluster Deck
+- **Sacred Epicenter Deck**: For multi-epic sites, an interactive horizontal tabbed pill deck allows switching seamlessly between concurrent epics without losing geographical context.
+- **Rich Narrative Leads**: Enriched historical summaries, sacred coordinates, and Wikimedia Commons thumbnails.
+- **"Find Parallels"**: Queries the 768-dimensional dense motif vector space in **Qdrant Cloud** to retrieve top global counterparts across continents with similarity scores.
+
+### ⚖️ Comparative Copilot Modal (`Google Gemini`)
+- **Dual-Tradition Matrix**: Synthesizes structural comparisons analyzing character archetypes (protagonist agency, adversary dynamics, supernatural allies), inciting motifs (catalyst events, sacred taboos), and cosmological resolutions.
+- **Structuralist Typology**: Evaluates whether cross-cultural narrative symmetries stem from **Cognitive Convergence** (universal human psychology) or **Historical Diffusion** (trade routes and syncretism) with scholarly rationales.
+
+### 📱 Mobile-Responsive Architecture (`< 900px`)
+- **Native Bottom Sheet Inspector**: Transforms the desktop floating panel into a slide-up bottom sheet with tactile drag handle, swipe-down dismissal, and horizontal cluster pill scrolling.
+- **Mobile Camera Framing**: Automatically offsets camera latitude (`latOffset = -12°`) to frame the 3D globe in the upper viewport directly above the bottom sheet.
+- **Adaptive Touch Controls**: Collapsible hamburger drawer, compact touch timeline, and floating creator pill that expands into a focused modal.
 
 ---
 
@@ -79,8 +105,8 @@ mythos-atlas/
 ├── etl/                         # Offline data collection & pipeline scripts
 │   ├── wikidata_sparql.py       # SPARQL extraction for entities, inceptions, & coords
 │   ├── wikipedia_scraper.py     # Wikipedia narrative extractor with disk caching
-│   ├── embed_and_index.py       # Generates dense vectors & populates Qdrant Cloud
-│   ├── bake_static_data.py      # Compiles lean JSON bundle for WASM client (<5MB)
+│   ├── embed_and_index.py       # Generates 768D dense vectors & populates Qdrant Cloud
+│   ├── bake_static_data.py      # Compiles lean JSON bundle for WASM client (206 KB)
 │   ├── run_pipeline.py          # Master single-command ETL pipeline orchestrator
 │   └── tests/
 │       └── test_data_integrity.py# Automated tests for coordinates, epochs, and schemas
@@ -97,10 +123,10 @@ mythos-atlas/
 │   │   ├── main.py              # FastAPI application entry point with CORS
 │   │   ├── config.py            # Pydantic environment settings (.env)
 │   │   ├── routes/
-│   │   │   ├── myths.py         # Entity detail retrieval & syncretic subgraph
+│   │   │   ├── myths.py         # Entity detail, semantic search, & syncretic subgraph
 │   │   │   └── compare.py       # Cross-tradition semantic & structural comparison
 │   │   └── services/
-│   │       ├── qdrant_svc.py    # Motif vector search & parallel retrieval
+│   │       ├── qdrant_svc.py    # 768D motif vector search & parallel retrieval
 │   │       └── llm_svc.py       # Google Gemini structural comparative synthesis
 │   ├── tests/
 │   │   └── test_api.py          # FastAPI endpoint integration test suite
@@ -114,10 +140,12 @@ mythos-atlas/
 │       ├── main.ts              # App entry point, WASM bootstrap, and UI event binding
 │       ├── style.css            # Dark obsidian & celestial gold glassmorphic design system
 │       ├── components/
-│       │   ├── Globe.ts         # Three.js globe, shader atmospheres, & instanced meshes
+│       │   ├── Globe.ts         # Three.js globe, shader atmospheres, & constellation blooms
 │       │   ├── Timeline.ts      # Scrubbing UI slider with WASM interval queries
-│       │   ├── Inspector.ts     # Side-panel for entity deep-dives
-│       │   └── CompareModal.ts  # Dual-tradition comparison matrix
+│       │   ├── Inspector.ts     # Side-panel & sacred epicenter cluster deck
+│       │   ├── CompareModal.ts  # Dual-tradition comparison matrix
+│       │   ├── Omnisearch.ts    # Dual-engine Cmd+K search ("Ask the Atlas")
+│       │   └── PilgrimMode.ts   # "Surprise Me" random discovery engine
 │       ├── wasm/                # Generated wasm-pack bindings & WebAssembly binary
 │       └── state/
 │           └── store.ts         # Reactive state store
@@ -127,38 +155,38 @@ mythos-atlas/
     │   ├── wikipedia_cache.json
     │   └── wikipedia_enriched.json
     └── processed/
-        ├── static_myths.json    # Quantized 31 KB payload served to WASM client
-        ├── enriched_myths.json  # Full metadata dictionary for backend hydration
-        └── motif_embeddings.json# Local 384D vector cache for offline search
+        ├── static_myths.json    # Lean 206 KB payload serving 331 myths to WASM client
+        ├── enriched_myths.json  # Full metadata dictionary for backend hydration (363 KB)
+        └── motif_embeddings.json# Local 768D vector cache for offline search (6.9 MB)
 ```
 
 ---
 
 ## 📜 Cultural Traditions Covered
 
-MythosAtlas includes 88+ foundational narratives spanning 19 cultural and indigenous traditions across all inhabited continents:
+MythosAtlas includes **331 foundational narratives** spanning **19 cultural and indigenous traditions** across all inhabited continents:
 
-| Tradition | Representative Epics & Motifs | Temporal Range |
-| :--- | :--- | :--- |
-| **Mesopotamian** | *Epic of Gilgamesh*, *Enuma Elish*, *Descent of Inanna*, *Atrahasis*, *Marduk* | -2300 to -539 BCE |
-| **Levantine** | *Baal Cycle*, *Astarte and the Sea*, *Genesis Deluge (Noah's Ark)* | -1500 to -300 BCE |
-| **Egyptian** | *Osiris Myth & Resurrection*, *Isis*, *Contendings of Horus and Seth*, *Book of the Dead* | -2600 to 400 CE |
-| **Greco-Roman** | *Homer's Iliad & Odyssey*, *Prometheus Bound*, *Eleusinian Mysteries*, *Aeneid* | -800 BCE to 395 CE |
-| **Vedic & Hindu** | *Samudra Manthana*, *Nasadiya Sukta*, *Ramayana*, *Mahabharata*, *Descent of Ganges*, *Nataraja* | -1500 BCE to 600 CE |
-| **Persian & Iranian** | *Ahura Mazda vs Angra Mainyu*, *Shahnameh (Rostam and Sohrab)*, *Simurgh*, *Jamshid* | -1200 BCE to 1010 CE |
-| **Norse & Germanic** | *Ragnarök*, *Thor's Fishing Trip for Jormungandr*, *Odin on Yggdrasil*, *Baldr's Death* | 600 to 1250 CE |
-| **Celtic** | *Táin Bó Cúailnge (Cu Chulainn)*, *Quest for the Holy Grail*, *Children of Lir* | 100 to 1485 CE |
-| **Slavic & Baltic** | *Perun vs Veles*, *Baba Yaga*, *Perkūnas & Saule (Baltic Sun and Thunder)* | 400 to 1500 CE |
-| **Finno-Ugric** | *The Kalevala (Forging of Sampo)*, *Lemminkäinen's Resurrection*, *Kalevipoeg* | 800 to 1400 CE |
-| **East Asian** | *Nuwa Mends Heavens*, *Pangu Cosmic Egg*, *Journey to the West*, *Kojiki (Izanami)*, *Dangun* | -1000 BCE to 1592 CE |
-| **Central Asian & Steppe** | *Tengri and Eternal Blue Sky*, *Epic of King Gesar (Tibet)*, *Epic of Manas (Kyrgyz)* | -1000 BCE to 1500 CE |
-| **Southeast Asian** | *Dewi Sri (Rice Goddess)*, *Barong vs Rangda*, *Bakunawa and Seven Moons*, *Lac Long Quan* | -700 BCE to 1600 CE |
-| **North American Indigenous** | *Diné Bahane' (Navajo Emergence)*, *Sedna (Inuit)*, *Raven Tales (Haida)*, *White Buffalo Calf Woman*, *Sky Woman* | -1500 BCE to 1700 CE |
-| **Mesoamerican** | *Popol Vuh (Hero Twins)*, *Quetzalcoatl*, *Legend of the Fifth Sun*, *Kukulcan*, *Taino Gourd* | -100 BCE to 1550 CE |
-| **Andean & South American** | *Viracocha Creation at Titicaca*, *Ayar Brothers (Cusco)*, *Mapuche Deluge*, *Guarani Creation* | 200 to 1600 CE |
-| **West African** | *Epic of Sundiata (Lion King)*, *Anansi the Spider*, *Yoruba Creation at Ife*, *Shango* | 800 to 1700 CE |
-| **Central & Southern African** | *Unkulunkulu (Zulu)*, *Nommo Spirits (Dogon)*, *\|Kaggen (San)*, *Mwindo Epic*, *Kintu (Buganda)* | -4000 BCE to 1700 CE |
-| **Oceanic & Australasian** | *Rainbow Serpent (Dreamtime)*, *Māui Fishing Up New Zealand*, *Kumulipo*, *Pele & Namakaokahai*, *Rangi & Papa* | -4000 BCE to 1700 CE |
+| Tradition | Count | Representative Epics & Motifs | Temporal Range |
+| :--- | :---: | :--- | :--- |
+| **Greco-Roman** | 30 | *Iliad & Odyssey*, *Prometheus Bound*, *Eleusinian Mysteries*, *Aeneid*, *Capitoline Triad* | -800 BCE to 395 CE |
+| **Vedic & Hindu** | 29 | *Samudra Manthana*, *Nasadiya Sukta*, *Ramayana*, *Mahabharata*, *Descent of Ganges* | -1500 BCE to 600 CE |
+| **East Asian** | 27 | *Nuwa Mends Heavens*, *Pangu Cosmic Egg*, *Journey to the West*, *Kojiki (Izanami)*, *Dangun* | -1000 BCE to 1592 CE |
+| **Southeast Asian** | 18 | *Dewi Sri (Rice Goddess)*, *Barong vs Rangda*, *Bakunawa and Seven Moons*, *Lac Long Quan* | -700 BCE to 1600 CE |
+| **Oceanic & Australasian** | 18 | *Rainbow Serpent (Dreamtime)*, *Māui Fishing Up New Zealand*, *Kumulipo*, *Pele & Namakaokahai* | -4000 BCE to 1700 CE |
+| **Levantine** | 17 | *Baal Cycle*, *Astarte and the Sea*, *Genesis Deluge (Noah's Ark)*, *Tower of Babel* | -1500 to -300 BCE |
+| **Celtic** | 17 | *Táin Bó Cúailnge (Cú Chulainn)*, *Quest for the Holy Grail*, *Children of Lir*, *Tuatha Dé Danann* | 100 to 1485 CE |
+| **North American Indigenous** | 17 | *Diné Bahane' (Navajo Emergence)*, *Sedna (Inuit)*, *Raven Tales*, *White Buffalo Calf Woman* | -1500 BCE to 1700 CE |
+| **Mesoamerican** | 17 | *Popol Vuh (Hero Twins)*, *Quetzalcoatl*, *Legend of the Fifth Sun*, *Kukulcan*, *Taino Gourd* | -100 BCE to 1550 CE |
+| **West African** | 17 | *Epic of Sundiata (Lion King)*, *Anansi the Spider*, *Yoruba Creation at Ife*, *Shango* | 800 to 1700 CE |
+| **Norse & Germanic** | 16 | *Ragnarök*, *Thor's Fishing Trip for Jörmungandr*, *Odin on Yggdrasil*, *Baldr's Death* | 600 to 1250 CE |
+| **Andean & South American** | 16 | *Viracocha Creation at Titicaca*, *Ayar Brothers (Cusco)*, *Mapuche Deluge*, *Guarani Creation* | 200 to 1600 CE |
+| **Egyptian** | 15 | *Osiris Myth & Resurrection*, *Isis*, *Contendings of Horus and Seth*, *Book of the Dead* | -2600 to 400 CE |
+| **Persian & Iranian** | 15 | *Ahura Mazda vs Angra Mainyu*, *Shahnameh (Rostam and Sohrab)*, *Simurgh*, *Jamshid* | -1200 BCE to 1010 CE |
+| **Mesopotamian** | 14 | *Epic of Gilgamesh*, *Enuma Elish*, *Descent of Inanna*, *Atrahasis*, *Marduk* | -2300 to -539 BCE |
+| **Slavic & Baltic** | 14 | *Perun vs Veles*, *Baba Yaga*, *Perkūnas & Saule (Baltic Sun and Thunder)* | 400 to 1500 CE |
+| **Central Asian & Steppe** | 12 | *Tengri and Eternal Blue Sky*, *Epic of King Gesar (Tibet)*, *Epic of Manas (Kyrgyz)* | -1000 BCE to 1500 CE |
+| **Central & Southern African** | 12 | *Unkulunkulu (Zulu)*, *Nommo Spirits (Dogon)*, *\|Kaggen (San)*, *Mwindo Epic* | -4000 BCE to 1700 CE |
+| **Finno-Ugric** | 10 | *The Kalevala (Forging of Sampo)*, *Lemminkäinen's Resurrection*, *Kalevipoeg* | 800 to 1400 CE |
 
 ---
 
@@ -168,7 +196,7 @@ MythosAtlas includes 88+ foundational narratives spanning 19 cultural and indige
 - **Python 3.12+** (or `uv`)
 - **Node.js 20+** and `npm`
 - **API Credentials** (Optional, configure in `.env`):
-  - `QDRANT_URL` and `QDRANT_API_KEY` (for Qdrant Cloud vector search)
+  - `QDRANT_URL` and `QDRANT_API_KEY` (for Qdrant Cloud 768D vector search)
   - `GEMINI_API_KEY` (for Google Gemini structural comparison synthesis)
 
 ---
@@ -178,7 +206,7 @@ MythosAtlas includes 88+ foundational narratives spanning 19 cultural and indige
 ### 1. Clone & Set Up Environment
 
 ```bash
-git clone https://github.com/pranjalya/mythos-atlas.git
+git clone https://github.com/Pranjalya/mythos-atlas.git
 cd mythos-atlas
 
 # Create Python virtual environment using uv or standard venv
@@ -197,7 +225,7 @@ QDRANT_API_KEY=your_qdrant_api_key
 GEMINI_API_KEY=your_gemini_api_key
 ```
 
-*(Note: MythosAtlas includes local vector fallback and structural heuristic engines, so the system works even if external API keys are omitted).*
+*(Note: MythosAtlas includes local 768D vector fallback and structural heuristic engines, so the system works even if external API keys are omitted).*
 
 ---
 
@@ -215,7 +243,7 @@ cd ..
 
 ### 3. Run the Data Pipeline (Optional)
 
-The repository already contains the baked static dataset in `data/processed/`. To re-run extraction, Wikipedia scraping, and Qdrant indexing:
+The repository already contains the baked static dataset of 331 myths in `data/processed/`. To re-run extraction, Wikipedia scraping, and Qdrant indexing:
 
 ```bash
 .venv/bin/python etl/run_pipeline.py
@@ -265,6 +293,7 @@ PYTHONPATH=backend .venv/bin/pytest backend/tests/test_api.py
 ```bash
 cd engine-wasm
 cargo test
+cd ..
 ```
 
 ### Frontend Typecheck & Production Build
@@ -298,11 +327,13 @@ npm run build
 
 ### 2. Rust/WASM Core Contract
 - `load_records(records_json: &str) -> bool`: Deserializes records into an in-memory 1D interval tree.
-- `query_timeline(year: i32) -> JsValue`: Queries overlapping intervals for a discrete year with continuous visual intensity calculations.
+- `query_timeline(year: i32) -> JsValue`: Queries overlapping intervals for a discrete year with continuous visual intensity calculations in $O(\log N + K)$ time.
 
 ### 3. Backend Endpoints
+- `GET /api/v1/myths`: Lists all 331 available myth entities.
 - `GET /api/v1/myths/{id}`: Returns enriched Wikipedia narrative and syncretic edges.
-- `GET /api/v1/parallels/{id}?limit=3`: Vector search for top cross-cultural counterparts across continents.
+- `GET /api/v1/myths/search/semantic?q=...&limit=6`: Real-time semantic motif vector search using 768D `nomic-embed-text-v1.5` embeddings.
+- `GET /api/v1/parallels/{id}?limit=3`: Dense vector search for top cross-cultural counterparts across continents.
 - `POST /api/v1/compare`: Synthesizes dual-tradition structuralist matrix (archetypes, inciting motifs, cosmological resolution, and diffusion vs. convergence).
 
 ---
