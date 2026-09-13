@@ -1,2 +1,1 @@
-/api/*  https://mythos-atlas-three.vercel.app/api/:splat  200
-/*      /index.html                                         200
+/*  /index.html  200
