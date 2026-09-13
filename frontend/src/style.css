@@ -65,34 +65,37 @@ body {
 /* ── TOP BAR HEADER ─────────────────────────────────────── */
 #top-bar {
   position: absolute;
-  top: 20px;
-  left: 24px;
-  right: 24px;
+  top: 16px;
+  left: 20px;
+  right: 20px;
   z-index: 20;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 12px 20px;
+  gap: 12px;
+  padding: 8px 18px;
   background: var(--bg-glass);
-  backdrop-filter: blur(24px);
-  -webkit-backdrop-filter: blur(24px);
+  backdrop-filter: blur(28px);
+  -webkit-backdrop-filter: blur(28px);
   border: 1px solid var(--border-gold);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-card);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5), 0 0 15px rgba(230, 184, 106, 0.08);
 }
 
 .brand-group {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
+  flex-shrink: 0;
 }
 
 .logo-icon {
-  width: 36px;
-  height: 36px;
+  width: 32px;
+  height: 32px;
   color: var(--gold-primary);
-  filter: drop-shadow(0 0 8px rgba(230, 184, 106, 0.4));
+  filter: drop-shadow(0 0 8px rgba(230, 184, 106, 0.45));
   animation: pulse-spin 20s linear infinite;
+  flex-shrink: 0;
 }
 
 @keyframes pulse-spin {
@@ -107,125 +110,41 @@ body {
 
 .brand-title {
   font-family: var(--font-display);
-  font-size: 1.15rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  letter-spacing: 2px;
+  letter-spacing: 1.8px;
   background: linear-gradient(135deg, #ffffff 30%, var(--gold-light) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  line-height: 1.1;
 }
 
 .brand-subtitle {
   display: block;
-  font-size: 0.72rem;
+  font-size: 0.68rem;
   color: var(--text-secondary);
-  letter-spacing: 0.5px;
-}
-
-.filter-controls {
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
-
-.filter-item {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  font-size: 0.8rem;
-  color: var(--text-secondary);
-}
-
-.filter-item select {
-  background: rgba(15, 23, 42, 0.8);
-  color: var(--text-primary);
-  border: 1px solid var(--border-subtle);
-  padding: 6px 12px;
-  border-radius: var(--radius-sm);
-  font-size: 0.82rem;
-  font-family: var(--font-ui);
-  outline: none;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.filter-item select:focus,
-.filter-item select:hover {
-  border-color: var(--gold-primary);
-}
-
-.toggle-btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: rgba(15, 23, 42, 0.6);
-  border: 1px solid var(--border-subtle);
-  color: var(--text-secondary);
-  padding: 6px 14px;
-  border-radius: var(--radius-full);
-  font-size: 0.8rem;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.toggle-btn.active {
-  background: rgba(230, 184, 106, 0.12);
-  border-color: var(--gold-primary);
-  color: var(--gold-light);
-}
-
-.toggle-indicator {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: var(--text-muted);
-  transition: all 0.2s;
-}
-
-.toggle-btn.active .toggle-indicator {
-  background: var(--gold-primary);
-  box-shadow: 0 0 8px var(--gold-primary);
-}
-
-.action-btn {
-  display: flex;
-  align-items: center;
-  gap: 8px;
-  background: linear-gradient(135deg, rgba(230, 184, 106, 0.15), rgba(72, 202, 228, 0.15));
-  border: 1px solid var(--gold-primary);
-  color: var(--gold-light);
-  padding: 7px 16px;
-  border-radius: var(--radius-md);
-  font-size: 0.82rem;
-  font-weight: 600;
-  cursor: pointer;
-  transition: all 0.2s ease;
-}
-
-.action-btn:hover {
-  background: linear-gradient(135deg, rgba(230, 184, 106, 0.3), rgba(72, 202, 228, 0.3));
-  box-shadow: 0 0 16px rgba(230, 184, 106, 0.35);
-  transform: translateY(-1px);
+  letter-spacing: 0.4px;
 }
 
 /* ── OMNISEARCH TRIGGER BUTTON ──────────────────────────── */
 .omnisearch-trigger-btn {
   display: flex;
   align-items: center;
-  gap: 10px;
-  background: rgba(13, 19, 33, 0.75);
-  border: 1px solid rgba(230, 184, 106, 0.28);
+  gap: 8px;
+  background: rgba(13, 19, 33, 0.82);
+  border: 1px solid rgba(230, 184, 106, 0.3);
   color: var(--text-secondary);
-  padding: 6px 14px;
+  padding: 6px 12px;
   border-radius: var(--radius-full);
-  font-size: 0.8rem;
+  font-size: 0.78rem;
   font-family: var(--font-ui);
   cursor: pointer;
+  flex-shrink: 0;
   transition: all 0.25s cubic-bezier(0.16, 1, 0.3, 1);
 }
 
 .omnisearch-trigger-btn:hover {
-  background: rgba(230, 184, 106, 0.12);
+  background: rgba(230, 184, 106, 0.14);
   border-color: var(--gold-primary);
   color: #ffffff;
   box-shadow: 0 0 16px rgba(230, 184, 106, 0.25);
@@ -243,7 +162,7 @@ body {
 
 .search-kbd-shortcut {
   font-family: var(--font-mono);
-  font-size: 0.65rem;
+  font-size: 0.62rem;
   font-weight: 700;
   background: rgba(255, 255, 255, 0.08);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -253,10 +172,110 @@ body {
   letter-spacing: 0.5px;
 }
 
-/* ── SURPRISE ME (RANDOM PILGRIM MODE) BUTTON ───────────── */
+/* ── FILTER & ACTION CONTROLS ───────────────────────────── */
+.filter-controls {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 1;
+}
+
+.filter-item {
+  display: flex;
+  align-items: center;
+  position: relative;
+  flex-shrink: 0;
+}
+
+.filter-icon {
+  position: absolute;
+  left: 10px;
+  color: var(--gold-primary);
+  pointer-events: none;
+  opacity: 0.85;
+}
+
+.filter-item select {
+  background: rgba(15, 23, 42, 0.85);
+  color: var(--text-primary);
+  border: 1px solid var(--border-subtle);
+  padding: 6px 12px 6px 28px;
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  font-family: var(--font-ui);
+  outline: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.filter-item select:focus,
+.filter-item select:hover {
+  border-color: var(--gold-primary);
+  box-shadow: 0 0 12px rgba(230, 184, 106, 0.2);
+}
+
+.toggle-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(15, 23, 42, 0.6);
+  border: 1px solid var(--border-subtle);
+  color: var(--text-secondary);
+  padding: 6px 12px;
+  border-radius: var(--radius-full);
+  font-size: 0.78rem;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.toggle-btn.active {
+  background: rgba(230, 184, 106, 0.12);
+  border-color: var(--gold-primary);
+  color: var(--gold-light);
+}
+
+.toggle-indicator {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: var(--text-muted);
+  transition: all 0.2s;
+}
+
+.toggle-btn.active .toggle-indicator {
+  background: var(--gold-primary);
+  box-shadow: 0 0 8px var(--gold-primary);
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: linear-gradient(135deg, rgba(230, 184, 106, 0.15), rgba(72, 202, 228, 0.15));
+  border: 1px solid var(--gold-primary);
+  color: var(--gold-light);
+  padding: 6px 12px;
+  border-radius: var(--radius-md);
+  font-size: 0.78rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  flex-shrink: 0;
+  transition: all 0.2s ease;
+}
+
+.action-btn:hover {
+  background: linear-gradient(135deg, rgba(230, 184, 106, 0.3), rgba(72, 202, 228, 0.3));
+  box-shadow: 0 0 16px rgba(230, 184, 106, 0.35);
+  transform: translateY(-1px);
+}
+
+/* ── SURPRISE ME BUTTON ─────────────────────────────────── */
 .surprise-btn {
-  background: linear-gradient(135deg, rgba(230, 184, 106, 0.2), rgba(244, 162, 97, 0.2));
-  border: 1px solid rgba(244, 162, 97, 0.6);
+  background: linear-gradient(135deg, rgba(230, 184, 106, 0.22), rgba(244, 162, 97, 0.22));
+  border: 1px solid rgba(244, 162, 97, 0.7);
   color: #ffd166;
   position: relative;
   overflow: hidden;
@@ -271,7 +290,7 @@ body {
 }
 
 .surprise-icon {
-  font-size: 0.95rem;
+  font-size: 0.92rem;
   line-height: 1;
   filter: drop-shadow(0 0 6px rgba(244, 162, 97, 0.5));
   display: inline-block;
@@ -282,28 +301,54 @@ body {
   transform: rotate(45deg);
 }
 
+/* ── STATS BADGE ────────────────────────────────────────── */
 .stats-badge {
   display: flex;
   align-items: center;
-  gap: 10px;
-  font-size: 0.82rem;
+  gap: 8px;
+  font-size: 0.8rem;
   color: var(--text-secondary);
   font-family: var(--font-mono);
+  white-space: nowrap;
+  flex-shrink: 0;
+  margin-left: auto;
+  padding-left: 12px;
+  border-left: 1px solid rgba(230, 184, 106, 0.25);
 }
 
 #active-count {
   color: var(--gold-primary);
   font-weight: 700;
-  font-size: 0.95rem;
+  font-size: 0.92rem;
 }
 
 .engine-tag {
   background: rgba(56, 239, 125, 0.15);
   color: #4ade80;
   border: 1px solid rgba(74, 222, 128, 0.3);
-  font-size: 0.7rem;
-  padding: 3px 8px;
+  font-size: 0.68rem;
+  padding: 2px 7px;
   border-radius: var(--radius-full);
+}
+
+/* Button label full vs short switching */
+.btn-label-short {
+  display: none;
+}
+.btn-label-full {
+  display: inline;
+}
+
+@media (max-width: 1440px) {
+  .btn-label-full {
+    display: none;
+  }
+  .btn-label-short {
+    display: inline;
+  }
+  .brand-subtitle {
+    display: none;
+  }
 }
 
 /* ── HOVER TOOLTIP ──────────────────────────────────────── */
@@ -386,10 +431,10 @@ body:has(#timeline-container:hover) #hover-tooltip {
 /* ── DEVELOPER CARD PANEL (Left Equivalent of Information Dialog Box) ── */
 #developer-panel {
   position: absolute;
-  top: 96px;
-  left: 24px;
+  top: 76px;
+  left: 20px;
   width: 330px;
-  max-width: calc(100vw - 48px);
+  max-width: calc(100vw - 40px);
   z-index: 25;
   background: var(--bg-glass);
   backdrop-filter: blur(32px);
@@ -660,8 +705,8 @@ body:has(#timeline-container:hover) #hover-tooltip {
 .dev-collapsed-bar {
   display: none;
   align-items: center;
-  gap: 10px;
-  padding: 8px 12px;
+  gap: 8px;
+  padding: 4px 10px 4px 5px;
   background: transparent;
   border: none;
   color: var(--text-primary);
@@ -671,16 +716,16 @@ body:has(#timeline-container:hover) #hover-tooltip {
 }
 
 .dev-avatar-mini {
-  width: 28px;
-  height: 28px;
+  width: 24px;
+  height: 24px;
   border-radius: 50%;
-  background: linear-gradient(135deg, rgba(230, 184, 106, 0.25), rgba(72, 202, 228, 0.2));
+  background: linear-gradient(135deg, rgba(230, 184, 106, 0.3), rgba(72, 202, 228, 0.25));
   border: 1px solid var(--gold-light);
   display: flex;
   align-items: center;
   justify-content: center;
   font-family: var(--font-display);
-  font-size: 0.72rem;
+  font-size: 0.65rem;
   font-weight: 700;
   color: var(--gold-light);
   flex-shrink: 0;
@@ -688,39 +733,64 @@ body:has(#timeline-container:hover) #hover-tooltip {
 
 .dev-collapsed-info {
   display: flex;
-  flex-direction: column;
+  align-items: center;
+  gap: 6px;
   flex: 1;
   min-width: 0;
 }
 
 .dev-collapsed-name {
   font-family: var(--font-display);
-  font-size: 0.82rem;
+  font-size: 0.78rem;
   font-weight: 700;
   color: var(--gold-light);
   white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  letter-spacing: 0.4px;
 }
 
 .dev-collapsed-sub {
-  font-size: 0.65rem;
-  color: var(--text-muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.62rem;
+  font-family: var(--font-mono);
+  color: #34d399;
+  background: rgba(52, 211, 153, 0.1);
+  border: 1px solid rgba(52, 211, 153, 0.25);
+  padding: 1px 6px;
+  border-radius: var(--radius-full);
   white-space: nowrap;
+}
+
+.dev-pulse-mini {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: #34d399;
+  box-shadow: 0 0 6px #34d399;
 }
 
 .dev-expand-arrow {
   color: var(--gold-light);
   flex-shrink: 0;
-  transition: transform 0.2s ease;
+  transition: transform 0.25s ease;
 }
 
 #developer-panel.collapsed {
   width: auto;
-  min-width: 190px;
+  min-width: unset;
   cursor: pointer;
-  background: rgba(11, 15, 25, 0.88);
-  border-color: rgba(230, 184, 106, 0.35);
+  background: rgba(11, 15, 25, 0.85);
+  border-color: rgba(230, 184, 106, 0.32);
+  border-radius: var(--radius-full);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4), 0 0 12px rgba(230, 184, 106, 0.12);
+}
+
+#developer-panel.collapsed:hover {
+  background: rgba(15, 23, 42, 0.95);
+  border-color: var(--gold-primary);
+  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.5), 0 0 16px rgba(230, 184, 106, 0.25);
+  transform: translateY(-1px);
 }
 
 #developer-panel.collapsed .dev-panel-inner {
@@ -734,11 +804,11 @@ body:has(#timeline-container:hover) #hover-tooltip {
 /* ── SIDE PANEL INSPECTOR ───────────────────────────────── */
 #inspector-panel {
   position: absolute;
-  top: 96px;
-  right: 24px;
+  top: 76px;
+  right: 20px;
   bottom: 140px;
   width: 420px;
-  max-width: calc(100vw - 48px);
+  max-width: calc(100vw - 40px);
   z-index: 25;
   background: var(--bg-glass);
   backdrop-filter: blur(32px);
@@ -2069,6 +2139,9 @@ body:has(#timeline-container:hover) #hover-tooltip {
     align-items: center;
     gap: 6px;
     font-size: 0.75rem;
+    border-left: none;
+    padding-left: 0;
+    margin-left: 0;
   }
 
   .engine-tag {

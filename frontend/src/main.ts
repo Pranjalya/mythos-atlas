@@ -139,14 +139,9 @@ async function bootstrap() {
       devToggleBtn.addEventListener('click', toggleDevPanel);
       devCollapsedBtn.addEventListener('click', toggleDevPanel);
 
-      // On mobile screens, start with developer card minimized to keep globe fully visible
-      if (window.innerWidth <= 900) {
-        devPanel.classList.add('collapsed');
-      }
-
-      // Close developer modal on mobile if tapping outside
+      // Close developer card if clicking outside when expanded
       document.addEventListener('click', (e) => {
-        if (window.innerWidth <= 900 && !devPanel.classList.contains('collapsed')) {
+        if (!devPanel.classList.contains('collapsed')) {
           const target = e.target as HTMLElement;
           if (!devPanel.contains(target)) {
             devPanel.classList.add('collapsed');

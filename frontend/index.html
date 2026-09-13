@@ -45,7 +45,7 @@
           <circle cx="11" cy="11" r="8"></circle>
           <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
         </svg>
-        <span class="search-placeholder-text">Ask the Atlas or search...</span>
+        <span class="search-placeholder-text">Ask the Atlas...</span>
         <kbd class="search-kbd-shortcut">⌘K</kbd>
       </button>
 
@@ -61,8 +61,10 @@
       <!-- Filter Controls -->
       <div id="filter-controls" class="filter-controls">
         <div class="filter-item">
-          <label for="culture-filter">Tradition</label>
-          <select id="culture-filter">
+          <svg class="filter-icon" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+          </svg>
+          <select id="culture-filter" aria-label="Filter by Mythological Tradition">
             <option value="all">All Traditions (Global)</option>
             <option value="Mesopotamian">Mesopotamian</option>
             <option value="Levantine">Levantine</option>
@@ -88,25 +90,28 @@
 
         <button id="btn-toggle-borders" class="toggle-btn active" title="Toggle modern country boundaries">
           <span class="toggle-indicator"></span>
-          Country Borders
+          <span class="btn-label-full">Country Borders</span>
+          <span class="btn-label-short">Borders</span>
         </button>
 
         <button id="btn-toggle-syncretism" class="toggle-btn active" title="Toggle syncretic diffusion arcs">
           <span class="toggle-indicator"></span>
-          Syncretic Arcs
+          <span class="btn-label-full">Syncretic Arcs</span>
+          <span class="btn-label-short">Arcs</span>
         </button>
 
-        <button id="btn-open-compare" class="action-btn">
-          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+        <button id="btn-open-compare" class="action-btn" title="Compare Traditions">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
             <rect x="3" y="3" width="7" height="18" rx="1" />
             <rect x="14" y="3" width="7" height="18" rx="1" />
           </svg>
-          Compare Traditions
+          <span class="btn-label-full">Compare Traditions</span>
+          <span class="btn-label-short">Compare</span>
         </button>
 
         <button id="btn-surprise-me" class="action-btn surprise-btn" title="Surprise Me: Journey to a random myth anywhere on Earth">
           <span class="surprise-icon">🧭</span>
-          Surprise Me
+          <span>Surprise Me</span>
         </button>
       </div>
 
@@ -128,7 +133,7 @@
     </div>
 
     <!-- Side-Panel Developer Card (Left Side Equivalent of Information Dialog Box) -->
-    <aside id="developer-panel" class="developer-panel" aria-label="Developer Information Card">
+    <aside id="developer-panel" class="developer-panel collapsed" aria-label="Developer Information Card">
       <div class="dev-panel-inner">
         <div class="dev-header">
           <div class="dev-tag-group">
@@ -137,7 +142,7 @@
               Creator
             </span>
           </div>
-          <button id="dev-panel-toggle" class="dev-toggle-btn" title="Minimize developer card" aria-label="Minimize developer card">
+          <button id="dev-panel-toggle" class="dev-toggle-btn" title="Minimize creator card" aria-label="Minimize creator card">
             <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
               <polyline points="15 18 9 12 15 6"></polyline>
             </svg>
@@ -211,13 +216,14 @@
       </div>
 
       <!-- Minimized Bar (Shown when collapsed) -->
-      <button id="dev-panel-collapsed-btn" class="dev-collapsed-bar" title="Expand developer card" aria-label="Expand developer card">
+      <button id="dev-panel-collapsed-btn" class="dev-collapsed-bar" title="Expand creator profile" aria-label="Expand creator profile">
         <div class="dev-avatar-mini">PT</div>
         <div class="dev-collapsed-info">
           <span class="dev-collapsed-name">Pranjalya Tiwari</span>
+          <span class="dev-collapsed-sub"><span class="dev-pulse-mini"></span> Creator</span>
         </div>
-        <svg class="dev-expand-arrow" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-          <polyline points="9 18 15 12 9 6"></polyline>
+        <svg class="dev-expand-arrow" width="13" height="13" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="6 9 12 15 18 9"></polyline>
         </svg>
       </button>
     </aside>
