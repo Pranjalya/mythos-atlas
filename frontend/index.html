@@ -119,6 +119,13 @@
           <span class="btn-label-short">Compare</span>
         </button>
 
+        <button id="btn-start-expedition" class="action-btn expedition-trigger-btn"
+          title="Start Expedition: Guided cinematic story tours across world mythology">
+          <span class="expedition-icon">🎬</span>
+          <span class="btn-label-full">Start Expedition</span>
+          <span class="btn-label-short">Story Mode</span>
+        </button>
+
         <button id="btn-surprise-me" class="action-btn surprise-btn"
           title="Surprise Me: Journey to a random myth anywhere on Earth">
           <span class="surprise-icon">🧭</span>
@@ -430,6 +437,28 @@
           </div>
         </div>
       </div>
+    </div>
+
+    <!-- Cinematic Guided Expeditions (Story Mode) Gallery Modal -->
+    <div id="expedition-gallery-modal" class="modal-backdrop modal-hidden" role="dialog" aria-modal="true" aria-labelledby="expedition-gallery-title">
+      <div class="expedition-modal-card">
+        <div class="modal-header">
+          <div class="header-titles">
+            <span class="modal-eyebrow">Curated Odysseys</span>
+            <h2 id="expedition-gallery-title">Cinematic Guided Expeditions</h2>
+            <p class="modal-subtitle">Documentary-style planetary camera tours tracing humanity's foundational mythic motifs across six continents</p>
+          </div>
+          <button id="expedition-gallery-close-btn" class="close-btn" aria-label="Close Expeditions Gallery">&times;</button>
+        </div>
+        <div id="expedition-gallery-list" class="expedition-gallery-grid">
+          <!-- Populated by ExpeditionManager.ts -->
+        </div>
+      </div>
+    </div>
+
+    <!-- Cinematic Expedition HUD & Story Card Overlay -->
+    <div id="cinematic-hud" class="cinematic-hud-container hud-hidden" aria-label="Expedition Story HUD">
+      <!-- Populated dynamically by ExpeditionManager.ts -->
     </div>
 
     <!-- Bottom Spatio-Temporal Timeline Bar -->

@@ -60,6 +60,19 @@ MythosAtlas bridges high-frequency client-side WebGL cartography with on-demand 
 
 ## ✨ Key Features
 
+### 🎬 Cinematic Curated Expeditions ("Story Mode")
+- **Documentary-Style Guided Tours**: Overcomes the "where do I click first?" dilemma with curated planetary camera journeys tracing humanity's foundational mythic motifs across six continents.
+- **4 Flagship Curated Expeditions**:
+  1. **The Great Deluge Across 6 Continents** (7 Chapters): Mesopotamia (Gilgamesh & Atrahasis) $\rightarrow$ Levant (Noah's Ark) $\rightarrow$ India (Matsya Avatar) $\rightarrow$ China (Nüwa Mends Heavens) $\rightarrow$ Mesoamerica (Popol Vuh) $\rightarrow$ Andes (Mapuche Trentren & Caicai Vilu).
+  2. **Descent into the Underworld (Katabasis)** (6 Chapters): Mesopotamia (Inanna) $\rightarrow$ Egypt (Osiris) $\rightarrow$ Greece (Orpheus) $\rightarrow$ Japan (Izanami) $\rightarrow$ Maya (Hero Twins in Xibalba).
+  3. **The Promethean Fire-Stealers** (5 Chapters): Greece (Prometheus) $\rightarrow$ North America (Coyote & Raven) $\rightarrow$ Polynesia (Māui) $\rightarrow$ West Africa (Anansi).
+  4. **The Chaoskampf: Slaying the Primordial Serpent** (6 Chapters): Mesopotamia (Marduk) $\rightarrow$ Levant (Baal) $\rightarrow$ Greece (Apollo) $\rightarrow$ Norse (Thor) $\rightarrow$ Japan (Susanoo) $\rightarrow$ Cherokee (Uktena).
+- **Planetary Great-Circle Glides & Parabolic Flight**: Smooth 3D camera sweeps featuring orbital parabolic ascent and descent over oceans and mountain ranges.
+- **Glowing Celestial Historical Trails**: Glowing golden Bezier trails dynamically connecting visited chapters across space and time with pulsing waypoint beacons.
+- **Cinematic Story HUD**: Floating glassmorphic narrative cards presenting chapter titles, cultural lineages, atmospheric prose leads, comparative archetype threads, and motif tags.
+- **Autonomous Auto-Play Engine**: Integrated 12-second countdown timer, keyboard shortcuts (`Space` to toggle auto-play, `←` / `→` for chapters, `Esc` to exit), and interactive chapter progression track.
+- **Odyssey Finale & AI Synthesis**: Concludes with celebratory synthesis cards allowing 1-click comparative copilot analysis between the origin and culmination of the motif.
+
 ### 🌍 3D Celestial WebGL Globe (`Three.js`)
 - **Modern Country Cartography**: 177 modern vector country boundaries rendered via high-precision GeoJSON line segments with toggleable border overlays (`#btn-toggle-borders`).
 - **Country Hover Intelligence**: Raycasts Earth surface coordinates in real time to identify modern sovereign states, continents, and their ancient mythological roots.

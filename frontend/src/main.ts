@@ -13,6 +13,7 @@ import { Inspector } from './components/Inspector.ts';
 import { CompareModal } from './components/CompareModal.ts';
 import { Omnisearch } from './components/Omnisearch.ts';
 import { PilgrimMode } from './components/PilgrimMode.ts';
+import { ExpeditionManager } from './components/ExpeditionManager.ts';
 
 async function bootstrap() {
   console.log('🏛️ Initializing MythosAtlas Spatio-Temporal Core...');
@@ -184,8 +185,14 @@ async function bootstrap() {
       navigateToMyth(myth, targetYear);
     });
 
+    // 12. Initialize Cinematic Curated Expeditions ("Story Mode")
+    const expeditionManager = new ExpeditionManager(globe, timeline, (myth, customYear) => {
+      navigateToMyth(myth, customYear);
+    });
+
     (window as any).omnisearch = omnisearch;
     (window as any).pilgrimMode = pilgrimMode;
+    (window as any).expeditionManager = expeditionManager;
 
     // Trigger initial year update (-1200 BCE)
     timeline.updateYear(-1200);

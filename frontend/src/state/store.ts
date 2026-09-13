@@ -3,6 +3,8 @@
  * Implements a lightweight reactive subscription pattern for zero-latency state synchronization.
  */
 
+import { Expedition } from '../data/expeditions.ts';
+
 export interface ActiveMyth {
   id: string;
   name: string;
@@ -33,6 +35,10 @@ export interface AppState {
   compareModalOpen: boolean;
   compareTargetA: string | null;
   compareTargetB: string | null;
+  activeExpedition: Expedition | null;
+  currentExpeditionStepIndex: number;
+  isExpeditionAutoPlaying: boolean;
+  expeditionGalleryOpen: boolean;
 }
 
 type Listener = (state: AppState) => void;
@@ -52,6 +58,10 @@ class Store {
     compareModalOpen: false,
     compareTargetA: 'Q248352', // Epic of Gilgamesh
     compareTargetB: 'Q190828', // Popol Vuh
+    activeExpedition: null,
+    currentExpeditionStepIndex: 0,
+    isExpeditionAutoPlaying: false,
+    expeditionGalleryOpen: false,
   };
 
   private listeners: Set<Listener> = new Set();
@@ -132,6 +142,49 @@ class Store {
   public setCompareTargets(a: string | null, b: string | null): void {
     this.state.compareTargetA = a;
     this.state.compareTargetB = b;
+    this.notify();
+  }
+
+  public setExpeditionGalleryOpen(open: boolean): void {
+    if (this.state.expeditionGalleryOpen === open) return;
+    this.state.expeditionGalleryOpen = open;
+    this.notify();
+  }
+
+  public startExpedition(expedition: Expedition): void {
+    this.state.activeExpedition = expedition;
+    this.state.currentExpeditionStepIndex = 0;
+    this.state.isExpeditionAutoPlaying = false;
+    this.state.expeditionGalleryOpen = false;
+    this.notify();
+  }
+
+  public setExpeditionStep(index: number): void {
+    if (this.state.activeExpedition) {
+      const maxIndex = this.state.activeExpedition.stops.length;
+      const clamped = Math.max(0, Math.min(maxIndex, index));
+      if (this.state.currentExpeditionStepIndex === clamped) return;
+      this.state.currentExpeditionStepIndex = clamped;
+      this.notify();
+    }
+  }
+
+  public toggleExpeditionAutoPlay(): void {
+    this.state.isExpeditionAutoPlaying = !this.state.isExpeditionAutoPlaying;
+    this.notify();
+  }
+
+  public setExpeditionAutoPlay(autoPlay: boolean): void {
+    if (this.state.isExpeditionAutoPlaying === autoPlay) return;
+    this.state.isExpeditionAutoPlaying = autoPlay;
+    this.notify();
+  }
+
+  public exitExpedition(): void {
+    if (!this.state.activeExpedition && !this.state.isExpeditionAutoPlaying) return;
+    this.state.activeExpedition = null;
+    this.state.currentExpeditionStepIndex = 0;
+    this.state.isExpeditionAutoPlaying = false;
     this.notify();
   }
 

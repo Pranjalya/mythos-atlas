@@ -107,6 +107,9 @@ export class MythosGlobe {
   private activeBloomingClusterKey: string | null = null;
   private locusAnchorRing: THREE.Mesh | null = null;
 
+  // Story Mode / Expedition Trail System
+  private expeditionTrailGroup = new THREE.Group();
+
   constructor(containerId: string) {
     const el = document.getElementById(containerId);
     if (!el) throw new Error(`Container #${containerId} not found`);
@@ -149,6 +152,7 @@ export class MythosGlobe {
     this.initInstancedNodes();
     this.scene.add(this.arcsGroup);
     this.scene.add(this.constellationGroup);
+    this.scene.add(this.expeditionTrailGroup);
 
     this.initTooltips();
     this.initEventListeners();
@@ -627,6 +631,133 @@ export class MythosGlobe {
     this.camera.position.set(0, 50, 260);
     this.camera.lookAt(0, 0, 0);
     this.controls.reset();
+  }
+
+  public cinematicFlyToCoordinate(
+    lat: number,
+    lng: number,
+    duration: number = 1800,
+    onComplete?: () => void
+  ): void {
+    const isDesktop = window.innerWidth > 900;
+    const lngOffset = isDesktop ? 15 : 0;
+    const latOffset = isDesktop ? 0 : -12;
+    const targetLat = Math.max(-80, Math.min(80, lat + latOffset));
+    const target = this.geoToVector3(targetLat, lng + lngOffset, 225);
+    const startPos = this.camera.position.clone();
+    const startTime = performance.now();
+
+    // Parabolic orbital ascent: arc higher into space mid-flight for sweeping documentary feel
+    const mid = new THREE.Vector3().addVectors(startPos, target).multiplyScalar(0.5);
+    const chordDist = startPos.distanceTo(target);
+    const peakAltitude = 230 + Math.min(chordDist * 0.28, 70);
+    mid.normalize().multiplyScalar(peakAltitude);
+
+    const curve = new THREE.QuadraticBezierCurve3(startPos, mid, target);
+
+    const animateCamera = (currentTime: number) => {
+      const elapsed = currentTime - startTime;
+      const progress = Math.min(elapsed / duration, 1);
+      // Smooth sinusoidal cubic easing
+      const ease = progress < 0.5
+        ? 4 * progress * progress * progress
+        : 1 - Math.pow(-2 * progress + 2, 3) / 2;
+
+      const currentPos = curve.getPoint(ease);
+      this.camera.position.copy(currentPos);
+      this.camera.lookAt(0, 0, 0);
+      this.controls.target.set(0, 0, 0);
+
+      if (progress < 1) {
+        requestAnimationFrame(animateCamera);
+      } else {
+        if (onComplete) onComplete();
+      }
+    };
+
+    requestAnimationFrame(animateCamera);
+  }
+
+  public renderExpeditionTrail(
+    stops: { lat: number; lng: number }[],
+    currentStopIndex: number
+  ): void {
+    this.clearExpeditionTrail();
+
+    if (!stops || stops.length === 0) return;
+
+    // 1. Draw glowing golden parabolic arcs between all visited waypoints
+    for (let i = 0; i < currentStopIndex && i < stops.length - 1; i++) {
+      const s1 = stops[i];
+      const s2 = stops[i + 1];
+
+      const start = this.geoToVector3(s1.lat, s1.lng, NODE_ELEVATION + 0.3);
+      const end = this.geoToVector3(s2.lat, s2.lng, NODE_ELEVATION + 0.3);
+
+      const mid = new THREE.Vector3().addVectors(start, end).multiplyScalar(0.5);
+      const dist = start.distanceTo(end);
+      const arcAltitude = GLOBE_RADIUS + Math.min(dist * 0.35, 38);
+      mid.normalize().multiplyScalar(arcAltitude);
+
+      const curve = new THREE.QuadraticBezierCurve3(start, mid, end);
+      const points = curve.getPoints(50);
+      const geometry = new THREE.BufferGeometry().setFromPoints(points);
+
+      const material = new THREE.LineBasicMaterial({
+        color: new THREE.Color('#FFD166'),
+        transparent: true,
+        opacity: 0.85,
+        linewidth: 2,
+      });
+
+      const line = new THREE.Line(geometry, material);
+      this.expeditionTrailGroup.add(line);
+    }
+
+    // 2. Add waypoint milestone markers for all visited stops
+    for (let i = 0; i <= currentStopIndex && i < stops.length; i++) {
+      const s = stops[i];
+      const isCurrent = i === currentStopIndex;
+      const pos = this.geoToVector3(s.lat, s.lng, NODE_ELEVATION + 0.5);
+
+      // Sphere beacon
+      const markerGeo = new THREE.SphereGeometry(isCurrent ? 1.8 : 1.2, 16, 16);
+      const markerMat = new THREE.MeshBasicMaterial({
+        color: new THREE.Color(isCurrent ? '#FFE57F' : '#FFD166'),
+        transparent: true,
+        opacity: isCurrent ? 1.0 : 0.75,
+      });
+      const marker = new THREE.Mesh(markerGeo, markerMat);
+      marker.position.copy(pos);
+      this.expeditionTrailGroup.add(marker);
+
+      // Pulsing halo for the current active stop
+      if (isCurrent) {
+        const haloGeo = new THREE.RingGeometry(2.2, 3.2, 32);
+        const haloMat = new THREE.MeshBasicMaterial({
+          color: new THREE.Color('#FFD166'),
+          transparent: true,
+          opacity: 0.8,
+          side: THREE.DoubleSide,
+        });
+        const halo = new THREE.Mesh(haloGeo, haloMat);
+        halo.position.copy(pos);
+        halo.lookAt(new THREE.Vector3(0, 0, 0));
+        this.expeditionTrailGroup.add(halo);
+      }
+    }
+  }
+
+  public clearExpeditionTrail(): void {
+    while (this.expeditionTrailGroup.children.length > 0) {
+      const obj = this.expeditionTrailGroup.children[0] as any;
+      if (obj.geometry) obj.geometry.dispose();
+      if (obj.material) {
+        if (Array.isArray(obj.material)) obj.material.forEach((m: any) => m.dispose());
+        else obj.material.dispose();
+      }
+      this.expeditionTrailGroup.remove(obj);
+    }
   }
 
   public geoToVector3(lat: number, lng: number, radius: number = GLOBE_RADIUS): THREE.Vector3 {
