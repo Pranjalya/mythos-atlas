@@ -183,10 +183,10 @@ export class Inspector {
     this.clusterDeckEl.classList.remove('cluster-deck-hidden');
     this.clusterCountEl.textContent = `${cluster.length} Concurrent Epics`;
     
-    // Extract concise epicenter title
-    const rawTitle = currentMyth.name.split(' (')[0];
-    const cleanLocusName = rawTitle.length > 28 ? rawTitle.substring(0, 26) + '…' : rawTitle;
-    this.clusterTitleEl.textContent = `${cleanLocusName} Locus`;
+    // Set clean locus title - CSS text-overflow: ellipsis handles responsive truncation cleanly without text collision
+    const rawTitle = currentMyth.name.split(' (')[0].trim();
+    this.clusterTitleEl.textContent = `${rawTitle} Locus`;
+    this.clusterTitleEl.title = `${currentMyth.name} (${cluster.length} concurrent epics at this locus)`;
 
     this.clusterPillBarEl.innerHTML = '';
     cluster.forEach((m, idx) => {

@@ -743,7 +743,9 @@ body:has(#timeline-container:hover) #hover-tooltip {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 12px;
+  min-width: 0;
+  width: 100%;
 }
 
 .cluster-deck-title {
@@ -751,11 +753,21 @@ body:has(#timeline-container:hover) #hover-tooltip {
   align-items: center;
   gap: 8px;
   min-width: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
+}
+
+.cluster-deck-text-wrap,
+.cluster-deck-title > div {
+  min-width: 0;
+  flex: 1 1 auto;
+  overflow: hidden;
 }
 
 .cluster-deck-icon {
   font-size: 1.15rem;
   line-height: 1;
+  flex-shrink: 0;
   filter: drop-shadow(0 0 8px rgba(253, 224, 71, 0.5));
 }
 
@@ -767,6 +779,7 @@ body:has(#timeline-container:hover) #hover-tooltip {
   color: var(--gold-light);
   display: block;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .cluster-deck-heading {
@@ -779,6 +792,8 @@ body:has(#timeline-container:hover) #hover-tooltip {
   overflow: hidden;
   text-overflow: ellipsis;
   letter-spacing: 0.3px;
+  display: block;
+  max-width: 100%;
 }
 
 .cluster-deck-badge {
@@ -792,6 +807,7 @@ body:has(#timeline-container:hover) #hover-tooltip {
   border-radius: var(--radius-full);
   white-space: nowrap;
   flex-shrink: 0;
+  margin-left: auto;
   box-shadow: 0 0 10px rgba(253, 224, 71, 0.2);
 }
 
