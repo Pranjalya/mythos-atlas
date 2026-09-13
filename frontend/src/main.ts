@@ -101,6 +101,10 @@ async function bootstrap() {
     if (openCompareBtn) {
       openCompareBtn.addEventListener('click', () => {
         store.setCompareModalOpen(true);
+        if (window.innerWidth <= 900) {
+          const filterControls = document.getElementById('filter-controls');
+          filterControls?.classList.remove('mobile-open');
+        }
       });
     }
 
@@ -108,6 +112,16 @@ async function bootstrap() {
     if (resetViewBtn) {
       resetViewBtn.addEventListener('click', () => {
         globe.resetView();
+      });
+    }
+
+    // Wire mobile menu toggle
+    const mobileMenuToggle = document.getElementById('mobile-menu-toggle') as HTMLButtonElement;
+    const filterControls = document.getElementById('filter-controls') as HTMLElement;
+    if (mobileMenuToggle && filterControls) {
+      mobileMenuToggle.addEventListener('click', (e) => {
+        e.stopPropagation();
+        filterControls.classList.toggle('mobile-open');
       });
     }
 
@@ -122,6 +136,21 @@ async function bootstrap() {
       };
       devToggleBtn.addEventListener('click', toggleDevPanel);
       devCollapsedBtn.addEventListener('click', toggleDevPanel);
+
+      // On mobile screens, start with developer card minimized to keep globe fully visible
+      if (window.innerWidth <= 900) {
+        devPanel.classList.add('collapsed');
+      }
+
+      // Close developer modal on mobile if tapping outside
+      document.addEventListener('click', (e) => {
+        if (window.innerWidth <= 900 && !devPanel.classList.contains('collapsed')) {
+          const target = e.target as HTMLElement;
+          if (!devPanel.contains(target)) {
+            devPanel.classList.add('collapsed');
+          }
+        }
+      });
     }
 
     // Trigger initial year update (-1200 BCE)

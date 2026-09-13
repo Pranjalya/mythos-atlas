@@ -595,9 +595,13 @@ export class MythosGlobe {
   }
 
   public flyToCoordinate(lat: number, lng: number): void {
-    // Offset camera slightly East (lng + 15°) when on wide screens so locus is framed in the open viewport to the left of the Inspector
-    const lngOffset = window.innerWidth > 900 ? 15 : 0;
-    const target = this.geoToVector3(lat, lng + lngOffset, 235);
+    const isDesktop = window.innerWidth > 900;
+    // Desktop: offset camera slightly East (lng + 15°) so locus is framed in the open viewport to the left of the Inspector
+    // Mobile: offset camera slightly South (lat - 12°) so locus sits cleanly in upper screen above bottom sheet
+    const lngOffset = isDesktop ? 15 : 0;
+    const latOffset = isDesktop ? 0 : -12;
+    const targetLat = Math.max(-80, Math.min(80, lat + latOffset));
+    const target = this.geoToVector3(targetLat, lng + lngOffset, 235);
     const startPos = this.camera.position.clone();
     const duration = 1100;
     const startTime = performance.now();
@@ -951,8 +955,9 @@ export class MythosGlobe {
   private initEventListeners(): void {
     window.addEventListener('resize', this.onWindowResize.bind(this));
 
-    // Pointer move for real-time hover
+    // Pointer move for real-time hover (ignored on touch devices to avoid stuck popups)
     this.renderer.domElement.addEventListener('pointermove', (event: PointerEvent) => {
+      if (event.pointerType === 'touch') return;
       this.checkRaycastHover(event.clientX, event.clientY);
     });
 

@@ -64,6 +64,22 @@ export class Inspector {
       this.close();
     });
 
+    // Mobile swipe down on drag handle to dismiss sheet
+    const dragHandle = this.panelEl.querySelector('.sheet-drag-handle');
+    if (dragHandle) {
+      let touchStartY = 0;
+      dragHandle.addEventListener('touchstart', (e: any) => {
+        touchStartY = e.touches[0].clientY;
+      }, { passive: true });
+
+      dragHandle.addEventListener('touchend', (e: any) => {
+        const touchEndY = e.changedTouches[0].clientY;
+        if (touchEndY - touchStartY > 40) {
+          this.close();
+        }
+      }, { passive: true });
+    }
+
     // Ensure any floating country/area/myth tooltip vanishes when mouse hovers over information dialog
     const hideHoverTooltip = () => {
       document.getElementById('hover-tooltip')?.classList.add('tooltip-hidden');
