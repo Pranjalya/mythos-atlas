@@ -14580,5 +14580,597 @@
     },
     "extract": "In the traditions of ancient Hawaiʻi, Kanaloa is a god symbolized by the squid or by the octopus, and is typically associated with Kāne. It is also an alternative name for the island of Kahoʻolawe.",
     "extract_html": "<p>In the traditions of ancient Hawaiʻi, <b>Kanaloa</b> is a god symbolized by the squid or by the octopus, and is typically associated with Kāne. It is also an alternative name for the island of Kahoʻolawe.</p>"
+  },
+  "athena": {
+    "type": "standard",
+    "title": "Athena",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Athena</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q37122",
+    "titles": {
+      "canonical": "Athena",
+      "normalized": "Athena",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Athena</span></span>"
+    },
+    "pageid": 1182,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Mattei_Athena_Louvre_Ma530_n2.jpg/330px-Mattei_Athena_Louvre_Ma530_n2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 660
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/2/22/Mattei_Athena_Louvre_Ma530_n2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1800,
+      "height": 3600
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1374306759",
+    "tid": "931f47d8-ad9c-11f1-b234-d732d6cfd154",
+    "timestamp": "2026-09-11T04:52:22Z",
+    "description": "Ancient Greek goddess",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Athena",
+        "revisions": "https://en.wikipedia.org/wiki/Athena?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Athena?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Athena"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Athena",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Athena",
+        "edit": "https://en.wikipedia.org/wiki/Athena?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Athena"
+      }
+    },
+    "extract": "Athena or Athene, often given the epithet Pallas, is an ancient Greek goddess associated with wisdom, warfare, and handicraft who was later syncretised with the Roman goddess Minerva. Athena was regarded as the patron and protectress of various cities across Greece, particularly the city of Athens, from which she most likely received her name. Her major symbols include owls, olive trees, snakes, and the gorgoneion. In art, she is generally depicted wearing a helmet and holding a spear.",
+    "extract_html": "<p><b>Athena</b> or <b>Athene</b>, often given the epithet <b>Pallas</b>, is an ancient Greek goddess associated with wisdom, warfare, and handicraft who was later syncretised with the Roman goddess Minerva. Athena was regarded as the patron and protectress of various cities across Greece, particularly the city of Athens, from which she most likely received her name. Her major symbols include owls, olive trees, snakes, and the gorgoneion. In art, she is generally depicted wearing a helmet and holding a spear.</p>"
+  },
+  "erichthonius_of_athens": {
+    "type": "standard",
+    "title": "Erichthonius (son of Hephaestus)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Erichthonius (son of Hephaestus)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q644921",
+    "titles": {
+      "canonical": "Erichthonius_(son_of_Hephaestus)",
+      "normalized": "Erichthonius (son of Hephaestus)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Erichthonius (son of Hephaestus)</span></span>"
+    },
+    "pageid": 332748,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Birth_Erikhthonios_Staatliche_Antikensammlungen_2413_n2.jpg/330px-Birth_Erikhthonios_Staatliche_Antikensammlungen_2413_n2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 265
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/1d/Birth_Erikhthonios_Staatliche_Antikensammlungen_2413_n2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 2504,
+      "height": 2014
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1354934939",
+    "tid": "fc79d9c9-5323-11f1-b3c8-879f6327b576",
+    "timestamp": "2026-05-19T01:42:25Z",
+    "description": "Legendary king of Athens",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Erichthonius_(son_of_Hephaestus)",
+        "revisions": "https://en.wikipedia.org/wiki/Erichthonius_(son_of_Hephaestus)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Erichthonius_(son_of_Hephaestus)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Erichthonius_(son_of_Hephaestus)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Erichthonius_(son_of_Hephaestus)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Erichthonius_(son_of_Hephaestus)",
+        "edit": "https://en.wikipedia.org/wiki/Erichthonius_(son_of_Hephaestus)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Erichthonius_(son_of_Hephaestus)"
+      }
+    },
+    "extract": "In Greek mythology, King Erichthonius was a legendary early ruler of ancient Athens. According to some myths, he was autochthonous and adopted or raised by the goddess Athena. Early Greek texts do not distinguish between him and Erechtheus, his grandson, but by the fourth century BC, during Classical times, they are distinct figures.",
+    "extract_html": "<p>In Greek mythology, King <b>Erichthonius</b> was a legendary early ruler of ancient Athens. According to some myths, he was autochthonous and adopted or raised by the goddess Athena. Early Greek texts do not distinguish between him and Erechtheus, his grandson, but by the fourth century BC, during Classical times, they are distinct figures.</p>"
+  },
+  "python_(mythology)": {
+    "type": "standard",
+    "title": "Python (mythology)",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Python (mythology)</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q15721",
+    "titles": {
+      "canonical": "Python_(mythology)",
+      "normalized": "Python (mythology)",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Python (mythology)</span></span>"
+    },
+    "pageid": 83036,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Leto_with_Artemis_%26_Apollo_Escaping_from_Python%2C_Greek%2C_4-3rd_Cent_BC_%2810451424666%29.jpg/330px-Leto_with_Artemis_%26_Apollo_Escaping_from_Python%2C_Greek%2C_4-3rd_Cent_BC_%2810451424666%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 220
+    },
+    "originalimage": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Leto_with_Artemis_%26_Apollo_Escaping_from_Python%2C_Greek%2C_4-3rd_Cent_BC_%2810451424666%29.jpg/3840px-Leto_with_Artemis_%26_Apollo_Escaping_from_Python%2C_Greek%2C_4-3rd_Cent_BC_%2810451424666%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 3888,
+      "height": 2592
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1374441017",
+    "tid": "6462a986-ae50-11f1-9dc3-69a3ee88102b",
+    "timestamp": "2026-09-12T02:19:33Z",
+    "description": "Serpent in Greek mythology",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Python_(mythology)",
+        "revisions": "https://en.wikipedia.org/wiki/Python_(mythology)?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Python_(mythology)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Python_(mythology)"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Python_(mythology)",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Python_(mythology)",
+        "edit": "https://en.wikipedia.org/wiki/Python_(mythology)?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Python_(mythology)"
+      }
+    },
+    "extract": "In Greek mythology, Python was the serpent, sometimes represented as a medieval-style dragon, living at the center of the Earth, believed by the ancient Greeks to be at Delphi. He was killed by the god Apollo.",
+    "extract_html": "<p>In Greek mythology, <b>Python</b> was the serpent, sometimes represented as a medieval-style dragon, living at the center of the Earth, believed by the ancient Greeks to be at Delphi. He was killed by the god Apollo.</p>"
+  },
+  "deucalion": {
+    "type": "standard",
+    "title": "Deucalion",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Deucalion</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q207715",
+    "titles": {
+      "canonical": "Deucalion",
+      "normalized": "Deucalion",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Deucalion</span></span>"
+    },
+    "pageid": 79423,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Deucalion.jpg/330px-Deucalion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 337
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/41/Deucalion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 426,
+      "height": 435
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1373903266",
+    "tid": "ed56b958-aba6-11f1-9266-4c0b66ffa784",
+    "timestamp": "2026-09-08T17:01:26Z",
+    "description": "Greek mythological figure",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Deucalion",
+        "revisions": "https://en.wikipedia.org/wiki/Deucalion?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Deucalion?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Deucalion"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Deucalion",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Deucalion",
+        "edit": "https://en.wikipedia.org/wiki/Deucalion?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Deucalion"
+      }
+    },
+    "extract": "In Greek mythology, Deucalion was the son of Prometheus; ancient sources name his mother as Clymene, Hesione, or Pronoia. He is closely connected with a flood myth in Greek mythology.",
+    "extract_html": "<p>In Greek mythology, <b>Deucalion</b> was the son of Prometheus; ancient sources name his mother as Clymene, Hesione, or Pronoia. He is closely connected with a flood myth in Greek mythology.</p>"
+  },
+  "jyotirlinga": {
+    "type": "standard",
+    "title": "Jyotirlinga",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Jyotirlinga</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1344358",
+    "titles": {
+      "canonical": "Jyotirlinga",
+      "normalized": "Jyotirlinga",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Jyotirlinga</span></span>"
+    },
+    "pageid": 30873974,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/SaivismFlag.svg/330px-SaivismFlag.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 319
+    },
+    "originalimage": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/SaivismFlag.svg/960px-SaivismFlag.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 512,
+      "height": 495
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1365914931",
+    "tid": "19c69a7f-87e2-11f1-a32f-3c881b93b1f3",
+    "timestamp": "2026-07-25T04:34:19Z",
+    "description": "Devotional representation of the Hindu deity Shiva",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Jyotirlinga",
+        "revisions": "https://en.wikipedia.org/wiki/Jyotirlinga?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Jyotirlinga?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Jyotirlinga"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Jyotirlinga",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Jyotirlinga",
+        "edit": "https://en.wikipedia.org/wiki/Jyotirlinga?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Jyotirlinga"
+      }
+    },
+    "extract": "A Jyotirlinga or Jyotirlingam is a devotional representation of the Hindu god Shiva. The word is a Sanskrit compound of jyotis ('radiance') and linga ('sign'). The Śiva Mahāpurāṇam mentions 64 original jyotirlinga shrines in India.",
+    "extract_html": "<p>A <b>Jyotirlinga</b> or <b>Jyotirlingam</b> is a devotional representation of the Hindu god Shiva. The word is a Sanskrit compound of <span><i lang=\"sa-Latn\">jyotis</i></span> ('radiance') and <span><i lang=\"sa-Latn\">linga</i></span> ('sign'). The Śiva Mahāpurāṇam mentions 64 original <i>jyotirlinga</i> shrines in India.</p>"
+  },
+  "harishchandra": {
+    "type": "standard",
+    "title": "Harishchandra",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Harishchandra</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q3519217",
+    "titles": {
+      "canonical": "Harishchandra",
+      "normalized": "Harishchandra",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Harishchandra</span></span>"
+    },
+    "pageid": 372349,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Harishchandra_by_RRV.jpg/330px-Harishchandra_by_RRV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 230
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/1/10/Harishchandra_by_RRV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 703,
+      "height": 491
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1345412192",
+    "tid": "04c61153-28a5-11f1-ba41-022a0b94948d",
+    "timestamp": "2026-03-25T23:47:44Z",
+    "description": "King in Hindu literature",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Harishchandra",
+        "revisions": "https://en.wikipedia.org/wiki/Harishchandra?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Harishchandra?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Harishchandra"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Harishchandra",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Harishchandra",
+        "edit": "https://en.wikipedia.org/wiki/Harishchandra?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Harishchandra"
+      }
+    },
+    "extract": "Harishchandra is a legendary king of the Solar dynasty, who appears in several legends in texts such as the Aitareya Brahmana, Mahabharata, the Markandeya Purana, and the Devi Bhagavata Purana. The most famous of these stories is the one mentioned in the Markandeya Purana. According to this legend, Harishchandra gave away his kingdom, sold his family, and agreed to be a slave – all to fulfill a promise he had made to the sage Vishvamitra.",
+    "extract_html": "<p><b>Harishchandra</b> is a legendary king of the Solar dynasty, who appears in several legends in texts such as the <i>Aitareya Brahmana</i>, <i>Mahabharata</i>, the <i>Markandeya Purana</i>, and the <i>Devi Bhagavata Purana</i>. The most famous of these stories is the one mentioned in the <i>Markandeya Purana</i>. According to this legend, Harishchandra gave away his kingdom, sold his family, and agreed to be a slave – all to fulfill a promise he had made to the sage Vishvamitra.</p>"
+  },
+  "foundation_stone": {
+    "type": "standard",
+    "title": "Foundation Stone",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Foundation Stone</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1027494",
+    "titles": {
+      "canonical": "Foundation_Stone",
+      "normalized": "Foundation Stone",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Foundation Stone</span></span>"
+    },
+    "pageid": 7018908,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_rock_of_the_Dome_of_the_Rock_Corrected.jpg/330px-The_rock_of_the_Dome_of_the_Rock_Corrected.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 481
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/45/The_rock_of_the_Dome_of_the_Rock_Corrected.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 2750,
+      "height": 4011
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1371237497",
+    "tid": "931b0a8e-a070-11f1-b02f-8fc72907c0f1",
+    "timestamp": "2026-08-25T10:34:39Z",
+    "description": "Rock at centre of the Dome of the Rock shrine",
+    "description_source": "local",
+    "coordinates": {
+      "lat": 31.778,
+      "lon": 35.2354
+    },
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Foundation_Stone",
+        "revisions": "https://en.wikipedia.org/wiki/Foundation_Stone?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Foundation_Stone?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Foundation_Stone"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Foundation_Stone",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Foundation_Stone",
+        "edit": "https://en.wikipedia.org/wiki/Foundation_Stone?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Foundation_Stone"
+      }
+    },
+    "extract": "The Foundation Stone, or the Noble Rock, is the rock at the center of the Dome of the Rock in Jerusalem. It is also known as the Pierced Stone because it has a small hole on the southeastern corner that enters a cavern beneath the rock known as the Well of Souls.",
+    "extract_html": "<p>The <b>Foundation Stone</b>, or the <b>Noble Rock</b>, is the rock at the center of the Dome of the Rock in Jerusalem. It is also known as the <b>Pierced Stone</b> because it has a small hole on the southeastern corner that enters a cavern beneath the rock known as the Well of Souls.</p>"
+  },
+  "benben": {
+    "type": "standard",
+    "title": "Benben",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Benben</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q816712",
+    "titles": {
+      "canonical": "Benben",
+      "normalized": "Benben",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Benben</span></span>"
+    },
+    "pageid": 1991248,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Pyramidion-satellite-kh%C3%A9ops.jpg/330px-Pyramidion-satellite-kh%C3%A9ops.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 247
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/c/c2/Pyramidion-satellite-kh%C3%A9ops.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 667,
+      "height": 500
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1355999928",
+    "tid": "326efd93-57f3-11f1-826c-c83bc6e04753",
+    "timestamp": "2026-05-25T04:35:46Z",
+    "description": "Pyramid capstone",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Benben",
+        "revisions": "https://en.wikipedia.org/wiki/Benben?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Benben?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Benben"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Benben",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Benben",
+        "edit": "https://en.wikipedia.org/wiki/Benben?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Benben"
+      }
+    },
+    "extract": "In the creation myth of the Heliopolitan form of ancient Egyptian religion,\nBenben was the mound that arose from the primordial waters (Nu), and upon which the creator deity Atum settled. The Benben stone is associated with the top stone of a pyramid, which is called a pyramid's pyramidion. It is also related to the obelisk.",
+    "extract_html": "<p>In the creation myth of the Heliopolitan form of ancient Egyptian religion,\n<b>Benben</b> was the mound that arose from the primordial waters (Nu), and upon which the creator deity Atum settled. The Benben stone is associated with the top stone of a pyramid, which is called a pyramid's pyramidion. It is also related to the obelisk.</p>"
+  },
+  "bennu": {
+    "type": "standard",
+    "title": "Bennu",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bennu</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q818378",
+    "titles": {
+      "canonical": "Bennu",
+      "normalized": "Bennu",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Bennu</span></span>"
+    },
+    "pageid": 1376318,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bennu_bird.svg/330px-Bennu_bird.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 505
+    },
+    "originalimage": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bennu_bird.svg/500px-Bennu_bird.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 425,
+      "height": 650
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1362895762",
+    "tid": "b84e9e1a-7984-11f1-8e6a-675c7f01275a",
+    "timestamp": "2026-07-06T21:50:36Z",
+    "description": "Ancient Egyptian deity",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Bennu",
+        "revisions": "https://en.wikipedia.org/wiki/Bennu?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Bennu?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bennu"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Bennu",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Bennu",
+        "edit": "https://en.wikipedia.org/wiki/Bennu?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Bennu"
+      }
+    },
+    "extract": "Bennu is an ancient Egyptian deity linked with the Sun, creation, and rebirth. He may have been the original inspiration for the phoenix legends that developed in Greek mythology.",
+    "extract_html": "<p><b>Bennu</b> is an ancient Egyptian deity linked with the Sun, creation, and rebirth. He may have been the original inspiration for the phoenix legends that developed in Greek mythology.</p>"
+  },
+  "abe_no_seimei": {
+    "type": "standard",
+    "title": "Abe no Seimei",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Abe no Seimei</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q1150151",
+    "titles": {
+      "canonical": "Abe_no_Seimei",
+      "normalized": "Abe no Seimei",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Abe no Seimei</span></span>"
+    },
+    "pageid": 313664,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Abe_Seimei.jpg/330px-Abe_Seimei.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 437
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Abe_Seimei.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1137,
+      "height": 1506
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1371661184",
+    "tid": "f9f11c35-a244-11f1-a42f-b2238f73d333",
+    "timestamp": "2026-08-27T18:27:36Z",
+    "description": "Japanese mystic",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Abe_no_Seimei",
+        "revisions": "https://en.wikipedia.org/wiki/Abe_no_Seimei?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Abe_no_Seimei?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Abe_no_Seimei"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Abe_no_Seimei",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Abe_no_Seimei",
+        "edit": "https://en.wikipedia.org/wiki/Abe_no_Seimei?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Abe_no_Seimei"
+      }
+    },
+    "extract": "Abe no Seimei  was a Japanese onmyōji, a court official and specialist of Onmyōdō, during the middle of the Heian period. In addition to his prominence in history, he is a legendary figure in Japanese folklore. He has been portrayed in several stories and films.",
+    "extract_html": "<p><b>Abe no Seimei</b><span style=\"font-weight:normal\"> </span> was a Japanese <i>onmyōji</i>, a court official and specialist of <i>Onmyōdō</i>, during the middle of the Heian period. In addition to his prominence in history, he is a legendary figure in Japanese folklore. He has been portrayed in several stories and films.</p>"
+  },
+  "shuten-d%c5%8dji": {
+    "type": "standard",
+    "title": "Shuten-dōji",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shuten-dōji</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q986527",
+    "titles": {
+      "canonical": "Shuten-dōji",
+      "normalized": "Shuten-dōji",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Shuten-dōji</span></span>"
+    },
+    "pageid": 37245786,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Iwaya%281927%29-p000-frontispiece-oeyama.jpg/330px-Iwaya%281927%29-p000-frontispiece-oeyama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 512
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/4/40/Iwaya%281927%29-p000-frontispiece-oeyama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1465,
+      "height": 2275
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1368876597",
+    "tid": "2fd3a724-959d-11f1-adf2-daaa5b95f298",
+    "timestamp": "2026-08-11T15:56:17Z",
+    "description": "Demon from Japanese folklore",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Shuten-d%C5%8Dji",
+        "revisions": "https://en.wikipedia.org/wiki/Shuten-d%C5%8Dji?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Shuten-d%C5%8Dji?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shuten-d%C5%8Dji"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Shuten-d%C5%8Dji",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Shuten-d%C5%8Dji",
+        "edit": "https://en.wikipedia.org/wiki/Shuten-d%C5%8Dji?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Shuten-d%C5%8Dji"
+      }
+    },
+    "extract": "Shuten-dōji is a mythical oni or demon leader of Japan, who according to legend was killed by the hero Minamoto no Raikō. Although decapitated, the demon's detached head still took a bite at the hero, who avoided death by wearing multiple helmets stacked on his head.",
+    "extract_html": "<p><b>Shuten-dōji</b> is a mythical <i>oni</i> or demon leader of Japan, who according to legend was killed by the hero Minamoto no Raikō. Although decapitated, the demon's detached head still took a bite at the hero, who avoided death by wearing multiple helmets stacked on his head.</p>"
+  },
+  "manco_c%c3%a1pac": {
+    "type": "standard",
+    "title": "Manco Cápac",
+    "displaytitle": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Manco Cápac</span></span>",
+    "namespace": {
+      "id": 0,
+      "text": ""
+    },
+    "wikibase_item": "Q165968",
+    "titles": {
+      "canonical": "Manco_Cápac",
+      "normalized": "Manco Cápac",
+      "display": "<span lang=\"en\" dir=\"ltr\"><span class=\"mw-page-title-main\">Manco Cápac</span></span>"
+    },
+    "pageid": 90843,
+    "thumbnail": {
+      "source": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Brooklyn_Museum_-_Manco_Capac%2C_First_Inca%2C_1_of_14_Portraits_of_Inca_Kings.jpg/330px-Brooklyn_Museum_-_Manco_Capac%2C_First_Inca%2C_1_of_14_Portraits_of_Inca_Kings.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+      "width": 330,
+      "height": 354
+    },
+    "originalimage": {
+      "source": "https://upload.wikimedia.org/wikipedia/commons/e/ed/Brooklyn_Museum_-_Manco_Capac%2C_First_Inca%2C_1_of_14_Portraits_of_Inca_Kings.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+      "width": 1431,
+      "height": 1536
+    },
+    "lang": "en",
+    "dir": "ltr",
+    "revision": "1368317122",
+    "tid": "576212e7-9310-11f1-8257-1cf702d0f267",
+    "timestamp": "2026-08-08T10:03:02Z",
+    "description": "Legendary founder of the Inca civilization",
+    "description_source": "local",
+    "content_urls": {
+      "desktop": {
+        "page": "https://en.wikipedia.org/wiki/Manco_C%C3%A1pac",
+        "revisions": "https://en.wikipedia.org/wiki/Manco_C%C3%A1pac?action=history",
+        "edit": "https://en.wikipedia.org/wiki/Manco_C%C3%A1pac?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Manco_C%C3%A1pac"
+      },
+      "mobile": {
+        "page": "https://en.wikipedia.org/wiki/Manco_C%C3%A1pac",
+        "revisions": "https://en.wikipedia.org/wiki/Special:History/Manco_C%C3%A1pac",
+        "edit": "https://en.wikipedia.org/wiki/Manco_C%C3%A1pac?action=edit",
+        "talk": "https://en.wikipedia.org/wiki/Talk:Manco_C%C3%A1pac"
+      }
+    },
+    "extract": "Manco Cápac, also known as Manco Inca and Ayar Manco, was, according to some historians, the first governor and founder of the Inca civilisation in Cusco, possibly in the early 13th century. He is also a main figure of Inca mythology, being the protagonist of the two best known legends about the origin of the Inca, both of them connecting him to the foundation of Cusco. His main wife and the mother of his son and successor, Sinchi Ruq'a, was his sister Mama Uqllu. Even though his figure is mentioned in several chronicles, his actual existence remains uncertain.",
+    "extract_html": "<p><b>Manco Cápac</b>, also known as <b>Manco Inca</b> and <b>Ayar Manco</b>, was, according to some historians, the first governor and founder of the Inca civilisation in Cusco, possibly in the early 13th century. He is also a main figure of Inca mythology, being the protagonist of the two best known legends about the origin of the Inca, both of them connecting him to the foundation of Cusco. His main wife and the mother of his son and successor, Sinchi Ruq'a, was his sister Mama Uqllu. Even though his figure is mentioned in several chronicles, his actual existence remains uncertain.</p>"
   }
 }

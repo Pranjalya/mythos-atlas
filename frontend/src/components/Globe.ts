@@ -94,6 +94,19 @@ export class MythosGlobe {
   private animationFrameId: number = 0;
   private arcTime: number = 0;
 
+  // Sacred Epicenter Constellation Bloom System
+  private clusterMap = new Map<string, ActiveMyth[]>();
+  private constellationGroup = new THREE.Group();
+  private constellationSatellites: {
+    mesh: THREE.Mesh;
+    stem: THREE.Line;
+    myth: ActiveMyth;
+    index: number;
+    basePos: THREE.Vector3;
+  }[] = [];
+  private activeBloomingClusterKey: string | null = null;
+  private locusAnchorRing: THREE.Mesh | null = null;
+
   constructor(containerId: string) {
     const el = document.getElementById(containerId);
     if (!el) throw new Error(`Container #${containerId} not found`);
@@ -135,6 +148,7 @@ export class MythosGlobe {
     this.initAtmosphere();
     this.initInstancedNodes();
     this.scene.add(this.arcsGroup);
+    this.scene.add(this.constellationGroup);
 
     this.initTooltips();
     this.initEventListeners();
@@ -461,6 +475,19 @@ export class MythosGlobe {
 
   public updateActiveMyths(myths: ActiveMyth[]): void {
     this.currentActiveList = myths;
+
+    // Group active myths by coordinate locus (within ~0.15 deg)
+    this.clusterMap.clear();
+    for (const m of myths) {
+      const key = `${m.lat.toFixed(2)},${m.lng.toFixed(2)}`;
+      let list = this.clusterMap.get(key);
+      if (!list) {
+        list = [];
+        this.clusterMap.set(key, list);
+      }
+      list.push(m);
+    }
+
     if (!this.instancedNodes) return;
 
     const count = Math.min(myths.length, MAX_INSTANCES);
@@ -471,7 +498,12 @@ export class MythosGlobe {
     for (let i = 0; i < count; i++) {
       const m = myths[i];
       const pos = this.geoToVector3(m.lat, m.lng, NODE_ELEVATION);
-      const scale = 1.0 + m.intensity * 1.4;
+      const key = `${m.lat.toFixed(2)},${m.lng.toFixed(2)}`;
+      const cluster = this.clusterMap.get(key) || [];
+      const isCluster = cluster.length > 1;
+
+      // Multi-narrative epicenters receive a majestic scale boost
+      const scale = (isCluster ? 1.45 : 1.0) + m.intensity * 1.4;
 
       this.dummy.position.copy(pos);
       this.dummy.scale.set(scale, scale, scale);
@@ -486,6 +518,14 @@ export class MythosGlobe {
     this.instancedNodes.instanceMatrix.needsUpdate = true;
     if (this.instancedNodes.instanceColor) {
       this.instancedNodes.instanceColor.needsUpdate = true;
+    }
+
+    // If currently blooming a cluster, re-sync with active list
+    if (this.activeBloomingClusterKey) {
+      const activeCluster = this.clusterMap.get(this.activeBloomingClusterKey);
+      if (!activeCluster || activeCluster.length <= 1) {
+        this.retractConstellation();
+      }
     }
 
     this.updateSyncreticArcs(myths);
@@ -555,9 +595,11 @@ export class MythosGlobe {
   }
 
   public flyToCoordinate(lat: number, lng: number): void {
-    const target = this.geoToVector3(lat, lng, 220);
+    // Offset camera slightly East (lng + 15°) when on wide screens so locus is framed in the open viewport to the left of the Inspector
+    const lngOffset = window.innerWidth > 900 ? 15 : 0;
+    const target = this.geoToVector3(lat, lng + lngOffset, 235);
     const startPos = this.camera.position.clone();
-    const duration = 1200;
+    const duration = 1100;
     const startTime = performance.now();
 
     const animateCamera = (currentTime: number) => {
@@ -567,6 +609,7 @@ export class MythosGlobe {
 
       this.camera.position.lerpVectors(startPos, target, ease);
       this.camera.lookAt(0, 0, 0);
+      this.controls.target.set(0, 0, 0);
 
       if (progress < 1) {
         requestAnimationFrame(animateCamera);
@@ -710,6 +753,21 @@ export class MythosGlobe {
     let closestDist = maxPixelRadius;
     let found: { myth: ActiveMyth; index: number } | null = null;
 
+    // 0. Check blooming constellation satellites first with highest hit-test precision
+    if (this.constellationSatellites.length > 0) {
+      for (const sat of this.constellationSatellites) {
+        const toCam = new THREE.Vector3().subVectors(this.camera.position, sat.basePos);
+        if (sat.basePos.dot(toCam) <= 0) continue;
+        const proj = sat.basePos.clone().project(this.camera);
+        if (proj.z >= 1.0) continue;
+        const screenX = ((proj.x + 1) / 2) * rect.width + rect.left;
+        const screenY = ((-proj.y + 1) / 2) * rect.height + rect.top;
+        if (Math.hypot(clientX - screenX, clientY - screenY) < maxPixelRadius + 6) {
+          return { myth: sat.myth, index: sat.index };
+        }
+      }
+    }
+
     // 1. Screen-space proximity calculation (generous hit testing)
     for (let i = 0; i < this.currentActiveList.length; i++) {
       const m = this.currentActiveList[i];
@@ -754,12 +812,140 @@ export class MythosGlobe {
   }
 
   public attachBeacon(lat: number, lng: number): void {
-    if (!this.beaconMesh) return;
     const pos = this.geoToVector3(lat, lng, NODE_ELEVATION + 0.4);
+    this.attachBeaconAtPosition(pos);
+  }
+
+  public attachBeaconAtPosition(pos: THREE.Vector3): void {
+    if (!this.beaconMesh) return;
     this.beaconMesh.position.copy(pos);
     const normal = pos.clone().normalize();
     this.beaconMesh.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), normal);
     this.beaconMesh.visible = true;
+  }
+
+  public bloomConstellation(cluster: ActiveMyth[], selectedMythId: string): void {
+    const locus = cluster[0];
+    const key = `${locus.lat.toFixed(2)},${locus.lng.toFixed(2)}`;
+
+    // If already blooming this exact cluster, update selected state on satellites
+    if (this.activeBloomingClusterKey === key) {
+      for (const sat of this.constellationSatellites) {
+        const isSelected = sat.myth.id === selectedMythId;
+        const hex = CULTURE_COLORS[sat.myth.culture] || CULTURE_COLORS.Default;
+        const mat = sat.mesh.material as THREE.MeshStandardMaterial;
+        mat.color.set(hex);
+        mat.emissive.set(isSelected ? 0xfde047 : hex);
+        mat.emissiveIntensity = isSelected ? 1.0 : 0.6;
+        sat.mesh.scale.set(isSelected ? 1.35 : 1.0, isSelected ? 1.35 : 1.0, isSelected ? 1.35 : 1.0);
+
+        if (isSelected) {
+          this.attachBeaconAtPosition(sat.basePos);
+        }
+      }
+      return;
+    }
+
+    // Build new constellation bloom
+    this.retractConstellation();
+    this.activeBloomingClusterKey = key;
+
+    const centerPos = this.geoToVector3(locus.lat, locus.lng, NODE_ELEVATION);
+    const normal = centerPos.clone().normalize();
+
+    // Establish tangent coordinate frame
+    const up = Math.abs(normal.y) < 0.9 ? new THREE.Vector3(0, 1, 0) : new THREE.Vector3(1, 0, 0);
+    const t1 = new THREE.Vector3().crossVectors(up, normal).normalize();
+    const t2 = new THREE.Vector3().crossVectors(normal, t1).normalize();
+
+    // Central anchor locus ring
+    const anchorGeo = new THREE.RingGeometry(2.4, 3.8, 32);
+    const anchorMat = new THREE.MeshBasicMaterial({
+      color: 0xfde047,
+      side: THREE.DoubleSide,
+      transparent: true,
+      opacity: 0.85,
+      blending: THREE.AdditiveBlending,
+    });
+    this.locusAnchorRing = new THREE.Mesh(anchorGeo, anchorMat);
+    this.locusAnchorRing.position.copy(centerPos);
+    this.locusAnchorRing.quaternion.setFromUnitVectors(new THREE.Vector3(0, 0, 1), normal);
+    this.constellationGroup.add(this.locusAnchorRing);
+
+    const N = cluster.length;
+    const spreadRadius = N <= 2 ? 6.2 : N === 3 ? 7.4 : 8.5;
+
+    for (let k = 0; k < N; k++) {
+      const myth = cluster[k];
+      const isSelected = myth.id === selectedMythId;
+      const angle = (2 * Math.PI * k) / N - Math.PI / 2;
+
+      // Project tangent offset onto sphere
+      const satPos = centerPos.clone()
+        .addScaledVector(t1, Math.cos(angle) * spreadRadius)
+        .addScaledVector(t2, Math.sin(angle) * spreadRadius);
+      satPos.normalize().multiplyScalar(GLOBE_RADIUS + NODE_ELEVATION + 1.4);
+
+      // Golden connecting stem cord (arched quadratic curve)
+      const mid = new THREE.Vector3().addVectors(centerPos, satPos).multiplyScalar(0.5);
+      mid.normalize().multiplyScalar(GLOBE_RADIUS + NODE_ELEVATION + 2.4);
+      const curve = new THREE.QuadraticBezierCurve3(centerPos, mid, satPos);
+      const stemGeo = new THREE.BufferGeometry().setFromPoints(curve.getPoints(24));
+      const stemMat = new THREE.LineBasicMaterial({
+        color: 0xfde047,
+        transparent: true,
+        opacity: 0.85,
+        blending: THREE.AdditiveBlending,
+      });
+      const stemLine = new THREE.Line(stemGeo, stemMat);
+      this.constellationGroup.add(stemLine);
+
+      // Satellite sphere
+      const satGeo = new THREE.SphereGeometry(2.2, 18, 18);
+      const hex = CULTURE_COLORS[myth.culture] || CULTURE_COLORS.Default;
+      const satMat = new THREE.MeshStandardMaterial({
+        color: new THREE.Color(hex),
+        emissive: isSelected ? new THREE.Color(0xfde047) : new THREE.Color(hex),
+        emissiveIntensity: isSelected ? 1.0 : 0.6,
+        roughness: 0.25,
+        metalness: 0.8,
+      });
+      const satMesh = new THREE.Mesh(satGeo, satMat);
+      satMesh.position.copy(satPos);
+      satMesh.scale.set(isSelected ? 1.35 : 1.0, isSelected ? 1.35 : 1.0, isSelected ? 1.35 : 1.0);
+      (satMesh as any).myth = myth;
+      (satMesh as any).clusterIndex = k;
+      this.constellationGroup.add(satMesh);
+
+      this.constellationSatellites.push({
+        mesh: satMesh,
+        stem: stemLine,
+        myth,
+        index: k,
+        basePos: satPos.clone(),
+      });
+
+      if (isSelected) {
+        this.attachBeaconAtPosition(satPos);
+      }
+    }
+  }
+
+  public retractConstellation(): void {
+    this.activeBloomingClusterKey = null;
+    while (this.constellationGroup.children.length > 0) {
+      const obj = this.constellationGroup.children.pop();
+      if (obj) {
+        if ('geometry' in obj && (obj as any).geometry) {
+          (obj as any).geometry.dispose();
+        }
+        if ('material' in obj && (obj as any).material) {
+          (obj as any).material.dispose();
+        }
+      }
+    }
+    this.locusAnchorRing = null;
+    this.constellationSatellites = [];
   }
 
   private initEventListeners(): void {
@@ -811,7 +997,6 @@ export class MythosGlobe {
           this.hideTooltip();
           store.selectMyth(hit.myth.id);
           this.flyToCoordinate(hit.myth.lat, hit.myth.lng);
-          this.attachBeacon(hit.myth.lat, hit.myth.lng);
         } else {
           // Deselect on empty canvas clicks
           store.selectMyth(null);
@@ -819,16 +1004,32 @@ export class MythosGlobe {
       }
     });
 
-    // Sync beacon with store selection
+    // Sync beacon and constellation bloom with store selection
     store.subscribe((state) => {
       if (state.selectedMythId) {
         this.hideTooltip();
-        const selected = this.currentActiveList.find((m) => m.id === state.selectedMythId);
+        this.controls.autoRotate = false; // Pause rotation while inspecting locus
+        const selected = this.currentActiveList.find((m) => m.id === state.selectedMythId) ||
+                         state.allMyths.find((m) => m.id === state.selectedMythId);
         if (selected) {
-          this.attachBeacon(selected.lat, selected.lng);
+          const cluster = store.getActiveClusterForMyth(selected.id);
+          const key = `${selected.lat.toFixed(2)},${selected.lng.toFixed(2)}`;
+          if (this.activeBloomingClusterKey !== key) {
+            this.flyToCoordinate(selected.lat, selected.lng);
+          }
+          if (cluster.length > 1) {
+            this.bloomConstellation(cluster, selected.id);
+          } else {
+            this.retractConstellation();
+            this.attachBeacon(selected.lat, selected.lng);
+          }
         }
-      } else if (this.beaconMesh) {
-        this.beaconMesh.visible = false;
+      } else {
+        this.retractConstellation();
+        this.controls.autoRotate = true; // Resume smooth rotation
+        if (this.beaconMesh) {
+          this.beaconMesh.visible = false;
+        }
       }
     });
   }
@@ -917,7 +1118,16 @@ export class MythosGlobe {
   private showMythTooltip(myth: ActiveMyth, x: number, y: number): void {
     if (!this.tooltipEl) return;
     if (this.tooltipName) this.tooltipName.textContent = myth.name;
-    if (this.tooltipCulture) this.tooltipCulture.textContent = `${myth.culture} Tradition`;
+
+    const key = `${myth.lat.toFixed(2)},${myth.lng.toFixed(2)}`;
+    const cluster = this.clusterMap.get(key) || [];
+    if (cluster.length > 1) {
+      if (this.tooltipCulture) {
+        this.tooltipCulture.innerHTML = `🏛️ Sacred Epicenter • <span style="color:#fde047;font-weight:700;">${cluster.length} Concurrent Epics</span>`;
+      }
+    } else {
+      if (this.tooltipCulture) this.tooltipCulture.textContent = `${myth.culture} Tradition`;
+    }
     if (this.tooltipEpoch) {
       const startStr = myth.epoch_start < 0 ? `${Math.abs(myth.epoch_start)} BCE` : `${myth.epoch_start} CE`;
       const endStr = myth.epoch_end < 0 ? `${Math.abs(myth.epoch_end)} BCE` : `${myth.epoch_end} CE`;
@@ -990,6 +1200,20 @@ export class MythosGlobe {
     if (this.beaconMesh && this.beaconMesh.visible) {
       const pulse = 1.0 + 0.18 * Math.sin(this.arcTime * 4);
       this.beaconMesh.scale.set(pulse, pulse, pulse);
+    }
+
+    // Animate blooming constellation satellites with breathing celestial pulse
+    if (this.constellationSatellites.length > 0) {
+      const breath = 1.0 + 0.08 * Math.sin(this.arcTime * 3);
+      for (const s of this.constellationSatellites) {
+        const isSelected = s.myth.id === store.getState().selectedMythId;
+        const base = isSelected ? 1.35 : 1.0;
+        s.mesh.scale.set(base * breath, base * breath, base * breath);
+      }
+      if (this.locusAnchorRing) {
+        const ringPulse = 1.0 + 0.12 * Math.sin(this.arcTime * 4);
+        this.locusAnchorRing.scale.set(ringPulse, ringPulse, ringPulse);
+      }
     }
 
     this.renderer.render(this.scene, this.camera);

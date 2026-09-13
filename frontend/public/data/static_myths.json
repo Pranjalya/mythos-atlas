@@ -4789,5 +4789,421 @@
       "Q111729"
     ],
     "description": "Hawaiian god of ocean, healing, and long travels"
+  },
+  {
+    "id": "Q12225",
+    "name": "Contest of Athena and Poseidon for the Acropolis",
+    "lat": 37.97,
+    "lng": 23.72,
+    "epoch_start": -800,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Civic Patronage Contest (Sacred Olive Tree vs Salt Spring)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Mattei_Athena_Louvre_Ma530_n2.jpg/330px-Mattei_Athena_Louvre_Ma530_n2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q129888",
+      "Q35060"
+    ],
+    "description": "Ancient Greek goddess"
+  },
+  {
+    "id": "Q12226",
+    "name": "Erichthonius the Earth-Born Serpent King of the Acropolis",
+    "lat": 37.97,
+    "lng": 23.72,
+    "epoch_start": -750,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Autochthonous Serpent-Tailed Founder Born Directly of Sacred Soil",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Birth_Erikhthonios_Staatliche_Antikensammlungen_2413_n2.jpg/330px-Birth_Erikhthonios_Staatliche_Antikensammlungen_2413_n2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q12225",
+      "Q129888"
+    ],
+    "description": "Legendary king of Athens"
+  },
+  {
+    "id": "Q12227",
+    "name": "Apollo Slaying Python at the Sacred Omphalos",
+    "lat": 38.48,
+    "lng": 22.5,
+    "epoch_start": -800,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Solar God Slaying Chthonic Earth Serpent to Establish the Oracle",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Leto_with_Artemis_%26_Apollo_Escaping_from_Python%2C_Greek%2C_4-3rd_Cent_BC_%2810451424666%29.jpg/330px-Leto_with_Artemis_%26_Apollo_Escaping_from_Python%2C_Greek%2C_4-3rd_Cent_BC_%2810451424666%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q131346",
+      "Q8785"
+    ],
+    "description": "Serpent in Greek mythology"
+  },
+  {
+    "id": "Q12228",
+    "name": "Deucalion and Pyrrha (The Deluge on Mount Parnassus)",
+    "lat": 38.48,
+    "lng": 22.5,
+    "epoch_start": -800,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Cosmic Flood Survivors Re-creating Humanity by Casting the Bones of Mother Earth",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Deucalion.jpg/330px-Deucalion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q10801",
+      "Q1164"
+    ],
+    "description": "Greek mythological figure"
+  },
+  {
+    "id": "Q213283",
+    "name": "Shiva's Jyotirlinga (The Infinite Pillar of Cosmic Light at Kashi)",
+    "lat": 25.31,
+    "lng": 83.0,
+    "epoch_start": -1000,
+    "epoch_end": 500,
+    "culture": "Vedic & Hindu",
+    "archetype": "Boundless Fiery Pillar Shaming Pride of Creator and Preserver Gods",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/SaivismFlag.svg/330px-SaivismFlag.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q213275",
+      "Q1422880"
+    ],
+    "description": "Devotional representation of the Hindu deity Shiva"
+  },
+  {
+    "id": "Q213284",
+    "name": "King Harishchandra's Ordeal of Truth at the Manikarnika Ghat",
+    "lat": 25.31,
+    "lng": 83.0,
+    "epoch_start": -800,
+    "epoch_end": 200,
+    "culture": "Vedic & Hindu",
+    "archetype": "Righteous Monarch Sacrificing Kingdom and Family for Absolute Truth (Satya)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Harishchandra_by_RRV.jpg/330px-Harishchandra_by_RRV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q948959",
+      "Q815849"
+    ],
+    "description": "King in Hindu literature"
+  },
+  {
+    "id": "Q125436",
+    "name": "The Foundation Stone (Even ha-Shetiya Sealing the Abyssal Waters)",
+    "lat": 31.77,
+    "lng": 35.23,
+    "epoch_start": -950,
+    "epoch_end": 600,
+    "culture": "Levantine",
+    "archetype": "Primordial Keystone of Creation Plugged over the Subterranean Chaos Abyss",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_rock_of_the_Dome_of_the_Rock_Corrected.jpg/330px-The_rock_of_the_Dome_of_the_Rock_Corrected.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q125435",
+      "Q125432"
+    ],
+    "description": "Rock at centre of the Dome of the Rock shrine"
+  },
+  {
+    "id": "Q188738",
+    "name": "The Benben Stone (The Primordial Island Rising from Nun)",
+    "lat": 30.12,
+    "lng": 31.31,
+    "epoch_start": -2500,
+    "epoch_end": -1000,
+    "culture": "Egyptian",
+    "archetype": "First Pyramidal Mound of Earth Piercing Primeval Waters upon which Sunlight Broke",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Pyramidion-satellite-kh%C3%A9ops.jpg/330px-Pyramidion-satellite-kh%C3%A9ops.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q188735",
+      "Q1422880"
+    ],
+    "description": "Pyramid capstone"
+  },
+  {
+    "id": "Q188739",
+    "name": "The Bennu Bird (The Solar Heron of Eternal Rebirth)",
+    "lat": 30.12,
+    "lng": 31.31,
+    "epoch_start": -2400,
+    "epoch_end": -1000,
+    "culture": "Egyptian",
+    "archetype": "Luminous Bird of Resurrection Perched on the Primordial Pillar",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bennu_bird.svg/330px-Bennu_bird.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q188738",
+      "Q211158"
+    ],
+    "description": "Ancient Egyptian deity"
+  },
+  {
+    "id": "Q841458",
+    "name": "Abe no Seimei and the Twelve Shikigami (Master of Onmyōdō)",
+    "lat": 35.01,
+    "lng": 135.76,
+    "epoch_start": 950,
+    "epoch_end": 1200,
+    "culture": "East Asian",
+    "archetype": "Celestial Diviner and Sorcerer Commanding Invisible Spirits to Ward the Capital",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Abe_Seimei.jpg/330px-Abe_Seimei.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q841455",
+      "Q125435"
+    ],
+    "description": "Japanese mystic"
+  },
+  {
+    "id": "Q841459",
+    "name": "Minamoto no Yorimitsu Slaying the Demon King Shuten-dōji",
+    "lat": 35.01,
+    "lng": 135.76,
+    "epoch_start": 990,
+    "epoch_end": 1300,
+    "culture": "East Asian",
+    "archetype": "Heroic Imperial Samurai Infiltrating Demon Citadel with Poisoned Sake",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Iwaya%281927%29-p000-frontispiece-oeyama.jpg/330px-Iwaya%281927%29-p000-frontispiece-oeyama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q841451",
+      "Q130832"
+    ],
+    "description": "Demon from Japanese folklore"
+  },
+  {
+    "id": "Q166007",
+    "name": "Manco Cápac and Mama Ocllo (The Sinking of the Golden Sun Staff)",
+    "lat": -16.02,
+    "lng": -69.17,
+    "epoch_start": 1100,
+    "epoch_end": 1533,
+    "culture": "Andean & South American",
+    "archetype": "Children of the Sun Emerging from Sacred Waters to Found Imperial Civilization",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Brooklyn_Museum_-_Manco_Capac%2C_First_Inca%2C_1_of_14_Portraits_of_Inca_Kings.jpg/330px-Brooklyn_Museum_-_Manco_Capac%2C_First_Inca%2C_1_of_14_Portraits_of_Inca_Kings.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q165998",
+      "Q165997"
+    ],
+    "description": "Legendary founder of the Inca civilization"
+  },
+  {
+    "id": "Q196901",
+    "name": "Creation of the Fifth Sun (Nanahuatzin's Sacred Leap)",
+    "lat": 19.69,
+    "lng": -98.84,
+    "epoch_start": -200,
+    "epoch_end": 750,
+    "culture": "Mesoamerican",
+    "archetype": "Cosmic Self-Sacrifice into the Sacred Hearth to Birth the Sun",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Nanahuatzin.jpg/330px-Nanahuatzin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q1263",
+      "Q165998"
+    ],
+    "description": "Aztec deity"
+  },
+  {
+    "id": "Q183414",
+    "name": "The Capitoline Triad (Jupiter, Juno, Minerva on the Sacred Hill)",
+    "lat": 41.89,
+    "lng": 12.48,
+    "epoch_start": -509,
+    "epoch_end": 400,
+    "culture": "Greco-Roman",
+    "archetype": "Supreme Triadic State Sovereignty and Divine Protector Assembly",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [
+      "Q183413",
+      "Q12225"
+    ],
+    "description": "Jupiter, Juno, and Minerva"
+  },
+  {
+    "id": "Q183415",
+    "name": "Evander and the Arcadian Settlement on the Palatine",
+    "lat": 41.89,
+    "lng": 12.48,
+    "epoch_start": -800,
+    "epoch_end": -100,
+    "culture": "Greco-Roman",
+    "archetype": "Exiled Cultural Founder Establishing Wisdom and the Cult of Hercules",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Euander-Pallene.jpg/330px-Euander-Pallene.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q183413",
+      "Q130832"
+    ],
+    "description": "Culture hero of Greek and Roman myth"
+  },
+  {
+    "id": "Q213285",
+    "name": "The Bhagavad Gita (Vishwarupa Cosmic Revelation at Kurukshetra)",
+    "lat": 29.96,
+    "lng": 76.88,
+    "epoch_start": -400,
+    "epoch_end": 400,
+    "culture": "Vedic & Hindu",
+    "archetype": "Theophany of Cosmic Totality and Righteous Action (Karma Yoga)",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg/330px-BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q1164",
+      "Q213275"
+    ],
+    "description": "Major Hindu scripture"
+  },
+  {
+    "id": "Q213286",
+    "name": "Dasharatha's Ashvamedha and the Divine Incarnation at Ayodhya",
+    "lat": 26.79,
+    "lng": 82.2,
+    "epoch_start": -800,
+    "epoch_end": 200,
+    "culture": "Vedic & Hindu",
+    "archetype": "Royal Sacrificial Yajna Summoning the Golden Vessel of Divine Avatars",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/King_Dasharatha_Raja_Sabha.jpg/330px-King_Dasharatha_Raja_Sabha.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q37140",
+      "Q213284"
+    ],
+    "description": "King of Kosala and father of Rama in the epic Ramayana"
+  },
+  {
+    "id": "Q841460",
+    "name": "Pilgrimage to the West (Xuanzang Departing Chang'an)",
+    "lat": 34.26,
+    "lng": 108.94,
+    "epoch_start": 627,
+    "epoch_end": 1500,
+    "culture": "East Asian",
+    "archetype": "Spiritual Pilgrimage with Immortal Protectors Seeking True Sutras",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Evl53201b_pic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "syncretic_ids": [
+      "Q234988",
+      "Q841458"
+    ],
+    "description": "16th-century novel by Wu Cheng'en"
+  },
+  {
+    "id": "Q130834",
+    "name": "Cadmus Slaying the Ismenian Dragon and Sowing the Spartoi",
+    "lat": 38.32,
+    "lng": 23.32,
+    "epoch_start": -800,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Slaying the Sacred Serpent and Harvesting Earth-Born Warriors from Its Teeth",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Kadmos_dragon_Louvre_N3157.jpg/330px-Kadmos_dragon_Louvre_N3157.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q130833",
+      "Q12226"
+    ],
+    "description": "Greek mythology character, founder of Thebes"
+  },
+  {
+    "id": "Q188740",
+    "name": "Amun-Ra and the Sacred Opet Festival of Karnak and Luxor",
+    "lat": 25.72,
+    "lng": 32.61,
+    "epoch_start": -2000,
+    "epoch_end": -300,
+    "culture": "Egyptian",
+    "archetype": "The Hidden Breath of Creation and Solar Sovereign in the Hypostyle Hall",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "syncretic_ids": [
+      "Q188735",
+      "Q188738"
+    ],
+    "description": "Ancient Egyptian god"
+  },
+  {
+    "id": "Q125437",
+    "name": "The Akedah (Binding of Isaac on Mount Moriah)",
+    "lat": 31.77,
+    "lng": 35.23,
+    "epoch_start": -1000,
+    "epoch_end": 300,
+    "culture": "Levantine",
+    "archetype": "Supreme Test of Patriarchal Faith and Angelic Intervention at the Altar",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Rembrandt_-_Sacrifice_of_Isaac_-_WGA19096.jpg/330px-Rembrandt_-_Sacrifice_of_Isaac_-_WGA19096.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q125436",
+      "Q125435"
+    ],
+    "description": "Biblical story featuring Isaac and Abraham"
+  },
+  {
+    "id": "Q125438",
+    "name": "Solomon's Temple and the Indwelling Shekhinah",
+    "lat": 31.77,
+    "lng": 35.23,
+    "epoch_start": -950,
+    "epoch_end": 70,
+    "culture": "Levantine",
+    "archetype": "Sacred Axis Mundi Housing the Divine Presence over the World's Cornerstone",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Jerusalem_Modell_BW_2.JPG/330px-Jerusalem_Modell_BW_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q125436",
+      "Q125437"
+    ],
+    "description": "Former places of Israelite and Jewish worship"
+  },
+  {
+    "id": "Q213287",
+    "name": "The Awakening under the Bodhi Tree (Defeat of Mara)",
+    "lat": 24.7,
+    "lng": 84.99,
+    "epoch_start": -528,
+    "epoch_end": 500,
+    "culture": "Vedic & Hindu",
+    "archetype": "Earth-Witnessing Gesture (Bhumisparsha) Dissolving Cosmic Illusion and Desire",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/330px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q131804",
+      "Q213283"
+    ],
+    "description": "Founder of Buddhism"
+  },
+  {
+    "id": "Q213288",
+    "name": "Mucalinda the Serpent King Shielding the Awakened One",
+    "lat": 24.7,
+    "lng": 84.99,
+    "epoch_start": -528,
+    "epoch_end": 500,
+    "culture": "Vedic & Hindu",
+    "archetype": "Benevolent Multi-Headed Naga King Sheltering the Sage from the Great Deluge",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Pillar_with_Naga_Muchalinda_over_the_throne_of_the_Buddha._Pauni_%28Bhandara_District%29._Railing_pillar_from_Jagannath_Tekri._2nd-1st_century_BCE.jpg/330px-Pillar_with_Naga_Muchalinda_over_the_throne_of_the_Buddha._Pauni_%28Bhandara_District%29._Railing_pillar_from_Jagannath_Tekri._2nd-1st_century_BCE.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q213287",
+      "Q12227"
+    ],
+    "description": "Nāga who protected Śākyamuni Buddha from the elements after his enlightenment"
+  },
+  {
+    "id": "Q130835",
+    "name": "The Titanomachy (The Ten-Year Cosmic War from Mount Olympus)",
+    "lat": 40.08,
+    "lng": 22.36,
+    "epoch_start": -800,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Generational War of Lightning and Earth-Shattering Giants Overthrowing the Old Gods",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Cornelis_Cornelisz._van_Haarlem_-_The_Fall_of_the_Titans_-_Google_Art_Project.jpg/330px-Cornelis_Cornelisz._van_Haarlem_-_The_Fall_of_the_Titans_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q83364",
+      "Q190864"
+    ],
+    "description": "Ancient Greek mythic war"
+  },
+  {
+    "id": "Q841461",
+    "name": "Konohanasakuya-hime (The Blossom Fire Goddess of Mount Fuji)",
+    "lat": 35.36,
+    "lng": 138.73,
+    "epoch_start": 712,
+    "epoch_end": 1600,
+    "culture": "East Asian",
+    "archetype": "Ephemeral Cherry Blossom Deity Proving Sacred Purity Amidst Volcano Flames",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Women_of_Japan_in_art_detail%2C_from-_MET_JIB18_003_%28cropped%29.jpg/330px-Women_of_Japan_in_art_detail%2C_from-_MET_JIB18_003_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "syncretic_ids": [
+      "Q841455",
+      "Q273898"
+    ],
+    "description": "Goddess of Mount Fuji in Shinto"
   }
 ]

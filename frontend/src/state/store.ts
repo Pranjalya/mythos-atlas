@@ -129,10 +129,19 @@ class Store {
     this.notify();
   }
 
-  public setCompareTargets(targetA: string | null, targetB: string | null): void {
-    if (targetA !== undefined) this.state.compareTargetA = targetA;
-    if (targetB !== undefined) this.state.compareTargetB = targetB;
+  public setCompareTargets(a: string | null, b: string | null): void {
+    this.state.compareTargetA = a;
+    this.state.compareTargetB = b;
     this.notify();
+  }
+
+  public getActiveClusterForMyth(mythId: string): ActiveMyth[] {
+    const myth = this.state.allMyths.find((m) => m.id === mythId) ||
+                 this.state.activeMyths.find((m) => m.id === mythId);
+    if (!myth) return [];
+    return this.state.activeMyths.filter(
+      (m) => Math.hypot(m.lat - myth.lat, m.lng - myth.lng) < 0.25
+    );
   }
 }
 

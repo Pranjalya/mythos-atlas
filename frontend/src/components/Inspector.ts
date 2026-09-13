@@ -23,6 +23,12 @@ export class Inspector {
   private compareBtn: HTMLButtonElement;
   private closeBtn: HTMLButtonElement;
 
+  // Cluster Deck Elements for Multi-Myth Epicenters
+  private clusterDeckEl: HTMLElement;
+  private clusterPillBarEl: HTMLElement;
+  private clusterCountEl: HTMLElement;
+  private clusterTitleEl: HTMLElement;
+
   private onFlyTo: (lat: number, lng: number) => void;
   private currentMythId: string | null = null;
 
@@ -44,6 +50,11 @@ export class Inspector {
     this.fetchParallelsBtn = document.getElementById('btn-fetch-parallels') as HTMLButtonElement;
     this.compareBtn = document.getElementById('inspector-compare-btn') as HTMLButtonElement;
     this.closeBtn = document.getElementById('inspector-close-btn') as HTMLButtonElement;
+
+    this.clusterDeckEl = document.getElementById('inspector-cluster-deck')!;
+    this.clusterPillBarEl = document.getElementById('cluster-pill-bar')!;
+    this.clusterCountEl = document.getElementById('cluster-deck-count')!;
+    this.clusterTitleEl = document.getElementById('cluster-epicenter-title')!;
 
     this.initEvents();
   }
@@ -140,7 +151,51 @@ export class Inspector {
       this.thumbnailEl.src = 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80';
     }
 
+    this.renderClusterDeck(m);
+
     this.parallelsListEl.innerHTML = `<div class="empty-state-hint">Click "Find Parallels" to query semantic motif vectors in Qdrant.</div>`;
+  }
+
+  private renderClusterDeck(currentMyth: ActiveMyth): void {
+    const cluster = store.getActiveClusterForMyth(currentMyth.id);
+    if (cluster.length <= 1) {
+      this.clusterDeckEl.classList.add('cluster-deck-hidden');
+      this.clusterPillBarEl.innerHTML = '';
+      return;
+    }
+
+    this.clusterDeckEl.classList.remove('cluster-deck-hidden');
+    this.clusterCountEl.textContent = `${cluster.length} Concurrent Epics`;
+    
+    // Extract concise epicenter title
+    const rawTitle = currentMyth.name.split(' (')[0];
+    const cleanLocusName = rawTitle.length > 28 ? rawTitle.substring(0, 26) + '…' : rawTitle;
+    this.clusterTitleEl.textContent = `${cleanLocusName} Locus`;
+
+    this.clusterPillBarEl.innerHTML = '';
+    cluster.forEach((m, idx) => {
+      const pill = document.createElement('button');
+      const isCurrent = m.id === currentMyth.id;
+      pill.className = `cluster-pill ${isCurrent ? 'active' : ''}`;
+      pill.setAttribute('role', 'tab');
+      pill.setAttribute('aria-selected', isCurrent ? 'true' : 'false');
+      pill.title = `${m.name} (${m.culture} • ${m.archetype})`;
+
+      const shortName = m.name.length > 24 ? m.name.substring(0, 22) + '…' : m.name;
+      pill.innerHTML = `
+        <span class="pill-badge">${idx + 1}</span>
+        <span class="pill-label">${shortName}</span>
+      `;
+
+      pill.addEventListener('click', (e) => {
+        e.stopPropagation();
+        if (m.id !== this.currentMythId) {
+          store.selectMyth(m.id);
+        }
+      });
+
+      this.clusterPillBarEl.appendChild(pill);
+    });
   }
 
   private renderEnrichedDetails(data: any): void {
@@ -217,6 +272,8 @@ export class Inspector {
 
   public close(): void {
     this.panelEl.classList.add('inspector-collapsed');
+    this.clusterDeckEl.classList.add('cluster-deck-hidden');
+    this.clusterPillBarEl.innerHTML = '';
     this.currentMythId = null;
     if (store.getState().selectedMythId !== null) {
       store.selectMyth(null);

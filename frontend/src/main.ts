@@ -45,6 +45,11 @@ async function bootstrap() {
       globe.flyToCoordinate(lat, lng);
     });
 
+    // Attach to window for direct interaction and inspection
+    (window as any).store = store;
+    (window as any).globe = globe;
+    (window as any).inspector = inspector;
+
     // 6. Initialize Comparative Copilot Modal
     const compareModal = new CompareModal();
 

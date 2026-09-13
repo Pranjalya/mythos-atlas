@@ -4484,5 +4484,395 @@
       "Q1792943",
       "Q111729"
     ]
+  },
+  {
+    "id": "Q12225",
+    "name": "Contest of Athena and Poseidon for the Acropolis",
+    "wiki_title": "Athena",
+    "lat": 37.97,
+    "lng": 23.72,
+    "epoch_start": -800,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Civic Patronage Contest (Sacred Olive Tree vs Salt Spring)",
+    "syncretic_ids": [
+      "Q129888",
+      "Q35060"
+    ]
+  },
+  {
+    "id": "Q12226",
+    "name": "Erichthonius the Earth-Born Serpent King of the Acropolis",
+    "wiki_title": "Erichthonius_of_Athens",
+    "lat": 37.97,
+    "lng": 23.72,
+    "epoch_start": -750,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Autochthonous Serpent-Tailed Founder Born Directly of Sacred Soil",
+    "syncretic_ids": [
+      "Q12225",
+      "Q129888"
+    ]
+  },
+  {
+    "id": "Q12227",
+    "name": "Apollo Slaying Python at the Sacred Omphalos",
+    "wiki_title": "Python_(mythology)",
+    "lat": 38.48,
+    "lng": 22.5,
+    "epoch_start": -800,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Solar God Slaying Chthonic Earth Serpent to Establish the Oracle",
+    "syncretic_ids": [
+      "Q131346",
+      "Q8785"
+    ]
+  },
+  {
+    "id": "Q12228",
+    "name": "Deucalion and Pyrrha (The Deluge on Mount Parnassus)",
+    "wiki_title": "Deucalion",
+    "lat": 38.48,
+    "lng": 22.5,
+    "epoch_start": -800,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Cosmic Flood Survivors Re-creating Humanity by Casting the Bones of Mother Earth",
+    "syncretic_ids": [
+      "Q10801",
+      "Q1164"
+    ]
+  },
+  {
+    "id": "Q213283",
+    "name": "Shiva's Jyotirlinga (The Infinite Pillar of Cosmic Light at Kashi)",
+    "wiki_title": "Jyotirlinga",
+    "lat": 25.31,
+    "lng": 83.0,
+    "epoch_start": -1000,
+    "epoch_end": 500,
+    "culture": "Vedic & Hindu",
+    "archetype": "Boundless Fiery Pillar Shaming Pride of Creator and Preserver Gods",
+    "syncretic_ids": [
+      "Q213275",
+      "Q1422880"
+    ]
+  },
+  {
+    "id": "Q213284",
+    "name": "King Harishchandra's Ordeal of Truth at the Manikarnika Ghat",
+    "wiki_title": "Harishchandra",
+    "lat": 25.31,
+    "lng": 83.0,
+    "epoch_start": -800,
+    "epoch_end": 200,
+    "culture": "Vedic & Hindu",
+    "archetype": "Righteous Monarch Sacrificing Kingdom and Family for Absolute Truth (Satya)",
+    "syncretic_ids": [
+      "Q948959",
+      "Q815849"
+    ]
+  },
+  {
+    "id": "Q125436",
+    "name": "The Foundation Stone (Even ha-Shetiya Sealing the Abyssal Waters)",
+    "wiki_title": "Foundation_Stone",
+    "lat": 31.77,
+    "lng": 35.23,
+    "epoch_start": -950,
+    "epoch_end": 600,
+    "culture": "Levantine",
+    "archetype": "Primordial Keystone of Creation Plugged over the Subterranean Chaos Abyss",
+    "syncretic_ids": [
+      "Q125435",
+      "Q125432"
+    ]
+  },
+  {
+    "id": "Q188738",
+    "name": "The Benben Stone (The Primordial Island Rising from Nun)",
+    "wiki_title": "Benben",
+    "lat": 30.12,
+    "lng": 31.31,
+    "epoch_start": -2500,
+    "epoch_end": -1000,
+    "culture": "Egyptian",
+    "archetype": "First Pyramidal Mound of Earth Piercing Primeval Waters upon which Sunlight Broke",
+    "syncretic_ids": [
+      "Q188735",
+      "Q1422880"
+    ]
+  },
+  {
+    "id": "Q188739",
+    "name": "The Bennu Bird (The Solar Heron of Eternal Rebirth)",
+    "wiki_title": "Bennu",
+    "lat": 30.12,
+    "lng": 31.31,
+    "epoch_start": -2400,
+    "epoch_end": -1000,
+    "culture": "Egyptian",
+    "archetype": "Luminous Bird of Resurrection Perched on the Primordial Pillar",
+    "syncretic_ids": [
+      "Q188738",
+      "Q211158"
+    ]
+  },
+  {
+    "id": "Q841458",
+    "name": "Abe no Seimei and the Twelve Shikigami (Master of Onmyōdō)",
+    "wiki_title": "Abe_no_Seimei",
+    "lat": 35.01,
+    "lng": 135.76,
+    "epoch_start": 950,
+    "epoch_end": 1200,
+    "culture": "East Asian",
+    "archetype": "Celestial Diviner and Sorcerer Commanding Invisible Spirits to Ward the Capital",
+    "syncretic_ids": [
+      "Q841455",
+      "Q125435"
+    ]
+  },
+  {
+    "id": "Q841459",
+    "name": "Minamoto no Yorimitsu Slaying the Demon King Shuten-dōji",
+    "wiki_title": "Shuten-d%C5%8Dji",
+    "lat": 35.01,
+    "lng": 135.76,
+    "epoch_start": 990,
+    "epoch_end": 1300,
+    "culture": "East Asian",
+    "archetype": "Heroic Imperial Samurai Infiltrating Demon Citadel with Poisoned Sake",
+    "syncretic_ids": [
+      "Q841451",
+      "Q130832"
+    ]
+  },
+  {
+    "id": "Q166007",
+    "name": "Manco Cápac and Mama Ocllo (The Sinking of the Golden Sun Staff)",
+    "wiki_title": "Manco_C%C3%A1pac",
+    "lat": -16.02,
+    "lng": -69.17,
+    "epoch_start": 1100,
+    "epoch_end": 1533,
+    "culture": "Andean & South American",
+    "archetype": "Children of the Sun Emerging from Sacred Waters to Found Imperial Civilization",
+    "syncretic_ids": [
+      "Q165998",
+      "Q165997"
+    ]
+  },
+  {
+    "id": "Q196901",
+    "name": "Creation of the Fifth Sun (Nanahuatzin's Sacred Leap)",
+    "wiki_title": "Nanahuatzin",
+    "lat": 19.69,
+    "lng": -98.84,
+    "epoch_start": -200,
+    "epoch_end": 750,
+    "culture": "Mesoamerican",
+    "archetype": "Cosmic Self-Sacrifice into the Sacred Hearth to Birth the Sun",
+    "syncretic_ids": [
+      "Q1263",
+      "Q165998"
+    ]
+  },
+  {
+    "id": "Q183414",
+    "name": "The Capitoline Triad (Jupiter, Juno, Minerva on the Sacred Hill)",
+    "wiki_title": "Capitoline_Triad",
+    "lat": 41.89,
+    "lng": 12.48,
+    "epoch_start": -509,
+    "epoch_end": 400,
+    "culture": "Greco-Roman",
+    "archetype": "Supreme Triadic State Sovereignty and Divine Protector Assembly",
+    "syncretic_ids": [
+      "Q183413",
+      "Q12225"
+    ]
+  },
+  {
+    "id": "Q183415",
+    "name": "Evander and the Arcadian Settlement on the Palatine",
+    "wiki_title": "Evander_of_Pallene",
+    "lat": 41.89,
+    "lng": 12.48,
+    "epoch_start": -800,
+    "epoch_end": -100,
+    "culture": "Greco-Roman",
+    "archetype": "Exiled Cultural Founder Establishing Wisdom and the Cult of Hercules",
+    "syncretic_ids": [
+      "Q183413",
+      "Q130832"
+    ]
+  },
+  {
+    "id": "Q213285",
+    "name": "The Bhagavad Gita (Vishwarupa Cosmic Revelation at Kurukshetra)",
+    "wiki_title": "Bhagavad_Gita",
+    "lat": 29.96,
+    "lng": 76.88,
+    "epoch_start": -400,
+    "epoch_end": 400,
+    "culture": "Vedic & Hindu",
+    "archetype": "Theophany of Cosmic Totality and Righteous Action (Karma Yoga)",
+    "syncretic_ids": [
+      "Q1164",
+      "Q213275"
+    ]
+  },
+  {
+    "id": "Q213286",
+    "name": "Dasharatha's Ashvamedha and the Divine Incarnation at Ayodhya",
+    "wiki_title": "Dasharatha",
+    "lat": 26.79,
+    "lng": 82.2,
+    "epoch_start": -800,
+    "epoch_end": 200,
+    "culture": "Vedic & Hindu",
+    "archetype": "Royal Sacrificial Yajna Summoning the Golden Vessel of Divine Avatars",
+    "syncretic_ids": [
+      "Q37140",
+      "Q213284"
+    ]
+  },
+  {
+    "id": "Q841460",
+    "name": "Pilgrimage to the West (Xuanzang Departing Chang'an)",
+    "wiki_title": "Journey_to_the_West",
+    "lat": 34.26,
+    "lng": 108.94,
+    "epoch_start": 627,
+    "epoch_end": 1500,
+    "culture": "East Asian",
+    "archetype": "Spiritual Pilgrimage with Immortal Protectors Seeking True Sutras",
+    "syncretic_ids": [
+      "Q234988",
+      "Q841458"
+    ]
+  },
+  {
+    "id": "Q130834",
+    "name": "Cadmus Slaying the Ismenian Dragon and Sowing the Spartoi",
+    "wiki_title": "Cadmus",
+    "lat": 38.32,
+    "lng": 23.32,
+    "epoch_start": -800,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Slaying the Sacred Serpent and Harvesting Earth-Born Warriors from Its Teeth",
+    "syncretic_ids": [
+      "Q130833",
+      "Q12226"
+    ]
+  },
+  {
+    "id": "Q188740",
+    "name": "Amun-Ra and the Sacred Opet Festival of Karnak and Luxor",
+    "wiki_title": "Amun",
+    "lat": 25.72,
+    "lng": 32.61,
+    "epoch_start": -2000,
+    "epoch_end": -300,
+    "culture": "Egyptian",
+    "archetype": "The Hidden Breath of Creation and Solar Sovereign in the Hypostyle Hall",
+    "syncretic_ids": [
+      "Q188735",
+      "Q188738"
+    ]
+  },
+  {
+    "id": "Q125437",
+    "name": "The Akedah (Binding of Isaac on Mount Moriah)",
+    "wiki_title": "Binding_of_Isaac",
+    "lat": 31.77,
+    "lng": 35.23,
+    "epoch_start": -1000,
+    "epoch_end": 300,
+    "culture": "Levantine",
+    "archetype": "Supreme Test of Patriarchal Faith and Angelic Intervention at the Altar",
+    "syncretic_ids": [
+      "Q125436",
+      "Q125435"
+    ]
+  },
+  {
+    "id": "Q125438",
+    "name": "Solomon's Temple and the Indwelling Shekhinah",
+    "wiki_title": "Temple_in_Jerusalem",
+    "lat": 31.77,
+    "lng": 35.23,
+    "epoch_start": -950,
+    "epoch_end": 70,
+    "culture": "Levantine",
+    "archetype": "Sacred Axis Mundi Housing the Divine Presence over the World's Cornerstone",
+    "syncretic_ids": [
+      "Q125436",
+      "Q125437"
+    ]
+  },
+  {
+    "id": "Q213287",
+    "name": "The Awakening under the Bodhi Tree (Defeat of Mara)",
+    "wiki_title": "Gautama_Buddha",
+    "lat": 24.7,
+    "lng": 84.99,
+    "epoch_start": -528,
+    "epoch_end": 500,
+    "culture": "Vedic & Hindu",
+    "archetype": "Earth-Witnessing Gesture (Bhumisparsha) Dissolving Cosmic Illusion and Desire",
+    "syncretic_ids": [
+      "Q131804",
+      "Q213283"
+    ]
+  },
+  {
+    "id": "Q213288",
+    "name": "Mucalinda the Serpent King Shielding the Awakened One",
+    "wiki_title": "Mucalinda",
+    "lat": 24.7,
+    "lng": 84.99,
+    "epoch_start": -528,
+    "epoch_end": 500,
+    "culture": "Vedic & Hindu",
+    "archetype": "Benevolent Multi-Headed Naga King Sheltering the Sage from the Great Deluge",
+    "syncretic_ids": [
+      "Q213287",
+      "Q12227"
+    ]
+  },
+  {
+    "id": "Q130835",
+    "name": "The Titanomachy (The Ten-Year Cosmic War from Mount Olympus)",
+    "wiki_title": "Titanomachy",
+    "lat": 40.08,
+    "lng": 22.36,
+    "epoch_start": -800,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Generational War of Lightning and Earth-Shattering Giants Overthrowing the Old Gods",
+    "syncretic_ids": [
+      "Q83364",
+      "Q190864"
+    ]
+  },
+  {
+    "id": "Q841461",
+    "name": "Konohanasakuya-hime (The Blossom Fire Goddess of Mount Fuji)",
+    "wiki_title": "Konohanasakuya-hime",
+    "lat": 35.36,
+    "lng": 138.73,
+    "epoch_start": 712,
+    "epoch_end": 1600,
+    "culture": "East Asian",
+    "archetype": "Ephemeral Cherry Blossom Deity Proving Sacred Purity Amidst Volcano Flames",
+    "syncretic_ids": [
+      "Q841455",
+      "Q273898"
+    ]
   }
 ]

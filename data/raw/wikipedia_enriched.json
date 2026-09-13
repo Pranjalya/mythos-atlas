@@ -5704,5 +5704,499 @@
     "description": "Hawaiian god of ocean, healing, and long travels",
     "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
     "wikipedia_url": "https://en.wikipedia.org/wiki/Kanaloa"
+  },
+  {
+    "id": "Q12225",
+    "name": "Contest of Athena and Poseidon for the Acropolis",
+    "wiki_title": "Athena",
+    "lat": 37.97,
+    "lng": 23.72,
+    "epoch_start": -800,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Civic Patronage Contest (Sacred Olive Tree vs Salt Spring)",
+    "syncretic_ids": [
+      "Q129888",
+      "Q35060"
+    ],
+    "extract": "Athena or Athene, often given the epithet Pallas, is an ancient Greek goddess associated with wisdom, warfare, and handicraft who was later syncretised with the Roman goddess Minerva. Athena was regarded as the patron and protectress of various cities across Greece, particularly the city of Athens, from which she most likely received her name. Her major symbols include owls, olive trees, snakes, and the gorgoneion. In art, she is generally depicted wearing a helmet and holding a spear.",
+    "description": "Ancient Greek goddess",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/22/Mattei_Athena_Louvre_Ma530_n2.jpg/330px-Mattei_Athena_Louvre_Ma530_n2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Athena"
+  },
+  {
+    "id": "Q12226",
+    "name": "Erichthonius the Earth-Born Serpent King of the Acropolis",
+    "wiki_title": "Erichthonius_of_Athens",
+    "lat": 37.97,
+    "lng": 23.72,
+    "epoch_start": -750,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Autochthonous Serpent-Tailed Founder Born Directly of Sacred Soil",
+    "syncretic_ids": [
+      "Q12225",
+      "Q129888"
+    ],
+    "extract": "In Greek mythology, King Erichthonius was a legendary early ruler of ancient Athens. According to some myths, he was autochthonous and adopted or raised by the goddess Athena. Early Greek texts do not distinguish between him and Erechtheus, his grandson, but by the fourth century BC, during Classical times, they are distinct figures.",
+    "description": "Legendary king of Athens",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1d/Birth_Erikhthonios_Staatliche_Antikensammlungen_2413_n2.jpg/330px-Birth_Erikhthonios_Staatliche_Antikensammlungen_2413_n2.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Erichthonius_(son_of_Hephaestus)"
+  },
+  {
+    "id": "Q12227",
+    "name": "Apollo Slaying Python at the Sacred Omphalos",
+    "wiki_title": "Python_(mythology)",
+    "lat": 38.48,
+    "lng": 22.5,
+    "epoch_start": -800,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Solar God Slaying Chthonic Earth Serpent to Establish the Oracle",
+    "syncretic_ids": [
+      "Q131346",
+      "Q8785"
+    ],
+    "extract": "In Greek mythology, Python was the serpent, sometimes represented as a medieval-style dragon, living at the center of the Earth, believed by the ancient Greeks to be at Delphi. He was killed by the god Apollo.",
+    "description": "Serpent in Greek mythology",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Leto_with_Artemis_%26_Apollo_Escaping_from_Python%2C_Greek%2C_4-3rd_Cent_BC_%2810451424666%29.jpg/330px-Leto_with_Artemis_%26_Apollo_Escaping_from_Python%2C_Greek%2C_4-3rd_Cent_BC_%2810451424666%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Python_(mythology)"
+  },
+  {
+    "id": "Q12228",
+    "name": "Deucalion and Pyrrha (The Deluge on Mount Parnassus)",
+    "wiki_title": "Deucalion",
+    "lat": 38.48,
+    "lng": 22.5,
+    "epoch_start": -800,
+    "epoch_end": -300,
+    "culture": "Greco-Roman",
+    "archetype": "Cosmic Flood Survivors Re-creating Humanity by Casting the Bones of Mother Earth",
+    "syncretic_ids": [
+      "Q10801",
+      "Q1164"
+    ],
+    "extract": "In Greek mythology, Deucalion was the son of Prometheus; ancient sources name his mother as Clymene, Hesione, or Pronoia. He is closely connected with a flood myth in Greek mythology.",
+    "description": "Greek mythological figure",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/41/Deucalion.jpg/330px-Deucalion.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Deucalion"
+  },
+  {
+    "id": "Q213283",
+    "name": "Shiva's Jyotirlinga (The Infinite Pillar of Cosmic Light at Kashi)",
+    "wiki_title": "Jyotirlinga",
+    "lat": 25.31,
+    "lng": 83.0,
+    "epoch_start": -1000,
+    "epoch_end": 500,
+    "culture": "Vedic & Hindu",
+    "archetype": "Boundless Fiery Pillar Shaming Pride of Creator and Preserver Gods",
+    "syncretic_ids": [
+      "Q213275",
+      "Q1422880"
+    ],
+    "extract": "A Jyotirlinga or Jyotirlingam is a devotional representation of the Hindu god Shiva. The word is a Sanskrit compound of jyotis ('radiance') and linga ('sign'). The Śiva Mahāpurāṇam mentions 64 original jyotirlinga shrines in India.",
+    "description": "Devotional representation of the Hindu deity Shiva",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/37/SaivismFlag.svg/330px-SaivismFlag.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Jyotirlinga"
+  },
+  {
+    "id": "Q213284",
+    "name": "King Harishchandra's Ordeal of Truth at the Manikarnika Ghat",
+    "wiki_title": "Harishchandra",
+    "lat": 25.31,
+    "lng": 83.0,
+    "epoch_start": -800,
+    "epoch_end": 200,
+    "culture": "Vedic & Hindu",
+    "archetype": "Righteous Monarch Sacrificing Kingdom and Family for Absolute Truth (Satya)",
+    "syncretic_ids": [
+      "Q948959",
+      "Q815849"
+    ],
+    "extract": "Harishchandra is a legendary king of the Solar dynasty, who appears in several legends in texts such as the Aitareya Brahmana, Mahabharata, the Markandeya Purana, and the Devi Bhagavata Purana. The most famous of these stories is the one mentioned in the Markandeya Purana. According to this legend, Harishchandra gave away his kingdom, sold his family, and agreed to be a slave – all to fulfill a promise he had made to the sage Vishvamitra.",
+    "description": "King in Hindu literature",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/1/10/Harishchandra_by_RRV.jpg/330px-Harishchandra_by_RRV.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Harishchandra"
+  },
+  {
+    "id": "Q125436",
+    "name": "The Foundation Stone (Even ha-Shetiya Sealing the Abyssal Waters)",
+    "wiki_title": "Foundation_Stone",
+    "lat": 31.77,
+    "lng": 35.23,
+    "epoch_start": -950,
+    "epoch_end": 600,
+    "culture": "Levantine",
+    "archetype": "Primordial Keystone of Creation Plugged over the Subterranean Chaos Abyss",
+    "syncretic_ids": [
+      "Q125435",
+      "Q125432"
+    ],
+    "extract": "The Foundation Stone, or the Noble Rock, is the rock at the center of the Dome of the Rock in Jerusalem. It is also known as the Pierced Stone because it has a small hole on the southeastern corner that enters a cavern beneath the rock known as the Well of Souls.",
+    "description": "Rock at centre of the Dome of the Rock shrine",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/45/The_rock_of_the_Dome_of_the_Rock_Corrected.jpg/330px-The_rock_of_the_Dome_of_the_Rock_Corrected.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Foundation_Stone"
+  },
+  {
+    "id": "Q188738",
+    "name": "The Benben Stone (The Primordial Island Rising from Nun)",
+    "wiki_title": "Benben",
+    "lat": 30.12,
+    "lng": 31.31,
+    "epoch_start": -2500,
+    "epoch_end": -1000,
+    "culture": "Egyptian",
+    "archetype": "First Pyramidal Mound of Earth Piercing Primeval Waters upon which Sunlight Broke",
+    "syncretic_ids": [
+      "Q188735",
+      "Q1422880"
+    ],
+    "extract": "In the creation myth of the Heliopolitan form of ancient Egyptian religion,\nBenben was the mound that arose from the primordial waters (Nu), and upon which the creator deity Atum settled. The Benben stone is associated with the top stone of a pyramid, which is called a pyramid's pyramidion. It is also related to the obelisk.",
+    "description": "Pyramid capstone",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Pyramidion-satellite-kh%C3%A9ops.jpg/330px-Pyramidion-satellite-kh%C3%A9ops.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Benben"
+  },
+  {
+    "id": "Q188739",
+    "name": "The Bennu Bird (The Solar Heron of Eternal Rebirth)",
+    "wiki_title": "Bennu",
+    "lat": 30.12,
+    "lng": 31.31,
+    "epoch_start": -2400,
+    "epoch_end": -1000,
+    "culture": "Egyptian",
+    "archetype": "Luminous Bird of Resurrection Perched on the Primordial Pillar",
+    "syncretic_ids": [
+      "Q188738",
+      "Q211158"
+    ],
+    "extract": "Bennu is an ancient Egyptian deity linked with the Sun, creation, and rebirth. He may have been the original inspiration for the phoenix legends that developed in Greek mythology.",
+    "description": "Ancient Egyptian deity",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/0/03/Bennu_bird.svg/330px-Bennu_bird.svg.png?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bennu"
+  },
+  {
+    "id": "Q841458",
+    "name": "Abe no Seimei and the Twelve Shikigami (Master of Onmyōdō)",
+    "wiki_title": "Abe_no_Seimei",
+    "lat": 35.01,
+    "lng": 135.76,
+    "epoch_start": 950,
+    "epoch_end": 1200,
+    "culture": "East Asian",
+    "archetype": "Celestial Diviner and Sorcerer Commanding Invisible Spirits to Ward the Capital",
+    "syncretic_ids": [
+      "Q841455",
+      "Q125435"
+    ],
+    "extract": "Abe no Seimei  was a Japanese onmyōji, a court official and specialist of Onmyōdō, during the middle of the Heian period. In addition to his prominence in history, he is a legendary figure in Japanese folklore. He has been portrayed in several stories and films.",
+    "description": "Japanese mystic",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5a/Abe_Seimei.jpg/330px-Abe_Seimei.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Abe_no_Seimei"
+  },
+  {
+    "id": "Q841459",
+    "name": "Minamoto no Yorimitsu Slaying the Demon King Shuten-dōji",
+    "wiki_title": "Shuten-d%C5%8Dji",
+    "lat": 35.01,
+    "lng": 135.76,
+    "epoch_start": 990,
+    "epoch_end": 1300,
+    "culture": "East Asian",
+    "archetype": "Heroic Imperial Samurai Infiltrating Demon Citadel with Poisoned Sake",
+    "syncretic_ids": [
+      "Q841451",
+      "Q130832"
+    ],
+    "extract": "Shuten-dōji is a mythical oni or demon leader of Japan, who according to legend was killed by the hero Minamoto no Raikō. Although decapitated, the demon's detached head still took a bite at the hero, who avoided death by wearing multiple helmets stacked on his head.",
+    "description": "Demon from Japanese folklore",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/4/40/Iwaya%281927%29-p000-frontispiece-oeyama.jpg/330px-Iwaya%281927%29-p000-frontispiece-oeyama.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Shuten-d%C5%8Dji"
+  },
+  {
+    "id": "Q166007",
+    "name": "Manco Cápac and Mama Ocllo (The Sinking of the Golden Sun Staff)",
+    "wiki_title": "Manco_C%C3%A1pac",
+    "lat": -16.02,
+    "lng": -69.17,
+    "epoch_start": 1100,
+    "epoch_end": 1533,
+    "culture": "Andean & South American",
+    "archetype": "Children of the Sun Emerging from Sacred Waters to Found Imperial Civilization",
+    "syncretic_ids": [
+      "Q165998",
+      "Q165997"
+    ],
+    "extract": "Manco Cápac, also known as Manco Inca and Ayar Manco, was, according to some historians, the first governor and founder of the Inca civilisation in Cusco, possibly in the early 13th century. He is also a main figure of Inca mythology, being the protagonist of the two best known legends about the origin of the Inca, both of them connecting him to the foundation of Cusco. His main wife and the mother of his son and successor, Sinchi Ruq'a, was his sister Mama Uqllu. Even though his figure is mentioned in several chronicles, his actual existence remains uncertain.",
+    "description": "Legendary founder of the Inca civilization",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Brooklyn_Museum_-_Manco_Capac%2C_First_Inca%2C_1_of_14_Portraits_of_Inca_Kings.jpg/330px-Brooklyn_Museum_-_Manco_Capac%2C_First_Inca%2C_1_of_14_Portraits_of_Inca_Kings.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Manco_C%C3%A1pac"
+  },
+  {
+    "id": "Q196901",
+    "name": "Creation of the Fifth Sun (Nanahuatzin's Sacred Leap)",
+    "wiki_title": "Nanahuatzin",
+    "lat": 19.69,
+    "lng": -98.84,
+    "epoch_start": -200,
+    "epoch_end": 750,
+    "culture": "Mesoamerican",
+    "archetype": "Cosmic Self-Sacrifice into the Sacred Hearth to Birth the Sun",
+    "syncretic_ids": [
+      "Q1263",
+      "Q165998"
+    ],
+    "extract": "In Aztec mythology, the god Nanāhuātzin or Nanāhuātl, the most humble of the gods, sacrificed himself in fire so that he would continue to shine on Earth as the Sun, thus becoming the solar deity. Nanāhuātzin means \"full of sores.\" According to a translation of the Histoyre du Mechique, Nanāhuātzin is the son of Ītzpāpālōtl and Cozcamiauh or Tonantzin, but was adopted by Piltzintecuhtli and Xōchiquetzal. In the Codex Borgia, Nanāhuātzin is represented as a man emerging from a fire. This was originally interpreted as an illustration of cannibalism. He is probably an aspect of Xolotl.",
+    "description": "Aztec deity",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/Nanahuatzin.jpg/330px-Nanahuatzin.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Nan%C4%81hu%C4%81tzin"
+  },
+  {
+    "id": "Q183414",
+    "name": "The Capitoline Triad (Jupiter, Juno, Minerva on the Sacred Hill)",
+    "wiki_title": "Capitoline_Triad",
+    "lat": 41.89,
+    "lng": 12.48,
+    "epoch_start": -509,
+    "epoch_end": 400,
+    "culture": "Greco-Roman",
+    "archetype": "Supreme Triadic State Sovereignty and Divine Protector Assembly",
+    "syncretic_ids": [
+      "Q183413",
+      "Q12225"
+    ],
+    "extract": "The Capitoline Triad was a group of three deities who were worshipped in ancient Roman religion in an elaborate temple on Rome's Capitoline Hill. It comprised Jupiter, Juno and Minerva. The triad held a central place in the public religion of Rome.",
+    "description": "Jupiter, Juno, and Minerva",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Capitoline_Triad"
+  },
+  {
+    "id": "Q183415",
+    "name": "Evander and the Arcadian Settlement on the Palatine",
+    "wiki_title": "Evander_of_Pallene",
+    "lat": 41.89,
+    "lng": 12.48,
+    "epoch_start": -800,
+    "epoch_end": -100,
+    "culture": "Greco-Roman",
+    "archetype": "Exiled Cultural Founder Establishing Wisdom and the Cult of Hercules",
+    "syncretic_ids": [
+      "Q183413",
+      "Q130832"
+    ],
+    "extract": "In Roman mythology, Evander was a culture hero from Arcadia, Greece, who was said to have brought the pantheon, laws, and alphabet of Greece to ancient Italy, where he founded the city of Pallantium on the future site of Palatine Hill, Rome, sixty years before the Trojan War. He instituted the festival of the Lupercalia. Evander was deified after his death and an altar was constructed to him on the Aventine Hill.",
+    "description": "Culture hero of Greek and Roman myth",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/20/Euander-Pallene.jpg/330px-Euander-Pallene.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Evander_of_Pallantium"
+  },
+  {
+    "id": "Q213285",
+    "name": "The Bhagavad Gita (Vishwarupa Cosmic Revelation at Kurukshetra)",
+    "wiki_title": "Bhagavad_Gita",
+    "lat": 29.96,
+    "lng": 76.88,
+    "epoch_start": -400,
+    "epoch_end": 400,
+    "culture": "Vedic & Hindu",
+    "archetype": "Theophany of Cosmic Totality and Righteous Action (Karma Yoga)",
+    "syncretic_ids": [
+      "Q1164",
+      "Q213275"
+    ],
+    "extract": "The Bhagavad Gita, often referred to as the Gita, is a Hindu scripture, likely composed in the second or first century BCE, which forms part of the epic poem Mahabharata. The Bhagavad Gita is a synthesis of various strands of Indian religious thought, including the Vedic concept of dharma ; Sankhya-based yoga and jñana (knowledge); and bhakti (devotion). Among the Hindu traditions, the Bhagavad Gita holds a unique pan-Hindu influence as the most prominent sacred text and is a central text in the Vedanta and Vaishnava traditions.",
+    "description": "Major Hindu scripture",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a5/BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg/330px-BhagavadGita-19th-century-Illustrated-Sanskrit-Chapter_1.20.21.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Bhagavad_Gita"
+  },
+  {
+    "id": "Q213286",
+    "name": "Dasharatha's Ashvamedha and the Divine Incarnation at Ayodhya",
+    "wiki_title": "Dasharatha",
+    "lat": 26.79,
+    "lng": 82.2,
+    "epoch_start": -800,
+    "epoch_end": 200,
+    "culture": "Vedic & Hindu",
+    "archetype": "Royal Sacrificial Yajna Summoning the Golden Vessel of Divine Avatars",
+    "syncretic_ids": [
+      "Q37140",
+      "Q213284"
+    ],
+    "extract": "Dasharatha was the king of Kosala, with its capital at Ayodhya, in the Hindu epic Ramayana. Dasharatha married Kaushalya, Sumitra and Kaikeyi. He was the father of Rama, the protagonist of the epic Ramayana, Bharata, Lakshmana, and Shatrughna. Dasharatha also finds mention in the Vishnu Purana.",
+    "description": "King of Kosala and father of Rama in the epic Ramayana",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/7/79/King_Dasharatha_Raja_Sabha.jpg/330px-King_Dasharatha_Raja_Sabha.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Dasharatha"
+  },
+  {
+    "id": "Q841460",
+    "name": "Pilgrimage to the West (Xuanzang Departing Chang'an)",
+    "wiki_title": "Journey_to_the_West",
+    "lat": 34.26,
+    "lng": 108.94,
+    "epoch_start": 627,
+    "epoch_end": 1500,
+    "culture": "East Asian",
+    "archetype": "Spiritual Pilgrimage with Immortal Protectors Seeking True Sutras",
+    "syncretic_ids": [
+      "Q234988",
+      "Q841458"
+    ],
+    "extract": "Journey to the West is a Chinese novel published in the 16th century during the Ming dynasty and attributed to Wu Cheng'en. It is regarded as one of the great Chinese novels, and has been described as arguably the most popular literary work in East Asia. It was widely known in English-speaking countries through the British scholar Arthur Waley's 1942 abridged translation Monkey.",
+    "description": "16th-century novel by Wu Cheng'en",
+    "thumbnail": "https://upload.wikimedia.org/wikipedia/commons/6/6a/Evl53201b_pic.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail_unscaled",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Journey_to_the_West"
+  },
+  {
+    "id": "Q130834",
+    "name": "Cadmus Slaying the Ismenian Dragon and Sowing the Spartoi",
+    "wiki_title": "Cadmus",
+    "lat": 38.32,
+    "lng": 23.32,
+    "epoch_start": -800,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Slaying the Sacred Serpent and Harvesting Earth-Born Warriors from Its Teeth",
+    "syncretic_ids": [
+      "Q130833",
+      "Q12226"
+    ],
+    "extract": "In Greek mythology, Cadmus was the legendary founder of Boeotian Thebes. He was, alongside Perseus and Bellerophon, the greatest hero and slayer of monsters before the days of Heracles. Commonly stated to be a prince of Phoenicia, the son of king Agenor and queen Telephassa of Tyre, the brother of Phoenix, Cilix and Europa, Cadmus traced his origins back to Poseidon and Libya.",
+    "description": "Greek mythology character, founder of Thebes",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Kadmos_dragon_Louvre_N3157.jpg/330px-Kadmos_dragon_Louvre_N3157.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Cadmus"
+  },
+  {
+    "id": "Q188740",
+    "name": "Amun-Ra and the Sacred Opet Festival of Karnak and Luxor",
+    "wiki_title": "Amun",
+    "lat": 25.72,
+    "lng": 32.61,
+    "epoch_start": -2000,
+    "epoch_end": -300,
+    "culture": "Egyptian",
+    "archetype": "The Hidden Breath of Creation and Solar Sovereign in the Hypostyle Hall",
+    "syncretic_ids": [
+      "Q188735",
+      "Q188738"
+    ],
+    "extract": "Amun was a major ancient Egyptian deity who appears as a member of the Hermopolitan Ogdoad. Amun was attested from the Old Kingdom together with his wife Amunet. His oracle in Siwa Oasis, located in Western Egypt near the Libyan Desert, remained the only oracle of Amun throughout. With the 11th Dynasty, Amun rose to the position of patron deity of Thebes by replacing Montu.",
+    "description": "Ancient Egyptian god",
+    "thumbnail": "https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Amun"
+  },
+  {
+    "id": "Q125437",
+    "name": "The Akedah (Binding of Isaac on Mount Moriah)",
+    "wiki_title": "Binding_of_Isaac",
+    "lat": 31.77,
+    "lng": 35.23,
+    "epoch_start": -1000,
+    "epoch_end": 300,
+    "culture": "Levantine",
+    "archetype": "Supreme Test of Patriarchal Faith and Angelic Intervention at the Altar",
+    "syncretic_ids": [
+      "Q125436",
+      "Q125435"
+    ],
+    "extract": "The Binding of Isaac, or simply \"The Binding\", is a story from chapter 22 of the Book of Genesis in the Old Testament. In the Biblical narrative, God orders Abraham to sacrifice his son Isaac on the mountain called Jehovah-jireh in the region of Moriah. As Abraham begins to comply, having bound Isaac to an altar, he is stopped by the Angel of the Lord; a ram appears and is slaughtered in Isaac's stead, as God commends Abraham's pious obedience to offer his son as a human sacrifice.",
+    "description": "Biblical story featuring Isaac and Abraham",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/2b/Rembrandt_-_Sacrifice_of_Isaac_-_WGA19096.jpg/330px-Rembrandt_-_Sacrifice_of_Isaac_-_WGA19096.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Binding_of_Isaac"
+  },
+  {
+    "id": "Q125438",
+    "name": "Solomon's Temple and the Indwelling Shekhinah",
+    "wiki_title": "Temple_in_Jerusalem",
+    "lat": 31.77,
+    "lng": 35.23,
+    "epoch_start": -950,
+    "epoch_end": 70,
+    "culture": "Levantine",
+    "archetype": "Sacred Axis Mundi Housing the Divine Presence over the World's Cornerstone",
+    "syncretic_ids": [
+      "Q125436",
+      "Q125437"
+    ],
+    "extract": "The Temple in Jerusalem, or alternatively the Holy Temple, refers to the two religious structures that served as the central places of worship for Israelites and Jews on the Temple Mount in the Old City of Jerusalem. According to the Hebrew Bible, the First Temple was built in the 10th century BCE, during the reign of Solomon over the United Kingdom of Israel. It stood until c. 587 BCE, when it was destroyed during the Babylonian siege of Jerusalem. The exact location of this temple on the temple mount is debatable.",
+    "description": "Former places of Israelite and Jewish worship",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/84/Jerusalem_Modell_BW_2.JPG/330px-Jerusalem_Modell_BW_2.JPG?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Temple_in_Jerusalem"
+  },
+  {
+    "id": "Q213287",
+    "name": "The Awakening under the Bodhi Tree (Defeat of Mara)",
+    "wiki_title": "Gautama_Buddha",
+    "lat": 24.7,
+    "lng": 84.99,
+    "epoch_start": -528,
+    "epoch_end": 500,
+    "culture": "Vedic & Hindu",
+    "archetype": "Earth-Witnessing Gesture (Bhumisparsha) Dissolving Cosmic Illusion and Desire",
+    "syncretic_ids": [
+      "Q131804",
+      "Q213283"
+    ],
+    "extract": "Siddhartha Gautama, most commonly referred to as the Buddha, was a wandering religious teacher who lived in the eastern Indo-Gangetic Plains during the 6th or 5th century BCE and founded Buddhism. According to Buddhist legends, he was born in Lumbini, in what is now Nepal, to royal parents of the Shakya clan, but renounced his home life to live as a wandering ascetic. After leading a life of mendicancy, asceticism, and meditation, he attained nirvana at Bodh Gaya in what is now Bihar, India. The Buddha then wandered through the lower Indo-Gangetic Plain, teaching and building a monastic order (sangha). Buddhist tradition holds he died in Kushinagar and reached parinirvana.",
+    "description": "Founder of Buddhism",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/f/ff/Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg/330px-Buddha_in_Sarnath_Museum_%28Dhammajak_Mutra%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/The_Buddha"
+  },
+  {
+    "id": "Q213288",
+    "name": "Mucalinda the Serpent King Shielding the Awakened One",
+    "wiki_title": "Mucalinda",
+    "lat": 24.7,
+    "lng": 84.99,
+    "epoch_start": -528,
+    "epoch_end": 500,
+    "culture": "Vedic & Hindu",
+    "archetype": "Benevolent Multi-Headed Naga King Sheltering the Sage from the Great Deluge",
+    "syncretic_ids": [
+      "Q213287",
+      "Q12227"
+    ],
+    "extract": "Mucilinda is a nāga who protected Śākyamuni Buddha from the elements after his enlightenment.",
+    "description": "Nāga who protected Śākyamuni Buddha from the elements after his enlightenment",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/e/e7/Pillar_with_Naga_Muchalinda_over_the_throne_of_the_Buddha._Pauni_%28Bhandara_District%29._Railing_pillar_from_Jagannath_Tekri._2nd-1st_century_BCE.jpg/330px-Pillar_with_Naga_Muchalinda_over_the_throne_of_the_Buddha._Pauni_%28Bhandara_District%29._Railing_pillar_from_Jagannath_Tekri._2nd-1st_century_BCE.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Mucilinda"
+  },
+  {
+    "id": "Q130835",
+    "name": "The Titanomachy (The Ten-Year Cosmic War from Mount Olympus)",
+    "wiki_title": "Titanomachy",
+    "lat": 40.08,
+    "lng": 22.36,
+    "epoch_start": -800,
+    "epoch_end": -200,
+    "culture": "Greco-Roman",
+    "archetype": "Generational War of Lightning and Earth-Shattering Giants Overthrowing the Old Gods",
+    "syncretic_ids": [
+      "Q83364",
+      "Q190864"
+    ],
+    "extract": "In Greek mythology, the Titanomachy was a ten-year war fought in ancient Thessaly, consisting of most of the Titans fighting against the Olympians and their allies. The war was fought to decide which generation of gods would have dominion over the universe; it ended in victory for the Olympian gods. Greeks of the classical age knew of several poems about the war between the gods and many of the Titans. The dominant one, and the only one that has survived, is the Theogony attributed to Hesiod.",
+    "description": "Ancient Greek mythic war",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a4/Cornelis_Cornelisz._van_Haarlem_-_The_Fall_of_the_Titans_-_Google_Art_Project.jpg/330px-Cornelis_Cornelisz._van_Haarlem_-_The_Fall_of_the_Titans_-_Google_Art_Project.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Titanomachy"
+  },
+  {
+    "id": "Q841461",
+    "name": "Konohanasakuya-hime (The Blossom Fire Goddess of Mount Fuji)",
+    "wiki_title": "Konohanasakuya-hime",
+    "lat": 35.36,
+    "lng": 138.73,
+    "epoch_start": 712,
+    "epoch_end": 1600,
+    "culture": "East Asian",
+    "archetype": "Ephemeral Cherry Blossom Deity Proving Sacred Purity Amidst Volcano Flames",
+    "syncretic_ids": [
+      "Q841455",
+      "Q273898"
+    ],
+    "extract": "Konohanasakuya-hime is the kami of Mount Fuji and all volcanoes in Japanese mythology; she is also the 'blossom princess' and symbol of delicate earthly life. She is often considered an avatar of Japanese life, especially since her symbol is the cherry blossom (sakura).",
+    "description": "Goddess of Mount Fuji in Shinto",
+    "thumbnail": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/b3/Women_of_Japan_in_art_detail%2C_from-_MET_JIB18_003_%28cropped%29.jpg/330px-Women_of_Japan_in_art_detail%2C_from-_MET_JIB18_003_%28cropped%29.jpg?utm_source=en.wikipedia.org&utm_campaign=api&utm_content=thumbnail",
+    "wikipedia_url": "https://en.wikipedia.org/wiki/Konohanasakuya-hime"
   }
 ]
