@@ -75,4 +75,4 @@ def test_embeddings_file():
         assert len(embedded_records) >= 50
         for rec in embedded_records:
             assert "vector" in rec
-            assert len(rec["vector"]) == 384
+            assert len(rec["vector"]) == 768

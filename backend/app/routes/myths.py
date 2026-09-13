@@ -8,6 +8,7 @@ from typing import Any, Dict, List, Optional
 from fastapi import APIRouter, HTTPException
 
 from app.config import settings
+from app.services.qdrant_svc import qdrant_service
 
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/v1/myths", tags=["myths"])
@@ -45,6 +46,17 @@ def list_myths():
         }
         for m in enriched.values()
     ]
+
+
+@router.get("/search/semantic", response_model=List[Dict[str, Any]])
+def semantic_search(q: str, limit: int = 6, culture: Optional[str] = None):
+    """
+    Performs real-time semantic motif vector search across all 305 myths
+    using 768D nomic-embed-text-v1.5 embeddings.
+    """
+    if not q or not q.strip():
+        return []
+    return qdrant_service.search_by_text(q.strip(), limit=limit, culture=culture)
 
 
 @router.get("/{myth_id}", response_model=Dict[str, Any])
