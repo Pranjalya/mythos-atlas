@@ -123,6 +123,12 @@ export class Inspector {
     this.panelEl.classList.remove('inspector-collapsed');
     document.getElementById('hover-tooltip')?.classList.add('tooltip-hidden');
 
+    // Ensure inspector body starts scrolled to the top so title and hero media are immediately visible
+    const bodyEl = this.panelEl.querySelector('.inspector-body');
+    if (bodyEl) {
+      bodyEl.scrollTop = 0;
+    }
+
     // Check if we have pre-loaded static record for instant preview
     const staticRecord = store.getState().allMyths.find((m) => m.id === mythId);
     if (staticRecord) {
@@ -162,10 +168,15 @@ export class Inspector {
     this.archetypeEl.textContent = m.archetype;
     this.coordsEl.textContent = `${Math.abs(m.lat)}° ${m.lat >= 0 ? 'N' : 'S'}, ${Math.abs(m.lng)}° ${m.lng >= 0 ? 'E' : 'W'}`;
 
+    const fallbackImg = 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80';
+    this.thumbnailEl.onerror = () => {
+      this.thumbnailEl.src = fallbackImg;
+    };
+
     if (m.thumbnail) {
       this.thumbnailEl.src = m.thumbnail;
     } else {
-      this.thumbnailEl.src = 'https://images.unsplash.com/photo-1544716278-ca5e3f4abd8c?w=600&auto=format&fit=crop&q=80';
+      this.thumbnailEl.src = fallbackImg;
     }
 
     this.renderClusterDeck(m);
