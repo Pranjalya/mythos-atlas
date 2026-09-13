@@ -39,6 +39,16 @@
         </div>
       </div>
 
+      <!-- Omnisearch Trigger Bar ("Ask the Atlas") -->
+      <button id="btn-open-search" class="omnisearch-trigger-btn" aria-label="Open Omnisearch" title="Search myths, motifs, or ask questions (Cmd + K)">
+        <svg class="search-icon" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <circle cx="11" cy="11" r="8"></circle>
+          <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        </svg>
+        <span class="search-placeholder-text">Ask the Atlas or search...</span>
+        <kbd class="search-kbd-shortcut">⌘K</kbd>
+      </button>
+
       <!-- Mobile Menu Toggle Button (shown only on mobile) -->
       <button id="mobile-menu-toggle" class="mobile-menu-btn" aria-label="Toggle Navigation Controls" title="Toggle Controls">
         <svg class="hamburger-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
@@ -92,6 +102,11 @@
             <rect x="14" y="3" width="7" height="18" rx="1" />
           </svg>
           Compare Traditions
+        </button>
+
+        <button id="btn-surprise-me" class="action-btn surprise-btn" title="Surprise Me: Journey to a random myth anywhere on Earth">
+          <span class="surprise-icon">🧭</span>
+          Surprise Me
         </button>
       </div>
 
@@ -337,6 +352,51 @@
           <div class="compare-placeholder">
             Select two mythological narratives to analyze structural motifs, character archetypes, and diffusion
             pathways.
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Omnisearch Modal ("Ask the Atlas") -->
+    <div id="omnisearch-modal" class="omnisearch-hidden">
+      <div class="omnisearch-backdrop"></div>
+      <div class="omnisearch-container">
+        <div class="omnisearch-header">
+          <div class="omnisearch-input-wrapper">
+            <svg class="omnisearch-input-icon" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="11" cy="11" r="8"></circle>
+              <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </svg>
+            <input
+              type="text"
+              id="omnisearch-input"
+              placeholder="Search myths, motifs, or ask: 'Where did dragon myths come from?'..."
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <div id="omnisearch-spinner" class="omnisearch-spinner spinner-hidden"></div>
+            <button id="omnisearch-close-btn" class="omnisearch-esc-btn" aria-label="Close search">ESC</button>
+          </div>
+
+          <!-- Mode / Scope Filter Tabs -->
+          <div class="omnisearch-filter-row">
+            <div class="omnisearch-tabs">
+              <button class="omnisearch-tab active" data-mode="all">All (331 Epics)</button>
+              <button class="omnisearch-tab" data-mode="semantic">🔮 AI Semantic ("Ask Atlas")</button>
+              <button class="omnisearch-tab" data-mode="keyword">⚡ Instant Keyword</button>
+            </div>
+            <span class="omnisearch-keyboard-hint">
+              <kbd>↑</kbd><kbd>↓</kbd> navigate &nbsp;•&nbsp; <kbd>↵</kbd> select &nbsp;•&nbsp; <kbd>esc</kbd> close
+            </span>
+          </div>
+        </div>
+
+        <!-- Results Scroll Area -->
+        <div id="omnisearch-results" class="omnisearch-results-list" role="listbox">
+          <div class="omnisearch-empty-state">
+            <div class="omnisearch-empty-icon">✨</div>
+            <h4>Explore Global Mythology</h4>
+            <p>Type keywords like <em>"immortality"</em>, <em>"underworld"</em>, <em>"Gilgamesh"</em>, or ask natural language questions like <em>"Show me female sun deities"</em> or <em>"Where did dragon myths come from?"</em></p>
           </div>
         </div>
       </div>

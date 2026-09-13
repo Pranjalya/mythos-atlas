@@ -11,6 +11,8 @@ import { MythosGlobe } from './components/Globe.ts';
 import { Timeline } from './components/Timeline.ts';
 import { Inspector } from './components/Inspector.ts';
 import { CompareModal } from './components/CompareModal.ts';
+import { Omnisearch } from './components/Omnisearch.ts';
+import { PilgrimMode } from './components/PilgrimMode.ts';
 
 async function bootstrap() {
   console.log('🏛️ Initializing MythosAtlas Spatio-Temporal Core...');
@@ -152,6 +154,43 @@ async function bootstrap() {
         }
       });
     }
+
+    // Unified navigation handler for search and surprise pilgrim discovery
+    const navigateToMyth = (myth: ActiveMyth, customYear?: number) => {
+      // Check if myth is active in current year
+      const currentYear = store.getState().currentYear;
+      const isCurrentlyActive = currentYear >= myth.epoch_start && currentYear <= myth.epoch_end;
+
+      if (!isCurrentlyActive || customYear !== undefined) {
+        let targetYear = customYear !== undefined ? customYear : Math.round((myth.epoch_start + myth.epoch_end) / 2);
+        targetYear = Math.max(-4000, Math.min(1500, targetYear));
+        timeline.updateYear(targetYear);
+      }
+
+      // If culture filter currently hides this myth, reset to 'all'
+      if (store.getState().filterCulture !== 'all') {
+        store.setFilterCulture('all');
+        const cultureSelect = document.getElementById('culture-filter') as HTMLSelectElement;
+        if (cultureSelect) cultureSelect.value = 'all';
+      }
+
+      // Fly camera and select myth
+      globe.flyToCoordinate(myth.lat, myth.lng);
+      store.selectMyth(myth.id);
+    };
+
+    // 10. Initialize Omnisearch ("Ask the Atlas")
+    const omnisearch = new Omnisearch((myth) => {
+      navigateToMyth(myth);
+    });
+
+    // 11. Initialize "Surprise Me" (Random Pilgrim Mode)
+    const pilgrimMode = new PilgrimMode((myth, targetYear) => {
+      navigateToMyth(myth, targetYear);
+    });
+
+    (window as any).omnisearch = omnisearch;
+    (window as any).pilgrimMode = pilgrimMode;
 
     // Trigger initial year update (-1200 BCE)
     timeline.updateYear(-1200);
