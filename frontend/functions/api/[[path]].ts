@@ -8,12 +8,16 @@ export async function onRequest(context: {
 
   // Reconstruct the target URL: strip the CF Pages origin, keep /api/...
   const url = new URL(request.url);
-  const targetUrl = `${BACKEND_URL}/api/${params.path.join("/")}${url.search}`;
+  const pathPart = Array.isArray(params?.path) ? params.path.join("/") : (params?.path ?? "");
+  const targetUrl = `${BACKEND_URL}/api/${pathPart}${url.search}`;
+
+  const forwardHeaders = new Headers(request.headers);
+  forwardHeaders.set("Host", "mythos-atlas-three.vercel.app");
 
   // Forward the request verbatim
   const proxyRequest = new Request(targetUrl, {
     method: request.method,
-    headers: request.headers,
+    headers: forwardHeaders,
     body: request.method !== "GET" && request.method !== "HEAD"
       ? request.body
       : undefined,
