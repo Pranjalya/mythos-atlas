@@ -6,6 +6,7 @@
 
 import { store, ActiveMyth } from '../state/store.ts';
 import { CULTURE_COLORS } from './Globe.ts';
+import { API_BASE } from '../config.ts';
 
 export interface SemanticSearchResult {
   id: string;
@@ -203,7 +204,7 @@ export class Omnisearch {
     this.spinnerEl.classList.remove('spinner-hidden');
 
     try {
-      const res = await fetch(`/api/v1/myths/search/semantic?q=${encodeURIComponent(query)}&limit=8`);
+      const res = await fetch(`${API_BASE}/api/v1/myths/search/semantic?q=${encodeURIComponent(query)}&limit=8`);
       if (!res.ok) throw new Error(`Semantic search returned HTTP ${res.status}`);
 
       const semanticData: SemanticSearchResult[] = await res.json();

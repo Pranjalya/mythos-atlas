@@ -5,6 +5,7 @@
  */
 
 import { store, ActiveMyth } from '../state/store.ts';
+import { API_BASE } from '../config.ts';
 
 export class Inspector {
   private panelEl: HTMLElement;
@@ -131,7 +132,7 @@ export class Inspector {
     // On-demand dynamic hydration from backend
     try {
       this.extractEl.textContent = 'Hydrating enriched narrative from dynamic knowledge layer...';
-      const res = await fetch(`/api/v1/myths/${mythId}`);
+      const res = await fetch(`${API_BASE}/api/v1/myths/${mythId}`);
       if (res.ok) {
         const enriched = await res.json();
         store.setSelectedDetail(enriched);
@@ -254,7 +255,7 @@ export class Inspector {
     this.parallelsListEl.innerHTML = `<div class="empty-state-hint">Searching 384D motif vector space in Qdrant...</div>`;
 
     try {
-      const res = await fetch(`/api/v1/parallels/${mythId}?limit=3`);
+      const res = await fetch(`${API_BASE}/api/v1/parallels/${mythId}?limit=3`);
       if (res.ok) {
         const parallels = await res.json();
         this.parallelsListEl.innerHTML = '';

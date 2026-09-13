@@ -4,6 +4,7 @@
  */
 
 import { store, ActiveMyth } from '../state/store.ts';
+import { API_BASE } from '../config.ts';
 
 export class CompareModal {
   private modalEl: HTMLElement;
@@ -105,7 +106,7 @@ export class CompareModal {
     `;
 
     try {
-      const res = await fetch('/api/v1/compare', {
+      const res = await fetch(`${API_BASE}/api/v1/compare`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
