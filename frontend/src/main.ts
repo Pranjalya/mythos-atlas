@@ -14,6 +14,13 @@ import { CompareModal } from './components/CompareModal.ts';
 import { Omnisearch } from './components/Omnisearch.ts';
 import { PilgrimMode } from './components/PilgrimMode.ts';
 import { ExpeditionManager } from './components/ExpeditionManager.ts';
+import { inject } from '@vercel/analytics';
+import { injectSpeedInsights } from '@vercel/speed-insights';
+
+// Initialize Vercel Analytics and Speed Insights
+inject();
+injectSpeedInsights();
+
 
 async function bootstrap() {
   console.log('🏛️ Initializing MythosAtlas Spatio-Temporal Core...');
