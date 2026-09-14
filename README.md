@@ -10,7 +10,8 @@
 ![Qdrant](https://img.shields.io/badge/Qdrant-768D_Dense_Vectors-dc2626.svg?style=flat-square)
 ![Gemini](https://img.shields.io/badge/Google_Gemini-Comparative_Synthesis-4285f4.svg?style=flat-square&logo=google)
 ![Dataset](https://img.shields.io/badge/Myths-331_Global_Epics-e6b86a.svg?style=flat-square)
-![License](https://img.shields.io/badge/License-MIT-green.svg?style=flat-square)
+![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg?style=flat-square)
+
 
 ---
 
@@ -362,4 +363,5 @@ npm run build
 
 ## 📄 License
 
-This project is open source and available under the terms of the [MIT License](LICENSE).
+This project is open source and available under the terms of the [Apache License 2.0](LICENSE).
+
