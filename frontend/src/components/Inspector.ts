@@ -30,6 +30,13 @@ export class Inspector {
   private clusterCountEl: HTMLElement;
   private clusterTitleEl: HTMLElement;
 
+  // Google OKF v0.2 Provenance Elements
+  private provenanceBlockEl: HTMLElement;
+  private trustBadgeEl: HTMLElement;
+  private trustTierLabelEl: HTMLElement;
+  private motifsBarEl: HTMLElement;
+  private sourcesListEl: HTMLElement;
+
   private onFlyTo: (lat: number, lng: number) => void;
   private currentMythId: string | null = null;
 
@@ -57,8 +64,15 @@ export class Inspector {
     this.clusterCountEl = document.getElementById('cluster-deck-count')!;
     this.clusterTitleEl = document.getElementById('cluster-epicenter-title')!;
 
+    this.provenanceBlockEl = document.getElementById('inspector-provenance-block')!;
+    this.trustBadgeEl = document.getElementById('inspector-trust-badge')!;
+    this.trustTierLabelEl = document.getElementById('inspector-trust-tier-label')!;
+    this.motifsBarEl = document.getElementById('inspector-motifs-bar')!;
+    this.sourcesListEl = document.getElementById('inspector-sources-list')!;
+
     this.initEvents();
   }
+
 
   private initEvents(): void {
     this.closeBtn.addEventListener('click', () => {
@@ -260,7 +274,78 @@ export class Inspector {
         this.syncreticListEl.appendChild(card);
       }
     }
+
+    // Render Google OKF v0.2 scholarly provenance & primary citations
+    this.renderProvenance(data);
   }
+
+
+  private renderProvenance(data: any): void {
+    if (!this.provenanceBlockEl) return;
+
+    const trust = data.trust || {};
+    const tier = trust.tier || 'scholarly_consensus';
+    const tierLabels: Record<string, string> = {
+      scholarly_consensus: 'Scholarly Consensus',
+      canonical_scripture: 'Canonical Scripture',
+      academic_peer_reviewed: 'Academic Peer-Reviewed',
+      folklore_variant: 'Folklore Variant',
+      machine_confirmed: 'Machine-Confirmed',
+    };
+
+    if (this.trustTierLabelEl) {
+      this.trustTierLabelEl.textContent = tierLabels[tier] || 'Documented Tradition';
+    }
+    if (this.trustBadgeEl) {
+      this.trustBadgeEl.className = `trust-badge tier-${tier.replace(/_/g, '-')}`;
+    }
+
+    // Render Thompson Motifs
+    if (this.motifsBarEl) {
+      this.motifsBarEl.innerHTML = '';
+      const motifs = data.thompson_motifs || [];
+      if (motifs.length > 0) {
+        for (const m of motifs) {
+          const pill = document.createElement('span');
+          pill.className = 'motif-pill';
+          pill.title = m.name || m.id;
+          pill.innerHTML = `<span class="motif-id">${m.id}</span> <span class="motif-name">${m.name || ''}</span>`;
+          this.motifsBarEl.appendChild(pill);
+        }
+        this.motifsBarEl.style.display = 'flex';
+      } else {
+        this.motifsBarEl.style.display = 'none';
+      }
+    }
+
+    // Render Sources
+    if (this.sourcesListEl) {
+      this.sourcesListEl.innerHTML = '';
+      const sources = data.sources || [];
+      if (sources.length > 0) {
+        for (const s of sources) {
+          const item = document.createElement('div');
+          item.className = 'provenance-source-item';
+          const credLabel = (s.credibility || 'Academic Source').replace(/_/g, ' ');
+          item.innerHTML = `
+            <div class="source-title-row">
+              <span class="source-credibility-tag">${credLabel}</span>
+              <a href="${s.url || '#'}" target="_blank" rel="noopener noreferrer" class="source-title-link">
+                ${s.title}
+                <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17l9.2-9.2M17 17V7H7"/></svg>
+              </a>
+            </div>
+            <p class="source-citation-text">${s.citation || ''}</p>
+          `;
+          this.sourcesListEl.appendChild(item);
+        }
+        this.provenanceBlockEl.style.display = 'block';
+      } else {
+        this.provenanceBlockEl.style.display = 'none';
+      }
+    }
+  }
+
 
   private async fetchParallels(mythId: string): Promise<void> {
     this.parallelsListEl.innerHTML = `<div class="empty-state-hint">Searching 384D motif vector space in Qdrant...</div>`;

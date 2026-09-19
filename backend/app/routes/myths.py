@@ -13,19 +13,25 @@ from app.services.qdrant_svc import qdrant_service
 logger = logging.getLogger(__name__)
 router = APIRouter(prefix="/api/v1/myths", tags=["myths"])
 
-# In-memory enriched myths cache
+# In-memory enriched myths cache with mtime invalidation
 _ENRICHED_CACHE: Dict[str, Dict[str, Any]] = {}
+_LAST_MTIME: float = 0.0
 
 
 def _get_enriched_myths() -> Dict[str, Dict[str, Any]]:
-    global _ENRICHED_CACHE
-    if not _ENRICHED_CACHE and settings.ENRICHED_MYTHS_FILE.exists():
+    global _ENRICHED_CACHE, _LAST_MTIME
+    if settings.ENRICHED_MYTHS_FILE.exists():
         try:
-            with open(settings.ENRICHED_MYTHS_FILE, "r", encoding="utf-8") as f:
-                _ENRICHED_CACHE = json.load(f)
+            current_mtime = settings.ENRICHED_MYTHS_FILE.stat().st_mtime
+            if not _ENRICHED_CACHE or current_mtime > _LAST_MTIME:
+                with open(settings.ENRICHED_MYTHS_FILE, "r", encoding="utf-8") as f:
+                    _ENRICHED_CACHE = json.load(f)
+                _LAST_MTIME = current_mtime
+                logger.info(f"Loaded {len(_ENRICHED_CACHE)} enriched myths from {settings.ENRICHED_MYTHS_FILE}")
         except Exception as e:
             logger.error(f"Failed to load enriched myths: {e}")
     return _ENRICHED_CACHE
+
 
 
 @router.get("", response_model=List[Dict[str, Any]])

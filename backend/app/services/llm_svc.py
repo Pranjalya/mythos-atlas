@@ -18,12 +18,15 @@ logger = logging.getLogger(__name__)
 STRUCTURAL_PROMPT_TEMPLATE = """
 You are an expert comparative mythologist, structural anthropologist (in the tradition of Claude Lévi-Strauss, Georges Dumézil, and Joseph Campbell), and folklorist.
 
-Analyze and compare the following two mythological narratives:
+Analyze and compare the following two mythological narratives, grounding your insights in their historical primary sources, Thompson Motif Index codes, and structuralist binary oppositions:
 
 [MYTH A]
 Name: {name_a}
 Culture: {culture_a} (Epoch: {epoch_a})
 Archetype: {archetype_a}
+Thompson Motifs: {motifs_a}
+Binary Oppositions: {binaries_a}
+Primary Sources & Provenance: {sources_a}
 Narrative:
 {extract_a}
 
@@ -31,6 +34,9 @@ Narrative:
 Name: {name_b}
 Culture: {culture_b} (Epoch: {epoch_b})
 Archetype: {archetype_b}
+Thompson Motifs: {motifs_b}
+Binary Oppositions: {binaries_b}
+Primary Sources & Provenance: {sources_b}
 Narrative:
 {extract_b}
 
@@ -81,16 +87,37 @@ class LLMService:
         self, myth_a: Dict[str, Any], myth_b: Dict[str, Any]
     ) -> Dict[str, Any]:
         """Synthesizes structuralist comparative analysis between two myth traditions."""
+        def format_sources(sources_list):
+            if not sources_list:
+                return "Oral tradition / academic compendiums"
+            return "; ".join([f"{s.get('title', '')} ({s.get('citation', '')})" for s in sources_list if isinstance(s, dict)])
+
+        def format_motifs(motifs_list):
+            if not motifs_list:
+                return "Unclassified comparative motif"
+            return ", ".join([f"[{m.get('id', '')}] {m.get('name', '')}" for m in motifs_list if isinstance(m, dict)])
+
+        def format_binaries(binaries_list):
+            if not binaries_list:
+                return "Chaos vs. Order"
+            return "; ".join(binaries_list) if isinstance(binaries_list, list) else str(binaries_list)
+
         prompt = STRUCTURAL_PROMPT_TEMPLATE.format(
             name_a=myth_a.get("name", "Myth A"),
             culture_a=myth_a.get("culture", "Tradition A"),
             epoch_a=f"{myth_a.get('epoch_start', '')} to {myth_a.get('epoch_end', '')}",
             archetype_a=myth_a.get("archetype", ""),
+            motifs_a=format_motifs(myth_a.get("thompson_motifs")),
+            binaries_a=format_binaries(myth_a.get("binary_oppositions")),
+            sources_a=format_sources(myth_a.get("sources")),
             extract_a=myth_a.get("extract", "") or myth_a.get("description", ""),
             name_b=myth_b.get("name", "Myth B"),
             culture_b=myth_b.get("culture", "Tradition B"),
             epoch_b=f"{myth_b.get('epoch_start', '')} to {myth_b.get('epoch_end', '')}",
             archetype_b=myth_b.get("archetype", ""),
+            motifs_b=format_motifs(myth_b.get("thompson_motifs")),
+            binaries_b=format_binaries(myth_b.get("binary_oppositions")),
+            sources_b=format_sources(myth_b.get("sources")),
             extract_b=myth_b.get("extract", "") or myth_b.get("description", ""),
         )
 

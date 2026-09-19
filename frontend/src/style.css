@@ -1170,6 +1170,157 @@ body:has(#timeline-container:hover) #hover-tooltip {
   text-decoration: underline;
 }
 
+/* ── Google OKF v0.2 Provenance & Academic Citations ── */
+.provenance-section {
+  border-left: 2px solid var(--gold-light);
+  background: linear-gradient(135deg, rgba(20, 29, 52, 0.6) 0%, rgba(15, 23, 42, 0.4) 100%);
+}
+
+.trust-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 2px 8px;
+  border-radius: 9999px;
+  font-size: 0.68rem;
+  font-weight: 600;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  background: rgba(46, 204, 113, 0.15);
+  border: 1px solid rgba(46, 204, 113, 0.35);
+  color: #2ecc71;
+}
+
+.trust-dot {
+  width: 5px;
+  height: 5px;
+  border-radius: 50%;
+  background: currentColor;
+  box-shadow: 0 0 6px currentColor;
+}
+
+.trust-badge.tier-scholarly-consensus {
+  background: rgba(230, 184, 106, 0.15);
+  border-color: rgba(230, 184, 106, 0.4);
+  color: #f1c40f;
+}
+
+.trust-badge.tier-canonical-scripture {
+  background: rgba(100, 149, 237, 0.18);
+  border-color: rgba(100, 149, 237, 0.4);
+  color: #6495ed;
+}
+
+.trust-badge.tier-academic-peer-reviewed {
+  background: rgba(155, 89, 182, 0.18);
+  border-color: rgba(155, 89, 182, 0.4);
+  color: #bb86fc;
+}
+
+.trust-badge.tier-folklore-variant {
+  background: rgba(26, 188, 156, 0.18);
+  border-color: rgba(26, 188, 156, 0.4);
+  color: #1abc9c;
+}
+
+.motifs-tag-bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+
+.motif-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.70rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 2px 7px;
+  border-radius: 4px;
+  color: var(--text-secondary);
+}
+
+.motif-pill strong,
+.motif-pill .motif-id {
+  color: var(--gold-light);
+  font-weight: 700;
+}
+
+.provenance-citation-box {
+  margin-top: 6px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.provenance-citation-heading {
+  display: block;
+  font-size: 0.70rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  color: var(--text-muted);
+  margin-bottom: 6px;
+}
+
+.provenance-sources-list {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.provenance-source-item {
+  padding: 8px 10px;
+  background: rgba(0, 0, 0, 0.25);
+  border-radius: var(--radius-sm);
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.source-title-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-bottom: 4px;
+}
+
+.source-credibility-tag {
+  font-size: 0.62rem;
+  text-transform: uppercase;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: rgba(230, 184, 106, 0.12);
+  color: var(--gold-light);
+  border: 1px solid rgba(230, 184, 106, 0.25);
+}
+
+.source-title-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  font-size: 0.76rem;
+  font-weight: 600;
+  color: var(--text-primary);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.source-title-link:hover {
+  color: var(--gold-light);
+  text-decoration: underline;
+}
+
+.source-citation-text {
+  font-size: 0.72rem;
+  color: var(--text-muted);
+  line-height: 1.4;
+  margin: 0;
+  font-style: italic;
+}
+
+
 .syncretic-grid,
 .parallels-grid {
   display: flex;
